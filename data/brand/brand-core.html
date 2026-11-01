@@ -1,0 +1,528 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<meta name="claude:viewport-fit-sides" content="cover">
+<title>A'ila Areeqa Brand Core</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Public+Sans:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  /*
+    Layout: a left rail of eight numbered entries (the order this brand was actually
+    decided in) plus a home grid of clickable tiles. Click a tile or a rail entry,
+    the content pane swaps. Hash-routed so each section has its own link.
+  */
+  :root {
+    --bg: #f6f1e7;
+    --bg-raised: #ece3d1;
+    --ink: #221a12;
+    --ink-soft: #6b5c48;
+    --line: #d9cbae;
+    --accent: #6b2020;
+    --accent-ink: #f6f1e7;
+    --olive: #3c4a34;
+    --radius: 2px;
+    --font-display: "Fraunces", Georgia, serif;
+    --font-body: "Public Sans", system-ui, sans-serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #161210;
+      --bg-raised: #221b16;
+      --ink: #efe4d2;
+      --ink-soft: #a6937a;
+      --line: #3a2f26;
+      --accent: #c97b5a;
+      --accent-ink: #161210;
+      --olive: #8fa37e;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #161210;
+    --bg-raised: #221b16;
+    --ink: #efe4d2;
+    --ink-soft: #a6937a;
+    --line: #3a2f26;
+    --accent: #c97b5a;
+    --accent-ink: #161210;
+    --olive: #8fa37e;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-body);
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; }
+  p { margin: 0; line-height: 1.65; }
+  a { color: inherit; }
+
+  .shell {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding-block: 28px 64px;
+    display: grid;
+    grid-template-columns: 220px minmax(0, 1fr);
+    gap: 40px;
+    align-items: start;
+  }
+  @media (max-width: 760px) {
+    .shell { grid-template-columns: 1fr; gap: 24px; }
+  }
+
+  /* header */
+  .masthead {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 20px;
+    margin-bottom: 4px;
+  }
+  .masthead .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    display: block;
+    margin-bottom: 6px;
+  }
+  .masthead h1 { font-size: clamp(28px, 5vw, 38px); font-weight: 600; }
+  .theme-toggle {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background: none;
+    border: 1px solid var(--line);
+    color: var(--ink-soft);
+    padding: 7px 12px;
+    border-radius: var(--radius);
+    cursor: pointer;
+  }
+  .theme-toggle:hover { color: var(--ink); border-color: var(--ink-soft); }
+
+  /* rail */
+  nav.rail {
+    position: sticky;
+    top: max(20px, env(safe-area-inset-top, 0px));
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  @media (max-width: 760px) {
+    nav.rail {
+      position: static;
+      flex-direction: row;
+      overflow-x: auto;
+      gap: 6px;
+      padding-bottom: 6px;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+  nav.rail button {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    padding: 9px 10px;
+    border-radius: var(--radius);
+    color: var(--ink-soft);
+    font-size: 13.5px;
+    white-space: nowrap;
+  }
+  nav.rail button .n {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    color: var(--line);
+  }
+  nav.rail button:hover { background: var(--bg-raised); color: var(--ink); }
+  nav.rail button[aria-current="true"] { background: var(--bg-raised); color: var(--ink); }
+  nav.rail button[aria-current="true"] .n { color: var(--accent); }
+  nav.rail .home-link {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    padding: 9px 10px 14px;
+  }
+
+  main { min-width: 0; }
+
+  /* home grid */
+  #home .lede {
+    font-size: 16px;
+    color: var(--ink-soft);
+    max-width: 62ch;
+    margin-bottom: 28px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+  }
+  @media (max-width: 560px) {
+    .grid { grid-template-columns: 1fr; }
+  }
+  .tile {
+    all: unset;
+    cursor: pointer;
+    background: var(--bg);
+    padding: 22px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 0;
+  }
+  .tile:hover { background: var(--bg-raised); }
+  .tile .n {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+  }
+  .tile h3 { font-size: 19px; font-weight: 600; }
+  .tile .teaser { font-size: 13.5px; color: var(--ink-soft); line-height: 1.55; }
+
+  /* detail view */
+  .section { display: none; }
+  .section.active { display: block; }
+  .back {
+    all: unset;
+    cursor: pointer;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 18px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .back:hover { color: var(--ink); }
+  .section .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    display: block;
+    margin-bottom: 8px;
+  }
+  .section h2 { font-size: clamp(24px, 4vw, 32px); font-weight: 600; margin-bottom: 20px; }
+  .section .lede {
+    font-size: 17px;
+    color: var(--ink-soft);
+    max-width: 62ch;
+    margin-bottom: 24px;
+    font-style: italic;
+  }
+  .section .body { max-width: 68ch; display: flex; flex-direction: column; gap: 16px; }
+  .section .body p { font-size: 15px; }
+  .section .body ul { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 10px; }
+  .section .body li { font-size: 15px; line-height: 1.6; }
+  .section .body li strong { color: var(--ink); }
+  .quote {
+    border-left: 2px solid var(--accent);
+    padding: 2px 0 2px 16px;
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 19px;
+    color: var(--ink);
+    margin: 4px 0;
+  }
+  .subhead {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-top: 10px;
+  }
+  .pair-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+    margin-top: 6px;
+  }
+  @media (max-width: 560px) { .pair-grid { grid-template-columns: 1fr; } }
+  .pair-grid .cell { background: var(--bg); padding: 16px; min-width: 0; }
+  .pair-grid .cell h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 6px; }
+  .pair-grid .cell p { font-size: 13.5px; color: var(--ink-soft); }
+</style>
+
+<div class="shell">
+  <div class="masthead">
+    <div>
+      <span class="eyebrow">A'ila Areeqa — Working Reference</span>
+      <h1>Brand Core</h1>
+    </div>
+    <button class="theme-toggle" id="themeToggle" type="button">Dark mode</button>
+  </div>
+
+  <nav class="rail" id="rail">
+    <div class="home-link"><a href="#home" data-nav="home">Overview</a></div>
+    <button data-nav="mission"><span class="n">01</span> Mission</button>
+    <button data-nav="character"><span class="n">02</span> Character</button>
+    <button data-nav="style"><span class="n">03</span> Style</button>
+    <button data-nav="voice"><span class="n">04</span> Voice</button>
+    <button data-nav="customer"><span class="n">05</span> Customer</button>
+    <button data-nav="pricing"><span class="n">06</span> Pricing</button>
+    <button data-nav="heritage"><span class="n">07</span> Heritage</button>
+    <button data-nav="capsule"><span class="n">08</span> Capsule Concepts</button>
+  </nav>
+
+  <main>
+    <div id="home" class="section">
+      <p class="lede">Cultured Confidence — A Family of Heritage. Eight pieces, click into any of them.</p>
+      <div class="grid">
+        <button class="tile" data-nav="mission">
+          <span class="n">01</span>
+          <h3>Mission</h3>
+          <span class="teaser">Why the brand exists, and who it's actually built around.</span>
+        </button>
+        <button class="tile" data-nav="character">
+          <span class="n">02</span>
+          <h3>Character</h3>
+          <span class="teaser">The moral baseline — real, but shared by most disciplined men.</span>
+        </button>
+        <button class="tile" data-nav="style">
+          <span class="n">03</span>
+          <h3>Style</h3>
+          <span class="teaser">What he wears, what he never touches. The part a stylist can use.</span>
+        </button>
+        <button class="tile" data-nav="voice">
+          <span class="n">04</span>
+          <h3>Voice</h3>
+          <span class="teaser">Mysterious in public, open in private. How the brand actually talks.</span>
+        </button>
+        <button class="tile" data-nav="customer">
+          <span class="n">05</span>
+          <h3>Customer</h3>
+          <span class="teaser">Established, not climbing. Who he is, where he lives, what he's proving.</span>
+        </button>
+        <button class="tile" data-nav="pricing">
+          <span class="n">06</span>
+          <h3>Pricing</h3>
+          <span class="teaser">Design with price in mind — why one piece costs more than another.</span>
+        </button>
+        <button class="tile" data-nav="heritage">
+          <span class="n">07</span>
+          <h3>Heritage</h3>
+          <span class="teaser">The material library, and the method for using it without shouting.</span>
+        </button>
+        <button class="tile" data-nav="capsule">
+          <span class="n">08</span>
+          <h3>Capsule Concepts</h3>
+          <span class="teaser">Two directions in progress — the racket, and the loafer.</span>
+        </button>
+      </div>
+    </div>
+
+    <div id="mission" class="section">
+      <button class="back" data-nav="home">&larr; Overview</button>
+      <span class="eyebrow">01 — Mission</span>
+      <h2>Why this brand exists</h2>
+      <p class="lede">Because of what this brand builds, a Saudi man who isn't rich or well-connected gets real access to craft, knowledge, and rooms that money used to be the only ticket into — and proof that he can build something world-class on his own terms.</p>
+      <div class="body">
+        <p>This is not a claim that money doesn't matter. It still does, and building still takes real work. The claim is narrower: talent, discipline, and vision shouldn't be locked out just because someone wasn't born connected or wealthy.</p>
+        <p><strong>The man this brand is built around is not climbing toward this — he's already arrived.</strong> The aspirational buyer exists and is welcome, a wallet, an accessory, an entry piece, but he is not who the brand centers on.</p>
+      </div>
+    </div>
+
+    <div id="character" class="section">
+      <button class="back" data-nav="home">&larr; Overview</button>
+      <span class="eyebrow">02 — Character</span>
+      <h2>The moral baseline</h2>
+      <p class="lede">Real, but shared by most disciplined men — not what sets this brand apart, just the floor it stands on.</p>
+      <div class="body">
+        <ul>
+          <li>Kind, never cruel — never puts people down, even in disagreement</li>
+          <li>Disciplined, never lazy — always building: himself, his work, his family</li>
+          <li>Faith-driven, keeps God present without making a performance of it</li>
+          <li>Says the truth, but never to wound</li>
+          <li>Not boastful about money — he knows it keeps coming because of how he lives, so he's focused on quality and building something bigger than himself</li>
+          <li>Confident without being cocky or rude</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="style" class="section">
+      <button class="back" data-nav="home">&larr; Overview</button>
+      <span class="eyebrow">03 — Style</span>
+      <h2>What he wears, and never does</h2>
+      <p class="lede">This is the part a stylist or designer can act on directly.</p>
+      <div class="body">
+        <ul>
+          <li><strong>Silver, never gold.</strong> Religious and personal conviction, not a trend choice.</li>
+          <li><strong>Watches:</strong> Patek Philippe, Royal Oak, Richard Mille, Vacheron Constantin — quiet, clean dials, never the loud obvious flex.</li>
+          <li><strong>Fragrance:</strong> niche houses over big commercial names — he'd rather smell like something you can't immediately place.</li>
+          <li><strong>Cohesion over loudness.</strong> A single piece can be bold, but the full look never fights itself.</li>
+          <li><strong>Never sneakers with a suit.</strong> Hard line, no exceptions.</li>
+          <li><strong>Always groomed, pressed, clean shoes</strong> — no visible wear-and-tear, ever.</li>
+          <li><strong>Never skinny-fit, never tight all over.</strong> Loose or fitted, never both extremes forced at once. A shirt can hug in one place without clinging everywhere.</li>
+          <li><strong>No neon, no gradient, no glossy effects.</strong> Earth tones only. Statement pieces exist but stay quiet even when bold.</li>
+          <li><strong>Logos are allowed but never shout.</strong> A mark can sit mid-chest on a polo, never oversized, never the whole point of the piece. Plain white Henleys and plain long sleeves live in the same collection.</li>
+          <li>One wardrobe, many silhouettes: a running fit, a quiet comfortable day, a sharp night out — always unmistakably him, never a different man.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="voice" class="section">
+      <button class="back" data-nav="home">&larr; Overview</button>
+      <span class="eyebrow">04 — Voice</span>
+      <h2>How the brand talks</h2>
+      <p class="quote">"Gold's not it."</p>
+      <div class="body">
+        <p>That's the surface answer. The real reasoning is reserved for people who've earned it — mysterious in public, open in private.</p>
+        <ul>
+          <li><strong>Punctuation is deliberate, not decorative.</strong> A period closes a thought with a boundary. A comma signals it's still going. Nothing thrown away carelessly.</li>
+          <li><strong>Never raises its voice on paper.</strong> No exclamation points, no urgency-chasing. Confidence stays quiet even at high energy.</li>
+          <li><strong>Two registers, same person.</strong> Composed and serious as the brand itself; can laugh and loosen up in lived-experience content. Poised and unreadable in the boardroom, looser with people it trusts.</li>
+          <li><strong>Never acknowledges competitors.</strong> The only outside names that appear are collaborators the brand chose to stand beside.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="customer" class="section">
+      <button class="back" data-nav="home">&larr; Overview</button>
+      <span class="eyebrow">05 — Customer</span>
+      <h2>The man this is built for</h2>
+      <div class="body">
+        <p>He's an established man in his early-to-mid 30s, not climbing, not stretching to afford this. Spending here is unremarkable to him. But he isn't finished; he's building his own culture daily, still becoming, still growing into more of himself. He's romantic, either settled with a partner or still searching, never hardened by the money.</p>
+        <p>From the same wardrobe he pulls a running fit, a quiet comfortable day, and a sharp night out — different moments, always unmistakably him, never a different man.</p>
+        <p>Every day he dresses to prove something to himself: that he's disciplined, specific, culturally serious, not generically wealthy. He's not performing for an audience. But when people eventually see real Saudi taste and culture instead of the "oil money" stereotype, that recognition lands as a quiet, earned bonus, never the point.</p>
+        <p>He's based in Saudi Arabia, free to travel whenever he wants. Whether he works for himself or for someone else doesn't matter — what matters is he feels like he's building something, not clocking in. He already shops Represent, Hermès, Ralph Lauren, and ALD, and is leveling his streetwear up into cleaner, better-made pieces. His first suit is on the horizon.</p>
+      </div>
+    </div>
+
+    <div id="pricing" class="section">
+      <button class="back" data-nav="home">&larr; Overview</button>
+      <span class="eyebrow">06 — Pricing</span>
+      <h2>Design with price in mind</h2>
+      <div class="body">
+        <p>Differentiate pieces by real construction, fabric grade, sleeve length, the placement and density of detail work, not just colorway. The customer should always understand why one piece costs more than another.</p>
+        <p>Reference model: an ALD-style spread — a genuinely expensive core, with accessible entry pieces for the secondary, aspirational buyer.</p>
+        <p class="subhead">Working first draft, not final</p>
+        <p>Roughly $80 at the entry tier up to $300 for outerwear, pending real research before any number is committed.</p>
+      </div>
+    </div>
+
+    <div id="heritage" class="section">
+      <button class="back" data-nav="home">&larr; Overview</button>
+      <span class="eyebrow">07 — Heritage</span>
+      <h2>The material library, and how to use it</h2>
+      <div class="body">
+        <p class="subhead">The method</p>
+        <p>Most Saudi objects of status, a gold-handled sword, a gem-set thermos, are already luxury. Elevating them again adds nothing. Instead: take an object from outside Saudi culture, something from the man's actual daily life, and finish or construct it using Saudi material language. Recontextualization, not elevation.</p>
+
+        <p class="subhead">Hidden heritage encoding</p>
+        <p>Not every reference needs to be visible. Real heritage meaning gets encoded inside the construction itself, a stitch, a weave, a shape, so it only reveals itself to someone who looks closely or asks. A honeycomb-stitched polo with no visible logo or hexagon print is the model: the pattern only shows up in how the garment is sewn. A real cultural motif, the bisht's weave, a six-triangle pattern, gets buried in the construction of an ordinary piece, never stamped on top.</p>
+
+        <p class="subhead">Objects and motifs</p>
+        <ul>
+          <li><strong>Curved door motif</strong> — backward-C into regular-C, touching, with a curl at the top. A linear pattern for stitching, embossing, or hardware.</li>
+          <li><strong>Finjal and the gold/silver thermos</strong> — vessel shapes; a reference for hardware, buttons, bottle and packaging design.</li>
+          <li><strong>Prayer-garment floral print system</strong> — repeating florals on varying ground colors. A modular textile print system on its own.</li>
+          <li><strong>Sword</strong> — curved blade, gold handle, inset gems. A reference for an emblem, a clasp, a zipper pull.</li>
+          <li><strong>Camel and horse saddle pompoms</strong> — purple, black, red tufting. An unexpected trim or accessory texture.</li>
+          <li><strong>Woven baskets, marble floors, the bukhur holder</strong> — handwoven softness next to hard stone next to carved wood.</li>
+        </ul>
+
+        <p class="subhead">Atmosphere</p>
+        <p>The smell of dates and Saudi food, sitting on the sufra, gathering with cousins, days at Darahiyah and Janadriyah, grass picnics, the swirl ice cream truck, light-up toys. Not directly designable, it's what a room, an event, or a video should feel like. Traditional Eid and Ramadan dress is the one atmosphere reference that is also a real garment silhouette, not just a mood.</p>
+
+        <p class="subhead">Content strategy</p>
+        <p>Craftsmanship videos explain the real heritage behind a hidden design choice after the fact, the history and function of the bisht, then how that shaped a specific garment's stitching, then why that construction choice was made. Product and room staging place genuine childhood objects inside otherwise luxury-styled settings, without stripping their original meaning to make room for a new one.</p>
+      </div>
+    </div>
+
+    <div id="capsule" class="section">
+      <button class="back" data-nav="home">&larr; Overview</button>
+      <span class="eyebrow">08 — Capsule Concepts</span>
+      <h2>Two directions in progress</h2>
+      <div class="pair-grid">
+        <div class="cell">
+          <h4>Tennis racket</h4>
+          <p>Dark wood construction, bukhur-smoke finishing effect. Takes a Western "old money" object, the classic wooden racket revival, and makes it unmistakably Saudi through material and finish.</p>
+        </div>
+        <div class="cell">
+          <h4>Shib-shib &rarr; half-loafer</h4>
+          <p>The traditional Saudi sandal, open toe, covered big toe, slide-back, reconstructed using Western luxury loafer construction. Structural, not decorative, the build itself changes.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script>
+  (function () {
+    var sections = ['home', 'mission', 'character', 'style', 'voice', 'customer', 'pricing', 'heritage', 'capsule'];
+
+    function show(id) {
+      if (sections.indexOf(id) === -1) id = 'home';
+      sections.forEach(function (s) {
+        var el = document.getElementById(s);
+        if (el) el.classList.toggle('active', s === id);
+      });
+      document.querySelectorAll('nav.rail button[data-nav]').forEach(function (b) {
+        b.setAttribute('aria-current', b.getAttribute('data-nav') === id ? 'true' : 'false');
+      });
+      window.scrollTo(0, 0);
+    }
+
+    document.querySelectorAll('[data-nav]').forEach(function (el) {
+      el.addEventListener('click', function (e) {
+        var id = el.getAttribute('data-nav');
+        if (id) {
+          location.hash = id;
+        }
+      });
+    });
+
+    window.addEventListener('hashchange', function () {
+      show(location.hash.replace('#', '') || 'home');
+    });
+
+    show(location.hash.replace('#', '') || 'home');
+
+    var toggle = document.getElementById('themeToggle');
+    var root = document.documentElement;
+    function applyTheme(t) {
+      if (t === 'dark') {
+        root.setAttribute('data-theme', 'dark');
+        toggle.textContent = 'Light mode';
+      } else if (t === 'light') {
+        root.setAttribute('data-theme', 'light');
+        toggle.textContent = 'Dark mode';
+      } else {
+        root.removeAttribute('data-theme');
+        toggle.textContent = 'Dark mode';
+      }
+    }
+    var saved = null;
+    try { saved = localStorage.getItem('aila-theme'); } catch (e) {}
+    applyTheme(saved);
+    toggle.addEventListener('click', function () {
+      var current = root.getAttribute('data-theme');
+      var next = current === 'dark' ? 'light' : 'dark';
+      applyTheme(next);
+      try { localStorage.setItem('aila-theme', next); } catch (e) {}
+    });
+  })();
+</script>
+
+</body></html>

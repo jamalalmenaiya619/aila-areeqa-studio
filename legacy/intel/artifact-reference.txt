@@ -1,0 +1,56 @@
+Live artifact tracker reference for AW-Luxury-Menswear-Intel
+
+Artifact ID: aw-luxury-menswear-intel
+Created: Run 01 -- 2026-08-13
+
+Future runs: call mcp__cowork__list_artifacts (or use this ID directly) with
+mcp__cowork__update_artifact, id="aw-luxury-menswear-intel", to refresh content.
+
+When updating:
+1. Read the current artifact HTML (via list_artifacts -> path) to get the existing `runLog` array from the <script> block.
+2. Append a new object to `runLog` for the new run (run number, date, status e.g. "Confirmed"/"New signal"/"Fading", and 3-6 key calls).
+3. Update the Overview, Autumn, Winter, Social, Saudi, Competitive, and Saturation vs Opportunity panels with this run's findings.
+4. Re-render locally, verify with mcp__cowork__verify_artifact, then call update_artifact with an update_summary describing what changed.
+
+Do not create a second artifact -- always update this one so the trend log accumulates across runs.
+
+--- UPDATE Run 09 (2026-10-04) ---
+The tracker has never actually been published. The "pending-artifact-update" files from Runs 05-08 were never deployed.
+Canonical source is now aw-menswear-battlefield.html in this folder, with runLog for Runs 01-09.
+Next runs: append to runLog, update the panels, then publish with the Artifact tool (file_path = this folder's aw-menswear-battlefield.html; icon "chart" on the first publish only).
+Run 09's publish was declined automatically because no one was available to approve it during the scheduled run.
+Record the artifact URL here after the first successful publish.
+Artifact URL: (not yet published)
+
+--- UPDATE Run 10 (2026-10-05) ---
+FIRST SUCCESSFUL PUBLISH. Artifact URL: https://claude.ai/artifact/8oqM54kBFALvpagAojvXMG
+Future runs: edit a copy of aw-menswear-battlefield.html (append to runLog, update panels), then publish with the Artifact tool passing url = the URL above (read it first with action "read" if in a new conversation). Omit icon on redeploys.
+The old "pending-artifact-update" files (Runs 05-08) are superseded and can be ignored.
+
+--- UPDATE Run 11 (2026-10-08) ---
+Republished to the same URL (version 2): https://claude.ai/artifact/8oqM54kBFALvpagAojvXMG
+RunLog now covers Runs 01-11. Next run: edit aw-menswear-battlefield.html, append run 12, publish with url above.
+Delivery preference: still none saved; Run 11 asked Jamal to choose Word / live artifact / chat summary.
+
+--- UPDATE Run 12 (2026-10-12) ---
+RunLog now covers Runs 01-12. Overview verdict, calls, dates and autumn silhouette updated. Backup of the Run 11 file: aw-menswear-battlefield.run11.bak.html. Republish to the same URL above (version 3 if it succeeds).
+Delivery preference: still none saved; Run 12 asked Jamal to choose.
+
+--- UPDATE Run 13 (2026-10-15) ---
+RunLog now covers Runs 01-13. Backup of Run 12 file: aw-menswear-battlefield.run12.bak.html. Republish to the URL above. Delivery preference: still none saved; Run 13 asked Jamal to choose.
+Run 13 published as version 4 to the same URL.
+
+--- UPDATE Run 14 (2026-10-19) ---
+RunLog now covers Runs 01-14. Backup of Run 13 file: aw-menswear-battlefield.run13.bak.html. Published as version 5 to the same URL: https://claude.ai/artifact/8oqM54kBFALvpagAojvXMG
+Delivery preference: still none saved; Run 14 asked Jamal to choose.
+
+--- UPDATE Run 15 (2026-10-22) ---
+RunLog now covers Runs 01-15. Backup of Run 14 file: aw-menswear-battlefield.run14.bak.html. Republish to the URL above. Delivery preference: still none saved; Run 15 asked Jamal to choose.
+
+--- UPDATE Run 16 (2026-10-26) ---
+RunLog now covers Runs 01-16. Backup of Run 15 file: aw-menswear-battlefield.run15.bak.html. Published as version 7 to the same URL: https://claude.ai/artifact/8oqM54kBFALvpagAojvXMG
+Delivery preference: still none saved; Run 16 asked Jamal to choose.
+
+--- UPDATE Run 17 (2026-10-29) ---
+RunLog now covers Runs 01-17. Backup of Run 16 file: aw-menswear-battlefield.run16.bak.html. Published as version 8 to the same URL: https://claude.ai/artifact/8oqM54kBFALvpagAojvXMG
+Delivery preference: still none saved; Run 17 asked Jamal to choose.

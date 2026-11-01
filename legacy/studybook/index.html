@@ -1,0 +1,827 @@
+<title>A'ila Areeqa Study Book</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;0,6..96,700;1,6..96,500&family=Albert+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Naskh+Arabic:wght@500&display=swap">
+<style>
+/* Layout: a study book on a gypsum-white page; one slide per screen, a thin gold "zari" thread tracks progress like the edge of a bisht. */
+:root {
+  --ground: #EFEEE9;      /* gypsum wall */
+  --paper: #FBFBF8;
+  --ink: #1B2130;         /* indigo-black */
+  --ink-soft: #5A6070;
+  --line: #D9D7CF;
+  --indigo: #2D4886;      /* natural indigo */
+  --indigo-wash: #E3E8F3;
+  --zari: #A57E35;        /* gold thread */
+  --good: #2E6A4C;
+  --good-wash: #E2EFE7;
+  --madder: #9A2F2B;
+  --madder-wash: #F5E3E1;
+  --f-display: "Bodoni Moda", "Didot", "Bodoni 72", Georgia, serif;
+  --f-body: "Albert Sans", "Helvetica Neue", Arial, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --f-ar: "Noto Naskh Arabic", "Geeza Pro", serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --ground: #11141B; --paper: #191D27; --ink: #ECE9E1; --ink-soft: #A3A7B3; --line: #2C3240;
+  --indigo: #93AAE6; --indigo-wash: #1F2740; --zari: #D4B06A; --good: #7CC39C; --good-wash: #183026;
+  --madder: #E58A84; --madder-wash: #3A1E1E; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --ground: #11141B; --paper: #191D27; --ink: #ECE9E1; --ink-soft: #A3A7B3; --line: #2C3240;
+  --indigo: #93AAE6; --indigo-wash: #1F2740; --zari: #D4B06A; --good: #7CC39C; --good-wash: #183026;
+  --madder: #E58A84; --madder-wash: #3A1E1E; color-scheme: dark; }
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+#app { min-height: 100%; display: flex; flex-direction: column; }
+#app > * { flex: 1 0 auto; }
+body { background: var(--ground); color: var(--ink); font: 400 17px/1.55 var(--f-body); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--paper); }
+a { color: var(--indigo); text-underline-offset: 3px; }
+button { font: inherit; color: inherit; cursor: pointer; }
+:focus-visible { outline: 2px solid var(--indigo); outline-offset: 2px; }
+.mono { font-family: var(--f-mono); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; }
+.ar { font-family: var(--f-ar); font-size: 1.1em; color: var(--zari); letter-spacing: 0; text-transform: none; }
+
+.wrap { max-width: 1180px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+
+/* ---------- Home ---------- */
+.home { padding-block: 40px 64px; }
+.home h1 { font: 500 clamp(38px, 6vw, 64px)/1.02 var(--f-display); margin: 6px 0 12px; text-wrap: balance; letter-spacing: -.01em; }
+.home h1 em { color: var(--zari); }
+.home .lede { max-width: 60ch; color: var(--ink-soft); margin: 0 0 28px; }
+.resume { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 18px 20px; margin-bottom: 36px; }
+.resume .txt { flex: 1 1 260px; min-width: 0; }
+.resume b { font-family: var(--f-display); font-size: 22px; font-weight: 500; display: block; }
+.btn { border: 1px solid var(--ink); background: var(--ink); color: var(--paper); border-radius: 999px; padding: 10px 20px; font-weight: 600; }
+.btn.ghost { background: transparent; color: var(--ink); }
+.btn:disabled { opacity: .35; cursor: default; }
+.days { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 14px; }
+.day { text-align: left; border: 1px solid var(--line); background: var(--paper); border-radius: 6px; padding: 16px 18px 18px; display: grid; gap: 6px; align-content: start; min-height: 168px; position: relative; }
+.day[disabled] { background: transparent; cursor: default; }
+.day .n { font: 500 44px/1 var(--f-display); color: var(--zari); }
+.day[disabled] .n { color: var(--line); }
+.day h3 { margin: 0; font: 600 18px/1.25 var(--f-body); }
+.day p { margin: 0; font-size: 14px; color: var(--ink-soft); }
+.day .state { position: absolute; top: 16px; right: 16px; }
+.meter { height: 3px; background: var(--line); border-radius: 2px; overflow: hidden; margin-top: 6px; }
+.meter i { display: block; height: 100%; background: var(--zari); }
+.credits { margin-top: 40px; font-size: 13px; color: var(--ink-soft); max-width: 70ch; }
+
+/* ---------- Lesson ---------- */
+.lesson { display: grid; grid-template-rows: auto 1fr auto; min-height: 100%; }
+.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--paper); border-bottom: 1px solid var(--line); }
+.top .wrap { display: flex; gap: 14px; align-items: center; padding-block: 10px; flex-wrap: wrap; }
+.top .home-btn { border: 0; background: none; padding: 4px 0; font-weight: 600; }
+.top .ltitle { font: 500 18px/1.2 var(--f-display); flex: 1 1 auto; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.parts { display: flex; gap: 6px; flex-wrap: wrap; }
+.parts button { border: 1px solid var(--line); background: transparent; border-radius: 999px; padding: 3px 10px; font: 500 12px/1.4 var(--f-mono); letter-spacing: .04em; color: var(--ink-soft); }
+.parts button.on { border-color: var(--ink); color: var(--ink); background: var(--ground); }
+.parts button.done { color: var(--good); border-color: var(--good); }
+.thread { height: 3px; background: var(--line); }
+.thread i { display: block; height: 100%; background: var(--zari); transition: width .35s ease; }
+
+.stage { padding-block: 28px 32px; }
+.slide { animation: rise .25s ease both; }
+@keyframes rise { from { opacity: .75; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .slide { animation: none; } .thread i { transition: none; } }
+.kicker { color: var(--zari); }
+.slide h2 { font: 500 clamp(28px, 3.6vw, 44px)/1.08 var(--f-display); margin: 6px 0 16px; text-wrap: balance; letter-spacing: -.005em; }
+.slide p { margin: 0 0 12px; max-width: 62ch; }
+.split { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 32px; align-items: start; }
+.split .txt { min-width: 0; }
+figure { margin: 0; min-width: 0; }
+figure .frame { background: var(--paper); border: 1px solid var(--line); border-radius: 4px; overflow: hidden; display: grid; place-items: center; }
+figure img { display: block; width: 100%; max-height: 58vh; object-fit: contain; }
+figcaption { font-size: 14px; color: var(--ink-soft); margin-top: 8px; }
+figcaption .cr { display: block; font: 400 11px/1.5 var(--f-mono); letter-spacing: .02em; margin-top: 2px; }
+figcaption .cr a { color: var(--ink-soft); }
+.srcs { margin-top: 18px; font-size: 13px; color: var(--ink-soft); display: flex; flex-wrap: wrap; gap: 4px 14px; }
+.srcs span { font-family: var(--f-mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; }
+
+/* cover */
+.cover { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 36px; align-items: center; }
+.cover h2 { font-size: clamp(40px, 6vw, 76px); line-height: .98; }
+.cover p { font-size: 20px; }
+.plan { display: grid; gap: 4px; margin: 20px 0 0; padding: 0; list-style: none; max-width: 420px; }
+.plan li { display: flex; justify-content: space-between; border-bottom: 1px solid var(--line); padding: 6px 0; font-size: 15px; }
+.plan li span:last-child { font-family: var(--f-mono); font-size: 13px; color: var(--ink-soft); }
+
+/* compare */
+.pair { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.pair .tag { display: inline-block; margin-bottom: 8px; }
+.svgframe svg { width: 100%; height: 44vh; max-height: 420px; display: block; }
+.pair img { height: 44vh; max-height: 420px; object-fit: cover; }
+.takeaway { margin-top: 20px; padding: 14px 18px; border-left: 3px solid var(--zari); background: var(--paper); max-width: 80ch; }
+.takeaway p { margin: 0; }
+
+/* quiz */
+.quiz { max-width: 760px; }
+.opts { display: grid; gap: 10px; margin: 18px 0; }
+.opt { text-align: left; border: 1px solid var(--line); background: var(--paper); border-radius: 6px; padding: 14px 16px; display: flex; gap: 12px; align-items: baseline; }
+.opt .k { font-family: var(--f-mono); font-size: 12px; color: var(--ink-soft); }
+.opt:hover:not([disabled]) { border-color: var(--ink); }
+.opt[disabled] { cursor: default; }
+.opt.right { border-color: var(--good); background: var(--good-wash); }
+.opt.wrong { border-color: var(--madder); background: var(--madder-wash); }
+.why { padding: 14px 16px; border-radius: 6px; background: var(--indigo-wash); }
+.why b { display: block; margin-bottom: 4px; }
+
+/* reveal */
+.reveal-btn { margin: 6px 0 14px; }
+.answer { padding: 14px 16px; border-radius: 6px; background: var(--indigo-wash); }
+
+/* steps */
+.steps { list-style: none; counter-reset: s; padding: 0; margin: 14px 0; display: grid; gap: 6px; }
+.steps li { counter-increment: s; display: grid; grid-template-columns: 30px 1fr; gap: 10px; align-items: baseline; }
+.steps li::before { content: counter(s); font: 500 20px/1 var(--f-display); color: var(--zari); }
+.facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 14px; }
+.facts div { border-top: 1px solid var(--line); padding-top: 8px; }
+.facts b { display: block; font: 500 24px/1.1 var(--f-display); }
+.facts span { font-size: 14px; color: var(--ink-soft); }
+
+/* layers */
+.layers { display: grid; gap: 0; max-width: 720px; margin-top: 10px; }
+.layer { display: grid; grid-template-columns: 150px 1fr; gap: 16px; padding: 16px 18px; border: 1px solid var(--line); border-top: 0; background: var(--paper); }
+.layer:first-child { border-top: 1px solid var(--line); border-radius: 6px 6px 0 0; }
+.layer:last-child { border-radius: 0 0 6px 6px; }
+.layer b { font: 500 20px/1.2 var(--f-display); }
+.layer .lv { font-family: var(--f-mono); font-size: 11px; color: var(--ink-soft); display: block; letter-spacing: .06em; text-transform: uppercase; }
+
+/* toggle */
+.seg { display: inline-flex; border: 1px solid var(--ink); border-radius: 999px; overflow: hidden; margin: 6px 0 16px; }
+.seg button { border: 0; background: transparent; padding: 8px 20px; font-weight: 600; }
+.seg button.on { background: var(--ink); color: var(--paper); }
+.kit { width: 100%; border-collapse: collapse; font-size: 16px; }
+.kit td { border-bottom: 1px solid var(--line); padding: 10px 8px 10px 0; vertical-align: top; }
+.kit td:first-child { font-weight: 600; width: 22%; }
+.kit td:last-child { color: var(--ink-soft); }
+
+/* solo text slide, weave, ladder */
+.solo { max-width: 820px; }
+.weavebox { background: var(--paper); border: 1px solid var(--line); border-radius: 4px; padding: 16px; }
+.weavebox svg { width: 100%; max-height: 52vh; display: block; }
+.legend { font-size: 13px; color: var(--ink-soft); margin: 10px 0 0; display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; }
+.sw { display: inline-block; width: 12px; height: 12px; border-radius: 2px; vertical-align: -1px; }
+.sw.warp { background: var(--indigo); } .sw.weft { background: var(--zari); }
+.ladder { display: grid; gap: 10px; max-width: 900px; margin-top: 10px; }
+.lrow { display: grid; grid-template-columns: minmax(120px, 210px) minmax(0, 1fr) minmax(90px, 160px); gap: 14px; align-items: center; }
+.lname { font-weight: 600; font-size: 15px; }
+.lbar { height: 14px; background: var(--paper); border: 1px solid var(--line); border-radius: 2px; overflow: hidden; }
+.lbar i { display: block; height: 100%; background: var(--ink-soft); }
+.lrow.hl .lbar i { background: var(--zari); }
+.lval { font-family: var(--f-mono); font-size: 12px; color: var(--ink-soft); }
+.axis { color: var(--ink-soft); margin-top: 10px; }
+@media (max-width: 760px) { .lrow { grid-template-columns: 1fr; gap: 4px; } }
+
+
+/* quiz feedback, hints, score */
+.why.ok { background: var(--good-wash); }
+.why.miss { background: var(--madder-wash); }
+.why p { margin: 8px 0 0; }
+.why .fix .mono { color: var(--good); margin-right: 6px; }
+.quizsplit { grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); }
+.hintbox { background: var(--paper); border: 1px dashed var(--line); border-radius: 6px; padding: 14px; display: grid; gap: 8px; }
+.hintbox svg, .hintbox img { width: 100%; max-height: 42vh; object-fit: contain; display: block; }
+.hintbox p { margin: 0; font-size: 14px; color: var(--ink-soft); }
+.bigscore { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; margin: 4px 0 18px; }
+.bigscore b { font: 500 72px/1 var(--f-display); color: var(--zari); }
+.bigscore span { font-size: 18px; }
+.review { max-width: 820px; padding-left: 20px; display: grid; gap: 12px; margin: 0 0 20px; }
+.review li b { display: inline-block; min-width: 64px; font-family: var(--f-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
+.review li.ok b { color: var(--good); } .review li.no b { color: var(--madder); }
+.review li p { margin: 6px 0 0; font-size: 15px; color: var(--ink-soft); }
+
+/* look-back pictures, lightbox, answer coach */
+.refs { margin: 4px 0 18px; }
+.refrow { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 6px; }
+.ref { width: 168px; border: 1px solid var(--line); background: var(--paper); border-radius: 6px; padding: 6px; text-align: left; display: grid; gap: 6px; }
+.ref:hover { border-color: var(--ink); }
+.ref img, .refsvg svg { width: 100%; height: 110px; object-fit: cover; display: block; border-radius: 3px; }
+.refsvg svg { object-fit: contain; }
+.refcap { font-size: 12px; color: var(--ink-soft); line-height: 1.35; }
+.lightbox { position: fixed; inset: 0; z-index: 50; background: rgba(10, 12, 18, .78); display: grid; place-items: center; padding: max(16px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(16px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+.lbinner { background: var(--paper); border-radius: 8px; padding: 16px; max-width: min(1000px, 100%); max-height: 100%; overflow: auto; display: grid; gap: 10px; justify-items: start; }
+.lbinner img, .lbinner svg { width: 100%; max-height: 72vh; object-fit: contain; display: block; }
+.lbinner p { margin: 0; color: var(--ink-soft); }
+.enterrow { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 10px; }
+.enterrow .saved { margin: 0; }
+.coach { max-width: 640px; margin-top: 14px; padding: 14px 16px; border-radius: 6px; background: var(--indigo-wash); }
+.coach p { margin: 0 0 8px; } .coach p:last-child { margin: 0; }
+.thinking { color: var(--ink-soft); }
+@media (max-width: 760px) { .quizsplit { grid-template-columns: 1fr; } .ref { width: calc(50% - 5px); } }
+
+
+/* gallery + brief */
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 12px; margin-top: 12px; }
+.gcard { text-align: left; border: 1px solid var(--line); background: var(--paper); border-radius: 6px; padding: 10px; display: grid; gap: 4px; align-content: start; }
+.gcard:hover { border-color: var(--ink); }
+.gimg svg, .gimg img { width: 100%; height: 130px; object-fit: contain; display: block; }
+.gimg img { object-fit: cover; border-radius: 3px; }
+.gcard b { font-size: 15px; }
+.gcap { font-size: 13px; color: var(--ink-soft); line-height: 1.35; }
+.brief { max-width: 860px; border: 1px solid var(--ink); border-radius: 6px; background: var(--paper); }
+.briefhead { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; padding: 12px 16px; border-bottom: 1px solid var(--line); }
+.briefrow { display: grid; grid-template-columns: minmax(150px, 220px) minmax(0, 1fr) auto; gap: 14px; padding: 12px 16px; border-bottom: 1px solid var(--line); align-items: start; }
+.briefrow:last-child { border-bottom: 0; }
+.briefrow p { margin: 0; white-space: pre-wrap; }
+.briefrow em { color: var(--ink-soft); }
+.linkbtn { border: 0; background: none; color: var(--indigo); text-decoration: underline; padding: 0; }
+@media (max-width: 760px) { .briefrow { grid-template-columns: 1fr; gap: 4px; } }
+
+/* design */
+.design svg { width: 100%; max-height: 52vh; display: block; }
+.how { padding-left: 20px; margin: 12px 0 0; }
+.how li { margin-bottom: 8px; }
+
+/* task */
+.task .mins { margin-left: 8px; }
+.checks { display: grid; gap: 8px; margin: 16px 0; max-width: 640px; }
+.checks label { display: flex; gap: 12px; align-items: flex-start; padding: 12px 14px; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; cursor: pointer; }
+.checks input { width: 18px; height: 18px; margin-top: 3px; accent-color: var(--good); flex: none; }
+.checks label.ok { border-color: var(--good); }
+textarea { width: 100%; max-width: 640px; min-height: 130px; font: inherit; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; resize: vertical; }
+.saved { font-size: 13px; color: var(--ink-soft); margin-top: 6px; min-height: 1.2em; }
+
+/* remember + video */
+.keep { display: grid; gap: 14px; max-width: 760px; margin-top: 8px; }
+.keep div { display: grid; grid-template-columns: 48px 1fr; gap: 12px; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
+.keep .n { font: 500 40px/1 var(--f-display); color: var(--zari); }
+.keep b { display: block; font-size: 19px; }
+.vids { display: grid; gap: 12px; max-width: 760px; }
+.vids a { display: block; padding: 14px 16px; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; text-decoration: none; color: var(--ink); }
+.vids a b { color: var(--indigo); }
+.vids a span { display: block; font-size: 14px; color: var(--ink-soft); }
+.score { font: 500 28px/1.2 var(--f-display); margin: 6px 0 18px; }
+
+/* bottom nav */
+.nav { border-top: 1px solid var(--line); background: var(--paper); position: sticky; bottom: 0; padding-bottom: env(safe-area-inset-bottom, 0px); }
+.nav .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 12px; }
+.nav .count { color: var(--ink-soft); }
+.hint { color: var(--ink-soft); font-size: 12px; }
+
+@media (max-width: 760px) {
+  .split, .cover { grid-template-columns: 1fr; gap: 18px; }
+  .pair { grid-template-columns: 1fr; }
+  .pair img { height: auto; max-height: 50vh; }
+  .layer { grid-template-columns: 1fr; gap: 4px; }
+  .facts { grid-template-columns: 1fr 1fr; }
+  .top .ltitle { flex-basis: 100%; order: 2; }
+  .hint { display: none; }
+}
+</style>
+
+<div id="app"></div>
+
+<script src="lessons.js"></script>
+<script>
+(() => {
+  const app = document.getElementById("app");
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const PART_ORDER = ["warm", "story", "see", "design", "do", "quiz"];
+  const LS_KEY = "aila-study-v1";
+
+  // ---------- state ----------
+  let state = { lessons: {}, last: null, updatedAt: 0 };
+  let view = { lesson: null, slide: 0 };
+  try { const s = JSON.parse(localStorage.getItem(LS_KEY) || "null"); if (s && s.lessons) state = s; } catch (e) {}
+  const L = id => (state.lessons[id] ||= { slide: 0, quiz: {}, checks: {}, notes: {}, done: false });
+
+  let progressDoc = null, saveTimer = null;
+  function save() {
+    state.updatedAt = Date.now();
+    try { localStorage.setItem(LS_KEY, JSON.stringify(state)); } catch (e) {}
+    clearTimeout(saveTimer);
+    saveTimer = setTimeout(() => { if (progressDoc) progressDoc.set(JSON.parse(JSON.stringify(state))).catch(() => {}); }, 900);
+  }
+  (async () => {
+    try {
+      if (!window.claude || !window.claude.use) return;
+      const [db, user] = await Promise.all([window.claude.use("db"), window.claude.use("user")]);
+      if (!db || !user) return;
+      const uid = await user.id();
+      if (!uid) return;
+      progressDoc = db.doc("data/users/" + uid + "/progress");
+      const snap = await progressDoc.get();
+      const remote = snap.exists ? snap.data() : null;
+      if (remote && remote.lessons && (remote.updatedAt || 0) > (state.updatedAt || 0)) {
+        state = JSON.parse(JSON.stringify(remote));
+        try { localStorage.setItem(LS_KEY, JSON.stringify(state)); } catch (e) {}
+        if (view.lesson === null) renderHome(); else render();
+      } else if (state.updatedAt) {
+        progressDoc.set(JSON.parse(JSON.stringify(state))).catch(() => {});
+      }
+    } catch (e) {}
+  })();
+
+  // ---------- helpers ----------
+  const lessonById = id => LESSONS.find(l => l.id === id);
+  const todayISO = () => { const d = new Date(); return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); };
+  function fig(key, caption, cls = "") {
+    const p = PHOTOS[key] || {};
+    return `<figure class="${cls}"><div class="frame"><img src="img/${key}.jpg" alt="${esc(caption)}" loading="lazy"></div>
+      <figcaption>${esc(caption)}<span class="cr">Photo: ${esc(p.by || "")} · ${esc(p.lic || "")} · <a href="${esc(p.page || "#")}" target="_blank" rel="noopener">source</a></span></figcaption></figure>`;
+  }
+  const srcs = list => list && list.length ? `<div class="srcs"><span>Sources</span>${list.map(([t, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}</a>`).join("")}</div>` : "";
+  const kick = (s, extra = "") => `<div class="mono kicker">${esc(s._pl || PARTS[s.part].label)}${extra}</div>`;
+  function partTotals(lesson) {
+    return PART_ORDER.filter(p => lesson.slides.some(s => s.part === p)).map(p => ({ p, ...PARTS[p], ...((lesson.parts || {})[p] || {}), first: lesson.slides.findIndex(s => s.part === p) }));
+  }
+
+  // ---------- home ----------
+  function renderHome() {
+    view.lesson = null;
+    const last = state.last && lessonById(state.last);
+    const lastSt = last && state.lessons[last.id];
+    const ready = LESSONS.filter(l => l.ready);
+    const next = last && lastSt && !lastSt.done ? last : ready.find(l => !(state.lessons[l.id] || {}).done) || ready[ready.length - 1];
+    const nst = state.lessons[next.id] || {};
+    const started = (nst.slide || 0) > 0;
+    app.innerHTML = `<main class="wrap home">
+      <div class="mono">A'ila Areeqa · Study book · Oct 25–31</div>
+      <h1>Heritage you can <em>wear</em>,<br>fabric you can <em>read</em>.</h1>
+      <p class="lede">One lesson a day, about an hour each. Every lesson pairs a piece of Saudi heritage with a piece of fabric know-how, then turns both into a design move for the brand. Your answers, ticks and notes save as you go.</p>
+      <div class="resume"><div class="txt"><span class="mono">${started ? "Pick up where you left off" : "Start here"}</span>
+        <b>Lesson ${next.num}: ${esc(next.title)}</b>
+        <span style="color:var(--ink-soft);font-size:14px">${started ? `Slide ${nst.slide + 1} of ${next.slides.length}` : esc(next.pair)}</span></div>
+        <button class="btn" data-open="${next.id}">${started ? "Continue" : "Start lesson"}</button></div>
+      <div class="days">${LESSONS.map(l => {
+        const st = state.lessons[l.id] || {};
+        const pct = l.ready ? Math.round(((st.done ? l.slides.length : (st.slide || 0)) / l.slides.length) * 100) : 0;
+        const q = l.ready ? quizScore(l) : null;
+        const label = !l.ready ? (l.date <= todayISO() ? "Arriving soon" : "Opens " + l.day.split(", ")[1]) : st.done ? `Done${q && q.total ? ` · quiz ${q.right}/${q.total}` : ""}` : pct ? pct + "% done" : "Ready";
+        return `<button class="day" ${l.ready ? `data-open="${l.id}"` : "disabled"}>
+          <span class="mono state">${esc(label)}</span>
+          <span class="n">${l.num}</span><span class="mono">${esc(l.day)}</span>
+          <h3>${esc(l.title)}</h3><p>${esc(l.pair)}</p>
+          ${l.ready ? `<div class="meter"><i style="width:${pct}%"></i></div>` : ""}</button>`;
+      }).join("")}</div>
+      <p class="credits">All photos are real and free to reuse, mostly from Wikimedia Commons, credited under each one. Facts link to their sources. New lessons arrive each morning.</p>
+    </main>`;
+  }
+
+  function quizScore(lesson) {
+    const st = state.lessons[lesson.id] || { quiz: {} };
+    let right = 0, total = 0;
+    lesson.slides.forEach((s, i) => { if (s.type === "quiz" && !s.warm) { total++; if (st.quiz && st.quiz[i] === s.answer) right++; } });
+    return { right, total };
+  }
+
+  // ---------- lesson ----------
+  function open(id, at) {
+    const lesson = lessonById(id); if (!lesson || !lesson.ready) return;
+    view.lesson = id; state.last = id;
+    view.slide = at ?? Math.min(L(id).slide || 0, lesson.slides.length - 1);
+    save(); render(); window.scrollTo(0, 0);
+  }
+  function go(delta) {
+    const lesson = lessonById(view.lesson);
+    const n = view.slide + delta;
+    if (n < 0) return;
+    if (n >= lesson.slides.length) { L(lesson.id).done = true; L(lesson.id).slide = 0; save(); renderHome(); window.scrollTo(0, 0); return; }
+    view.slide = n; L(lesson.id).slide = n; save(); render(); window.scrollTo(0, 0);
+  }
+
+  function render() {
+    const lesson = lessonById(view.lesson);
+    const s = lesson.slides[view.slide];
+    const pt = partTotals(lesson);
+    const curPartIdx = PART_ORDER.indexOf(s.part);
+    const pct = ((view.slide + 1) / lesson.slides.length) * 100;
+    app.innerHTML = `<div class="lesson">
+      <header class="top"><div class="wrap">
+        <button class="home-btn" data-home>← All lessons</button>
+        <div class="ltitle">Lesson ${lesson.num}: ${esc(lesson.title)}</div>
+        <nav class="parts" aria-label="Lesson parts">${pt.map(p => `<button data-jump="${p.first}" class="${p.p === s.part ? "on" : PART_ORDER.indexOf(p.p) < curPartIdx ? "done" : ""}">${esc(p.label)} · ${p.min}m</button>`).join("")}</nav>
+      </div><div class="thread"><i style="width:${pct}%"></i></div></header>
+      <main class="wrap stage"><section class="slide" aria-live="polite">${slideHTML(s, view.slide, lesson)}</section></main>
+      <footer class="nav"><div class="wrap">
+        <button class="btn ghost" data-go="-1" ${view.slide === 0 ? "disabled" : ""}>← Back</button>
+        <span class="mono count">${view.slide + 1} / ${lesson.slides.length} <span class="hint">· arrow keys work</span></span>
+        <button class="btn" data-go="1">${view.slide === lesson.slides.length - 1 ? "Finish lesson" : "Next →"}</button>
+      </div></footer></div>`;
+    afterRender(s, view.slide, lesson);
+  }
+
+  function slideHTML(s, i, lesson) {
+    const st = L(lesson.id);
+    switch (s.type) {
+      case "cover": {
+        const pt = partTotals(lesson);
+        return `<div class="cover"><div><div class="mono kicker">${esc(s.kicker)}</div><h2>${esc(s.title)}</h2><p>${esc(s.text)}</p>
+          <ul class="plan">${pt.map(p => `<li><span>${esc(p.label)}</span><span>${p.min} min</span></li>`).join("")}</ul></div>
+          ${fig(s.img, s.coverCaption || "Sand dunes northeast of Riyadh.")}</div>`;
+      }
+      case "quiz": {
+        const picked = st.quiz[i];
+        const answered = picked !== undefined;
+        const guess = s.warm && !s.review;
+        const L_ = "ABCD";
+        let fb = "";
+        if (answered) {
+          if (picked === s.answer) fb = `<div class="why ok"><b>Right: ${L_[picked]}.</b>${esc(s.why)}</div>`;
+          else fb = `<div class="why miss"><b>${guess ? "Good guess, but no." : "Not quite."} You picked ${L_[picked]}.</b>${s.whys && s.whys[picked] ? `<p class="mistake">${esc(s.whys[picked])}</p>` : ""}
+            <p class="fix"><span class="mono">The answer is ${L_[s.answer]}</span> ${esc(s.why)}</p></div>`;
+        }
+        const body = `${kick(s, s.review ? ` · from Lesson ${s.review}` : guess ? " · guess before you learn" : "")}<h2>${esc(s.q)}</h2>
+          <div class="opts">${s.options.map((o, k) => `<button class="opt ${answered && k === s.answer ? "right" : answered && k === picked ? "wrong" : ""}" data-pick="${k}" ${answered ? "disabled" : ""}><span class="k">${L_[k]}</span><span>${esc(o)}</span></button>`).join("")}</div>
+          ${answered ? fb + srcs(s.src) : `<p style="color:var(--ink-soft)">Pick one to see the answer.</p>`}`;
+        if (!s.hint) return `<div class="quiz">${body}</div>`;
+        return `<div class="split quizsplit"><div class="hintbox"><span class="mono">Hint</span>${s.hint.svg ? SVG[s.hint.svg]() : `<img src="img/${s.hint.img}.jpg" alt="Hint picture">`}<p>${esc(s.hint.cap || "")}</p></div><div class="txt quiz">${body}</div></div>`;
+      }
+      case "story": {
+        const body = `${kick(s)}<h2>${esc(s.title)}${s.arabic ? ` <span class="ar">${esc(s.arabic)}</span>` : ""}</h2>${s.text.map(t => `<p>${esc(t)}</p>`).join("")}${s.facts ? `<div class="facts">${s.facts.map(([a, b]) => `<div><b>${esc(a)}</b><span>${esc(b)}</span></div>`).join("")}</div>` : ""}${s.note ? `<div class="takeaway"><p>${esc(s.note)}</p></div>` : ""}${srcs(s.src)}`;
+        if (s.svg) return `<div class="split"><figure><div class="frame svgframe">${SVG[s.svg]()}</div><figcaption>${esc(s.caption || "")}</figcaption></figure><div class="txt">${body}</div></div>`;
+        return s.img ? `<div class="split">${fig(s.img, s.caption)}<div class="txt">${body}</div></div>` : `<div class="solo">${body}</div>`;
+      }
+      case "weave": {
+        const modes = Object.keys(s.modes);
+        const cur = st.checks["t" + i] || modes[0];
+        const m = s.modes[cur];
+        return `<div class="split"><div class="frame weavebox">${weaveSVG(m.rule, cur)}<p class="legend"><span class="sw warp"></span>lengthwise thread (warp) on top <span class="sw weft"></span>crosswise thread (weft) on top</p></div>
+          <div class="txt">${kick(s)}<h2>${esc(s.title)}</h2><p>${esc(s.intro)}</p>
+          <div class="seg" role="tablist">${modes.map(k => `<button role="tab" aria-selected="${k === cur}" class="${k === cur ? "on" : ""}" data-mode="${esc(k)}">${esc(k)}</button>`).join("")}</div>
+          <p><b>${esc(m.how)}</b></p><table class="kit"><tbody>${m.items.map(r => `<tr><td>${esc(r[0])}</td><td colspan="2">${esc(r[1])}</td></tr>`).join("")}</tbody></table>${srcs(s.src)}</div></div>`;
+      }
+      case "gallery":
+        return `${kick(s)}<h2>${esc(s.title)}</h2><p>${esc(s.intro)}</p>
+          <div class="gallery">${s.refs.map((r, k) => `<button class="gcard" data-zoom="${k}" aria-label="Enlarge: ${esc(r.cap)}">
+            <span class="gimg">${r.svg ? SVG[r.svg]() : `<img src="img/${r.img}.jpg" alt="">`}</span>
+            <span class="mono">${esc(r.label || "")}</span><b>${esc(r.title || "")}</b><span class="gcap">${esc(r.cap)}</span></button>`).join("")}</div>`;
+      case "brief": {
+        const rows = lesson.slides.map((x, k) => ({ x, k })).filter(({ x }) => x.type === "task" && x.flow);
+        const filled = rows.filter(({ k }) => (st.notes[k] || "").trim()).length;
+        return `${kick(s)}<h2>${esc(s.title)}</h2><p>${esc(s.intro)}</p>
+          <div class="brief"><div class="briefhead"><span class="mono">A'ila Areeqa · garment brief · draft</span><span class="mono">${filled} of ${rows.length} steps filled</span></div>
+          ${rows.map(({ x, k }, n) => `<div class="briefrow"><span class="mono">${n + 1}. ${esc(x.flow)}</span><p>${(st.notes[k] || "").trim() ? esc(st.notes[k]) : `<em>Not filled yet. Go back to "${esc(x.title)}".</em>`}</p>
+            <button class="linkbtn" data-jump="${k}">Edit</button></div>`).join("")}</div>
+          <p style="margin-top:14px;color:var(--ink-soft)">${esc(s.note || "")}</p>`;
+      }
+      case "svgtoggle": {
+        const modes = Object.keys(s.modes);
+        const cur = st.checks["t" + i] || modes[0];
+        const m = s.modes[cur];
+        return `<div class="split"><div class="weavebox">${SVG[m.svg]()}</div>
+          <div class="txt">${kick(s)}<h2>${esc(s.title)}</h2><p>${esc(s.intro)}</p>
+          <div class="seg" role="tablist">${modes.map(k => `<button role="tab" aria-selected="${k === cur}" class="${k === cur ? "on" : ""}" data-mode="${esc(k)}">${esc(k)}</button>`).join("")}</div>
+          <p><b>${esc(m.how)}</b></p><table class="kit"><tbody>${m.items.map(r => `<tr><td>${esc(r[0])}</td><td colspan="2">${esc(r[1])}</td></tr>`).join("")}</tbody></table>${srcs(s.src)}</div></div>`;
+      }
+      case "builder": {
+        const on = st.checks["b" + i] || s.layers.map(() => true);
+        const mono = !!st.checks["m" + i];
+        return `<div class="split"><div class="weavebox">${qattSVG(on, mono)}</div>
+          <div class="txt">${kick(s)}<h2>${esc(s.title)}</h2><p>${esc(s.intro)}</p>
+          <div class="checks">${s.layers.map((l, k) => `<label class="${on[k] ? "ok" : ""}"><input type="checkbox" id="b-${lesson.id}-${i}-${k}" data-layer="${k}" ${on[k] ? "checked" : ""}><span><b>${esc(l[0])}</b> ${esc(l[1])}</span></label>`).join("")}</div>
+          <div class="seg" role="tablist"><button role="tab" class="${!mono ? "on" : ""}" data-mono="0">Asir colors</button><button role="tab" class="${mono ? "on" : ""}" data-mono="1">A'ila Areeqa: two quiet colors</button></div>
+          <p>${esc(mono ? s.monoNote : s.colorNote)}</p>${srcs(s.src)}</div></div>`;
+      }
+      case "ladder": {
+        const max = Math.max(...s.rows.map(r => r[1]));
+        return `${kick(s)}<h2>${esc(s.title)}</h2><p>${esc(s.intro)}</p>
+          <div class="ladder" role="img" aria-label="${esc(s.title)}">${s.rows.map(([name, v, note, hl]) => `<div class="lrow ${hl ? "hl" : ""}"><span class="lname">${esc(name)}</span>
+            <span class="lbar"><i style="width:${(v / max) * 100}%"></i></span><span class="lval">${esc(note)}</span></div>`).join("")}</div>
+          <p class="axis mono">Bar length = fiber width in microns (µm, one thousandth of a millimeter). Shorter bar = thinner, softer fiber.</p>${s.note ? `<div class="takeaway"><p>${esc(s.note)}</p></div>` : ""}${srcs(s.src)}`;
+      }
+      case "compare":
+        return `${kick(s)}<h2>${esc(s.title)}</h2><div class="pair">${[s.left, s.right].map(x => `<div><span class="mono tag">${esc(x.label)}</span>${x.svg ? `<figure><div class="frame svgframe">${SVG[x.svg]()}</div><figcaption>${esc(x.caption)}</figcaption></figure>` : fig(x.img, x.caption)}</div>`).join("")}</div>
+          <div class="takeaway"><p>${esc(s.takeaway)}</p></div>${srcs(s.src)}`;
+      case "reveal": {
+        const shown = !!st.checks["r" + i];
+        return `<div class="split">${fig(s.img, shown ? "Revealed. See the answer." : "Mystery photo.")}<div class="txt">${kick(s)}<h2>${esc(s.title)}</h2><p>${esc(s.prompt)}</p>
+          ${shown ? `<div class="answer">${esc(s.answer)}</div>` : `<button class="btn reveal-btn" data-reveal>Reveal the answer</button>`}${shown ? srcs(s.src) : ""}</div></div>`;
+      }
+      case "steps":
+        return `<div class="split">${fig(s.img, s.caption)}<div class="txt">${kick(s)}<h2>${esc(s.title)}</h2><p>${esc(s.intro)}</p>
+          <div class="mono" style="margin-top:14px">The seven stages</div><ol class="steps">${s.steps.map(x => `<li><span>${esc(x)}</span></li>`).join("")}</ol>
+          <div class="facts">${s.facts.map(([a, b]) => `<div><b>${esc(a)}</b><span>${esc(b)}</span></div>`).join("")}</div>${srcs(s.src)}</div></div>`;
+      case "layers":
+        return `${kick(s)}<h2>${esc(s.title)}</h2><p>${esc(s.intro)}</p><div class="layers">${s.layers.map(([a, b, lab], k) => `<div class="layer"><div><span class="lv">${lab ? esc(lab) : `Layer ${k + 1}${k === 0 ? " · next to skin" : k === s.layers.length - 1 ? " · outside" : ""}`}</span><b>${esc(a)}</b></div><div>${esc(b)}</div></div>`).join("")}</div>${s.note ? `<div class="takeaway"><p>${esc(s.note)}</p></div>` : ""}${srcs(s.src)}`;
+      case "toggle": {
+        const modes = Object.keys(s.modes);
+        const cur = st.checks["t" + i] || modes[0];
+        const m = s.modes[cur];
+        return `<div class="split">${fig(m.img, m.cap || (cur === "Summer" ? "Summer heat: sand dunes northeast of Riyadh." : "Winter cold: camels in snow, Tabuk."))}<div class="txt">${kick(s)}<h2>${esc(s.title)}</h2><p>${esc(s.intro)}</p>
+          <div class="seg" role="tablist">${modes.map(k => `<button role="tab" aria-selected="${k === cur}" class="${k === cur ? "on" : ""}" data-mode="${esc(k)}">${esc(k)}</button>`).join("")}</div>
+          <table class="kit"><tbody>${m.items.map(r => `<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td><td>${esc(r[2])}</td></tr>`).join("")}</tbody></table>${srcs(s.src)}</div></div>`;
+      }
+      case "design":
+        return `<div class="split design"><div class="frame" style="background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:16px">${SVG[s.svg]()}</div>
+          <div class="txt">${kick(s)}<h2>${esc(s.title)}</h2><p>${esc(s.text)}</p><ul class="how">${s.how.map(h => `<li>${esc(h)}</li>`).join("")}</ul>
+          <p style="margin-top:14px;font-size:14px;color:var(--ink-soft)">These are design ideas, not historical facts.</p></div></div>`;
+      case "task": {
+        const ticks = st.checks[i] || [];
+        return `<div class="task">${kick(s)}<span class="mono mins">· ${s.minutes} min</span><h2>${esc(s.title)}</h2><p>${esc(s.text)}</p>
+          <div class="checks">${s.checklist.map((c, k) => `<label class="${ticks[k] ? "ok" : ""}"><input type="checkbox" id="c-${lesson.id}-${i}-${k}" data-tick="${k}" ${ticks[k] ? "checked" : ""}><span>${esc(c)}</span></label>`).join("")}</div>
+          ${refsHTML(s.refs)}
+          <label class="mono" for="n-${lesson.id}-${i}">Your answer</label>
+          <textarea id="n-${lesson.id}-${i}" data-note placeholder="${esc(s.notePrompt)}">${esc(st.notes[i] || "")}</textarea>
+          <div class="enterrow"><button class="btn" data-check ${sampleFn === null ? "hidden" : ""}>Enter: check my answer</button><span class="saved" id="saved"></span></div>
+          <div class="coach" id="coach" ${st.feedback && st.feedback[i] ? "" : "hidden"}>${st.feedback && st.feedback[i] ? fmtCoach(st.feedback[i]) : ""}</div></div>`;
+      }
+      case "score": {
+        const q = quizScore(lesson);
+        const best = st.best ?? null;
+        const rows = lesson.slides.map((x, k) => ({ x, k })).filter(({ x }) => x.type === "quiz" && !x.warm);
+        return `${kick(s)}<h2>Your score</h2>
+          <div class="bigscore"><b>${q.right}</b><span>of ${q.total} right</span>${best !== null ? `<span class="mono">Best: ${best} of ${q.total}</span>` : ""}</div>
+          <ol class="review">${rows.map(({ x, k }) => {
+            const p = st.quiz[k]; const ok = p === x.answer; const none = p === undefined;
+            return `<li class="${none ? "" : ok ? "ok" : "no"}"><b>${none ? "Skipped" : ok ? "Right" : "Missed"}</b> ${esc(x.q)}
+              ${!none && !ok ? `<p>You picked "${esc(x.options[p])}". ${x.whys && x.whys[p] ? esc(x.whys[p]) + " " : ""}The answer is "${esc(x.options[x.answer])}": ${esc(x.why)}</p>` : ""}</li>`;
+          }).join("")}</ol>
+          <button class="btn" data-retake>Retake the quiz</button>`;
+      }
+      case "remember": {
+        const q = quizScore(lesson);
+        return `${kick(s)}<h2>${esc(s.title)}</h2>
+          <div class="keep">${s.items.map(([a, b], k) => `<div><span class="n">${k + 1}</span><div><b>${esc(a)}</b>${esc(b)}</div></div>`).join("")}</div>
+          <p style="margin-top:16px;color:var(--ink-soft)">Tomorrow's warm-up will test you on these three.</p>`;
+      }
+      case "video":
+        return `${kick(s)}<h2>${esc(s.title)}</h2><div class="vids">${s.items.map(([t, u, w]) => `<a href="${esc(u)}" target="_blank" rel="noopener"><b>${esc(t)} ↗</b><span>${esc(w)}</span></a>`).join("")}</div>
+          ${s.note ? `<p style="margin-top:16px;color:var(--ink-soft)">${esc(s.note)}</p>` : ""}`;
+    }
+    return "";
+  }
+
+  function afterRender(s, i, lesson) {
+    const ta = app.querySelector("[data-note]");
+    if (ta) {
+      let t;
+      ta.addEventListener("input", () => {
+        L(lesson.id).notes[i] = ta.value; clearTimeout(t);
+        const sv = document.getElementById("saved"); sv.textContent = "Saving…";
+        t = setTimeout(() => { save(); sv.textContent = "Saved"; }, 500);
+      });
+      ta.addEventListener("keydown", e => { if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) { e.preventDefault(); checkAnswer(s, i, lesson); } });
+    }
+  }
+
+  // ---------- reference pictures + lightbox ----------
+  function refsHTML(refs) {
+    if (!refs || !refs.length) return "";
+    return `<div class="refs"><span class="mono">Look back</span><div class="refrow">${refs.map((r, k) => `<button class="ref" data-zoom="${k}" aria-label="Enlarge: ${esc(r.cap)}">
+      ${r.svg ? `<span class="refsvg">${SVG[r.svg]()}</span>` : `<img src="img/${r.img}.jpg" alt="">`}<span class="refcap">${esc(r.cap)}</span></button>`).join("")}</div></div>`;
+  }
+  function zoom(r) {
+    const box = document.createElement("div");
+    box.className = "lightbox"; box.setAttribute("role", "dialog"); box.setAttribute("aria-label", r.cap);
+    box.innerHTML = `<div class="lbinner">${r.svg ? SVG[r.svg]() : `<img src="img/${r.img}.jpg" alt="${esc(r.cap)}">`}<p>${esc(r.cap)}</p><button class="btn" data-close>Close</button></div>`;
+    const close = () => { box.remove(); document.removeEventListener("keydown", onKey); };
+    const onKey = e => { if (e.key === "Escape") close(); };
+    box.addEventListener("click", e => { if (e.target === box || e.target.closest("[data-close]")) close(); });
+    document.addEventListener("keydown", onKey);
+    document.body.appendChild(box); box.querySelector("[data-close]").focus();
+  }
+
+  // ---------- answer coach (asks Claude) ----------
+  let sampleFn; // undefined = still loading, null = unavailable
+  (async () => {
+    try { sampleFn = window.claude && window.claude.use ? await window.claude.use("sample") : null; } catch (e) { sampleFn = null; }
+    if (sampleFn === null) app.querySelectorAll("[data-check]").forEach(b => b.hidden = true);
+  })();
+  function fmtCoach(t) {
+    return esc(t).split(/\n{2,}/).map(p => `<p>${p.replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").replace(/\n/g, "<br>")}</p>`).join("");
+  }
+  const COACH_ERR = {
+    not_granted: "Checking needs your OK to let this page ask Claude. Reload the page and allow it to try again.",
+    rate_limited: "Too many checks at once. Wait a minute, then press Enter again.",
+    sampling_disabled: "Answer checking is turned off for this account.",
+  };
+  async function checkAnswer(s, i, lesson) {
+    const st = L(lesson.id);
+    const answer = (st.notes[i] || "").trim();
+    const coach = document.getElementById("coach"), btn = app.querySelector("[data-check]");
+    if (!coach || !btn) return;
+    coach.hidden = false;
+    if (!answer) { coach.innerHTML = "<p>Type your answer first, then press Enter.</p>"; return; }
+    if (!sampleFn) { coach.innerHTML = "<p>Answer checking isn't available here. Open the page in Claude to use it.</p>"; return; }
+    btn.disabled = true; coach.innerHTML = "<p class='thinking'>Reading your answer…</p>";
+    const prompt = `You are a patient fashion-school teacher. Your student, Jamal, is building a quiet-luxury menswear and womenswear brand rooted in Saudi heritage. He is not word-savvy: use plain, simple words and short sentences. Be honest: if something he wrote is wrong, say so plainly and kindly, and never praise a wrong idea.
+
+LESSON: ${lesson.title}
+TASK: ${s.title}. ${s.text}
+STEPS HE WAS ASKED TO DO: ${s.checklist.join(" / ")}
+FACTS FROM THE LESSON (use these as the main truth; you may add widely known textile basics, but do not invent history, dates or brand facts):
+${(s.context || []).map(c => "- " + c).join("\n")}
+
+HIS ANSWER:
+"""${answer}"""
+
+Reply in this exact shape, under 140 words, no headings, no emoji:
+**Verdict:** one of "On track", "Partly right" or "Not quite", plus one short sentence.
+**What you got right:** one or two sentences. If nothing, say what he tried.
+**What to fix:** for each mistake, say what is wrong, why, and what he probably misunderstood. Explain it more simply than the lesson did, with an everyday example. If there are no mistakes, give one thing to look at more closely.
+**Try this:** one small next step he can do in under two minutes.
+If his answer is about his own clothes or sketch, judge his reasoning, not his taste.`;
+    try {
+      const { text } = await sampleFn(prompt, { modelTier: "default", cache: false, onText: ({ text }) => { coach.innerHTML = fmtCoach(text); } });
+      st.feedback = st.feedback || {}; st.feedback[i] = text; save();
+      coach.innerHTML = fmtCoach(text);
+    } catch (e) {
+      coach.innerHTML = `<p>${esc(COACH_ERR[e && e.code] || "Couldn't check the answer just now. Press Enter to try again.")}</p>`;
+    } finally { btn.disabled = false; }
+  }
+
+  // ---------- Al-Qatt style wall band (a drawing based on UNESCO's description, not a copy of a real wall) ----------
+  function qattSVG(on, mono) {
+    const W = 360, H = 300;
+    const C = mono ? ["#1E1E1E", "#CDBB97", "#1E1E1E", "#CDBB97"] : ["#C0392B", "#E2B33C", "#2F5DA8", "#1E1E1E"];
+    let g = `<rect width="${W}" height="${H}" fill="${mono ? "#EDE6D8" : "#F7F4EC"}"/>`;
+    // layer 0: kufuf ("palms") — finger-width horizontal bands at the bottom
+    if (on[0]) for (let k = 0; k < 4; k++) g += `<rect x="0" y="${H - 18 - k * 16}" width="${W}" height="9" fill="${C[k % 4]}"/>`;
+    // layer 1: a row of triangles above the bands
+    if (on[1]) for (let k = 0; k < 12; k++) { const x = k * 30; g += `<path d="M${x} 214 L${x + 15} 168 L${x + 30} 214 Z" fill="${C[k % 3]}" stroke="${mono ? "#1E1E1E" : "#1E1E1E"}" stroke-width="1"/>`; }
+    // layer 2: amshat ("combs") — thin vertical lines between triangles
+    if (on[2]) for (let k = 0; k < 12; k++) { const x = k * 30 + 30; g += `<path d="M${x} 168 L${x} 214 M${x - 4} 176 L${x - 4} 214 M${x + 4} 176 L${x + 4} 214" stroke="${C[3]}" stroke-width="1.4"/>`; }
+    // layer 3: an upper band of small diamonds
+    if (on[3]) for (let k = 0; k < 18; k++) { const x = k * 20 + 10; g += `<path d="M${x} 120 L${x + 10} 132 L${x} 144 L${x - 10} 132 Z" fill="${C[(k + 1) % 3]}"/>`; }
+    if (!on.some(Boolean)) g += `<text x="${W / 2}" y="${H / 2}" font-family="IBM Plex Mono, monospace" font-size="12" fill="#6B6B6B" text-anchor="middle">White gypsum wall. Add a layer.</text>`;
+    return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Al-Qatt style wall band drawing">${g}</svg>`;
+  }
+
+  // ---------- weave grid ----------
+  // rule(row, col) -> true when the warp (lengthwise) thread is on top at that crossing
+  const WEAVE_RULES = {
+    plain: (r, c) => (r + c) % 2 === 0,
+    twill: (r, c) => ((c - r) % 4 + 4) % 4 < 2,
+    satin: (r, c) => ((c * 2 - r) % 5 + 5) % 5 !== 0,
+  };
+  function weaveSVG(rule, label) {
+    const f = WEAVE_RULES[rule], n = 12, cell = 26, pad = 4, size = n * cell + pad * 2;
+    let cells = "";
+    for (let r = 0; r < n; r++) for (let c = 0; c < n; c++) {
+      const warp = f(r, c), x = pad + c * cell, y = pad + r * cell;
+      cells += warp
+        ? `<rect x="${x + 5}" y="${y}" width="${cell - 10}" height="${cell}" rx="3" fill="var(--indigo)"/>`
+        : `<rect x="${x}" y="${y + 5}" width="${cell}" height="${cell - 10}" rx="3" fill="var(--zari)"/>`;
+    }
+    return `<svg viewBox="0 0 ${size} ${size}" role="img" aria-label="${esc(label)} weave pattern"><rect width="${size}" height="${size}" fill="var(--paper)"/>${cells}</svg>`;
+  }
+
+  // ---------- diagrams (design ideas) ----------
+  const COAT = "M100 30 L136 22 L150 64 L164 22 L200 30 L246 84 L236 206 L214 202 L214 348 L86 348 L86 202 L64 206 L54 84 Z";
+  const SVG = {
+    edge: () => `<svg viewBox="0 0 300 380" role="img" aria-label="A plain coat with a gold braid only on the front edge and neck">
+      <path d="${COAT}" fill="var(--ground)" stroke="var(--ink)" stroke-width="2"/>
+      <path d="M136 22 L150 64 L150 348" fill="none" stroke="var(--zari)" stroke-width="5"/>
+      <path d="M164 22 L150 64" fill="none" stroke="var(--zari)" stroke-width="5"/>
+      <text x="252" y="150" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)" text-anchor="end">plain body</text>
+      <text x="158" y="300" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--zari)">braid on the</text>
+      <text x="158" y="314" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--zari)">front edge only</text></svg>`,
+    lining: () => `<svg viewBox="0 0 300 380" role="img" aria-label="A wool overshirt cut away to show a soft cotton lining">
+      <defs><pattern id="wool" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 8 L8 0" stroke="var(--line)" stroke-width="2"/></pattern>
+      <pattern id="cot" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.2" fill="var(--indigo)"/></pattern></defs>
+      <path d="${COAT}" fill="url(#wool)" stroke="var(--ink)" stroke-width="2"/>
+      <path d="M150 120 L214 120 L214 300 L150 300 Z" fill="var(--indigo-wash)" stroke="var(--indigo)" stroke-dasharray="5 4" stroke-width="2"/>
+      <path d="M150 120 L214 120 L214 300 L150 300 Z" fill="url(#cot)" opacity=".5"/>
+      <text x="60" y="250" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">wool outside</text>
+      <text x="156" y="330" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--indigo)">cotton inside</text></svg>`,
+    swap: () => `<svg viewBox="0 0 520 380" role="img" aria-label="The same coat pattern in light linen for summer and dark wool for winter">
+      <g transform="translate(-20 0)"><path d="${COAT}" fill="var(--paper)" stroke="var(--ink)" stroke-width="2"/>
+      <text x="150" y="372" font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--ink-soft)" text-anchor="middle">SUMMER · linen</text></g>
+      <g transform="translate(200 0)"><path d="${COAT}" fill="var(--ink)" stroke="var(--ink)" stroke-width="2"/>
+      <text x="150" y="372" font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--ink-soft)" text-anchor="middle">WINTER · wool or camel</text></g></svg>`,
+    qattMono: () => qattSVG([true, true, true, false], true),
+    qattColor: () => qattSVG([true, true, true, true], false),
+    qattBlank: () => qattSVG([false, true, false, false], true),
+    facade: () => `<svg viewBox="0 0 360 260" role="img" aria-label="Najdi mud-brick wall with rows of small triangle openings">
+      <rect width="360" height="260" fill="var(--paper)"/>
+      <rect x="20" y="40" width="320" height="200" fill="#C9A77C" stroke="#8A6A45" stroke-width="2"/>
+      ${Array.from({length: 16}, (_, k) => `<path d="M${20 + k * 20} 40 L${30 + k * 20} 22 L${40 + k * 20} 40 Z" fill="#C9A77C" stroke="#8A6A45" stroke-width="1.5"/>`).join("")}
+      ${Array.from({length: 9}, (_, k) => `<path d="M${52 + k * 30} 92 L${60 + k * 30} 78 L${68 + k * 30} 92 Z" fill="#3A2A1A"/>`).join("")}
+      ${Array.from({length: 9}, (_, k) => `<path d="M${52 + k * 30} 118 L${60 + k * 30} 104 L${68 + k * 30} 118 Z" fill="#3A2A1A"/>`).join("")}
+      <rect x="160" y="160" width="40" height="80" fill="#6B4A2A"/>
+      <text x="180" y="256" font-family="IBM Plex Mono, monospace" font-size="10" fill="var(--ink-soft)" text-anchor="middle">DRAWING · NOT A REAL BUILDING</text></svg>`,
+    vents: () => `<svg viewBox="0 0 300 380" role="img" aria-label="An overshirt with a row of small triangle vents across the back yoke and under the arm">
+      <path d="${COAT}" fill="var(--ground)" stroke="var(--ink)" stroke-width="2"/>
+      ${Array.from({length: 7}, (_, k) => `<path d="M${102 + k * 16} 110 L${108 + k * 16} 100 L${114 + k * 16} 110 Z" fill="var(--ink)"/>`).join("")}
+      ${Array.from({length: 4}, (_, k) => `<path d="M66 ${130 + k * 14} L72 ${120 + k * 14} L78 ${130 + k * 14} Z" fill="var(--ink)"/>`).join("")}
+      <text x="150" y="92" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--zari)" text-anchor="middle">triangle vents</text></svg>`,
+    lattice: () => `<svg viewBox="0 0 300 380" role="img" aria-label="An open coat showing a lattice-pattern lining inside">
+      <defs><pattern id="lat" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M0 8 L8 0 L16 8 L8 16 Z" fill="none" stroke="var(--zari)" stroke-width="1.6"/></pattern></defs>
+      <path d="${COAT}" fill="var(--ink)" stroke="var(--ink)" stroke-width="2"/>
+      <path d="M150 64 L120 90 L118 348 L182 348 L180 90 Z" fill="var(--paper)"/>
+      <path d="M150 64 L120 90 L118 348 L182 348 L180 90 Z" fill="url(#lat)"/>
+      <text x="150" y="372" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)" text-anchor="middle">lattice lining, seen only when open</text></svg>`,
+    halfLined: () => `<svg viewBox="0 0 300 380" role="img" aria-label="The inside back of a half-lined jacket: lining only across the shoulders">
+      <path d="${COAT}" fill="var(--ground)" stroke="var(--ink)" stroke-width="2"/>
+      <path d="M100 30 L200 30 L214 150 L86 150 Z" fill="var(--indigo-wash)" stroke="var(--indigo)" stroke-width="2"/>
+      <text x="150" y="100" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--indigo)" text-anchor="middle">lining (shoulders)</text>
+      <text x="150" y="260" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)" text-anchor="middle">open: heat escapes</text></svg>`,
+    layFused: () => `<svg viewBox="0 0 360 216" role="img" aria-label="Fused jacket front: cloth glued to an interlining, then lining"><text x="40" y="26" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">OUTSIDE</text><rect x="40" y="40" width="280" height="26" rx="4" fill="var(--ground)"/><text x="56" y="58" font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--ink)">Wool cloth</text><rect x="40" y="74" width="280" height="26" rx="4" fill="var(--madder-wash)" stroke="var(--ink)" stroke-dasharray="5 4"/><text x="56" y="92" font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--ink)">Glue</text><rect x="40" y="108" width="280" height="26" rx="4" fill="var(--line)"/><text x="56" y="126" font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--ink)">Fused interlining (stiff)</text><rect x="40" y="142" width="280" height="26" rx="4" fill="var(--indigo-wash)"/><text x="56" y="160" font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--ink)">Lining</text><text x="40" y="192" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">INSIDE (YOUR BODY)</text></svg>`,
+    layHalf: () => `<svg viewBox="0 0 360 216" role="img" aria-label="Half canvas jacket front: canvas sewn in only at chest and lapel"><text x="40" y="26" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">OUTSIDE</text><rect x="40" y="40" width="280" height="26" rx="4" fill="var(--ground)"/><text x="56" y="58" font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--ink)">Wool cloth</text><rect x="40" y="74" width="280" height="26" rx="4" fill="#E9DFC9"/><text x="56" y="92" font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--ink)">Horsehair canvas: chest + lapel only</text><rect x="40" y="108" width="280" height="26" rx="4" fill="var(--madder-wash)" stroke="var(--ink)" stroke-dasharray="5 4"/><text x="56" y="126" font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--ink)">Glue below the chest</text><rect x="40" y="142" width="280" height="26" rx="4" fill="var(--indigo-wash)"/><text x="56" y="160" font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--ink)">Lining</text><text x="40" y="192" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">INSIDE (YOUR BODY)</text></svg>`,
+    layFull: () => `<svg viewBox="0 0 360 216" role="img" aria-label="Full canvas jacket front: canvas sewn through the whole front"><text x="40" y="26" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">OUTSIDE</text><rect x="40" y="40" width="280" height="26" rx="4" fill="var(--ground)"/><text x="56" y="58" font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--ink)">Wool cloth</text><rect x="40" y="74" width="280" height="26" rx="4" fill="#E9DFC9"/><text x="56" y="92" font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--ink)">Horsehair canvas: whole front, stitched</text><rect x="40" y="108" width="280" height="26" rx="4" fill="#D9CBB0"/><text x="56" y="126" font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--ink)">Chest piece (padding)</text><rect x="40" y="142" width="280" height="26" rx="4" fill="var(--indigo-wash)"/><text x="56" y="160" font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--ink)">Lining</text><text x="40" y="192" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">INSIDE (YOUR BODY)</text></svg>`,
+    najdiDress: () => `<svg viewBox="0 0 360 380" role="img" aria-label="Drawing of a wide T-shaped Najdi overdress with large sleeves and embroidery at the neck">
+      <path d="M40 40 L150 30 L180 46 L210 30 L320 40 L340 170 L250 176 L262 360 L98 360 L110 176 L20 170 Z" fill="var(--ink)" fill-opacity=".12" stroke="var(--ink)" stroke-width="2"/>
+      <path d="M150 30 L180 46 L210 30 L204 70 L180 80 L156 70 Z" fill="var(--zari)" fill-opacity=".85"/>
+      ${Array.from({length: 7}, (_, k) => `<circle cx="${163 + k * 6}" cy="${88 + (k % 2) * 6}" r="2" fill="var(--zari)"/>`).join("")}
+      <text x="180" y="376" font-family="IBM Plex Mono, monospace" font-size="10" fill="var(--ink-soft)" text-anchor="middle">DRAWING · wide T-shape, embroidered neck</text></svg>`,
+    sheerLayer: () => `<svg viewBox="0 0 360 380" role="img" aria-label="A sheer open-weave overshirt layered over a solid white shirt">
+      <defs><pattern id="mesh" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="1.6" fill="var(--ink)"/></pattern></defs>
+      <path d="M90 50 L150 40 L180 60 L210 40 L270 50 L310 120 L270 130 L264 350 L96 350 L90 130 L50 120 Z" fill="var(--paper)" stroke="var(--line)" stroke-width="2"/>
+      <path d="M80 44 L150 34 L180 56 L210 34 L280 44 L322 124 L276 136 L272 356 L88 356 L84 136 L38 124 Z" fill="url(#mesh)" fill-opacity=".55" stroke="var(--ink)" stroke-width="2"/>
+      <text x="180" y="376" font-family="IBM Plex Mono, monospace" font-size="10" fill="var(--ink-soft)" text-anchor="middle">open-weave outer layer over a solid base</text></svg>`,
+    silentBell: () => `<svg viewBox="0 0 300 300" role="img" aria-label="A drawstring ending in a small closed silver bead with no clapper">
+      <path d="M150 20 C 140 80, 160 120, 150 170" fill="none" stroke="var(--ink)" stroke-width="4"/>
+      <ellipse cx="150" cy="196" rx="22" ry="26" fill="#C9CBD1" stroke="var(--ink)" stroke-width="2"/>
+      <path d="M134 190 Q150 182 166 190" fill="none" stroke="var(--ink-soft)" stroke-width="1.5"/>
+      <circle cx="150" cy="214" r="3" fill="var(--ink-soft)"/>
+      <circle cx="150" cy="262" r="5" fill="#9A2F2B"/>
+      <text x="150" y="292" font-family="IBM Plex Mono, monospace" font-size="10" fill="var(--ink-soft)" text-anchor="middle">closed silver "bell", no clapper · one coral-red stitch</text></svg>`,
+    haskal: () => `<svg viewBox="0 0 300 380" role="img" aria-label="Inside of an open jacket with a slim pocket set under the left arm">
+      <path d="${COAT}" fill="var(--ground)" stroke="var(--ink)" stroke-width="2"/>
+      <rect x="196" y="120" width="34" height="62" rx="4" fill="#B5674A" stroke="var(--ink)" stroke-width="1.5"/>
+      <path d="M196 132 L230 132" stroke="var(--ink)" stroke-width="1.2"/>
+      <text x="150" y="250" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)" text-anchor="middle">slim inside pocket,</text>
+      <text x="150" y="266" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)" text-anchor="middle">under the left arm</text></svg>`,
+    khabtTab: () => `<svg viewBox="0 0 320 240" role="img" aria-label="A shirt cuff with a small leather tab and one silver snap">
+      <rect x="30" y="60" width="260" height="110" rx="10" fill="var(--paper)" stroke="var(--ink)" stroke-width="2"/>
+      <path d="M200 70 L268 70 Q284 115 268 160 L200 160 Z" fill="#B5674A" stroke="var(--ink)" stroke-width="1.5"/>
+      <circle cx="248" cy="115" r="8" fill="#C9CBD1" stroke="var(--ink)" stroke-width="1.5"/>
+      <text x="160" y="210" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)" text-anchor="middle">plant-tanned leather tab on the cuff</text></svg>`,
+    redLining: () => `<svg viewBox="0 0 300 380" role="img" aria-label="A plain black coat opened to show a deep red lining">
+      <path d="${COAT}" fill="var(--ink)" stroke="var(--ink)" stroke-width="2"/>
+      <path d="M150 64 L118 92 L116 348 L184 348 L182 92 Z" fill="#8E2A26"/>
+      <text x="150" y="372" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)" text-anchor="middle">red only on the inside</text></svg>`,
+    scentPocket: () => `<svg viewBox="0 0 320 240" role="img" aria-label="Back of a collar with a tiny slot pocket holding a scent card">
+      <path d="M40 60 Q160 20 280 60 L270 140 Q160 110 50 140 Z" fill="var(--paper)" stroke="var(--ink)" stroke-width="2"/>
+      <rect x="140" y="78" width="40" height="34" rx="3" fill="var(--ground)" stroke="var(--ink)" stroke-width="1.5"/>
+      <rect x="148" y="66" width="24" height="28" rx="2" fill="#E9DFC9" stroke="var(--zari)" stroke-width="1.5"/>
+      <text x="160" y="200" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)" text-anchor="middle">tiny collar pocket for an oud scent card</text></svg>`,
+    outline: () => `<svg viewBox="0 0 300 380" role="img" aria-label="Outline of a plain cloak">
+      <path d="${COAT}" fill="var(--ground)" stroke="var(--ink)" stroke-width="2"/></svg>`,
+    fibers: () => `<svg viewBox="0 0 300 200" role="img" aria-label="Two fibers side by side, details hidden">
+      <rect x="20" y="40" width="260" height="34" rx="17" fill="var(--line)"/><rect x="20" y="120" width="260" height="34" rx="17" fill="var(--line)"/>
+      <text x="150" y="186" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)" text-anchor="middle">which surface has scales?</text></svg>`,
+    mekasar: () => `<svg viewBox="0 0 300 380" role="img" aria-label="A dark coat with two thin lines of tone-on-tone stitching along the front edge">
+      <path d="${COAT}" fill="var(--ink)" stroke="var(--ink)" stroke-width="2"/>
+      <path d="M136 22 L150 64 L150 348 M164 22 L150 64" fill="none" stroke="var(--ink-soft)" stroke-width="1.6" stroke-dasharray="3 3" transform="translate(-6 0)"/>
+      <path d="M136 22 L150 64 L150 348 M164 22 L150 64" fill="none" stroke="var(--ink-soft)" stroke-width="1.6" stroke-dasharray="3 3" transform="translate(6 0)"/>
+      <text x="258" y="300" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)" text-anchor="end">silk stitch,</text>
+      <text x="258" y="314" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)" text-anchor="end">same color as cloth</text></svg>`,
+    barqa: () => `<svg viewBox="0 0 300 380" role="img" aria-label="A long undyed cream wool overcoat">
+      <defs><pattern id="nap" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M2 8 Q5 2 8 8" fill="none" stroke="var(--line)" stroke-width="1.4"/></pattern></defs>
+      <path d="M100 30 L136 22 L150 64 L164 22 L200 30 L250 84 L246 230 L222 226 L226 368 L74 368 L78 226 L54 230 L50 84 Z" fill="#E9DFC9" stroke="var(--ink)" stroke-width="2"/>
+      <path d="M100 30 L136 22 L150 64 L164 22 L200 30 L250 84 L246 230 L222 226 L226 368 L74 368 L78 226 L54 230 L50 84 Z" fill="url(#nap)"/>
+      <path d="M150 64 L150 368" stroke="#7A6440" stroke-width="2"/>
+      <text x="150" y="216" font-family="IBM Plex Mono, monospace" font-size="11" fill="#5A4A30" text-anchor="middle">undyed goat wool</text></svg>`,
+    tag: () => `<svg viewBox="0 0 360 300" role="img" aria-label="An inside label listing fiber, micron, origin and zari type">
+      <rect x="40" y="30" width="280" height="240" rx="6" fill="var(--paper)" stroke="var(--ink)" stroke-width="2"/>
+      <circle cx="180" cy="56" r="7" fill="none" stroke="var(--ink)" stroke-width="2"/>
+      <text x="180" y="96" font-family="Bodoni Moda, Georgia, serif" font-size="22" fill="var(--ink)" text-anchor="middle">A'ila Areeqa</text>
+      <line x1="80" y1="112" x2="280" y2="112" stroke="var(--zari)" stroke-width="2"/>
+      <g font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--ink)">
+      <text x="70" y="142">Bactrian camel hair · 100%</text>
+      <text x="70" y="166">Fiber: 19 µm</text>
+      <text x="70" y="190">Origin: Inner Mongolia</text>
+      <text x="70" y="214">Trim: gold-plated silver zari</text>
+      <text x="70" y="238" fill="var(--ink-soft)">Hand-finished edge</text></g>
+      <text x="180" y="290" font-family="IBM Plex Mono, monospace" font-size="10" fill="var(--ink-soft)" text-anchor="middle">EXAMPLE LABEL · NOT A REAL PRODUCT</text></svg>`,
+  };
+
+  // ---------- events ----------
+  app.addEventListener("click", e => {
+    const t = e.target.closest("button, input");
+    if (!t) return;
+    if (t.dataset.open) return open(t.dataset.open);
+    if (t.hasAttribute("data-home")) { renderHome(); window.scrollTo(0, 0); return; }
+    if (t.dataset.go) return go(+t.dataset.go);
+    if (t.dataset.jump) { view.slide = +t.dataset.jump; L(view.lesson).slide = view.slide; save(); render(); window.scrollTo(0, 0); return; }
+    const st = view.lesson && L(view.lesson);
+    if (t.dataset.pick !== undefined) {
+      st.quiz[view.slide] = +t.dataset.pick;
+      const les = lessonById(view.lesson), qs = les.slides.map((x, k) => [x, k]).filter(([x]) => x.type === "quiz" && !x.warm);
+      if (qs.every(([, k]) => st.quiz[k] !== undefined)) st.best = Math.max(st.best ?? 0, quizScore(les).right);
+      save(); render(); return; }
+    if (t.dataset.layer !== undefined) {
+      const les = lessonById(view.lesson), s = les.slides[view.slide];
+      const arr = st.checks["b" + view.slide] || s.layers.map(() => true); arr[+t.dataset.layer] = t.checked;
+      st.checks["b" + view.slide] = arr; save(); render(); return;
+    }
+    if (t.dataset.mono !== undefined) { st.checks["m" + view.slide] = t.dataset.mono === "1"; save(); render(); return; }
+    if (t.hasAttribute("data-check")) { const les = lessonById(view.lesson); return checkAnswer(les.slides[view.slide], view.slide, les); }
+    if (t.dataset.zoom !== undefined) { const s = lessonById(view.lesson).slides[view.slide]; return zoom(s.refs[+t.dataset.zoom]); }
+    if (t.hasAttribute("data-retake")) {
+      const les = lessonById(view.lesson); const q = quizScore(les);
+      st.best = Math.max(st.best ?? 0, q.right);
+      les.slides.forEach((x, k) => { if (x.type === "quiz" && !x.warm) delete st.quiz[k]; });
+      view.slide = les.slides.findIndex(x => x.type === "quiz" && !x.warm); st.slide = view.slide; save(); render(); window.scrollTo(0, 0); return;
+    }
+    if (t.hasAttribute("data-reveal")) { st.checks["r" + view.slide] = true; save(); render(); return; }
+    if (t.dataset.mode) { st.checks["t" + view.slide] = t.dataset.mode; save(); render(); return; }
+    if (t.dataset.tick !== undefined) {
+      const arr = st.checks[view.slide] || []; arr[+t.dataset.tick] = t.checked; st.checks[view.slide] = arr;
+      t.closest("label").classList.toggle("ok", t.checked); save();
+    }
+  });
+  document.addEventListener("keydown", e => {
+    if (view.lesson === null || /TEXTAREA|INPUT/.test(document.activeElement.tagName)) return;
+    if (e.key === "ArrowRight") go(1);
+    if (e.key === "ArrowLeft") go(-1);
+  });
+
+  renderHome();
+})();
+</script>

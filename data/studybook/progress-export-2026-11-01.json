@@ -1,0 +1,186 @@
+{
+  "last": "l5",
+  "lessons": {
+    "l1": {
+      "checks": {
+        "20": [
+          true,
+          true,
+          true
+        ],
+        "21": [
+          true,
+          true,
+          true
+        ],
+        "22": [
+          true,
+          true,
+          true
+        ],
+        "r12": true,
+        "r13": true,
+        "r16": true,
+        "t11": "Summer"
+      },
+      "done": true,
+      "feedback": {
+        "20": "**Verdict:** Partly right. You read the labels well, but your pick needs more thought.\n\n**What you got right:** You wrote the fibers and percentages clearly. You also thought about sweat, which is the right worry for Riyadh in July.\n\n**What to fix:** Two things are off. First, you only gave two pieces. The task asked for three. Second, silky does not mean cool. Viscose and nylon can feel smooth, but nylon is a plastic fiber like polyester. Plastic fibers do not let air through well. Think of a rain jacket: it feels slick, but you sweat inside it. Smooth feel is not the same as airflow. Also, your first shirt has 30% polyester and 17% stretch fiber, so only 53% is cotton. That one will breathe less than pure cotton. Your second shirt may be the better pick, but the reason is not \"silky.\"\n\n**Try this:** Hold each shirt to your mouth and blow through it. Note which one lets more air through. Then add a third piece and pick again."
+      },
+      "notes": {
+        "20": "I got 2 different shirts, one is a 53% cotton blend with 30% percent of polyester and the rest is 17% elastomultiester \n\nthe other shirt is 82% viscosa and 18% nylon \n\n\none is silky so doesnt feel like my body is going to hug the sweat and the other one might hold the sweat but its light and breathable \n\n",
+        "21": "idk i feel like i can breathe easier in the cotton shirt and its both hot air ",
+        "22": "i want the jacket and the bisht edge to be black to give it one cohesive color and not too much of a loud piece "
+      },
+      "quiz": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "23": 1,
+        "24": 1,
+        "25": 1,
+        "26": 1,
+        "27": 1,
+        "28": 1
+      },
+      "slide": 0
+    },
+    "l2": {
+      "best": 6,
+      "checks": {
+        "20": [
+          true,
+          true,
+          true
+        ],
+        "21": [
+          true,
+          true,
+          true
+        ],
+        "22": [
+          true,
+          true,
+          true
+        ],
+        "t11": "Twill"
+      },
+      "done": true,
+      "feedback": {
+        "20": "**Verdict:** Partly right. You spotted the chino twill, but the thobe is mixed up.\n\n**What you got right:** The chinos with a diagonal line are twill. Good eye. You also saw that the shiny cloth has tight, straight lines, which fits satin.\n\n**What to fix:** You called the thobe \"twill,\" but \"over and under\" is plain weave. Plain weave is like a checkerboard: one up, one down, every time. Twill is a staircase, with lines that slant. Your thobe has no diagonal, so it is plain. Also, a tablecloth is not always satin. Satin threads float long over the top, like a skater gliding. Look for a smooth, glassy surface with no visible grid.\n\n**Try this:** Hold your phone camera close to the thobe cloth. Zoom in and look for a grid of tiny squares. Then look at your chinos and find the diagonal.",
+        "22": "**Verdict:** Partly right. You found three prices, but the third entry has a mix-up and the notes are thin.\n\n**What you got right:** You wrote three price ranges and noted fabric, buttons and thickness for the mid-range one. Your last pick shows the key lesson: the long description says almost nothing.\n\n**What to fix:** Your third line says \"SAR 1,200 to over 1,500+\" and also \"this one is 8k.\" Those do not match. Pick one real price and write it. Next, you only noted fiber for bisht 2. Bisht 1 and 3 have no notes on fiber, zari or handmade. Think of a food label: if it hides the ingredients, you cannot judge it. The third text says \"luxurious textiles\" and \"intricate stitching.\" These are nice words, not facts. It never names the fiber, the zari type, or whether it is handmade. So it says the least.\n\n**Try this:** Reopen listing 3. Write \"fiber: not said, zari: not said, handmade: not said.\" Then fix its price."
+      },
+      "notes": {
+        "20": "with the thobe its more so like the twil or the over and under sewing and the chino pants went diagonally one way, and the table cloth thats shinny looks just like straight lines so tight together ",
+        "22": "1. Classic / Everyday Bisht: Around SAR 225 – SAR 350 \n\n2.Royal White & Gold / Mid-Range Bisht: Around SAR 465 – SAR 530 (fabric synthetic wool. Buttons royal. the thickness is very thin. \n\n3.Designer / Hand-Embroidered Luxury Bisht: From SAR 1,200 to over SAR 1,500+ this one is 8k and here is the discription it gave \n\nUnique Designs for Every Occasion\nThe Tail in the Exclusive Bisht Collection 4 brings you unique designs that blend traditional styles with modern aesthetics. With various colors and fabrics available, you can choose a piece that perfectly matches your personality. Whether it's a festive celebration or a casual gathering, the tailored elegance of a bisht will surely make you stand out. Each design is crafted to ensure comfort without compromising style.\n\nQuality Craftsmanship and Materials\nThis collection emphasizes quality craftsmanship and premium materials. The Tail features intricate stitching and luxurious textiles that enhance its overall appeal. Because we believe that quality makes a difference, every piece in this collection undergoes strict quality checks to ensure you receive nothing but the best. This attention to detail not only boosts the aesthetic but also ensures durability.\n\nA Tailored Fit for Everyone\nInclusivity is at the heart of the Exclusive Bisht Collection 4. With various sizes and fits available, everyone can enjoy the sophisticated look of a bisht. Our designs cater to diverse body types, so you can embrace your unique figure with confidence. By choosing a bisht from this collection, you're investing in a versatile wardrobe staple that enhances your style for years to come.\n\n\n\n"
+      },
+      "quiz": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "23": 1,
+        "24": 1,
+        "25": 1,
+        "26": 1,
+        "27": 2,
+        "28": 0
+      },
+      "slide": 0
+    },
+    "l3": {
+      "best": 5,
+      "checks": {
+        "18": [
+          true,
+          true,
+          true
+        ],
+        "19": [
+          true,
+          true,
+          true
+        ],
+        "20": [
+          true,
+          true,
+          true
+        ],
+        "b7": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "m7": true,
+        "r10": true,
+        "t13": "Embroidered"
+      },
+      "done": true,
+      "feedback": {
+        "18": "**Verdict:** Partly right. You got the idea that woven patterns are part of the cloth, but two details are off.\n\n**What you got right:** You saw that the jacquard pattern is part of the shirt and not just sitting on top. That is the key sign of a woven-in pattern. You also noticed that embroidery is different from the rest of the cloth.\n\n**What to fix:** First, jacquard is woven, not knitted. Woven cloth has threads crossing at right angles, like a basket. Knit cloth is made of loops, like a sweater. Check a cut edge or look closely: loops mean knit, a grid means woven. Second, the pattern is not sewn in. It is made on the loom when the cloth is made. Sewing happens later, when the cloth is made into a shirt. Third, embroidery raised on the inside is unclear. Embroidery is raised on the front. On the back, you should see stitches or loose thread ends. You also did not mention the print.\n\n**Try this:** Pick up your printed item. Turn it over. Write one line: is the back plain or faded?",
+        "19": "**Verdict:** Partly right. Your color idea fits the quiet look, but the task asked for two colors in one band.\n\n**What you got right:** You chose calm colors and said why. Soft, low-contrast colors fit quiet luxury and fit the lesson's idea of dropping the bright colors.\n\n**What to fix:** You wrote two pairs of colors, beige and brown, and beige and black. The task said to use only two colors in total. Think of a tea set. If you pick one cup, you don't also pick a second set. Choose one pair. Also, you said nothing about the stripes or triangles. The lesson's main idea is to keep the structure: finger-width stripes at the bottom and a row of triangles above. Quiet colors only work if that shape stays.\n\n**Try this:** Pick one pair, like beige and black. Draw one 10 cm band with finger-width stripes, then a triangle row above.",
+        "20": "**Verdict:** Not quite. You picked one dye, but the task asked for three plant colors.\n\n**What you got right:** You thought about seasons, and you gave your names a story. Light for summer and dark for winter is a smart idea. Naming a color for those who know its origin fits quiet luxury.\n\n**What to fix:** You used madder red three times, so you have one color, not three. The task needs a main color and two accents, each a different plant dye. You may have thought two shades of red count as two colors. Think of a meal: bread, more bread, and darker bread is still just bread. You also did not name a garment for each color. Madder can still be your main color. Then add two more from the list: dried limes, pomegranate skins, turmeric, or indigo.\n\n**Try this:** Write three lines: main color, accent one, accent two. Put one garment next to each, like \"madder red: wool coat.\""
+      },
+      "notes": {
+        "18": "the one that was jaquard was like it was knitted and apart of the shirt as it was being sewed as apart of it. the embroidery was more so popping out of the shirt on the inside \n",
+        "19": "i chose beige and brown for one and beige and black for the other, i did it because for men you want it to be easy simple colors and i dont want it to be that visible it should be something simple ",
+        "20": "i pick maddar red, one bright and one dark, one is for summer and the darker one is for winter, i would call one the summers madder and the cold winters madder distinguishing the season and color for those who know the origin "
+      },
+      "quiz": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "21": 1,
+        "22": 1,
+        "23": 1,
+        "24": 1,
+        "25": 1,
+        "26": 1
+      },
+      "slide": 0
+    },
+    "l4": {
+      "best": 5,
+      "checks": {
+        "17": [
+          true,
+          true,
+          true
+        ],
+        "r13": true,
+        "t11": "Full canvas"
+      },
+      "done": true,
+      "feedback": {
+        "17": "**Verdict:** Not quite. The task needs a real jacket, and you did not test one.\n\n**What you got right:** You told me the truth about what you have. That is better than guessing. Many designers start with no blazer, so this is fine.\n\n**What to fix:** The answer does not say what you found, so the lesson is not done yet. You probably thought the test needed your own jacket. It does not. Any jacket works. Think of it like checking a tomato at a shop. You do not need to own it to feel if it is firm. Ask a family member or friend to lend one. Or try a shop, and ask the staff first.\n\n**Try this:** Find any jacket at home or ask someone nearby. Pinch the front below the lowest buttonhole and gently pull the layers apart. Write one line: \"floating layer\" or \"stiff and stuck.\""
+      },
+      "notes": {
+        "17": "i dont own one \n"
+      },
+      "quiz": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "20": 1,
+        "21": 1,
+        "22": 0,
+        "23": 1,
+        "24": 0,
+        "25": 0
+      },
+      "slide": 0
+    },
+    "l5": {
+      "checks": {},
+      "done": false,
+      "notes": {},
+      "quiz": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "slide": 4
+    }
+  },
+  "updatedAt": 1793468893136
+}

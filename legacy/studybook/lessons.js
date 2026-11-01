@@ -1,0 +1,1977 @@
+/* A'ila Areeqa study course — lesson content.
+   Each lesson: parts (with minutes) and slides. Slide types:
+   cover, quiz, story, compare, reveal, steps, layers, toggle, design, task, remember, video. */
+
+const SRC = {
+  ithraThobe: ["Ithra: The Saudi Thobe", "https://www.ithra.com/en/news/saudi-thobe-ongoing-story"],
+  anBishtDgda: ["Arab News: Diriyah bisht line", "https://arabnews.com/node/2014101"],
+  anBisht2012: ["Arab News: The Saudi man's bisht", "https://www.arabnews.com/fashion/traditional-modern-the-saudi-mans-bisht-429954"],
+  anQattan: ["Arab News: Bisht, symbol of royalty", "https://www.arabnews.com/node/1747996/saudi-arabia"],
+  spHasawi: ["Saudipedia: Hasawi Bisht", "https://saudipedia.com/en/article/1968/society/garments-and-accessories/al-mashleh-al-hassawi"],
+  risd: ["RISD Museum: man's bisht, 1949", "https://risdmuseum.org/node/1212336"],
+  anFarwa: ["Arab News: the farwa", "https://arabnews.pk/node/1776911"],
+  spSadu: ["Saudipedia: What is al-Sadu?", "https://saudipedia.com/en/what-is-al-sadu"],
+  spArdah: ["Saudipedia: Ardah costumes", "https://saudipedia.com/en/what-are-the-traditional-costumes-for-the-saudi-ardah"],
+  aawsat: ["Asharq Al-Awsat: Saudi traditional dress", "https://english.aawsat.com/home/article/3489611/saudi-traditional-dress-remains-fashionable-kingdoms-founding-3-centuries-ago"],
+  wikiBisht: ["Wikipedia: Bisht", "https://en.wikipedia.org/wiki/Bisht_(clothing)"],
+  linen: ["Cable: What is linen?", "https://www.cablemelbourne.com/blogs/news/what-is-linen"],
+  linenSci: ["Why linen behaves the way it does", "https://yoosclub.com/blogs/suit-fabric-journal/why-linen-behaves-the-way-it-does-the-science-of-moisture-coolness-and-wrinkles"],
+  masterclass: ["MasterClass: cotton vs linen", "https://www.masterclass.com/articles/what-is-cotton-and-what-is-linen"],
+};
+
+const PARTS = {
+  warm:   { label: "Warm-up", min: 5 },
+  story:  { label: "The story", min: 10 },
+  see:    { label: "See it", min: 20 },
+  design: { label: "Design move", min: 10 },
+  do:     { label: "Do it", min: 10 },
+  quiz:   { label: "Quiz", min: 5 },
+};
+
+const PHOTOS = {
+  "l1-2":  { by: "U.S. Army Signal Corps", lic: "Public domain", page: "https://commons.wikimedia.org/wiki/File:Franklin_D._Roosevelt_with_King_Ibn_Saud_aboard_USS_Quincy_(CA-71)_on_14_February_1945_(USA-C-545).jpg" },
+  "l1-4":  { by: "Tom and Linda Anderson", lic: "Public domain", page: "https://commons.wikimedia.org/wiki/File:Bedouin_Camp_1_by_Tom_And_Linda_Anderson_3841041338.jpg" },
+  "l1-8":  { by: "Saudi Press Agency", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:%D8%AE%D9%8A%D8%A7%D8%B7%D8%A9_%D8%A7%D9%84%D9%85%D8%B4%D9%84%D8%AD_%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D9%88%D9%8A_%D9%8A%D8%AF%D9%88%D9%8A%D8%A7_%D9%81%D9%8A_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9.jpg" },
+  "l1-9":  { by: "Unidentified photographer", lic: "Public domain", page: "https://commons.wikimedia.org/wiki/File:His_Highness_Sheikh_Chassib.jpg" },
+  "l1-13": { by: "Ravi-336099000", lic: "CC BY 4.0", page: "https://commons.wikimedia.org/wiki/File:Saudi_man_in_white_thobe.png" },
+  "l1-15": { by: "Manojkiri photography", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Arabian_Camel_in_Kuwait.jpg" },
+  "l1-23": { by: "Dennis Lamczak", lic: "CC BY-SA 2.0", page: "https://commons.wikimedia.org/wiki/File:Linum_usitatissimum_close_to_a_little_tree_in_a_garden.jpg" },
+  "l1-25": { by: "USDA NRCS Texas", lic: "Public domain", page: "https://commons.wikimedia.org/wiki/File:Cotton_boll_opening_following_defoliation_during_the_2010_crop_year._(24821524380).jpg" },
+  "l1-28": { by: "JohanahoJ", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Linen_canvas.jpg" },
+  "l1-31": { by: "CSIRO", lic: "CC BY 3.0", page: "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_2487_Electron_Microscope_Image_of_Merino_Wool_Fibre.jpg" },
+  "l1-37": { by: "Slmcom", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Najdi_sheep_3.jpg" },
+  "l1-45": { by: "Saudi Press Agency", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%A5%D8%A8%D9%84_%D8%A8%D9%8A%D9%86_%D8%A7%D9%84%D8%AB%D9%84%D9%88%D8%AC_%D9%81%D9%8A_%D8%AC%D8%A8%D9%84_%D8%A7%D9%84%D9%84%D9%88%D8%B2.jpg" },
+  "l1-49": { by: "Meshari Alawfi", lic: "CC BY 4.0", page: "https://commons.wikimedia.org/wiki/File:Sand_Dunes_sa.jpg" },
+  "l1-51": { by: "The British Museum, Ian Richardson", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Scanning_Electron_Microscope_image_of_contents_of_pendant,_showing_unprocessed_flax_fibres_(FindID_256636).jpg" },
+  "l1-55": { by: "Ryan R. McKenzie", lic: "CC0", page: "https://commons.wikimedia.org/wiki/File:Flax_stem_cross-section_showing_bast_fibers_(modified_from_image_by_Ryan_R._McKenzie).png" },
+};
+
+Object.assign(SRC, {
+  anFestival: ["Arab News: Al-Bisht Al-Hasawi Festival", "https://www.arabnews.com/node/2631724/amp"],
+  anReview: ["Arab News: King of the Shoulders review", "https://www.arabnews.pk/node/2648762/lifestyle"],
+  khaleej: ["Khaleej Times: Ronaldo's rare bisht", "https://www.khaleejtimes.com/world/gulf/saudi-cristiano-ronaldo-rare-bisht"],
+  arabesque: ["Saudi Arabesque: bisht making", "https://saudiarabesque.com/traditional-urban-men-s-dress-of-saudi-arabia-continued/"],
+  encyclo: ["Encyclocrafts: bisht making in Kuwait", "https://encyclocraftsapr.com/bisht-making-in-kuwait/"],
+  kuwaitTimes: ["Kuwait Times: bishts and abayas", "https://kuwaittimes.com/bishts-abayas-continue-to-charm-kuwait/"],
+  unescoBisht: ["UNESCO: Bisht skills and practices", "https://ich.unesco.org/fr/RL/le-bisht-abaa-pour-hommes-savoir-faire-et-pratiques-02233?RL=02233"],
+  wrth: ["Wrth: Hasawi bisht apprenticeship", "https://wrth.edu.sa/en/learn/apprenticeships/al-bisht-al-hasawi-apprenticeship-program"],
+  aza: ["Aza: real vs fake zari", "https://www.azafashions.com/blog/is-your-zari-real-how-to-identify-the-difference/"],
+  suratZari: ["Wikipedia: Surat zari", "https://en.wikipedia.org/wiki/Surat_zari"],
+  premiere: ["Première Vision: basic weaves", "https://www.premierevision.com/en/articles/b452b2cb-76fa-ef11-90cb-00224888722c/textile-glossary-basic-weaves"],
+  wikiTwill: ["Wikipedia: Twill", "https://en.wikipedia.org/wiki/Twill"],
+  wikiSatin: ["Wikipedia: Satin", "https://en.wikipedia.org/wiki/Satin"],
+  malay: ["Malay Mail: Saudi tailor fights to save the bisht", "https://malaymail.com/news/life/2025/03/29/saudi-tailor-fights-to-save-ancient-bisht-craft-as-mass-produced-robes-dominate-market/171203"],
+  fao: ["UN Food and Agriculture Organization (FAO): Camel hair", "https://www.fao.org/4/v9384e/v9384e05.htm"],
+  cameo: ["Museum of Fine Arts (MFA) Boston, CAMEO database: Camel hair", "https://cameo.mfa.org/wiki/Camel_hair"],
+  lpVicuna: ["Loro Piana: Vicuña", "https://us.loropiana.com/en/our-world/vicuna"],
+  robertOld: ["Robert Old: grades of cashmere", "https://www.robertold.co.uk/pages/understanding-the-different-grades-of-cashmere"],
+  ggCashmere: ["Gentleman's Gazette: cashmere explained", "https://www.gentlemansgazette.com/cashmere-explained/"],
+  enzo: ["Enzo Custom: Super numbers", "https://enzocustom.com/journal/understanding-super-numbers-in-fabrics-the-key-to-quality-and-comfort"],
+});
+
+const L2 = {
+  id: "l2", num: 2, date: "2026-10-26", day: "Mon, Oct 26", ready: true,
+  title: "The bisht up close",
+  pair: "Gold thread, edges and trims · The three weaves and camel hair grades",
+  slides: [
+    { type: "cover", part: "warm", img: "l2-0", coverCaption: "Gold metal-thread embroidery on velvet, Gujarat, about 1700–1750.",
+      kicker: "Lesson 2 · about 1 hour",
+      title: "The bisht up close",
+      text: "Yesterday you learned why the bisht exists. Today you learn how to read one: its gold thread, its edge, its cloth and its weave. By the end you'll know a real one from a cheap one." },
+
+    { type: "quiz", part: "warm", warm: true, review: 1,
+      q: "Every classic Saudi garment solved what problem first?",
+      options: ["Looking rich", "The weather: heat or cold", "Standing out from other tribes", "Saving money"], answer: 1,
+      why: "Weather first, beauty second. The bisht started as a winter cloak for cold desert nights." },
+    { type: "quiz", part: "warm", warm: true, review: 1,
+      q: "Where does a bisht keep its luxury?",
+      options: ["All over the body", "On the edges: front opening and neck", "On the back panel", "In the lining"], answer: 1,
+      why: "On the edges. Today you'll learn exactly what that edge is made of." },
+    { type: "quiz", part: "warm", warm: true, review: 1,
+      q: "Which fiber is covered in tiny scales?",
+      options: ["Linen", "Cotton", "Wool", "Polyester"], answer: 2,
+      why: "Wool. Today you meet its finer cousins: camel hair, cashmere and vicuña." },
+
+    { type: "story", part: "story", img: "l2-34",
+      caption: "Al-Qaysariyya market in Al-Hofuf, Al-Ahsa, built from 1822 onward.",
+      title: "Why Al-Ahsa?", arabic: "الحساوي",
+      text: [
+        "The Hasawi bisht is named after Al-Ahsa, where its weaving and gold trim were perfected.",
+        "Al-Ahsa has had the best bisht tailors for over 200 years. Family names became brands: Al-Qattan, Al-Kharas, Al-Mahdi, Al-Bagli.",
+        "Master Abdullah Jafar Al-Qattan works from a shop in this same souq. He says any photo of a Saudi royal shows a Hasawi bisht."
+      ],
+      src: [SRC.spHasawi, SRC.anBisht2012, SRC.anQattan] },
+
+    { type: "story", part: "story", img: "l2-39",
+      caption: "Metal thread on a spool, France. Metropolitan Museum of Art.",
+      title: "What zari really is", arabic: "زري",
+      text: [
+        "Zari is the gold thread on a bisht's edge. Real zari is silk or cotton yarn wrapped in silver wire, then plated with gold.",
+        "Cheaper zari uses copper wire plated with silver. Since about 1970, some has a plastic core. Lurex is a shiny plastic film, not metal at all.",
+        "Gold zari for Hasawi bishts is imported from India, Germany or France. A Hasawi bisht trimmed with German zari is a piece families work hard to own."
+      ],
+      note: "A real Hasawi bisht is always handmade and uses gold or silver thread, sometimes both.",
+      src: [SRC.aza, SRC.suratZari, SRC.spHasawi, SRC.anBisht2012] },
+
+    { type: "layers", part: "story",
+      title: "Three edges, three bishts",
+      intro: "Bisht tailors name the style by how the edge is finished.",
+      layers: [
+        ["Darbeyah", "Square and loose, with real zari on the edge.", "Style 1"],
+        ["Mekasar (also Gasbi)", "Silk stitching runs along the edge of the cloth.", "Style 2"],
+        ["Tarkeeb", "\"Tarkeeb\" means fitting. A darbeyah design with gold zari, on tailored cloth.", "Style 3"]
+      ],
+      note: "Classic colors stay quiet: white, beige, cream, brown, grey and black. New colors only came in during the early 1990s, and older men still stick to black, brown and cream.",
+      src: [SRC.anBisht2012] },
+
+    { type: "story", part: "story",
+      title: "How to spot a hand-woven bisht",
+      text: [
+        "Old bisht cloth was woven on a hand loom set into a pit in the floor. The loom was narrow, so the cloak is two equal strips sewn together across the middle.",
+        "If the cloak is one wide piece with no middle seam, the cloth was machine-woven.",
+        "A regular bisht takes about 8 meters of cloth. It is fitted to each customer; it is not one-size.",
+        "In Kuwait, bisht cloth now comes from Japan and Britain. Saudipedia says Hasawi bishts use Japanese fabric."
+      ],
+      facts: [["2 strips", "sewn across the middle = hand loom"], ["1 piece", "no middle seam = machine-woven"], ["~8 meters", "of cloth in one bisht"], ["80–120 hours", "and four tailors for a handmade one"]],
+      src: [SRC.encyclo, SRC.arabesque, SRC.kuwaitTimes, SRC.spHasawi, SRC.anBisht2012] },
+
+    { type: "layers", part: "story",
+      title: "The price ladder",
+      intro: "Same shape, very different prices. What you pay for is fiber, thread and hands.",
+      layers: [
+        ["About 200 Saudi riyals (SR)", "Machine-made Syrian or Emirati bishts.", "Entry"],
+        ["Up to SR 15,000", "A top Hasawi bisht made entirely by hand.", "Master-made"],
+        ["Over SR 80,000", "The rare \"Al-Ma'allama\" bisht Cristiano Ronaldo wore: about 30 days of weaving and nine craftsmen.", "One of a kind"]
+      ],
+      note: "The jump from SR 200 to SR 15,000 is not the cloak's shape. It is the fiber, the real zari and the hand hours. Luxury is labor you can see.",
+      src: [SRC.anQattan, SRC.khaleej] },
+
+    { type: "story", part: "story",
+      title: "How a bisht is worn, and why it is protected",
+      text: [
+        "A bisht has two sleeve slots. It is worn with one arm through a sleeve and the other side wrapped loosely and tucked in.",
+        "In 2025 UNESCO (the United Nations' culture and heritage agency) listed \"Bisht (men's Abaa): skills and practices\" as shared heritage of nine countries, Saudi Arabia among them.",
+        "Today the Royal Institute of Traditional Arts (Wrth) runs a 23-month Hasawi bisht course in Al-Ahsa. A Hofuf tailor says cheap machine-made robes are hurting the hand craft."
+      ],
+      src: [SRC.anReview, SRC.unescoBisht, SRC.wrth, SRC.malay] },
+
+    { type: "compare", part: "see",
+      title: "Gold on the spool, gold on the cloth",
+      left:  { img: "l2-39", label: "The thread", caption: "Metal thread wound on a spool, ready to stitch." },
+      right: { img: "l2-0", label: "The finished work", caption: "Gold thread laid on velvet. Not a bisht, but the same metal-thread craft that trims one." },
+      takeaway: "Metal thread is stiff. It is laid on top of the cloth and stitched down, which is why it sits proud and catches light. That raised line is what you see on a bisht's edge.",
+      src: [SRC.aza] },
+
+    { type: "weave", part: "see",
+      title: "Weave it yourself",
+      intro: "Every woven cloth is threads going over and under. Switch the weave and watch the pattern change.",
+      modes: {
+        Plain: { rule: "plain", how: "Over one, under one.", items: [["Looks", "Even grid, same on both sides"], ["Feels", "Crisp, firm"], ["Used for", "Shirts, thobe cloth, Al Sadu"]] },
+        Twill: { rule: "twill", how: "Over two, under two, shifting one step each row.", items: [["Looks", "Diagonal lines"], ["Feels", "Softer drape, hides stains"], ["Used for", "Suits, chinos, denim"]] },
+        Satin: { rule: "satin", how: "Over four, under one, spread out.", items: [["Looks", "Smooth, shiny, few crossings"], ["Feels", "Slippery, soft"], ["Watch out", "Long floats snag easily"]] }
+      },
+      src: [SRC.premiere, SRC.wikiTwill, SRC.wikiSatin] },
+
+    { type: "story", part: "see", img: "l2-10",
+      caption: "Plain, twill and sateen, each a 1 cm square, under magnification.",
+      title: "Now see them for real",
+      text: [
+        "Top: plain. Every thread crosses every thread, so the surface looks like tiny bumps.",
+        "Middle: twill. The threads skip, so lines run on a slant.",
+        "Bottom: sateen. Threads float over several others before dipping under. Fewer crossings means more shine."
+      ],
+      note: "Most suit and coat cloth is twill. It drapes well and recovers from creases better than plain weave.",
+      src: [SRC.wikiTwill, SRC.premiere] },
+
+    { type: "compare", part: "see",
+      title: "Two twins of the weaves",
+      left:  { img: "l2-13", label: "Herringbone", caption: "A twill that switches direction every few threads, like fish bones." },
+      right: { img: "l2-11", label: "Satin", caption: "Satin sheets: all shine, from long floating threads." },
+      takeaway: "Herringbone is how a plain dark coat gets texture without color or print. Satin's shine is beautiful, but it shows sweat and snags, so keep it for linings and evening.",
+      src: [SRC.wikiTwill, SRC.wikiSatin] },
+
+    { type: "compare", part: "see",
+      title: "Twist: the finest camel hair is not from Arabia",
+      left:  { img: "l2-23", label: "Bactrian camel", caption: "A two-humped Bactrian camel shedding its winter coat." },
+      right: { img: "l2-24", label: "The undercoat", caption: "Close up: the soft down underneath is what becomes fine camel-hair cloth." },
+      takeaway: "Fine camel hair is the soft undercoat of the two-humped Bactrian camel, mostly from China and Mongolia. Arabian one-humped camel hair is coarse and rarely used for fine cloth, because camels in the hottest deserts grow coarser down. Bishts were woven from camel hair and goat wool for warmth. For soft, luxury camel cloth today, look for Bactrian.",
+      src: [SRC.fao, SRC.cameo] },
+
+    { type: "ladder", part: "see",
+      title: "How thin is luxury?",
+      intro: "Fibers are measured in microns: one thousandth of a millimeter. The thinner the fiber, the softer the cloth, and the higher the price.",
+      rows: [
+        ["Human hair", 100, "about 100 microns (µm)"],
+        ["Adult camel down", 21.5, "19–24 µm"],
+        ["Cashmere", 19, "must average under 19 µm (US rule)"],
+        ["Baby camel", 19, "about 19 µm", true],
+        ["Super 100s wool", 18.5, "about 18.5 µm"],
+        ["Best cashmere", 14.8, "about 14–15.5 µm"],
+        ["Vicuña", 12.5, "about 12.5 µm", true]
+      ],
+      note: "Every fiber here is many times thinner than your hair. When a supplier sells you \"baby camel\" or \"cashmere\", ask for the micron number in writing.",
+      src: [SRC.fao, SRC.ggCashmere, SRC.robertOld, SRC.enzo, SRC.lpVicuna] },
+
+    { type: "compare", part: "see",
+      title: "The animals at the top of the ladder",
+      left:  { img: "l2-28", label: "Cashmere goats", caption: "Cashmere comes from the soft winter undercoat of these goats." },
+      right: { img: "l2-32", label: "Vicuña", caption: "Wild vicuña near Lake Chungarà, Chile, at 4,570 meters." },
+      takeaway: "China makes about 70% of the world's cashmere and Mongolia about 20%. Vicuña lives wild in the Andes above 4,000 meters, which is part of why it is the rarest.",
+      src: [SRC.ggCashmere, SRC.lpVicuna] },
+
+    { type: "design", part: "design", svg: "mekasar",
+      title: "Move 4: The mekasar line",
+      text: "Take the mekasar edge, silk stitching along the cloth's edge, and drop the gold. Stitch it in the same color as the cloth.",
+      how: ["Men: two thin rows of tone-on-tone silk stitching down a jacket's front.",
+            "Up close it catches light. From across a room it disappears.",
+            "Women: the same line on a long open coat, worn draped like a bisht."] },
+
+    { type: "design", part: "design", svg: "barqa",
+      title: "Move 5: The barqa overcoat",
+      text: "The bisht al-barqa was hand-knitted from goat wool against cold desert nights. Bring back the idea: a long winter coat in undyed fiber.",
+      how: ["Undyed cream or brown goat wool or camel hair. No dye, so the fiber's natural color is the story.",
+            "Long and loose, open at the front like a bisht.",
+            "Name it after the barqa only on the label, for those who know."],
+      src: [SRC.anBishtDgda] },
+
+    { type: "design", part: "design", svg: "tag",
+      title: "Move 6: The honest label",
+      text: "Luxury buyers trust what they can check. Put the facts a bisht maker would brag about inside the garment.",
+      how: ["Fiber and %, micron, country of origin.",
+            "Trim type: say \"gold-plated silver zari\" only if it is true.",
+            "This is also your shield: if a supplier won't give you these numbers in writing, don't buy." ] },
+
+    { type: "task", part: "do", title: "Weave spotting", minutes: 4,
+      text: "Find one of each weave at home. Look closely, or zoom in with your phone camera.",
+      checklist: ["Plain weave: a dress shirt or thobe", "Twill: jeans or chinos (look for the diagonal)", "Satin: a tie, jacket lining or shiny sheet"],
+      notePrompt: "Shirt: plain, tiny grid. Jeans: twill, lines go up to the right..." },
+    { type: "task", part: "do", title: "Metal thread check", minutes: 3,
+      text: "Find anything with gold or silver thread: a bisht, a ghutra, an abaya, a scarf.",
+      checklist: ["Zoom in with your phone on a thread end", "Is there a soft core with metal wrapped around it?", "Or is it a flat shiny film (likely Lurex)?"],
+      notePrompt: "What did you find, and which kind of thread do you think it is?" },
+    { type: "task", part: "do", title: "Price detective", minutes: 3,
+      text: "Search online for three bishts at different prices.",
+      checklist: ["Write each price", "Note what it says about fiber, zari and handmade vs machine", "Which one says the least? That's usually the cheapest truth."],
+      notePrompt: "Bisht 1: SR ___, fiber ___, zari ___, handmade? ___" },
+
+    { type: "quiz", part: "quiz", q: "What is real zari made of?",
+      options: ["Plastic film", "Silk or cotton yarn wrapped in silver wire, then gold-plated", "Solid gold wire", "Copper painted gold"], answer: 1,
+      why: "Silk or cotton wrapped in silver, then gold-plated. Copper-core and plastic-core zari are the cheaper copies.", src: [SRC.aza, SRC.suratZari] },
+    { type: "quiz", part: "quiz", q: "A bisht is one wide piece of cloth with no seam across the middle. What does that tell you?",
+      options: ["It's the oldest kind", "The cloth was machine-woven", "It's a women's bisht", "It's a winter bisht"], answer: 1,
+      why: "Hand looms were narrow, so hand-woven cloaks are two strips sewn across the middle.", src: [SRC.encyclo] },
+    { type: "quiz", part: "quiz", q: "Which weave makes diagonal lines?",
+      options: ["Plain", "Twill", "Satin", "Knit"], answer: 1,
+      why: "Twill: over two, under two, shifting one step each row. Most suit cloth is twill." },
+    { type: "quiz", part: "quiz", q: "Where does the finest camel hair come from?",
+      options: ["Arabian one-humped camels", "The undercoat of two-humped Bactrian camels", "Camel tails", "Baby goats"], answer: 1,
+      why: "The Bactrian camel's soft undercoat, mostly from China and Mongolia.", src: [SRC.fao] },
+    { type: "quiz", part: "quiz", q: "Which fiber is the thinnest?",
+      options: ["Super 100s wool", "Cashmere", "Vicuña", "Adult camel down"], answer: 2,
+      why: "Vicuña, about 12.5 microns. Thinner fiber, softer cloth, higher price.", src: [SRC.lpVicuna] },
+    { type: "quiz", part: "quiz", q: "The mekasar bisht style is known for…",
+      options: ["Silk stitching along the edge", "No trim at all", "A hood", "Bright colors"], answer: 0,
+      why: "Silk stitching along the edge. That's Move 4: the same idea, tone-on-tone.", src: [SRC.anBisht2012] },
+
+    { type: "remember", part: "quiz",
+      title: "Three things to keep",
+      items: [
+        ["Real zari = silk or cotton + silver + gold plating.", "Copper or plastic cores are the cheap copies."],
+        ["Two strips sewn across the middle = hand loom.", "One wide seamless piece = machine-woven."],
+        ["Fine camel hair is Bactrian; thinner fiber = softer cloth.", "Ask every supplier for the micron number in writing."]
+      ] },
+
+    { type: "video", part: "quiz",
+      title: "Watch tonight or tomorrow",
+      items: [
+        ["Bisht (men's Abaa): skills and practices", "https://www.youtube.com/watch?v=dmesiC4e8BY", "The UNESCO film on the bisht craft."],
+        ["The bisht: Holding on to heritage skills in Saudi Arabia", "https://www.youtube.com/watch?v=VQtOsBZ71w0", "Saudi tailors keeping hand bisht-making alive."],
+        ["How to Identify Real & Fake Zari?", "https://www.youtube.com/watch?v=e8fLvhrXFxs", "Telling real metal zari from imitation."],
+        ["The 3 Fundamental Textile Weaves: Plain, Twill and Satin", "https://www.youtube.com/watch?v=TYrQBcPBk3U", "Pairs with the weave slide."]
+      ] }
+  ]
+};
+
+PHOTOS["l2-0"] = { by: "Gujarat/Surat Mughal workshop for the Indo-Portuguese market", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:The_Velvet_of_the_Indian_Ocean,_c._1700%E2%80%931750._Indo-Portuguese_monumental_apparatus_velvet_panel.jpg" };
+PHOTOS["l2-10"] = { by: "Jan \u0160irok\u00fd, Barbora \u0160irok\u00e1 and Thomas Bechtold", lic: "CC BY 3.0", page: "https://commons.wikimedia.org/wiki/File:Tabby,_twill,_and_6-harness_satin_weaves,_1x1cm_lyocell_samples.png" };
+PHOTOS["l2-11"] = { by: "Jwrusa & Kjoonlee", lic: "Public domain", page: "https://commons.wikimedia.org/wiki/File:Satin_bedding.jpg" };
+PHOTOS["l2-13"] = { by: "Kaushik Gopal", lic: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Herringbone.jpg" };
+PHOTOS["l2-23"] = { by: "camelhug.com", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Camel_shedding_hair.jpg" };
+PHOTOS["l2-24"] = { by: "camelhug.com", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Camel_shedding_hair_(cropped).jpg" };
+PHOTOS["l2-28"] = { by: "Paul Esson", lic: "CC BY-SA 2.0", page: "https://commons.wikimedia.org/wiki/File:Australian_Cashmere_Goats.jpg" };
+PHOTOS["l2-32"] = { by: "Luca Galuzzi (Lucag)", lic: "CC BY-SA 2.5", page: "https://commons.wikimedia.org/wiki/File:Vicu%C3%B1a_Vigogne_Lago_Chungar%C3%A0_4570m_Chile_Luca_Galuzzi_2006.jpg" };
+PHOTOS["l2-34"] = { by: "Richard Mortel", lic: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Al-Qaysariyya_Market,_1822_and_after,_al-Hofuf_(2).jpg" };
+PHOTOS["l2-39"] = { by: "The Metropolitan Museum of Art", lic: "CC0", page: "https://commons.wikimedia.org/wiki/File:Tinsel_and_metal_thread_MET_DP16829.jpg" };
+
+Object.assign(SRC, {
+  unescoSadu: ["UNESCO: Traditional weaving of Al Sadu", "https://ich.unesco.org/en/RL/traditional-weaving-of-al-sadu-01586"],
+  adSadu: ["Abu Dhabi Culture: Al Sadu", "https://abudhabiculture.ae/en/heritage-records/intangible-cultural-heritage/al-sadu-unesco"],
+  shajarah: ["248am: the Shajarah pattern", "https://248am.com/?p=581198"],
+  lootah: ["ArchiExpo: Aljoud Lootah on Al Sadu", "https://emag.archiexpo.com/the-story-of-al-sadu-with-uae-designer-aljoud-lootah/"],
+  aramcoSadu: ["AramcoWorld: Al Sadu weaves stories", "https://www.aramcoworld.com/articles/2025/ja25/al-sadu-weaves-stories-of-culture-and-identity"],
+  hilden: ["Al Jadid: Bedouin Weaving of Saudi Arabia (Hilden)", "https://aljadid.com/node/1557"],
+  indigoArab: ["Al-Bab: Indigo in the Arab World", "https://al-bab.com/book-review-indigo-arab-world"],
+  unescoQatt: ["UNESCO: Al-Qatt Al-Asiri", "https://ich.unesco.org/en/RL/01261"],
+  unescoQattPdf: ["UNESCO inventory: Al-Qatt (PDF)", "https://ich.unesco.org/doc/src/34853.pdf"],
+  architizer: ["Architizer: Al-Qatt Al-Asiri", "https://architizer.com/blog/?p=188528"],
+  ithraQatt: ["Ithra: Art by Women for All", "https://ithraeyat.ithra.com/editions/threads/art-by-women-for-all-al-qatt-al-asiri"],
+  spaQatt: ["Saudi Press Agency (SPA): Asir's colors", "https://www.spa.gov.sa/en/N2030519"],
+  spQatt: ["Saudipedia: Al-Qatt Al-Asiri", "https://saudipedia.com/en/article/585/culture/visual-arts/al-qatt-al-asiri"],
+  ifactory: ["iFactory: dobby vs jacquard", "https://ifactoryapp.com/industries/textile-manufacturing/dobby-vs-jacquard-weaving-pattern-capability-cost"],
+  wikiJacquard: ["Wikipedia: Joseph Marie Jacquard", "https://en.wikipedia.org/wiki/Joseph_Marie_Jacquard"],
+  fuWeaveEmb: ["FashionUnited: weaving vs embroidery", "https://fashionunited.uk/news/fashion/explained-the-distinction-between-weaving-and-embroidery/2023082471221"],
+});
+
+const L3_CTX = {
+  sadu: [
+    "Al Sadu means weaving done in a horizontal style. It is a tight warp-faced plain weave made on a ground loom by Bedouin women.",
+    "Older Bedouin women are the master weavers and teach inside the household. UNESCO listed it for Saudi Arabia and Kuwait in 2020.",
+    "Fibers: sheep wool (finest), goat hair, camel hair. Used for tents, cushions, sacks, rugs, camel gear and bisht cloth.",
+    "Patterns are geometric, inspired by the desert, repeated with symmetry. Traditional colors: black, white, brown, beige and red; reds and oranges liven up the desert.",
+    "Triangles and lines are the most common shapes. The Shajarah (tree) is one of the hardest patterns: a central strip of small squares, each showing part of Bedouin life.",
+  ],
+  qatt: [
+    "Al-Qatt Al-Asiri is painted by women on interior walls in Asir, mostly the guest room, on white gypsum. UNESCO listed it in 2017.",
+    "Patterns are layers of geometric shapes, each layer with its own name. Horizontal bands at the bottom are called kufuf, 'palms of the hands', and women measured them with their fingers. Vertical lines between triangles are amshat, 'combs'.",
+    "Traditional colors: red, yellow, blue and black, mixed to make others. Some sources say triangles stand for the family.",
+    "Design idea (Move 8): keep the structure (triangle row, finger-width bands) and drop the bright colors, using two quiet colors like black and sand on a knit or scarf border.",
+  ],
+  dyes: [
+    "Bedouin natural dyes: madder root for red, dried limes for green, pomegranate skins for purple, turmeric for yellow, indigo for blue.",
+    "Natural colors vary from batch to batch; that variation is part of their character.",
+    "A palette built only from these plant colors tells a heritage story with no pattern at all.",
+  ],
+  technique: [
+    "Woven-in patterns are part of the cloth: dobby looms move warp threads in groups through up to about 28 shafts and make small geometric patterns; jacquard looms lift each warp thread on its own and make large detailed designs. Cost: jacquard > dobby > plain.",
+    "Prints are applied on the surface after weaving, for example by woodblock; the back of the cloth is usually plain or faded.",
+    "Embroidery is stitched onto finished cloth and sits raised; you can see stitches on the back.",
+    "The Jacquard loom used punched cards, one card per row of the design, and was patented in 1805 in Lyon; it inspired early computers.",
+  ],
+};
+
+const L3 = {
+  id: "l3", num: 3, date: "2026-10-27", day: "Tue, Oct 27", ready: true,
+  title: "Patterns that mean something",
+  pair: "Al Sadu, Al-Qatt Al-Asiri and natural dyes · How a pattern gets into cloth",
+  slides: [
+    { type: "cover", part: "warm", img: "l3-52", coverCaption: "Al Sadu weaving: a diamond worked in red, black and white.",
+      kicker: "Lesson 3 · about 1 hour",
+      title: "Patterns that mean something",
+      text: "Saudi patterns were never random. Bedouin women wove the desert into tents, and Asiri women painted their walls to welcome guests. Learn what the shapes say, then learn the three ways a pattern can get into cloth." },
+
+    { type: "quiz", part: "warm", warm: true, review: 2,
+      q: "Real zari is made of…",
+      options: ["A shiny plastic film", "Silk or cotton yarn wrapped in silver wire, then gold-plated", "Solid gold wire", "Copper wire painted gold"], answer: 1,
+      why: "Silk or cotton wrapped in silver, then gold-plated. Copper-core and plastic-core threads are the cheap copies.",
+      whys: ["That is Lurex, a cheap shiny copy, not zari.", null, "Solid gold would be stiff and very costly. Real zari is a soft yarn with a metal wrap.", "Copper wire is the core of imitation zari."] },
+    { type: "quiz", part: "warm", warm: true, review: 2,
+      q: "A bisht made of two strips sewn across the middle tells you…",
+      options: ["It was torn and repaired", "The cloth was woven on a narrow hand loom", "It's a cheap machine copy", "It's a summer bisht"], answer: 1,
+      why: "Hand looms were narrow, so hand-woven bisht cloth came in two strips. One wide seamless piece means a machine.",
+      whys: ["The seam is on purpose, not a repair.", null, "The opposite: one seamless wide piece is the machine sign.", "The season shows in the cloth's thickness, not the seam."] },
+    { type: "quiz", part: "warm", warm: true, review: 2,
+      q: "For soft, luxury camel cloth, which camel do you want?",
+      options: ["Arabian one-humped camel", "Two-humped Bactrian camel undercoat", "Any camel, it's the same", "Camel tail hair"], answer: 1,
+      why: "The Bactrian camel's soft undercoat. Arabian camel hair is coarse, because the hottest deserts grow coarser down.",
+      whys: ["Arabian camel hair is coarse. It is warm, but not soft enough for fine cloth.", null, "Not the same: fiber width changes a lot between camels.", "Tail hair is coarse. Softness comes from the undercoat."] },
+
+    { type: "story", part: "story", img: "l3-8",
+      caption: "A Bedouin woman weaving on a ground loom, in the Negev. Al Sadu uses this same kind of loom.",
+      title: "Al Sadu: weaving the desert", arabic: "السدو",
+      text: [
+        "Al Sadu means \"weaving done in a horizontal style\". The loom lies flat on the ground, and the weaver sits at it.",
+        "The master weavers are older Bedouin women. They teach the skill inside the home, mother to daughter. Men also wove, but the detailed patterns are credited to women.",
+        "The cloth is a tight, tough weave, made for tents, cushions, rugs, camel gear and even bisht cloth. UNESCO listed it for Saudi Arabia and Kuwait in 2020."
+      ],
+      src: [SRC.unescoSadu, SRC.spSadu] },
+
+    { type: "steps", part: "story", img: "l3-51",
+      caption: "A Sadu piece: red fields, black-and-white triangle bands.",
+      title: "From sheep to Sadu",
+      intro: "Every piece starts with an animal and ends with a pattern. This is the process in the Gulf.",
+      steps: ["Cut the wool and goat hair; collect camel hair", "Sort by color and length", "Shake and comb out thorns, dust and sand", "Wash it three or more times", "Spin it into yarn on a drop spindle", "Dye it with plants and spices", "Weave on the ground loom"],
+      facts: [["Sheep's wool", "makes the finest Sadu"], ["Black, white, brown, beige, red", "the traditional colors"]],
+      src: [SRC.adSadu, SRC.spSadu] },
+
+    { type: "story", part: "story", img: "l3-19",
+      caption: "Rijal Almaa village in Asir, 2021: stone houses with white trim.",
+      title: "Al-Qatt Al-Asiri: walls painted by women", arabic: "القط العسيري",
+      text: [
+        "In Asir, women painted the inside walls of their homes, mostly the guest room, because that room shows a family's pride.",
+        "They painted on white gypsum, which they gathered from the mountains and even caves. Neighbors competed to paint the boldest walls. The painter is called al-qattatah.",
+        "A famous master, Fatima Abou Gahas, taught the art until she died in 2010. UNESCO listed Al-Qatt in 2017."
+      ],
+      note: "No free-to-use photo of a painted Al-Qatt room exists online that we can show here, so the next slides use a drawing based on UNESCO's description. The video at the end shows real walls.",
+      src: [SRC.unescoQatt, SRC.ithraQatt, SRC.spQatt] },
+
+    { type: "builder", part: "story",
+      title: "Build an Al-Qatt wall",
+      intro: "Al-Qatt is painted in layers, and each layer has its own name. Add them one at a time.",
+      layers: [
+        ["Kufuf, \"palms\":", "horizontal bands at the bottom. Women measured their width with their fingers."],
+        ["Triangles:", "a row of triangles. Some sources say they stand for the family."],
+        ["Amshat, \"combs\":", "thin vertical lines between the triangles."],
+        ["Upper band:", "a row of small shapes higher up the wall."]
+      ],
+      colorNote: "Traditional colors are red, yellow, blue and black on white, mixed to make more. Today some painters use colors from limestone, colored clay and plants.",
+      monoNote: "Same structure, two quiet colors. This is how a bright women's wall art becomes a calm men's detail: keep the shapes and the finger-width rhythm, drop the color.",
+      src: [SRC.unescoQattPdf, SRC.architizer, SRC.spaQatt] },
+
+    { type: "layers", part: "story",
+      title: "Where the colors came from",
+      intro: "Before factory dyes, every color came from a plant, and each one had a source you could hold.",
+      layers: [
+        ["Red", "madder root", "Plant"],
+        ["Green", "dried limes", "Plant"],
+        ["Purple", "pomegranate skins", "Plant"],
+        ["Yellow", "turmeric", "Plant"],
+        ["Blue", "indigo, a big trade in Yemen, especially Zabid", "Plant"]
+      ],
+      note: "These came from one book, Joy Totah Hilden's Bedouin Weaving of Saudi Arabia and Its Neighbors. Weavers still dye this way today.",
+      src: [SRC.hilden, SRC.indigoArab] },
+
+    { type: "compare", part: "see",
+      title: "Sadu, close up",
+      left:  { img: "l3-52", label: "A center diamond", caption: "A diamond built from small triangles, with mirror-image symmetry." },
+      right: { img: "l3-53", label: "Bands and stripes", caption: "Long red fields broken by narrow patterned bands." },
+      takeaway: "Notice the rules: only straight lines and triangles, always symmetry, a few strong colors. Triangles and lines are the most common Sadu shapes.",
+      src: [SRC.unescoSadu, SRC.lootah] },
+
+    { type: "reveal", part: "see", img: "l3-5",
+      title: "Is this real Sadu?",
+      prompt: "A majlis in the United Arab Emirates (UAE). Look at the cushions and rugs. Guess: hand-woven Sadu, or a modern copy?",
+      answer: "Most likely a modern copy in \"Sadu style\": the photo's own title calls it that. Real Sadu is hand-woven on a ground loom, so lines wobble slightly and colors shift a little between yarn batches. Machine copies are perfectly even. Sadu patterns are now everywhere in tourist goods and furniture, which is why a loud Sadu print on a garment can read cheap.",
+      src: [SRC.aramcoSadu] },
+
+    { type: "compare", part: "see",
+      title: "The dye pots",
+      left:  { img: "l3-12", label: "Red", caption: "Madder root and yarn dyed with it." },
+      right: { img: "l3-14", label: "Blue", caption: "Indigo cloth lifted from the dye vat." },
+      takeaway: "Natural dye never comes out exactly the same twice. In luxury that small variation is a selling point: each piece is a little different.",
+      src: [SRC.hilden, SRC.indigoArab] },
+
+    { type: "compare", part: "see",
+      title: "Two kitchen dyes",
+      left:  { img: "l3-30", label: "Yellow", caption: "Turmeric root and powder." },
+      right: { img: "l3-27", label: "Green", caption: "Dried limes (loomi) in a Bahrain market." },
+      takeaway: "Both are still in every Gulf kitchen. A capsule colored only with plant dyes tells the heritage story with no pattern at all.",
+      src: [SRC.hilden] },
+
+    { type: "toggle", part: "see",
+      title: "Three ways to put a pattern on cloth",
+      intro: "Same pattern, three methods. Switch between them and compare.",
+      modes: {
+        Woven: { img: "l3-40", cap: "A Jacquard loom: the loom builds the pattern into the cloth.", items: [
+          ["How", "Built into the cloth on the loom", "the threads themselves make the pattern"],
+          ["Back", "Pattern shows on the back too", "often in reverse colors"],
+          ["Lasts", "As long as the cloth", "can't wash or rub off"] ] },
+        Printed: { img: "l3-49", cap: "A carved wooden block for printing cloth, Jaipur, India.", items: [
+          ["How", "Pressed onto the surface after weaving", "here with a carved wooden block"],
+          ["Back", "Usually plain or faded", "the color sits on top"],
+          ["Lasts", "Can fade or crack", "cheapest way to add a pattern"] ] },
+        Embroidered: { img: "l2-0", cap: "Gold thread stitched onto velvet.", items: [
+          ["How", "Stitched onto finished cloth", "by hand or machine"],
+          ["Back", "You can see the stitches", "the front sits raised"],
+          ["Lasts", "Strong, but can snag", "slow, so it costs more"] ] }
+      },
+      src: [SRC.fuWeaveEmb, SRC.ifactory] },
+
+    { type: "compare", part: "see",
+      title: "Small pattern or big pattern: dobby vs jacquard",
+      left:  { img: "l3-43", label: "Dobby", caption: "A dobby head. It lifts warp threads in groups, through up to about 28 frames." },
+      right: { img: "l3-40", label: "Jacquard", caption: "A Jacquard loom. Each punched card is one row of the design." },
+      takeaway: "Dobby makes small geometric patterns, like the tiny textures on a fine shirt. Jacquard lifts every thread on its own, so it can weave big, detailed designs like damask. Jacquard costs more. Jacquard's punched cards, patented in Lyon in 1805, later inspired the first computers.",
+      src: [SRC.ifactory, SRC.wikiJacquard] },
+
+    { type: "design", part: "design", svg: "qattMono",
+      title: "Move 7: One Sadu motif, made small",
+      text: "Sadu is everywhere in souvenirs, so a big Sadu print reads cheap. Take one motif and shrink it.",
+      how: ["Weave one triangle band into a waistband, collar stand or bag strap.",
+            "Use dobby or jacquard so it is part of the cloth, not printed on top.",
+            "Two quiet colors only, like black and sand. Those who know will see it."] },
+
+    { type: "design", part: "design", svg: "qattColor",
+      title: "Move 8: Al-Qatt structure, no color",
+      text: "Al-Qatt is a bright women's art. Keep its bones: the triangle row and the finger-width bands.",
+      how: ["Men: knit the triangle row into a sweater's hem or a scarf border, in black and sand.",
+            "Women: the same band in one deep color on a long coat's hem.",
+            "Never copy one family's wall. Use the rules, not a specific painting."] },
+
+    { type: "design", part: "design", svg: "swap",
+      title: "Move 9: A plant-dye palette",
+      text: "Build a capsule using only the old plant colors: madder red, indigo blue, turmeric yellow, loomi green.",
+      how: ["Pick one main color and one accent per season.",
+            "Natural dye varies a little: say so on the label and turn it into the story.",
+            "Ask suppliers for color-fastness test results, because plant dyes can fade."] },
+
+    { type: "task", part: "do", title: "Pattern hunt at home", minutes: 4,
+      text: "Find three patterned things at home: clothes, cushions, a rug or a scarf.",
+      checklist: ["Find one woven-in pattern, one print and one embroidery", "Turn each one over and look at the back", "Write how you could tell which is which"],
+      notePrompt: "Scarf: woven, because the pattern shows on the back in reverse colors...",
+      refs: [{ img: "l3-40", cap: "Woven-in: the loom makes the pattern." }, { img: "l3-49", cap: "Printed: a block presses color on top." }, { img: "l2-0", cap: "Embroidered: thread stitched on, raised." }],
+      context: L3_CTX.technique },
+    { type: "task", part: "do", title: "Draw a quiet Al-Qatt band", minutes: 3,
+      text: "On paper, draw a 10 cm band you could put on a sweater hem.",
+      checklist: ["Draw finger-width stripes at the bottom", "Add a row of triangles above them", "Use only two colors, and write which two"],
+      notePrompt: "My two colors are ___ and ___, because...",
+      refs: [{ svg: "qattColor", cap: "Al-Qatt style, Asir colors (drawing)." }, { svg: "qattMono", cap: "Same structure, two quiet colors." }, { img: "l3-19", cap: "Rijal Almaa, Asir." }],
+      context: L3_CTX.qatt },
+    { type: "task", part: "do", title: "Your plant palette", minutes: 3,
+      text: "Pick three of the old plant colors for one A'ila Areeqa capsule.",
+      checklist: ["Choose a main color and two accents", "Name one garment for each color", "Say which season it suits and why"],
+      notePrompt: "Main: indigo, for a winter overshirt, because...",
+      refs: [{ img: "l3-12", cap: "Madder red." }, { img: "l3-14", cap: "Indigo blue." }, { img: "l3-30", cap: "Turmeric yellow." }, { img: "l3-27", cap: "Loomi (dried lime) green." }],
+      context: L3_CTX.dyes },
+
+    { type: "quiz", part: "quiz", q: "Who are the master weavers of Al Sadu?",
+      options: ["Tailors in Al-Ahsa", "Older Bedouin women", "Factory workers in Riyadh", "Merchants in Jeddah"], answer: 1,
+      why: "Older Bedouin women, who teach the skill inside the home.",
+      whys: ["Al-Ahsa tailors make bishts. Sadu is a different craft.", null, "Sadu is hand-woven on a ground loom, not factory-made.", "Merchants sold cloth; Bedouin women wove Sadu."], src: [SRC.unescoSadu] },
+    { type: "quiz", part: "quiz", q: "What does \"Sadu\" mean?",
+      options: ["Red cloth", "Weaving done in a horizontal style", "Desert tent", "Pattern of the stars"], answer: 1,
+      why: "Weaving done in a horizontal style: the loom lies flat on the ground.",
+      whys: ["Red is a common Sadu color, but it is not what the word means.", null, "Tents were made from Sadu, but the word means the way of weaving.", "That's a nice idea, but the word describes the loom's position."],
+      hint: { img: "l3-8", cap: "Look at how the loom sits." }, src: [SRC.unescoSadu] },
+    { type: "quiz", part: "quiz", q: "In Al-Qatt, what are the kufuf (\"palms\")?",
+      options: ["Painted hands on the door", "Horizontal bands at the bottom of the wall, measured with fingers", "Palm trees in the corners", "The ceiling beams"], answer: 1,
+      why: "Bands at the bottom of the wall. Women used their fingers to measure the width.",
+      whys: ["The name means palms, but nobody painted hands. It's about how the bands were measured.", null, "No palm trees: Al-Qatt is geometric.", "Ceilings could be painted too, but kufuf are the bottom bands."],
+      hint: { svg: "qattBlank", cap: "The wall has triangles. What runs along the very bottom?" }, src: [SRC.unescoQattPdf, SRC.architizer] },
+    { type: "quiz", part: "quiz", q: "Which plant gave Bedouin weavers their red?",
+      options: ["Turmeric", "Madder root", "Dried limes", "Indigo"], answer: 1,
+      why: "Madder root. Turmeric gave yellow, dried limes green, indigo blue.",
+      whys: ["Turmeric gives yellow.", null, "Dried limes give green.", "Indigo gives blue."], src: [SRC.hilden] },
+    { type: "quiz", part: "quiz", q: "A fine shirt has a tiny woven-in geometric texture. Which loom most likely made it?",
+      options: ["Dobby", "Jacquard", "None: it's printed", "None: it's embroidered"], answer: 0,
+      why: "Dobby. It lifts threads in groups and makes small geometric patterns. Jacquard is for big, detailed designs.",
+      whys: [null, "Jacquard can do it, but it's built for big detailed designs and costs more. Small geometric = dobby.", "The question says woven-in. A print sits on top.", "Embroidery is stitched on afterwards, not woven in."], src: [SRC.ifactory] },
+    { type: "quiz", part: "quiz", q: "Why can a loud Sadu print on a garment read cheap?",
+      options: ["Sadu is ugly", "Sadu patterns are everywhere in souvenirs and furniture now", "Prints are not allowed", "Sadu is only for women"], answer: 1,
+      why: "Sadu is everywhere in tourist goods. For quiet luxury, use one small woven-in motif instead.",
+      whys: ["Sadu is beautiful. The problem is how common the cheap copies are.", null, "Prints are allowed. The issue is how common they are.", "Men also wove Sadu, and Sadu was used for everyone's tents and gear."] },
+
+    { type: "remember", part: "quiz",
+      title: "Three things to keep",
+      items: [
+        ["Sadu = Bedouin women's ground-loom weaving.", "Triangles, lines, symmetry, a few strong colors."],
+        ["Al-Qatt is built in named layers.", "Kufuf (palms) at the bottom, triangles, amshat (combs). Keep the structure, drop the color."],
+        ["Woven-in beats printed for luxury.", "Dobby for small patterns, jacquard for big ones. Turn it over to check."]
+      ] },
+
+    { type: "video", part: "quiz",
+      title: "Watch tonight or tomorrow",
+      items: [
+        ["Traditional weaving of Al Sadu (UNESCO)", "https://www.youtube.com/watch?v=iVaB-bnXAmc", "The official film by the Saudi Heritage Preservation Society."],
+        ["Al-Qatt Al-Asiri, women's wall decoration in Asir (UNESCO)", "https://www.youtube.com/watch?v=swLtZIftq74", "Real walls being painted: see the kufuf and triangles."],
+        ["Al Sadu Weaving in Souq Waqif", "https://www.youtube.com/watch?v=jokSTOliexc", "Hand-spinning and ground-loom weaving up close."]
+      ] }
+  ]
+};
+
+PHOTOS["l3-5"] = { by: "Ashley Columbus", lic: "CC0", page: "https://commons.wikimedia.org/wiki/File:Majlis_in_Sadu_style.jpg" };
+PHOTOS["l3-8"] = { by: "Danny-w", lic: "CC BY-SA 3.0", page: "https://commons.wikimedia.org/wiki/File:Bedouin_woman_weaving.jpg" };
+PHOTOS["l3-12"] = { by: "Sailesh Patnaik", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Madder_as_a_natural_dye.jpg" };
+PHOTOS["l3-14"] = { by: "Markmcnbowe97", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Indigo_dyed_fabric_is_raised_from_the_dye_vat.jpg" };
+PHOTOS["l3-19"] = { by: "Richard Mortel", lic: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Rijal_Almaa_village_2021.jpg" };
+PHOTOS["l3-27"] = { by: "Theinfo", lic: "CC BY 3.0", page: "https://commons.wikimedia.org/wiki/File:Loomi_at_market_in_Bahrain.JPG" };
+PHOTOS["l3-30"] = { by: "Simon A. Eugster", lic: "CC BY-SA 3.0", page: "https://commons.wikimedia.org/wiki/File:Curcuma_longa_roots.jpg" };
+PHOTOS["l3-34"] = { by: "Prathyush Thomas", lic: "GFDL 1.2", page: "https://commons.wikimedia.org/wiki/File:Half_Peeled_Pomegranate_BNC.jpg" };
+PHOTOS["l3-40"] = { by: "GeorgeOnline", lic: "CC BY-SA 3.0", page: "https://commons.wikimedia.org/wiki/File:Jacquard_loom,_6_of_6.jpg" };
+PHOTOS["l3-43"] = { by: "Clem Rutter, Rochester, Kent", lic: "CC BY 3.0", page: "https://commons.wikimedia.org/wiki/File:QSMM_Hattersley_Loom_Dobby_Head_2676.JPG" };
+PHOTOS["l3-49"] = { by: "Journyes", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Master_artist_carves_a_woodblock_for_textile_printing.jpg" };
+PHOTOS["l3-51"] = { by: "Di7ane", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%B3%D8%AF%D9%88.jpg" };
+PHOTOS["l3-52"] = { by: "Di7ane", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%B3%D8%AF%D9%88_3.jpg" };
+PHOTOS["l3-53"] = { by: "Di7ane", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%B3%D8%AF%D9%88_4.jpg" };
+
+Object.assign(SRC, {
+  unescoTuraif: ["UNESCO World Heritage: At-Turaif", "https://whc.unesco.org/en/list/1329/"],
+  wikiTuraif: ["Wikipedia: At-Turaif District", "https://en.wikipedia.org/wiki/At-Turaif_District"],
+  wikiNajdi: ["Wikipedia: Najdi architecture", "https://en.wikipedia.org/wiki/Najdi_architecture"],
+  acor: ["ACOR archive: triangular openings, Diriyah", "https://archive.acorjordan.org/s/acor/item/85349"],
+  spJawf: ["Saudipedia: al-Jawf architecture", "https://saudipedia.com/en/article/3155/culture/traditional-architecture-in-al-jawf-province"],
+  mudbrick: ["Parametric Architecture: mudbrick cities", "https://parametric-architecture.com/10-mudbrick-cities-desert-climate/"],
+  spRawasheen: ["Saudipedia: Al-Rawashin", "https://saudipedia.com/en/article/530/culture/cultural-affairs/al-rawashin"],
+  anMakkah: ["Arab News: Rawasheen in Makkah", "https://arabnews.com/node/1847861"],
+  witRawasheen: ["WIT Press: the mechanism of the rawasheen", "https://www.witpress.com/elibrary/wit-transactions-on-ecology-and-the-environment/128/20814"],
+  bayut: ["Bayut: Al Rawashin", "https://www.bayut.sa/blog/en/explore-saudi/al-rawashin-saudi-arabia/"],
+  cnnBalad: ["CNN: Jeddah's Al-Balad", "https://edition.cnn.com/travel/article/jeddah-al-balad-saudi-arabia"],
+  psLinings: ["Permanent Style: guide to linings", "https://www.permanentstyle.com/2016/05/bemberg-cupro-ermezine-the-guide-to-linings"],
+  psHalf: ["Permanent Style: half-lined and unlined", "https://www.permanentstyle.com/2010/05/half-lined-and-unlined-jackets.html"],
+  bemberg: ["Asahi Kasei: Bemberg features", "https://www.asahi-kasei.co.jp/fibers/en/bemberg/benefit/features/"],
+  bias: ["Bias Bespoke: linings", "https://www.biasbespoke.com/tailoring/lining-fabrics/"],
+  ggCheap: ["Gentleman's Gazette: how to spot a cheap suit", "https://www.gentlemansgazette.com/how-to-spot-a-cheap-suit/"],
+  aom: ["Art of Manliness: fused vs canvassed", "https://www.artofmanliness.com/STYLE/CLOTHING/THE-ART-OF-MANLINESS-SUIT-SCHOOL-PART-I-FUSED-VS-CANVASSED-SUITS/"],
+  pick: ["Husbands Paris: the pick stitch", "https://husbands-paris.com/en/the-pick-stitch"],
+  seams: ["Eileen Fisher: anatomy of a seam", "https://www.eileenfisher.com/a-sustainable-life/journal/repair-care/anatomy-of-a-seam.html?loc=CA"],
+  anRawasheenFashion: ["Arab News: Banat Al-Balad collection", "https://arab.news/b63v2"],
+  aos: ["Articles of Style: a quality suit", "https://articlesofstyle.com/blogs/news/how-to-spot-a-quality-suit"],
+});
+
+const L4_CTX = {
+  build: [
+    "Full canvas: horsehair canvas sewn through the whole front. It shapes to the body over time. Costs most.",
+    "Half canvas: canvas only in the chest and lapel; the rest is glued.",
+    "Fused: glue only. Cheapest, can look stiff, and the glue can bubble after dry cleaning, which cannot be fixed.",
+    "Pinch test: pinch the sleeve to feel normal thickness. Then pinch the front below the lowest buttonhole and gently pull apart. A loose third layer floating in between = canvas. Stiff with no separate layer = fused.",
+    "Hand buttonholes take 30–45 minutes, look raised and slightly uneven on the back. A hand pick stitch along the lapel wanders slightly; machine stitching is perfectly even.",
+    "Rule for A'ila Areeqa: coats and bisht-style pieces at least half canvas, never fused.",
+  ],
+  lining: [
+    "Cupro (brand name Bemberg, made by Asahi Kasei from cotton-seed fuzz) breathes best and is smooth and anti-static; costs more.",
+    "Viscose breathes well and is tough. Acetate is light but weak and flimsy. Polyester lining breathes poorly and feels like a sauna; it is a sign of a cheap suit. Silk breathes but wears out fastest and costs five times or more.",
+    "Unlined lets in the most air but can rumple. Half-lined (back across the shoulders only) lets heat out and still hangs well. Keep sleeves lined so the jacket slides on.",
+    "Gulf summers pass 35°C, so half-lined is the default; lining in cupro, never polyester.",
+  ],
+  vents: [
+    "Najdi walls have small triangle and square openings (furjat or luhuj) for air, light and a view out; they were also used for defense. They are stacked into patterns on the wall.",
+    "Move 10 idea: a row of small triangle vents across the back yoke or under the arm of an overshirt, doing the same job: letting air move.",
+    "Keep vents small and in a neat row so they read as a pattern, like on the wall.",
+  ],
+};
+
+const L4 = {
+  id: "l4", num: 4, date: "2026-10-28", day: "Wed, Oct 28", ready: true,
+  title: "Houses become clothes",
+  pair: "Najdi triangles and Hijazi rawasheen · What's inside a jacket, and linings",
+  slides: [
+    { type: "cover", part: "warm", img: "l4-2", coverCaption: "At-Turaif in Diriyah, first capital of the Saudi state.",
+      kicker: "Lesson 4 · about 1 hour",
+      title: "Houses become clothes",
+      text: "Saudi houses solved heat, privacy and welcome with walls and wood. A good jacket solves the same problems with cloth, canvas and lining. Today you learn both, and how one turns into the other." },
+
+    { type: "quiz", part: "warm", warm: true, review: 3,
+      q: "Who wove Al Sadu, and on what?",
+      options: ["Al-Ahsa tailors, on sewing machines", "Bedouin women, on a ground loom", "Factory workers, on jacquard looms", "Merchants, on standing looms in Jeddah"], answer: 1,
+      why: "Bedouin women, on a loom laid flat on the ground. \"Sadu\" means weaving done in a horizontal style.",
+      whys: ["Al-Ahsa tailors make bishts. Sadu is a different craft.", null, "Sadu is hand-woven. Jacquard looms are factory machines.", "The loom lies flat, which is where the name comes from."] },
+    { type: "quiz", part: "warm", warm: true, review: 3,
+      q: "In Al-Qatt, what are the kufuf (\"palms\")?",
+      options: ["Painted hands", "Horizontal bands at the bottom of the wall, measured with fingers", "Palm trees in the corners", "The colors of the wall"], answer: 1,
+      why: "Bands along the bottom of the wall. Women measured their width with their fingers.",
+      whys: ["Nobody painted hands. The name comes from how the bands were measured.", null, "Al-Qatt is geometric, no trees.", "Kufuf are a shape layer, not a color."],
+      hint: { svg: "qattBlank", cap: "The triangle row is here. What runs along the very bottom?" } },
+    { type: "quiz", part: "warm", warm: true, review: 3,
+      q: "For quiet luxury, which way of adding a pattern is best?",
+      options: ["A big printed Sadu pattern", "One small motif woven into the cloth", "A sticker", "Bright embroidery all over"], answer: 1,
+      why: "Woven-in, small and quiet. It lasts as long as the cloth, and only those who know will see it.",
+      whys: ["Big Sadu prints are everywhere in souvenirs, so they read cheap.", null, "A sticker isn't part of the cloth at all.", "All-over bright embroidery is loud. Quiet luxury keeps the detail small."] },
+
+    { type: "story", part: "story", img: "l4-2",
+      caption: "At-Turaif District in Diriyah, Riyadh: thick mud-brick walls.",
+      title: "Najdi houses: walls against the sun",
+      text: [
+        "In Najd, the center of Arabia, houses were built from mud brick with very thick walls, inward-facing courtyards and narrow shaded lanes.",
+        "At-Turaif in Diriyah was founded in the 1400s and became the first capital of the Saudi state. It was destroyed in 1818 and left empty for almost two centuries. UNESCO listed it in 2010.",
+        "Mud brick was used because it was at hand, and because thick earth walls suit the desert climate."
+      ],
+      src: [SRC.unescoTuraif, SRC.wikiTuraif, SRC.mudbrick] },
+
+    { type: "compare", part: "story",
+      title: "The triangle openings",
+      left:  { img: "l4-30", label: "Shaqra, Najd", caption: "A Najdi heritage house in Shaqra. Look along the top for the triangles." },
+      right: { svg: "facade", label: "How they work", caption: "Drawing: small triangle openings stacked into rows." },
+      takeaway: "These openings, called furjat or luhuj, let in air and light and let people see out. They were also used for defense. They are arranged in rows and stacks, so the wall gets a pattern from something useful.",
+      src: [SRC.wikiNajdi, SRC.acor] },
+
+    { type: "story", part: "story", img: "l4-25",
+      caption: "The carved wooden door of Al-Masmak Fortress, Riyadh.",
+      title: "The qahwa: the room for guests",
+      arabic: "القهوة",
+      text: [
+        "The most decorated room in a Najdi house was the qahwa, the men's room for welcoming guests. Its decoration showed the family's generosity.",
+        "It had small square or triangle openings near the ceiling, and a slot in the ceiling called al-sawamah to let out the smoke from the coffee fire.",
+        "Same idea as Al-Qatt in Asir: the guest room is where a family shows its pride."
+      ],
+      src: [SRC.wikiNajdi, SRC.spJawf] },
+
+    { type: "story", part: "story", img: "l4-12",
+      caption: "Rawasheen in Historic Jeddah's Culture Square, 2025.",
+      title: "Hijazi rawasheen: see out, not in",
+      arabic: "رواشين",
+      text: [
+        "In the Hijaz, the west coast, houses wore carved wooden boxes on their fronts called rawasheen (one is a roshan). You find them in Jeddah, Makkah, Madinah, Yanbu and Taif.",
+        "They did three jobs: shade, airflow and privacy. People inside could see out; no one outside could see in. They also showed a family's wealth.",
+        "The wood was bought from India, Indonesia and Sudan. Classic colors are natural wood, brown and green. Historic Jeddah was listed by UNESCO in 2014."
+      ],
+      src: [SRC.spRawasheen, SRC.anMakkah, SRC.bayut, SRC.cnnBalad] },
+
+    { type: "compare", part: "see",
+      title: "A wooden garment for a house",
+      left:  { img: "l4-14", label: "Up close", caption: "Carved roshan detail, Historic Jeddah." },
+      right: { img: "l4-8", label: "On the street", caption: "A white coral-stone house wearing its rawasheen." },
+      takeaway: "One researcher calls the roshan a wooden garment wrapped around the building. That makes it the easiest house detail to bring into clothing. Designer Makram Marzuki already turned a Jeddah roshan pattern into a bridal look, so a literal copy is taken. The quiet version is the idea: see out, not in.",
+      src: [SRC.witRawasheen, SRC.anRawasheenFashion] },
+
+    { type: "compare", part: "see",
+      title: "Earth towns of Arabia",
+      left:  { img: "l4-4", label: "Riyadh", caption: "Al-Masmak Fortress, mud brick, Riyadh." },
+      right: { img: "l4-35", label: "AlUla", caption: "The old town of AlUla, 2011." },
+      takeaway: "Thick earth walls, small openings and narrow lanes show up across Arabia, because they keep heat out. For clothing the lesson is the same: block the sun, let air move.",
+      src: [SRC.mudbrick] },
+
+    { type: "story", part: "see", img: "l4-21",
+      caption: "A half-finished Savile Row jacket by Kathryn Sargent: white basting stitches, and the stitched canvas showing on the lapel.",
+      title: "Inside a jacket",
+      text: [
+        "A jacket is a house too: outside cloth, a hidden frame and an inner wall. The frame is the canvas, and the inner wall is the lining.",
+        "Look at the lapel in this photo. That pale quilted layer is horsehair canvas, stitched by hand so the lapel rolls softly.",
+        "The white lines are basting: temporary hand stitches that hold the pieces while the tailor fits them."
+      ],
+      src: [SRC.aom, SRC.aos] },
+
+    { type: "svgtoggle", part: "see",
+      title: "Three ways to build a jacket front",
+      intro: "What's inside decides how a jacket hangs and how long it lasts. Switch between the three.",
+      modes: {
+        "Fused": { svg: "layFused", how: "Glue only.", items: [["Feel", "Can look stiff and flat"], ["Risk", "Glue can bubble after dry cleaning. That can't be fixed."], ["Cost", "Cheapest"]] },
+        "Half canvas": { svg: "layHalf", how: "Canvas sewn into the chest and lapel; glue below.", items: [["Feel", "Lapel rolls, chest shapes to you"], ["Risk", "Lower body still glued"], ["Cost", "Middle: the smart choice for most pieces"]] },
+        "Full canvas": { svg: "layFull", how: "Horsehair canvas sewn through the whole front.", items: [["Feel", "Molds to your body over time"], ["Risk", "Almost none, if well made"], ["Cost", "Most expensive"]] }
+      },
+      src: [SRC.aom, SRC.ggCheap] },
+
+    { type: "layers", part: "see",
+      title: "Linings for Gulf heat",
+      intro: "The lining touches your body. In the heat, a lining that lets sweat out matters more than shine.",
+      layers: [
+        ["Cupro (Bemberg)", "Breathes best. Made by Asahi Kasei from the fuzz on cotton seeds. Smooth, no static. Costs more.", "Best"],
+        ["Viscose", "Breathes well and is tough. Many top tailors use it.", "Good"],
+        ["Acetate", "Light but weak and flimsy. Not a good cheap swap.", "Weak"],
+        ["Polyester", "Breathes poorly; one tailoring writer says it feels like a sauna. A sign of a cheap suit.", "Avoid"],
+        ["Silk", "Breathes, but wears out fastest and costs five times or more.", "Rare"]
+      ],
+      note: "How much lining: unlined lets in the most air but can rumple. Half-lined, across the back shoulders only, lets heat out and still hangs well. Keep the sleeves lined so the jacket slides on.",
+      src: [SRC.psLinings, SRC.bemberg, SRC.bias, SRC.psHalf, SRC.ggCheap] },
+
+    { type: "reveal", part: "see", img: "l4-18",
+      title: "Hand or machine?",
+      prompt: "A buttonhole being sewn. How can you tell a hand-made one on a finished jacket?",
+      answer: "A hand buttonhole takes 30 to 45 minutes. On the back it looks raised and slightly uneven, because each stitch is pulled by hand. A machine buttonhole is flat and perfectly even. The same goes for the pick stitch along a lapel edge: by hand it wanders slightly; by machine it's perfectly straight. In luxury, tiny unevenness is proof of hands.",
+      src: [SRC.pick, SRC.aos] },
+
+    { type: "design", part: "design", svg: "vents",
+      title: "Move 10: Furjat vents",
+      text: "Najdi walls used small triangle openings to let air through. Give a summer overshirt the same job.",
+      how: ["A neat row of small triangle vents across the back yoke, where heat builds up.",
+            "A short row under the arm, where you sweat most.",
+            "Keep them small and in a line, so they read as a pattern, like on the wall."] },
+
+    { type: "design", part: "design", svg: "lattice",
+      title: "Move 11: The roshan lining",
+      text: "The roshan lets you see out without being seen. Turn that into a secret inside the coat.",
+      how: ["A lattice-pattern lining, woven in, that only shows when the coat opens.",
+            "Use cupro so the secret also breathes.",
+            "Women: the same lining in a long open coat, flashing as she walks."] },
+
+    { type: "design", part: "design", svg: "halfLined",
+      title: "Move 12: Built for the Gulf",
+      text: "Your quality standard, written down once so every factory gets the same brief.",
+      how: ["Coats and bisht-style pieces: at least half canvas, never fused.",
+            "Half-lined in cupro (Bemberg) for summer; sleeves always lined.",
+            "Hand buttonholes on the top line. Inside unlined pieces, neat bound seams."] },
+
+    { type: "task", part: "do", title: "The pinch test", minutes: 4,
+      text: "Take any blazer or suit jacket you own.",
+      checklist: ["Pinch the sleeve to feel normal thickness", "Pinch the front below the lowest buttonhole and gently pull the layers apart", "Floating third layer = canvas. Stiff, stuck together = fused. Write what you found."],
+      notePrompt: "My navy blazer: I felt ___, so I think it's ___ because...",
+      refs: [{ img: "l4-21", cap: "Canvas visible on a half-made lapel." }, { svg: "layFused", cap: "Fused: cloth glued to a stiff layer." }, { svg: "layFull", cap: "Full canvas: a loose, stitched layer." }],
+      context: L4_CTX.build },
+    { type: "task", part: "do", title: "Lining check", minutes: 3,
+      text: "Open the same jacket, or another coat.",
+      checklist: ["Read the lining label: polyester, viscose, cupro or silk?", "Is it fully lined, half-lined or unlined?", "Would you wear it in Riyadh in May? Say why."],
+      notePrompt: "Lining: 100% polyester, fully lined. In May I think...",
+      refs: [{ svg: "halfLined", cap: "Half-lined: shoulders only." }],
+      context: L4_CTX.lining },
+    { type: "task", part: "do", title: "Place the vents", minutes: 3,
+      text: "Sketch the back of an overshirt. Add Move 10.",
+      checklist: ["Draw the shirt back and the yoke line", "Place one row of small triangle vents", "Say why you put them there"],
+      notePrompt: "I put the vents ___ because...",
+      refs: [{ img: "l4-30", cap: "Shaqra house: triangles along the top." }, { svg: "facade", cap: "Rows of triangle openings (drawing)." }, { svg: "vents", cap: "Move 10: vents on the yoke and under the arm." }],
+      context: L4_CTX.vents },
+
+    { type: "quiz", part: "quiz", q: "What were the small triangle openings in Najdi walls for?",
+      options: ["Decoration only", "Air, light and a view out, and also defense", "Draining rain water", "Holding oil lamps"], answer: 1,
+      why: "Air, light and a view out, and they were also used for defense. The pattern came from something useful.",
+      whys: ["They do look decorative, but every one had a job.", null, "Rain is rare in Najd, and these sit high on the wall.", "They're openings, not shelves."],
+      hint: { svg: "facade", cap: "Small openings, high on a thick wall, in a hot desert." }, src: [SRC.wikiNajdi, SRC.acor] },
+    { type: "quiz", part: "quiz", q: "Which room in a Najdi house got the most decoration?",
+      options: ["The kitchen", "The qahwa, where guests were welcomed", "The roof", "The storeroom"], answer: 1,
+      why: "The qahwa, the guest room. Decoration showed the family's generosity.",
+      whys: ["The kitchen was a working room, not a show room.", null, "Roofs were for sleeping and air, not show.", "Storerooms were private, not shown to guests."], src: [SRC.wikiNajdi] },
+    { type: "quiz", part: "quiz", q: "What did the rawasheen let the people inside do?",
+      options: ["See out without being seen", "Keep rain out only", "Store food", "Climb to the roof"], answer: 0,
+      why: "See out without being seen, while getting shade and airflow.",
+      whys: [null, "Rain is rare in Jeddah. Their jobs were shade, air and privacy.", "They're windows, not cupboards.", "They're windows, not stairs."],
+      hint: { img: "l4-14", cap: "Carved wood with many small holes, on the front of a house." }, src: [SRC.spRawasheen, SRC.bayut] },
+    { type: "quiz", part: "quiz", q: "Best jacket lining for Gulf heat?",
+      options: ["Polyester", "Cupro (Bemberg)", "Acetate", "No lining at all, sleeves included"], answer: 1,
+      why: "Cupro breathes best and is smooth. Half-line it for summer and keep the sleeves lined.",
+      whys: ["Polyester breathes poorly. It's the cheap-suit lining.", null, "Acetate is light but weak and tears.", "Unlined lets air in, but unlined sleeves catch on your shirt. Keep sleeves lined."], src: [SRC.psLinings, SRC.psHalf] },
+    { type: "quiz", part: "quiz", q: "In the pinch test, a loose third layer floating inside the front means…",
+      options: ["The jacket is fused", "The jacket has canvas", "The jacket is unlined", "The lining is polyester"], answer: 1,
+      why: "Canvas. It's sewn in, not glued, so it floats as its own layer.",
+      whys: ["Fused is the opposite: everything is glued, so there's no loose layer.", null, "Unlined has fewer layers, not a floating one.", "The pinch test checks the front's insides, not the lining fabric."],
+      hint: { img: "l4-21", cap: "The pale quilted layer on this lapel." }, src: [SRC.ggCheap] },
+    { type: "quiz", part: "quiz", q: "What can go wrong with a fused jacket?",
+      options: ["The glue can bubble after dry cleaning", "It's too soft", "It costs too much", "It molds to your body too much"], answer: 0,
+      why: "The glue can bubble after cleaning, and that can't be fixed.",
+      whys: [null, "Fused jackets tend to be stiffer, not softer.", "Fused is the cheapest way to build.", "Molding to the body is what canvas does, not glue."], src: [SRC.aom] },
+
+    { type: "remember", part: "quiz",
+      title: "Three things to keep",
+      items: [
+        ["Najdi triangles = air, light, view, defense.", "Useful holes that became a pattern. Move 10 turns them into vents."],
+        ["Rawasheen = see out, not in.", "A wooden garment for the house. Move 11 turns it into a secret lining."],
+        ["Canvas, not glue. Cupro, not polyester.", "Pinch to check canvas. Half-lined for the Gulf, sleeves always lined."]
+      ] },
+
+    { type: "video", part: "quiz",
+      title: "Watch tonight or tomorrow",
+      items: [
+        ["Bemberg and Cupro Linings: Are they the best? (Rajani Bespoke)", "https://www.youtube.com/watch?v=FsRxbU3c4DE", "A tailor explains linings. Pairs with the lining slide."],
+        ["Inside the Fort of AlUla Old Town", "https://www.youtube.com/watch?v=z-K8N4A86TM", "Walls, lanes and openings of an Arabian earth town."],
+        ["AlUla Old Town", "https://www.youtube.com/watch?v=xwHYpglrEFI", "A walk through the old town's houses."]
+      ],
+      note: "No good video was found showing Najdi triangle openings up close. Look for them in person at At-Turaif in Diriyah." }
+  ]
+};
+
+PHOTOS["l4-2"] = { by: "Rados\u0142aw Botev", lic: "CC BY 3.0 pl", page: "https://commons.wikimedia.org/wiki/File:At-Turaif_District_in_ad-Dir%27iyah_(12).jpg" };
+PHOTOS["l4-4"] = { by: "Baptiste Marcel", lic: "Public domain", page: "https://commons.wikimedia.org/wiki/File:Masmak_castle.jpg" };
+PHOTOS["l4-8"] = { by: "xiquinhosilva", lic: "CC BY 4.0", page: "https://commons.wikimedia.org/wiki/File:Old_Jeddah_-_55362437075.jpg" };
+PHOTOS["l4-12"] = { by: "Saudi Press Agency (SPA)", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Rawasheen_of_the_Culture_Square_in_Historic_Jeddah_(2025).jpg" };
+PHOTOS["l4-14"] = { by: "Saudi Press Agency (SPA)", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Rawasheen_of_the_Culture_Square_in_Historic_Jeddah_(2025)_-3.jpg" };
+PHOTOS["l4-18"] = { by: "SharonaGott", lic: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Button_hole_stitch.jpg" };
+PHOTOS["l4-21"] = { by: "Kathryn Sargent / RISD Museum photographer", lic: "CC0", page: "https://commons.wikimedia.org/wiki/File:2012-13_in-progress_jacket_and_vest_showing_the_tailoring_process,_by_Kathryn_Sargent_of_Savile_Row.jpg" };
+PHOTOS["l4-25"] = { by: "Bruno Girin", lic: "CC BY-SA 2.0", page: "https://commons.wikimedia.org/wiki/File:The_door_to_Masmak_Fortress.jpg" };
+PHOTOS["l4-30"] = { by: "Oalessa", lic: "GFDL", page: "https://commons.wikimedia.org/wiki/File:Shaqraa_Alsubaii_House_for_Haritage.jpg" };
+PHOTOS["l4-35"] = { by: "Pteropus conspicillatus", lic: "CC BY-SA 3.0", page: "https://commons.wikimedia.org/wiki/File:Al_Ula_old_town,_Saudi_Arabia_2011.jpg" };
+
+Object.assign(SRC, {
+  najranJewel: ["Riyadh Daily: Najran women's jewelry", "https://alriyadhdaily.com/article/762e67d9dd6b43e1b57ececa0241e89e"],
+  spJewel: ["Saudipedia: Jewelry crafting", "https://saudipedia.com/en/jewelry-crafting-in-saudi-arabia"],
+  unescoBedJewel: ["UNESCO: Bedouin jewellery", "https://en.unesco.org/silkroad/content/traditional-bedouin-crafts-jewellery"],
+  anTreasures: ["Arab News: Hidden Treasures", "https://www.arabnews.com/art-culture/hidden-treasures-the-jewelry-of-saudi-arabia-goes-on-display-in-dubai-1475196"],
+  aramco79: ["AramcoWorld 1979: Bedouin jewelry", "https://archive.aramcoworld.com/issue/197902/the.beauty.of.bedouin.jewelry.htm"],
+  aramco12: ["AramcoWorld 2012: Yemeni silver", "https://archive.aramcoworld.com/issue/201201/silver.the.enduring.craft.of.yemeni.silver.htm"],
+  anNajdi: ["Arab News: the revival of Najdi fashion", "https://www.arabnews.com/node/2381461/amp"],
+  zay: ["Zay Initiative: Najdi overdress (thawb najdi)", "https://thezay.org/product/zi1990-50071-ksaembroidered-overgarment-with-zari-saudi-arabia"],
+  spFirstState: ["Saudipedia: Women's garments in the First Saudi State", "https://saudipedia.com/en/article/3839/history/the-first-saudi-state/womens-garments-in-the-first-saudi-state"],
+  doodle: ["Google Doodle: Saudi National Day 2017", "https://doodles.google/doodle/saudi-arabia-national-day-2017/"],
+  anGowns: ["Arab News: Reviving traditional gowns", "https://www.arabnews.com/node/216382"],
+  silkWeights: ["Silk World: silk weights", "https://www.silkworld.com.au/blogs/curated-edits/silk-weights-and-measures"],
+  momme: ["Mulberry Park Silks: what is momme", "https://mulberryparksilks.com/blogs/mulberry/what-is-momme-in-silk-fabric"],
+  minerva: ["Minerva: silk types compared", "https://minervapatterns.com/blog/silk-types-compared-charmeuse-habotai-dupioni-and-crepe"],
+  anuprerna: ["Anuprerna: is silk good for hot weather", "https://anuprerna.com/blogs/is-silk-good-for-hot-weather-a-summer-fabric-analysis/163120936"],
+});
+
+const L5_CTX = {
+  silver: [
+    "Najran jewelry includes kharous (earrings), harouz (necklaces), halqah (head piece), lazem and shamiliyyat (wide bracelets) and marda' (rings).",
+    "Southern jewelry was mostly big silver with few stones, decorated with silver wire and plates. It used fire agate, amber, blood coral (ra'af = deep red coral beads) and old glass beads. Bedouin silver also used carnelian, turquoise, bells and coins.",
+    "Jewelry was bought with part of the bride price and was the woman's own property and safety net, sold in hard times. Some necklace cases held Qur'an verses; turquoise was worn against the evil eye.",
+    "Tiny bells let people know a woman was near, so men looked away: 'heard but not seen'.",
+    "Move 13 idea: for men, one small closed silver bead or a bell with no clapper (silent) on a drawstring end or zip pull, or one coral-red stitch inside a cuff.",
+  ],
+  dress: [
+    "Najdi women's dress: loose shapes, ankle or floor length, with embroidery. Early colors were muted grey and navy; brighter colors came later. Many women sewed and cut their own clothes.",
+    "The Najdi overdress (thawb najdi) is a huge T-shape of sheer tulle with very wide sleeves and big underarm panels, embroidered at the neck front and back. Locally called munaykhal, 'mesh strainer', because the cloth is full of holes. Worn for special occasions.",
+    "Hijaz ceremonial dress is white with gold zari thread; Asir and Jazan dress is many-colored with geometric patterns and floral headpieces.",
+    "Move 14 idea (feminine to masculine): keep the idea of a sheer open layer over a solid one; for men, a dark open-weave summer overshirt over a white thobe or tee, sharper shoulders, no embroidery.",
+  ],
+  silk: [
+    "Momme is silk's weight: higher number = heavier cloth. One momme is about 4.3 grams per square meter, so 16 momme is about 69 grams per square meter.",
+    "Habotai: plain, soft sheen, 8–16 momme, low cling, good in heat. Crepe de chine: twisted yarn, matte, pebbly, 12–16 momme. Georgette: sheer, crinkly, 5–10 momme. Charmeuse: glossy face, dull back, 12–30 momme, clings and shows sweat.",
+    "One silk maker says shiny silks show sweat and heavy dense weaves trap heat; open plain weaves of about 7–14 momme let heat out best. This is one company's advice, not lab data.",
+    "Rule for A'ila Areeqa: for hot-weather abayas and linings, light matte plain or crepe silks under about 16 momme; keep glossy charmeuse for evening or small accents.",
+  ],
+};
+
+const L5 = {
+  id: "l5", num: 5, date: "2026-10-29", day: "Thu, Oct 29", ready: true,
+  title: "Women's dress and silver",
+  pair: "Regional dress and jewelry, turned masculine · Silk types and momme",
+  slides: [
+    { type: "cover", part: "warm", img: "l5-10", coverCaption: "Silver and gilt filigree necklace from Sana'a, Yemen, late 1800s. The Israel Museum.",
+      kicker: "Lesson 5 · about 1 hour",
+      title: "Women's dress and silver",
+      text: "Saudi women's dress and jewelry are the richest part of the heritage, and the hardest to bring into a quiet brand. Today you learn what they meant, then practice the key skill of A'ila Areeqa: turning a feminine detail into a masculine one, without losing where it came from." },
+
+    { type: "quiz", part: "warm", warm: true, review: 4,
+      q: "What were the small triangle openings in Najdi walls for?",
+      options: ["Decoration only", "Air, light and a view out, and also defense", "Draining rain", "Holding lamps"], answer: 1,
+      why: "Air, light and a view out, and defense. A useful hole that became a pattern.",
+      whys: ["They look decorative, but each one had a job.", null, "Rain is rare in Najd, and these sit high on the wall.", "They're openings, not shelves."],
+      hint: { svg: "facade", cap: "Small openings, high on a thick wall, in a hot desert." } },
+    { type: "quiz", part: "warm", warm: true, review: 4,
+      q: "Best lining for a jacket worn in Gulf heat?",
+      options: ["Polyester", "Cupro (Bemberg)", "Acetate", "Rubber"], answer: 1,
+      why: "Cupro breathes best. Half-line it, and keep the sleeves lined.",
+      whys: ["Polyester breathes poorly: the cheap-suit lining.", null, "Acetate is light but weak.", "Rubber doesn't breathe at all."] },
+    { type: "quiz", part: "warm", warm: true, review: 4,
+      q: "In the pinch test, a loose third layer floating inside the jacket front means…",
+      options: ["Fused (glued)", "Canvas", "No lining", "Polyester lining"], answer: 1,
+      why: "Canvas. It's sewn, not glued, so it floats as its own layer.",
+      whys: ["Fused is the opposite: glued flat, no loose layer.", null, "The pinch test checks the front's inside, not the lining.", "The pinch test isn't about lining fabric."],
+      hint: { svg: "layFull", cap: "Outside, a layer, lining. Which layer floats?" } },
+
+    { type: "story", part: "story", svg: "najdiDress",
+      caption: "Drawing of a Najdi overdress: wide T-shape, very wide sleeves, embroidered neck.",
+      title: "Najd: the mesh-strainer dress",
+      arabic: "منيخل",
+      text: [
+        "Najdi women's dress was loose and long, to the ankle or floor, with embroidery. Early colors were muted grey and navy. Brighter colors came later. Many women cut and sewed their own clothes.",
+        "For special occasions they wore the thawb najdi: a huge T-shaped overdress of sheer tulle with very wide sleeves, embroidered at the neck front and back.",
+        "Locally it is called munaykhal, \"mesh strainer\", because the cloth is full of tiny holes."
+      ],
+      note: "No free-to-use photo of a Saudi women's traditional dress exists online that we can show here. The drawing is based on the Zay Initiative's museum notes. Search \"thawb najdi Zay Initiative\" to see real ones.",
+      src: [SRC.anNajdi, SRC.zay, SRC.spFirstState] },
+
+    { type: "layers", part: "story",
+      title: "Three regions, three looks",
+      intro: "There was never one Saudi women's wardrobe. Climate, trade and materials made each region different.",
+      layers: [
+        ["Najd (center)", "Loose and long. Sheer overdresses over a base dress. Started with muted grey and navy.", "Center"],
+        ["Hijaz (west)", "Shaped by trade and pilgrimage. Ceremonial dress is white with gold zari thread.", "West"],
+        ["Asir and Jazan (south)", "Many-colored robes with geometric patterns and flower headpieces. Asiri women wore straw hats to work in the sun.", "South"]
+      ],
+      note: "Notice the pattern: the south is bright, the center is muted, the west is white and gold. For a quiet brand, Najd's muted palette is the closest fit.",
+      src: [SRC.anNajdi, SRC.doodle, SRC.anGowns] },
+
+    { type: "story", part: "story", img: "l5-1",
+      caption: "Amber and silver, Yemen. Southern Arabian jewelry shared this style.",
+      title: "Silver was a woman's bank",
+      text: [
+        "Part of a bride's dowry bought her jewelry. It belonged to her alone. In hard times she could sell it. It was her safety net.",
+        "Southern pieces were mostly big silver with few stones, decorated with fine silver wire. They used amber, fire agate, blood coral and old glass beads. Ra'af means deep red coral beads.",
+        "In Najran: kharous (earrings), harouz (necklaces), halqah (head piece), lazem and shamiliyyat (wide bracelets), marda' (rings). Some bracelets weighed about 200 grams."
+      ],
+      src: [SRC.najranJewel, SRC.unescoBedJewel, SRC.aramco79] },
+
+    { type: "story", part: "story", img: "l5-11",
+      caption: "An Omani hirz necklace: a hollow pendant that held Qur'an verses or herbs.",
+      title: "Heard, but not seen",
+      text: [
+        "Some necklace cases held verses of the Qur'an. Turquoise was worn against the evil eye.",
+        "Tiny bells hung from many pieces. As a woman walked, the bells told people she was near, so men looked away. She was heard, but not seen.",
+        "Bedouin silver also used carnelian, turquoise, bells and coins. In Saudi Arabia, silversmiths worked in Riyadh's Batha souq and in Taif."
+      ],
+      note: "The bell is a sound that says \"I'm here\" without being seen. That's a perfect quiet-luxury idea.",
+      src: [SRC.aramco79, SRC.najranJewel, SRC.spJewel] },
+
+    { type: "compare", part: "see",
+      title: "Two necklaces, two ideas",
+      left:  { img: "l5-8", label: "Coins and chains", caption: "Silver necklace from Yemen, 1800s to early 1900s. Fowler Museum, Los Angeles." },
+      right: { img: "l5-10", label: "Filigree", caption: "Silver-gilt filigree from Sana'a, late 1800s." },
+      takeaway: "Left: weight and sound, from many dangling pieces. Right: fine wire worked into lace. For a men's piece, keep one idea only: either one small dangling bead, or a little filigree texture on a button. Never both.",
+      src: [SRC.aramco12] },
+
+    { type: "story", part: "see", img: "l5-24",
+      caption: "Silkworms spinning cocoons on a frame, Da Lat, Vietnam.",
+      title: "Where silk comes from",
+      text: [
+        "Silk is spun by silkworms. Each worm wraps itself in one long thread to make a cocoon.",
+        "Cocoons are boiled to loosen the thread, then it is unwound. That's why silk is so smooth: it's one long filament, not short fibers twisted together.",
+        "Silk breathes and feels cool, but it's delicate and shows water and sweat marks easily."
+      ] },
+
+    { type: "compare", part: "see",
+      title: "From cocoon to cloth",
+      left:  { img: "l5-26", label: "Boiling cocoons", caption: "Traditional Thai silk making: cocoons in hot water." },
+      right: { img: "l5-16", label: "Charmeuse", caption: "Silk charmeuse: shiny face, dull back." },
+      takeaway: "Charmeuse is woven in a satin weave, which is why it shines. You met satin in Lesson 2: long floating threads, smooth and shiny, but it shows every mark.",
+      src: [SRC.minerva] },
+
+    { type: "ladder", part: "see",
+      title: "Silk weight: momme",
+      intro: "Silk is weighed in momme. Higher number = heavier, thicker cloth. One momme is about 4.3 grams per square meter.",
+      rows: [
+        ["Charmeuse (heavy)", 30, "up to 30 momme"],
+        ["Silk twill", 19, "16–19 momme"],
+        ["Crepe de chine", 16, "12–16 momme", true],
+        ["Habotai", 12, "8–16 momme", true],
+        ["Georgette", 8, "5–10 momme"]
+      ],
+      note: "One silk maker says light, open, matte silks of about 7–14 momme let heat out best, and shiny silks show sweat. That's one company's advice, not lab data, so test before you buy.",
+      src: [SRC.silkWeights, SRC.momme, SRC.anuprerna] },
+
+    { type: "layers", part: "see",
+      title: "Which silk for the Gulf?",
+      intro: "Same fiber, different weaves. Each feels different in the heat.",
+      layers: [
+        ["Habotai", "Plain weave, soft sheen, light. Clings little. Good in heat.", "Good"],
+        ["Crepe de chine", "Twisted yarn, matte, pebbly. Matte may hide sweat better.", "Good"],
+        ["Georgette", "Sheer and crinkly. Good for loose layers, like the Najdi overdress.", "Layers"],
+        ["Charmeuse", "Glossy face, dull back. Clings and shows sweat.", "Evening"],
+        ["Silk twill", "Fine diagonal lines. Medium.", "Medium"]
+      ],
+      note: "Rule for A'ila Areeqa: for hot-weather abayas and linings, choose light, matte, plain or crepe silks under about 16 momme. Keep glossy charmeuse for evening pieces or small accents.",
+      src: [SRC.minerva, SRC.anuprerna] },
+
+    { type: "design", part: "design", svg: "silentBell",
+      title: "Move 13: The silent bell",
+      text: "A woman's bell said \"I'm here\" without being seen. Turn it into a men's detail that says the same thing, quietly.",
+      how: ["One small closed silver bead on a drawstring end or a zip pull.",
+            "No clapper inside, so it's silent. Only the wearer knows what it was.",
+            "Inside a cuff: one stitch in deep coral red, a nod to ra'af beads."] },
+
+    { type: "design", part: "design", svg: "sheerLayer",
+      title: "Move 14: The munaykhal layer",
+      text: "The Najdi overdress was a sheer \"mesh strainer\" layer over a solid dress. Keep the layering idea, change the shape.",
+      how: ["Men: a dark open-weave summer overshirt over a white thobe or tee.",
+            "Sharper shoulders, straight cut, no embroidery.",
+            "Women: georgette in Najd's muted grey or navy, long and wide-sleeved."] },
+
+    { type: "design", part: "design", svg: "najdiDress",
+      title: "Move 15: The muted palette",
+      text: "Najdi women started with grey and navy before brighter colors arrived. That's already a quiet-luxury palette.",
+      how: ["Base colors: Najdi grey, navy, sand.",
+            "One accent only: coral red (ra'af) or zari gold, used small.",
+            "Use it for both men and women, so the brand looks like one family."] },
+
+    { type: "task", part: "do", title: "Feminine to masculine", minutes: 5,
+      text: "Pick one women's piece from this lesson and turn it into a men's detail.",
+      checklist: ["Name the women's piece (dress, bell, necklace or bracelet)", "Say what you keep: the idea, the material or the shape", "Say what you drop, and where your men's detail goes on the garment"],
+      notePrompt: "I picked the ___. I keep ___. I drop ___. It goes on the ___.",
+      refs: [{ img: "l5-11", cap: "Hirz necklace: a case that held verses." }, { img: "l5-8", cap: "Yemeni silver with dangling pieces." }, { svg: "najdiDress", cap: "Najdi overdress (drawing)." }, { svg: "silentBell", cap: "Move 13: the silent bell." }],
+      context: L5_CTX.silver.concat(L5_CTX.dress) },
+    { type: "task", part: "do", title: "Silk shopping list", minutes: 3,
+      text: "You're ordering silk for a summer abaya lining and an evening scarf.",
+      checklist: ["Choose a silk type and momme for the lining", "Choose one for the evening scarf", "Say why each one fits"],
+      notePrompt: "Lining: ___ at ___ momme because... Scarf: ___ because...",
+      refs: [{ img: "l5-16", cap: "Charmeuse: shiny face, dull back." }],
+      context: L5_CTX.silk },
+    { type: "task", part: "do", title: "Your palette card", minutes: 2,
+      text: "Write the A'ila Areeqa palette in words, using Move 15.",
+      checklist: ["Pick two base colors", "Pick one accent", "Say what each one comes from in Saudi heritage"],
+      notePrompt: "Base: ___ and ___. Accent: ___. They come from...",
+      refs: [{ svg: "najdiDress", cap: "Najd: muted base, gold at the neck." }, { img: "l5-1", cap: "Amber and silver." }],
+      context: L5_CTX.dress.concat(["Ra'af means deep red coral beads used in southern jewelry; zari is gold-plated silver thread."]) },
+
+    { type: "quiz", part: "quiz", q: "Why did a bride's silver matter so much?",
+      options: ["It was only for show", "It was her own property and safety net", "It belonged to her father", "It was rented for the wedding"], answer: 1,
+      why: "It belonged to her alone, and she could sell it in hard times.",
+      whys: ["It was beautiful, but its real job was security.", null, "It was bought with part of the dowry, and it was hers.", "It was hers to keep."], src: [SRC.aramco79] },
+    { type: "quiz", part: "quiz", q: "What did the tiny bells on jewelry do?",
+      options: ["Scared away animals", "Let people know a woman was near, so men looked away", "Called children home", "Kept time for dancing"], answer: 1,
+      why: "\"Heard, but not seen.\" The sound gave her privacy.",
+      whys: ["Nice idea, but the sources tie the bells to people, not animals.", null, "That was not their stated purpose.", "The bells were worn every day, not just for dances."],
+      hint: { svg: "silentBell", cap: "A sound that says \"I'm here\"." }, src: [SRC.aramco79] },
+    { type: "quiz", part: "quiz", q: "Why was the Najdi overdress called munaykhal, \"mesh strainer\"?",
+      options: ["It was used in the kitchen", "Its sheer cloth is full of tiny holes", "It was made of metal", "It was worn by cooks"], answer: 1,
+      why: "The sheer tulle is full of tiny holes, like a strainer.",
+      whys: ["It's a dress, not a kitchen tool. The name describes the cloth.", null, "It's sheer tulle, not metal.", "It was a special-occasion dress for women."],
+      hint: { svg: "sheerLayer", cap: "Look closely at the outer layer." }, src: [SRC.zay] },
+    { type: "quiz", part: "quiz", q: "What does a higher momme number tell you about silk?",
+      options: ["It's shinier", "It's heavier and thicker", "It's older", "It's cheaper"], answer: 1,
+      why: "Momme is weight. Higher = heavier, thicker cloth.",
+      whys: ["Shine comes from the weave, like satin, not the momme.", null, "Momme has nothing to do with age.", "Heavier silk usually costs more, not less."], src: [SRC.momme] },
+    { type: "quiz", part: "quiz", q: "Best silk for a summer abaya lining?",
+      options: ["Heavy glossy charmeuse", "Light matte habotai or crepe de chine", "Polyester satin", "Thick silk twill"], answer: 1,
+      why: "Light, matte, plain or crepe silk under about 16 momme.",
+      whys: ["Charmeuse clings and shows sweat. Keep it for evening.", null, "That's not silk, and polyester traps heat.", "Twill is heavier and medium in heat."], src: [SRC.minerva] },
+    { type: "quiz", part: "quiz", q: "Turning a woman's bell into a men's detail, what do you keep?",
+      options: ["The loud sound", "The idea: a small silver piece that marks presence quietly", "The exact necklace shape", "Lots of bells"], answer: 1,
+      why: "Keep the idea and the material. Drop the sound and the size.",
+      whys: ["The point of Move 13 is a silent bell.", null, "Copying the necklace shape keeps it feminine.", "One small piece, not many."] },
+
+    { type: "remember", part: "quiz",
+      title: "Three things to keep",
+      items: [
+        ["Silver was a woman's bank; bells meant \"heard, not seen\".", "Move 13: one silent silver bead, one coral-red stitch."],
+        ["Munaykhal = a sheer \"mesh strainer\" layer over a solid one.", "Move 14: open-weave overshirt for men. Najd's grey and navy for both."],
+        ["Momme = silk weight. Light, matte silk for heat.", "Habotai or crepe under about 16 momme. Charmeuse for evening only."]
+      ] },
+
+    { type: "video", part: "quiz",
+      title: "Watch tonight or tomorrow",
+      items: [
+        ["Yemen's Unknown Treasure: Traditional Silver Jewelry of Bedouin & Tribal Women", "https://www.youtube.com/watch?v=CMx8k6_Cyik", "The southern silver style Najran pieces share."],
+        ["It's Silk, Not Polyester! Crepe, chiffon, satin and taffeta", "https://www.youtube.com/watch?v=KTxQ0Fw6cZc", "Pairs with the silk slides."],
+        ["Why Are These Traditional Saudi Arabian Dresses So Huge?", "https://www.youtube.com/watch?v=Iykmei0TEsg", "About very wide traditional robes."]
+      ] }
+  ]
+};
+
+PHOTOS["l5-1"] = { by: "Rod Waddington", lic: "CC BY-SA 2.0", page: "https://commons.wikimedia.org/wiki/File:Amber_and_Silver,_Yemen_(12285897684).jpg" };
+PHOTOS["l5-8"] = { by: "Daderot", lic: "Public domain", page: "https://commons.wikimedia.org/wiki/File:Necklace,_Yemen,_obtained_in_Israel,_1800s_to_early_1900s_AD,_silver_-_Fowler_Museum_-_University_of_California,_Los_Angeles_-_DSC02466.jpg" };
+PHOTOS["l5-10"] = { by: "The Israel Museum, photo by Pierre-Alain Ferrazzini", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Necklace_(Pierre-Alain_Ferrazzini)_for_The_Israel_Museum.jpg" };
+PHOTOS["l5-11"] = { by: "Reda Kerbush", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Jewelry,_Bait_al_Zubair_Museum,_Oman.jpg" };
+PHOTOS["l5-16"] = { by: "Enby", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Charmeuse.jpg" };
+PHOTOS["l5-24"] = { by: "P. Hughes", lic: "CC BY 4.0", page: "https://commons.wikimedia.org/wiki/File:Da_Lat_-_Cocooning_frame.jpg" };
+PHOTOS["l5-26"] = { by: "Kinitrupti", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Traditional_Thai_silk_making.jpg" };
+
+Object.assign(SRC, {
+  anJanbiya: ["Arab News: Najran's janbiya", "https://www.arabnews.com/saudi-arabia/najrans-janbiya-a-timeless-symbol-of-cultural-heritage-2595464"],
+  anJanbiya2: ["Arab News: why the janbiya remains a symbol", "https://www.arabnews.com/node/2059516/amp"],
+  spNajran: ["Saudipedia: Najran handicrafts", "https://saudipedia.com/en/list-of-handicrafts-in-najran-province"],
+  anLeather: ["Arab News: Najran's leather artisans", "https://www.arabnews.pk/saudi-arabia/najrans-leather-artisans-preserve-cultural-heritage-2566716"],
+  spLeather: ["Saudipedia: Leather goods", "https://saudipedia.com/en/leather-goods-in-the-kingdom"],
+  csmon: ["CS Monitor: Daisies and daggers", "https://www.csmonitor.com/World/Middle-East/2022/0613/Daisies-and-daggers-In-Saudi-mountains-garlands-crown-the-brave"],
+  spBurner: ["Saudipedia: The incense burner", "https://saudipedia.com/en/the-incense-burner"],
+  ithraHosp: ["Ithraeyat: The art of hospitality", "https://ithraeyat.ithra.com/editions/identity/the-art-of-hospitality"],
+  anPerfume: ["Arab News: 6 perfume traditions", "https://www.arabnews.com/the-six/6-perfume-traditions-from-the-region-2591135"],
+  anTaif: ["Arab News: Taif's roses", "https://www.arabnews.pk/saudi-arabia/blooming-once-a-year-taifs-roses-embody-regions-heritage-2458111"],
+  spTaif: ["Saudipedia: How Taif rose water is made", "https://saudipedia.com/en/how-is-taif-rose-water-made"],
+  gnOud: ["Gulf News: oud sales", "https://gulfnews.com/world/gulf/saudi/scent-of-eid-incense-and-oud-sales-soar-in-saudi-arabia-1.102051066"],
+  spDiving: ["Saudipedia: Diving in Saudi Arabia", "https://saudipedia.com/en/article/3630/society/sports/diving-in-saudi-arabia"],
+  spMaritime: ["Saudipedia: Historical maritime occupations", "https://saudipedia.com/en/historical-maritime-occupations-in-saudi-arabia"],
+  adDiving: ["Abu Dhabi Culture: diving equipment", "https://abudhabiculture.ae/en/cultural-heritage/intangible/heritage-register/traditional-handicraft/diving-equipment-in-the-past"],
+  aramcoPearl: ["AramcoWorld: Servants of the Pearl", "https://archive.aramcoworld.com/issue/199005/servants.of.the.pearl.htm"],
+  gelato: ["Gelato: polyester and cotton blends", "https://www.gelato.com/blog/cotton-polyester-blends-guide"],
+  truro: ["Truro Fabrics: 97% wool, 3% elastane", "https://trurofabrics.com/products/stretch-wool-suiting-fabric-black"],
+  mns: ["Marks & Spencer (M&S): wool blend trousers", "https://www.marksandspencer.com/black-textured-tailored-fit-trousers/p/clp60205839"],
+  bonne: ["Bonne Gueule: Loro Piana wool, silk and linen", "https://bonnegueule.fr/en-eu/blogs/medias/le-retour-de-nos-costumes-dete-en-tissu-laine-lin-et-soie"],
+  psWsl: ["Permanent Style: wool, silk, linen", "https://www.permanentstyle.com/2017/03/a-guide-to-wool-silk-linens-mixes-colours-bunches"],
+  jnf: ["Journal of Natural Fibers (2024): elastane in suiting", "https://doaj.org/article/542e21882932402fb39206625ef5a6d2"],
+  dazed: ["Dazed: Prada Re-Nylon", "https://www.dazeddigital.com/fashion/article/45002/1/miuccia-prada-sustainable-re-nylon-aquafil"],
+  nona: ["Nona Source: why luxury uses synthetics", "https://www.nona-source.com/blogs/news/why-are-synthetic-and-artificial-textiles-used-in-luxury-fashion"],
+});
+
+const L6_CTX = {
+  leather: [
+    "The janbiya is a curved dagger worn at the front of a belt; in Najran it is iron or steel with a horn handle, often with silver or gold added. It stands for courage, manhood and tribe; when tribes make peace they lay daggers down.",
+    "Najran leather workers make the masbat (waist belt), mezab (baby carrier) and zamalah (storage case). Hides: camel, cattle, sheep, goat. Plant tanning gave light red (Calligonum) or deep red (St John's wort).",
+    "The haskal is a money pouch worn under the left arm on a braided strap. Divers wore khabt, leather finger covers, against sharp rocks.",
+    "Design ideas: a plant-tanned leather belt or strap with one small engraved silver piece; a slim inside pocket under the left arm like the haskal; a small leather tab on a cuff like the khabt.",
+  ],
+  scent: [
+    "The mabkhara is a charcoal incense burner: square base, sloping sides, metal-lined cup on top. Amber and oud wood are burned on hot coals; the smoke scents the room, clothes, hair and guests. At weddings it is passed round so each guest can scent himself.",
+    "Taif has over 910 farms growing about 550 million roses a year; the bush blooms once a year for 40–50 days and roses are picked early each morning. Al-Arus ('the bride's') rose water is about 80% strength.",
+    "Design ideas: wrap each garment in tissue lightly scented with oud bakhoor; a tiny collar pocket for a scent card; 'Al-Arus' as a hidden name on a label. Scent should be on packaging or removable cards, not baked into the cloth.",
+  ],
+  blends: [
+    "Every fiber in a blend must earn its place. 65% polyester / 35% cotton is tough, cheap, and wrinkle-resistant but breathes less than cotton: uniforms, not luxury.",
+    "97% wool / 3% elastane gives comfort stretch for trousers. 2–3% elastane is normal in tailoring; a 2024 study found 7% or more can cause seam puckering.",
+    "Wool/silk/linen: wool stops linen wrinkling, silk adds shine, linen adds coolness; Loro Piana's 'Summertime' cloth is 71% merino wool and 15% silk.",
+    "Polyester is fine when it does a job natural fibers can't: holding a pleat, a weatherproof shell, a signature nylon with a story (Prada Re-Nylon from recycled fishing nets). Not next to the skin in Gulf heat.",
+  ],
+};
+
+const L6 = {
+  id: "l6", num: 6, date: "2026-10-30", day: "Fri, Oct 30", ready: true,
+  title: "Leather, scent and the sea",
+  pair: "Janbiya, incense, Taif rose, pearl divers · Blends, stretch and when polyester is fine",
+  slides: [
+    { type: "cover", part: "warm", img: "l6-17", coverCaption: "Taif rose harvest, 2026.",
+      kicker: "Lesson 6 · about 1 hour",
+      title: "Leather, scent and the sea",
+      text: "Not all heritage is cloth. A dagger on a belt, smoke from a burner, a diver's leather finger guard. Today you collect the small things that make a garment feel Saudi, then learn when mixing fibers, even polyester, makes a garment better." },
+
+    { type: "quiz", part: "warm", warm: true, review: 5,
+      q: "What did the tiny bells on women's jewelry do?",
+      options: ["Scared animals away", "Let people know a woman was near, so men looked away", "Kept time for dancing", "Called children home"], answer: 1,
+      why: "\"Heard, but not seen.\" Move 13 turns it into a silent silver bead.",
+      whys: ["The sources tie the bells to people, not animals.", null, "They were worn every day, not just for dancing.", "That wasn't their stated purpose."],
+      hint: { svg: "silentBell", cap: "A sound that says \"I'm here\"." } },
+    { type: "quiz", part: "warm", warm: true, review: 5,
+      q: "What does munaykhal (\"mesh strainer\") describe?",
+      options: ["A kitchen tool", "The Najdi overdress's sheer cloth, full of tiny holes", "A silver necklace", "A type of tent"], answer: 1,
+      why: "The sheer tulle overdress. Move 14 turns it into an open-weave overshirt for men.",
+      whys: ["The name borrows a kitchen word, but it describes a dress.", null, "It's a dress, not jewelry.", "It's a dress, not a tent."] },
+    { type: "quiz", part: "warm", warm: true, review: 5,
+      q: "Best silk for a summer abaya lining?",
+      options: ["Heavy glossy charmeuse", "Light matte habotai or crepe under about 16 momme", "Polyester satin", "Thick silk twill"], answer: 1,
+      why: "Light, matte, plain or crepe silk. Charmeuse is for evening.",
+      whys: ["Charmeuse clings and shows sweat.", null, "That's not silk, and it traps heat.", "Twill is heavier."] },
+
+    { type: "story", part: "story", img: "l6-0",
+      caption: "A janbiya with a steel blade, bought in the souq of Sana'a, Yemen, in 1986.",
+      title: "The janbiya: courage on the belt",
+      arabic: "جنبية",
+      text: [
+        "The janbiya is a curved dagger worn at the front of a belt. In Najran it's made of iron or steel with a horn handle, often with silver or gold added. The best sheaths are inlaid with silver.",
+        "It stands for courage, manhood and tribe. When tribes make peace, they lay their daggers down. Many boys get their first one in their teens.",
+        "Najran's Al-Janabi souq is known for janbiya makers. Prices run from about 20 Saudi riyals (SR) to SR 250,000 or more."
+      ],
+      src: [SRC.anJanbiya, SRC.anJanbiya2] },
+
+    { type: "story", part: "story", img: "l6-7",
+      caption: "Najran Fort (Emara Palace), Saudi Arabia.",
+      title: "Najran's leather",
+      text: [
+        "Najran's leather workers made belts, a baby carrier (mezab) and big storage cases (zamalah). Hides came from camels, cattle, sheep and goats.",
+        "They tanned leather with plants. One plant (Calligonum) gave a light red. Another (St John's wort) gave a deep red.",
+        "Men wore the haskal: a money pouch under the left arm on a braided strap. Sandals had camel-skin soles and goat-skin tops."
+      ],
+      note: "Plant-tanned leather is what luxury leather brands still sell today. It ages, darkens and softens. Najran was doing it with local plants.",
+      src: [SRC.spNajran, SRC.anLeather, SRC.spLeather] },
+
+    { type: "compare", part: "story",
+      title: "Smoke as a welcome",
+      left: { img: "l6-31", label: "2,400 years ago", caption: "Stone incense burner from Yemen, 5th–4th century BCE (before the common era). Its inscription lists incense woods and resins." },
+      right: { img: "l6-12", label: "Oud wood", caption: "Top-grade agarwood, the wood burned as oud." },
+      takeaway: "The mabkhara burns amber and oud on hot coals. The smoke scents the room, clothes, hair and guests. At weddings it's passed round so each guest can scent himself. In nine months of 2023–24, Saudi Arabia imported about 1.1 million kilograms of oud wood.",
+      src: [SRC.spBurner, SRC.ithraHosp, SRC.gnOud] },
+
+    { type: "story", part: "story", img: "l6-17",
+      caption: "Picking Taif roses, 2026.",
+      title: "Taif roses: picked before sunrise",
+      arabic: "ورد طائفي",
+      text: [
+        "Over 910 farms in Taif grow about 550 million roses a year. The bushes bloom only once a year, for 40 to 50 days.",
+        "Roses are picked early each morning, before the heat. Then they're distilled into rose water and oil.",
+        "Grades have names: al-Arus, \"the bride's\", is the strongest at about 80%. Then al-thanou at about 50%, and al-sayer at 20% or less."
+      ],
+      src: [SRC.anTaif, SRC.spTaif] },
+
+    { type: "story", part: "story", img: "l6-20",
+      caption: "Arab pearl divers at work in the Gulf. From George Frederick Kunz, The Book of the Pearl (1908).",
+      title: "The pearl divers of the east coast",
+      text: [
+        "On the Eastern Province coast, the main diving season lasted 130 days. Divers went down about 2 minutes at a time, to about 18 meters, around 50 times a day.",
+        "They wore sirwal shorts and a black shamshool, or cotton suits against jellyfish. A nose clip (fattam) was made of bone or horn. Leather finger covers (khabt) protected their hands from sharp rocks.",
+        "On a Saudi boat the catch was split: captain 20%, diver 40%, rope-puller 30%, helper 10%. Buyer and seller agreed a price by touching fingers under a red cloth."
+      ],
+      note: "A secret price, agreed under a red cloth. That's a very quiet-luxury story.",
+      src: [SRC.spDiving, SRC.spMaritime, SRC.adDiving, SRC.aramcoPearl] },
+
+    { type: "compare", part: "see",
+      title: "What the sea gave",
+      left: { img: "l6-27", label: "The oyster", caption: "A pearl oyster shell: rough outside, mother-of-pearl inside." },
+      right: { img: "l6-20", label: "The work", caption: "Divers and rope-pullers on the boat." },
+      takeaway: "Rough outside, shining inside. That's the same idea as the roshan lining in Lesson 4 and the red-cloth deal: the beauty is hidden from the outside world. Mother-of-pearl buttons are a direct, honest nod to the divers.",
+      src: [SRC.aramcoPearl] },
+
+    { type: "compare", part: "see",
+      title: "Two scents, two raw materials",
+      left: { img: "l6-40", label: "Resin", caption: "Frankincense resin, the tears of a tree." },
+      right: { img: "l6-12", label: "Wood", caption: "Oud: wood made dark and fragrant inside the tree." },
+      takeaway: "Arabia traded incense for thousands of years. Scent belongs to how Saudis welcome guests. For a garment, keep scent on the packaging or a removable card, not baked into the cloth, so the customer chooses." },
+
+    { type: "story", part: "see", img: "l6-47",
+      caption: "A spool of spandex (elastane) yarn.",
+      title: "Now the fabric part: why mix fibers?",
+      text: [
+        "A blend mixes two or more fibers so each one adds what the others lack. The rule: every fiber must earn its place.",
+        "Elastane, also called spandex or Lycra, is a stretchy fiber. A little of it lets a woven fabric move with you.",
+        "Polyester in a blend can add strength and stop wrinkles. But it also lowers breathability, which matters a lot in Gulf heat."
+      ],
+      src: [SRC.gelato, SRC.nona] },
+
+    { type: "layers", part: "see",
+      title: "Five blends, five reasons",
+      intro: "Read each blend like a recipe: what each fiber adds, and who the blend is for.",
+      layers: [
+        ["65% polyester / 35% cotton", "Tough, cheap, few wrinkles. Breathes less. Uniforms, not luxury.", "Workwear"],
+        ["Cotton-heavy, e.g. 65 cotton / 35 polyester", "Keeps cotton's softness, adds strength.", "Mid-market"],
+        ["97% wool / 3% elastane", "Wool look with comfort stretch. Trousers, soft tailoring.", "Good"],
+        ["~50 wool / 48 polyester / 2 elastane", "Cuts cost, adds toughness. High-street suits.", "Budget"],
+        ["Wool / silk / linen", "Wool stops linen wrinkling, silk adds shine, linen adds coolness. Loro Piana's summer cloth is 71% merino wool and 15% silk.", "Luxury summer"]
+      ],
+      src: [SRC.gelato, SRC.truro, SRC.mns, SRC.bonne, SRC.psWsl] },
+
+    { type: "ladder", part: "see",
+      title: "How much stretch is too much?",
+      intro: "Elastane percentage in a woven tailoring fabric.",
+      rows: [
+        ["7% or more", 7, "can cause wavy, puckered seams"],
+        ["4–6%", 5, "starts to feel like activewear"],
+        ["2–3%", 3, "normal comfort stretch", true],
+        ["0%", 0.3, "pure wool: the classic"]
+      ],
+      note: "A 2024 study of suit fabrics found 7% or more elastane in the crosswise threads can make seams pucker. Knits for sport go much higher on purpose, but that's a different garment.",
+      src: [SRC.jnf, SRC.truro] },
+
+    { type: "toggle", part: "see",
+      title: "When is polyester fine?",
+      intro: "Polyester is cheap when it replaces a better fiber. It's fine when it does a job natural fibers can't.",
+      modes: {
+        "Fine": { img: "l6-47", cap: "Synthetic yarn on a spool (this one is spandex). Synthetics earn their place when they do a job.", items: [
+          ["Pleats", "Polyester holds a heat-set pleat", "natural fibers lose it"],
+          ["Weather shell", "A waterproof outer layer", "on a coat, not against skin"],
+          ["Signature story", "Prada's Re-Nylon, from recycled fishing nets", "the synthetic is the point"] ] },
+        "Not fine": { img: "l1-28", cap: "Linen: what belongs next to the skin in Gulf heat.", items: [
+          ["Next to the skin", "In Gulf heat, it traps sweat", "use cotton, linen, silk or fine wool"],
+          ["Linings", "Feels like a sauna", "use cupro (Lesson 4)"],
+          ["Faking a better fiber", "\"Silky\" polyester sold as luxury", "customers notice"] ] }
+      },
+      src: [SRC.dazed, SRC.nona, SRC.gelato] },
+
+    { type: "design", part: "design", svg: "haskal",
+      title: "Move 16: The haskal pocket",
+      text: "Najdi men kept money in a pouch under the left arm. Put a slim inside pocket in the same spot.",
+      how: ["A slim inside pocket under the left arm of a jacket or coat, for a phone or cards.",
+            "Lined in plant-tanned leather, the light Calligonum red.",
+            "Women: the same pocket inside a long open coat."] },
+
+    { type: "design", part: "design", svg: "khabtTab",
+      title: "Move 17: The khabt tab",
+      text: "Divers protected their fingers with small leather covers. Turn it into a small leather tab on a cuff or glove.",
+      how: ["A small plant-tanned leather tab on a shirt or jacket cuff.",
+            "One silver snap only.",
+            "Tell the diver's story on the hangtag."] },
+
+    { type: "design", part: "design", svg: "redLining",
+      title: "Move 18: The red-cloth secret",
+      text: "Pearl prices were agreed by touching fingers under a red cloth. Put that red where only the wearer sees it.",
+      how: ["A deep red lining in a plain black or sand coat.",
+            "Or one red-lined pocket.",
+            "Pack each piece with an oud-scented card, not scented cloth (see the collar-pocket idea)."] },
+
+    { type: "task", part: "do", title: "Read three blend labels", minutes: 4,
+      text: "Find three garments with mixed fibers on the label.",
+      checklist: ["Write each blend with its percentages", "For each fiber, say what it adds", "Judge it: luxury, mid-market, or workwear?"],
+      notePrompt: "Trousers: 52% wool, 46% polyester, 2% elastane. Wool adds..., polyester adds..., I'd call it...",
+      refs: [{ img: "l6-47", cap: "Elastane (spandex) yarn." }, { img: "l1-31", cap: "Wool fiber (Lesson 1)." }, { img: "l1-28", cap: "Linen (Lesson 1)." }],
+      context: L6_CTX.blends },
+    { type: "task", part: "do", title: "Design one leather detail", minutes: 3,
+      text: "Pick Move 16 or Move 17 and place it on a real piece you'd sell.",
+      checklist: ["Name the garment", "Choose haskal pocket or khabt tab", "Say the leather color and why"],
+      notePrompt: "Garment: ___. Detail: ___. Leather color: ___ because...",
+      refs: [{ svg: "haskal", cap: "Move 16: haskal pocket." }, { svg: "khabtTab", cap: "Move 17: khabt tab." }, { img: "l6-0", cap: "Janbiya: steel, wood and silver." }, { img: "l6-7", cap: "Najran." }],
+      context: L6_CTX.leather },
+    { type: "task", part: "do", title: "Plan the scent", minutes: 3,
+      text: "Decide how scent shows up when a customer opens an A'ila Areeqa box.",
+      checklist: ["Pick the scent: oud, Taif rose or amber", "Pick where: tissue paper, a card, or a collar pocket", "Say why it's on the packaging, not in the cloth"],
+      notePrompt: "Scent: ___. Where: ___. Not in the cloth because...",
+      refs: [{ img: "l6-31", cap: "An ancient incense burner." }, { img: "l6-17", cap: "Taif rose harvest." }, { svg: "scentPocket", cap: "Idea: a tiny collar pocket for a scent card." }],
+      context: L6_CTX.scent },
+
+    { type: "quiz", part: "quiz", q: "What does the janbiya stand for?",
+      options: ["Wealth only", "Courage, manhood and tribe", "Cooking skill", "Religious rank"], answer: 1,
+      why: "Courage, manhood and tribe. Tribes lay daggers down when they make peace.",
+      whys: ["Silver on it can show wealth, but its meaning is bigger.", null, "It's a dagger of honor, not a kitchen knife.", "It's tribal and personal, not a religious rank."], src: [SRC.anJanbiya] },
+    { type: "quiz", part: "quiz", q: "How did Najran craftsmen color leather red?",
+      options: ["With plants", "With paint", "With rust", "They didn't; it's natural"], answer: 0,
+      why: "With plants: Calligonum gave light red, St John's wort gave deep red.",
+      whys: [null, "No paint: the color comes from tanning plants.", "Rust wasn't used.", "Raw hide isn't red. The plants made it red."],
+      hint: { svg: "khabtTab", cap: "Look at the color of this leather." }, src: [SRC.spLeather] },
+    { type: "quiz", part: "quiz", q: "Al-Arus Taif rose water is…",
+      options: ["The weakest grade", "The strongest grade, about 80%", "Made from oud", "Only for cooking"], answer: 1,
+      why: "\"The bride's\" grade, about 80% strength. The best.",
+      whys: ["That's al-sayer, at 20% or less.", null, "It's made from Taif roses.", "It's used for scent too, not only cooking."], src: [SRC.spTaif] },
+    { type: "quiz", part: "quiz", q: "How did pearl buyers and sellers agree a price?",
+      options: ["Shouting in the souq", "Touching fingers under a red cloth", "Writing a contract", "Flipping a coin"], answer: 1,
+      why: "Touching fingers under a red cloth, so nobody else knew. Move 18.",
+      whys: ["The point was secrecy, not noise.", null, "The deal was silent and hidden.", "Not chance: a secret, careful deal."],
+      hint: { svg: "redLining", cap: "Something hidden, in red." }, src: [SRC.aramcoPearl] },
+    { type: "quiz", part: "quiz", q: "How much elastane is normal in tailored wool trousers?",
+      options: ["0.5%", "2–3%", "10%", "25%"], answer: 1,
+      why: "2–3% gives comfort stretch. 7% or more can pucker seams.",
+      whys: ["That's too little to feel.", null, "10% is activewear territory and can pucker seams.", "That's swimwear or leggings."], src: [SRC.jnf] },
+    { type: "quiz", part: "quiz", q: "When is polyester a good choice for A'ila Areeqa?",
+      options: ["Next to the skin in summer", "As a jacket lining", "For a heat-set pleat or a weatherproof outer shell", "To fake silk"], answer: 2,
+      why: "When it does a job natural fibers can't: holding a pleat, or a weather shell.",
+      whys: ["In Gulf heat it traps sweat.", "Use cupro for linings (Lesson 4).", null, "Faking a better fiber reads cheap."], src: [SRC.nona] },
+
+    { type: "remember", part: "quiz",
+      title: "Three things to keep",
+      items: [
+        ["Najran: janbiya and plant-tanned red leather.", "Move 16: the haskal pocket under the left arm. Move 17: the khabt tab."],
+        ["Scent and pearls are about what's hidden.", "Oud on the packaging, Taif's al-Arus as a hidden name, red inside like the pearl deal (Move 18)."],
+        ["Every fiber in a blend must earn its place.", "2–3% elastane max in tailoring. Polyester only for pleats, shells, or a real story."]
+      ] },
+
+    { type: "video", part: "quiz",
+      title: "Watch tonight or tomorrow",
+      items: [
+        ["Janbiya Dagger Making in Najran", "https://www.youtube.com/watch?v=jSNClnVM5GY", "See a janbiya being made in Najran."],
+        ["How to Use a Traditional Arabian Incense Burner (Mabkhara)", "https://www.youtube.com/watch?v=QBRPl0d330Y", "How the mabkhara and bakhoor are used."],
+        ["What's inside a Taif Rose factory?", "https://www.youtube.com/watch?v=0oI8U3kZRlw", "How Taif rose water and oil are made."],
+        ["Pearl Diving in the Gulf, 1938", "https://www.youtube.com/watch?v=oalx-6uRRNA", "Real Gulf divers, their clothes and tools."]
+      ] }
+  ]
+};
+
+PHOTOS["l6-0"] = { by: "Bernard Gagnon", lic: "CC BY-SA 3.0", page: "https://commons.wikimedia.org/wiki/File:Jambiya.jpg" };
+PHOTOS["l6-7"] = { by: "Irshadpp", lic: "CC BY-SA 3.0", page: "https://commons.wikimedia.org/wiki/File:Najran_Fort,_Saudi_Arabia.jpg" };
+PHOTOS["l6-12"] = { by: "Hafizmuar (English Wikipedia)", lic: "CC BY-SA 3.0", page: "https://commons.wikimedia.org/wiki/File:Agarwood_top_grade.jpg" };
+PHOTOS["l6-17"] = { by: "\u0648\u0643\u0627\u0644\u0629 \u0627\u0644\u0623\u0646\u0628\u0627\u0621 \u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:%D8%AD%D8%B5%D8%A7%D8%AF_%D8%A7%D9%84%D9%88%D8%B1%D8%AF_%D8%A7%D9%84%D8%B7%D8%A7%D8%A6%D9%81%D9%8A_%D9%81%D9%8A_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9_%D8%B3%D9%86%D8%A9_2026%D9%85.jpg" };
+PHOTOS["l6-20"] = { by: "George Frederick Kunz", lic: "Public domain", page: "https://commons.wikimedia.org/wiki/File:Arab_pearl_divers_in_the_Persian_Gulf.jpg" };
+PHOTOS["l6-27"] = { by: "Didier Descouens", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Pinctada_margaritifera_MHNT.CON.2002.893.jpg" };
+PHOTOS["l6-31"] = { by: "Osama Shukir Muhammed Amin", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Incense_burner,_from_Yemen,_5th-4th_century_BCE._An_ancient_South_Arabian_inscription_about_the_names_of_incense._British_Museum.jpg" };
+PHOTOS["l6-40"] = { by: "Peter Presslein", lic: "CC BY-SA 3.0", page: "https://commons.wikimedia.org/wiki/File:Olibanum_resin.jpg" };
+PHOTOS["l6-47"] = { by: "RAJIVVASUDEV", lic: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:A_coarse_spandex_yarn.jpg" };
+
+const L7_MOVES = [
+  { svg: "edge", label: "Move 1 · Lesson 1", title: "The bisht edge", cap: "Plain body; one rich line on the front edge and neck." },
+  { svg: "lining", label: "Move 2 · Lesson 1", title: "Hidden comfort", cap: "Soft cotton inside wool, like the labda." },
+  { svg: "swap", label: "Move 3 · Lesson 1", title: "One cut, two weights", cap: "Same pattern in linen for summer, wool or camel for winter." },
+  { svg: "mekasar", label: "Move 4 · Lesson 2", title: "The mekasar line", cap: "Tone-on-tone silk stitching along the front." },
+  { svg: "barqa", label: "Move 5 · Lesson 2", title: "The barqa overcoat", cap: "Long winter coat in undyed goat wool or camel hair." },
+  { svg: "tag", label: "Move 6 · Lesson 2", title: "The honest label", cap: "Fiber, micron, origin, trim type, written inside." },
+  { svg: "qattMono", label: "Move 7 · Lesson 3", title: "One Sadu motif, small", cap: "One woven-in triangle band in two quiet colors." },
+  { svg: "qattColor", label: "Move 8 · Lesson 3", title: "Al-Qatt structure", cap: "Triangle row and finger-width bands, color dropped." },
+  { img: "l3-14", label: "Move 9 · Lesson 3", title: "Plant-dye palette", cap: "Madder red, indigo, turmeric, loomi green." },
+  { svg: "vents", label: "Move 10 · Lesson 4", title: "Furjat vents", cap: "Small triangle vents on the yoke and under the arm." },
+  { svg: "lattice", label: "Move 11 · Lesson 4", title: "The roshan lining", cap: "Lattice lining seen only when the coat opens." },
+  { svg: "halfLined", label: "Move 12 · Lesson 4", title: "Built for the Gulf", cap: "Half canvas, half-lined in cupro, sleeves lined." },
+  { svg: "silentBell", label: "Move 13 · Lesson 5", title: "The silent bell", cap: "One closed silver bead; one coral-red stitch." },
+  { svg: "sheerLayer", label: "Move 14 · Lesson 5", title: "The munaykhal layer", cap: "Open-weave overshirt over a solid base." },
+  { svg: "najdiDress", label: "Move 15 · Lesson 5", title: "The muted palette", cap: "Najdi grey, navy, sand; one small accent." },
+  { svg: "haskal", label: "Move 16 · Lesson 6", title: "The haskal pocket", cap: "Slim inside pocket under the left arm." },
+  { svg: "khabtTab", label: "Move 17 · Lesson 6", title: "The khabt tab", cap: "Small plant-tanned leather tab on the cuff." },
+  { svg: "redLining", label: "Move 18 · Lesson 6", title: "The red-cloth secret", cap: "Deep red where only the wearer sees it." },
+];
+
+const L7_CTX_MOVES = L7_MOVES.map(m => `${m.label.split(" · ")[0]} (${m.title}): ${m.cap}`);
+const L7_CTX_BASE = [
+  "Jamal is designing ONE first A'ila Areeqa garment, step by step. Each step's answer should be consistent with the earlier steps he chose. A'ila Areeqa is quiet luxury rooted in Saudi heritage: subtle, 'if you know, you know' details.",
+  "Quiet-luxury rule from the course: one heritage detail per garment, used small. Loud prints, many details at once, or obvious souvenir motifs read cheap.",
+];
+
+const L7 = {
+  id: "l7", num: 7, date: "2026-10-31", day: "Sat, Oct 31", ready: true,
+  title: "Your first A'ila Areeqa piece",
+  pair: "Review of the week · Design one garment from everything you learned",
+  slides: [
+    { type: "cover", part: "warm", img: "l1-9", coverCaption: "The bisht edge, 1923: where Lesson 1 started.",
+      kicker: "Lesson 7 · about 1 hour",
+      title: "Your first A'ila Areeqa piece",
+      text: "Six lessons, eighteen design moves. Today you don't learn anything new. You use it. You'll review the week, then design one real garment, step by step, and leave with a one-page brief you could hand to a factory." },
+
+    { type: "quiz", part: "warm", warm: true, review: 6,
+      q: "Where did Najdi men carry money, and what's the A'ila Areeqa move?",
+      options: ["In a hat; a hat pocket", "In the haskal, a pouch under the left arm; a slim inside pocket there", "In their sandal; a shoe pocket", "Around the neck; a necklace"], answer: 1,
+      why: "The haskal, under the left arm. Move 16 puts a slim inside pocket in the same spot.",
+      whys: ["Hats weren't used for money.", null, "Sandals had camel-skin soles, not pockets.", "Money went in the haskal, under the arm."],
+      hint: { svg: "outline", cap: "Think of a hidden spot on the body, close to the heart." } },
+    { type: "quiz", part: "warm", warm: true, review: 6,
+      q: "Why put scent on the packaging, not in the cloth?",
+      options: ["Scent is bad", "So the customer chooses, and the cloth isn't changed", "It's cheaper", "Cloth can't hold scent"], answer: 1,
+      why: "The customer decides, and the fabric stays clean. Oud in the tissue, or a scent card.",
+      whys: ["Scent is a big part of Saudi welcome. It just shouldn't be forced into the cloth.", null, "It's about choice, not cost.", "Cloth holds scent well, which is why smoke from a mabkhara works."] },
+    { type: "quiz", part: "warm", warm: true, review: 6,
+      q: "A trouser fabric is 90% wool and 10% elastane. What's the risk?",
+      options: ["None", "Seams can pucker and it feels like activewear", "It will be too warm", "It can't be dyed"], answer: 1,
+      why: "2–3% is normal. 7% or more can pucker seams.",
+      whys: ["10% is far above normal for tailoring.", null, "Warmth comes from the wool, not the elastane amount.", "It can be dyed. The problem is fit and seams."] },
+
+    { type: "gallery", part: "story",
+      title: "Your 18 design moves",
+      intro: "Everything you designed this week, in one place. Click any card to see it big. You'll pick from these in a few minutes.",
+      refs: L7_MOVES },
+
+    { type: "layers", part: "story",
+      title: "Six lessons in six lines",
+      intro: "The one idea to carry from each lesson.",
+      layers: [
+        ["Weather first, beauty second.", "The bisht's luxury lives on its edge. Linen is cool; wool has scales.", "Lesson 1"],
+        ["Real zari, hand-loom seams, thin fibers.", "Fine camel hair is Bactrian. Ask for microns in writing.", "Lesson 2"],
+        ["Patterns carry meaning.", "Sadu and Al-Qatt: keep the structure, drop the loud color. Woven-in beats printed.", "Lesson 3"],
+        ["Houses solved heat; jackets can too.", "Triangle vents, roshan privacy, canvas not glue, cupro not polyester.", "Lesson 4"],
+        ["Women's heritage can turn masculine.", "Keep the idea and material, change the size and shape. Light matte silk for heat.", "Lesson 5"],
+        ["Small things make it Saudi.", "Plant-tanned leather, scent, red hidden inside. Every fiber earns its place.", "Lesson 6"]
+      ] },
+
+    { type: "compare", part: "story",
+      title: "Two sides of the brand",
+      left: { img: "l1-2", label: "Heritage", caption: "King Abdulaziz in a bisht, 1945." },
+      right: { img: "l4-21", label: "Craft", caption: "A half-made Savile Row jacket: canvas and hand stitches." },
+      takeaway: "A'ila Areeqa lives between these two photos. The left gives you the story and the details. The right gives you the build quality that makes a story believable. You need both in every piece.",
+      src: [SRC.anBisht2012, SRC.aom] },
+
+    { type: "quiz", part: "see", q: "Which detail is most \"if you know, you know\"?",
+      options: ["A big Sadu print across the back", "A tone-on-tone stitched line along the front edge", "The brand name in large gold letters", "Bright Al-Qatt colors all over"], answer: 1,
+      why: "The mekasar line: only a trained eye catches it.",
+      whys: ["Big Sadu prints are everywhere in souvenirs and read cheap.", null, "Loud logos are the opposite of quiet luxury.", "Al-Qatt colors are beautiful on a wall, but loud on a garment. Keep the structure, drop the color."],
+      hint: { svg: "mekasar", cap: "Look closely at the front." } },
+    { type: "quiz", part: "see", q: "You want a summer jacket for Riyadh in May. Best build?",
+      options: ["Fused, fully lined in polyester", "Half canvas, half-lined in cupro, sleeves lined", "Full canvas, fully lined in heavy silk", "Unlined sleeves, polyester body"], answer: 1,
+      why: "Move 12: half canvas, half-lined in cupro, sleeves lined.",
+      whys: ["Glue and polyester: the cheap-suit combination, and hot.", null, "Heavy and expensive, and silk wears out fast.", "Unlined sleeves catch, and a polyester body traps heat."],
+      src: [SRC.psLinings, SRC.psHalf] },
+    { type: "quiz", part: "see", q: "Turning a feminine heritage piece masculine, what do you usually keep?",
+      options: ["The exact shape", "The idea and the material", "All the colors", "The size"], answer: 1,
+      why: "Keep the idea and the material; change the shape and size.",
+      whys: ["Copying the shape keeps it feminine.", null, "Bright colors usually get dropped for quiet ones.", "The size usually shrinks: one bead, not a necklace."] },
+
+    { type: "task", part: "design", title: "Step 1: Pick your garment", minutes: 5, flow: "Garment",
+      text: "Choose ONE garment for your first piece. Pick something you'd wear yourself.",
+      checklist: ["Choose one: overcoat, overshirt, jacket, trousers or long open coat", "Say who it's for: men, women, or both", "Say when it's worn: everyday, evening, or travel"],
+      notePrompt: "My garment: a ___ for ___, worn for ___.",
+      refs: [{ svg: "outline", cap: "Start with a shape." }, { img: "l4-21", cap: "Tailored jacket." }, { svg: "barqa", cap: "Long overcoat." }],
+      context: L7_CTX_BASE.concat(["Good first pieces are ones with clear construction and room for one detail: an overcoat, overshirt, jacket, or long open coat."]) },
+    { type: "task", part: "design", title: "Step 2: Season and fabric", minutes: 8, flow: "Season and fabric",
+      text: "Pick the season, then the main fabric and its blend.",
+      checklist: ["Summer, winter or both (Move 3)?", "Main fiber: linen, cotton, wool, wool/silk/linen, camel hair or silk", "Any blend? Give the percentages and why each fiber is there"],
+      notePrompt: "Season: ___. Fabric: ___ (___%). Because...",
+      refs: [{ img: "l1-28", cap: "Linen: coolest." }, { img: "l1-31", cap: "Wool: warm, scaled." }, { img: "l2-24", cap: "Bactrian camel down." }, { svg: "swap", cap: "Move 3: one cut, two weights." }],
+      context: L7_CTX_BASE.concat(L6_CTX.blends, [
+        "Linen: stem fiber, hollow, coolest, dries fast, wrinkles. Cotton breathes but holds sweat longer. Wool keeps warm with crimp; fine wool can be worn in mild weather.",
+        "Fine camel hair is the Bactrian camel's undercoat (19–24 microns adult, about 19 baby camel). Silk: light, matte habotai or crepe under about 16 momme for heat."]) },
+    { type: "task", part: "design", title: "Step 3: One heritage detail", minutes: 8, flow: "Heritage detail",
+      text: "Pick ONE move from the gallery. Only one. That's the quiet-luxury rule.",
+      checklist: ["Name the move and its number", "Say exactly where it goes on your garment", "Write the story in one sentence, for the hangtag"],
+      notePrompt: "Move ___: ___. It goes ___. Story: ...",
+      refs: L7_MOVES.filter((_, k) => [0, 3, 6, 9, 12, 15, 16, 17].includes(k)),
+      context: L7_CTX_BASE.concat(L7_CTX_MOVES) },
+    { type: "task", part: "design", title: "Step 4: Build and lining", minutes: 6, flow: "Build and lining",
+      text: "Decide how it's built inside. Use Lesson 4.",
+      checklist: ["Fused, half canvas or full canvas? (Only if it's a jacket or coat)", "Lining: none, half, or full; which fabric?", "One hand-finished touch, like hand buttonholes"],
+      notePrompt: "Build: ___. Lining: ___ in ___. Hand touch: ___.",
+      refs: [{ svg: "layHalf", cap: "Half canvas." }, { svg: "halfLined", cap: "Half-lined." }, { img: "l4-18", cap: "Hand buttonhole." }],
+      context: L7_CTX_BASE.concat(L4_CTX.build, L4_CTX.lining, ["Shirts, overshirts and trousers usually have no canvas; for unlined pieces, neat bound (Hong Kong) seams look finished inside."]) },
+    { type: "task", part: "design", title: "Step 5: Palette", minutes: 5, flow: "Palette",
+      text: "Pick the colors. Use Move 9 or Move 15.",
+      checklist: ["Main color", "Accent color (small, or none)", "Where each color comes from in Saudi heritage"],
+      notePrompt: "Main: ___. Accent: ___. They come from...",
+      refs: [{ svg: "najdiDress", cap: "Najd: muted base, gold accent." }, { img: "l3-14", cap: "Indigo." }, { img: "l3-12", cap: "Madder red." }, { img: "l1-2", cap: "Bisht browns and blacks." }],
+      context: L7_CTX_BASE.concat(L5_CTX.dress, L3_CTX.dyes, ["Classic bisht colors: white, beige, cream, brown, grey and black; black with gold is the most popular."]) },
+    { type: "task", part: "design", title: "Step 6: The honest label", minutes: 5, flow: "Label",
+      text: "Write the inside label for your piece, like Move 6.",
+      checklist: ["Fiber and %", "Origin of the fiber or cloth (or write \"ask supplier\")", "Trim, lining, and one line of story"],
+      notePrompt: "100% ___ · Origin: ___ · Lining: ___ · Story: ...",
+      refs: [{ svg: "tag", cap: "Move 6: the honest label (example)." }],
+      context: L7_CTX_BASE.concat([
+        "Move 6: put fiber and %, micron (for wool, camel, cashmere), country of origin, and trim type (e.g. gold-plated silver zari) inside the garment. Only claim what a supplier will put in writing.",
+        "If he doesn't know an origin yet, 'ask supplier' is honest and correct; never invent one."]) },
+
+    { type: "brief", part: "do",
+      title: "Your garment brief",
+      intro: "Here are your six answers on one page. This is the first draft of a real factory brief. Click Edit to change any step.",
+      note: "Next real-world step: take this brief to a pattern-maker or a sample tailor in Riyadh and ask for one sample. Bring a swatch of the fabric you named." },
+
+    { type: "task", part: "do", title: "Check your brief", minutes: 5,
+      text: "Read your brief out loud once. Then check it against the rules.",
+      checklist: ["Is there only ONE heritage detail?", "Does the fabric fit the season?", "Is every claim on the label something you can prove?"],
+      notePrompt: "Paste or summarize your brief here, then press Enter to get feedback on the whole piece.",
+      refs: [{ svg: "tag", cap: "Honest label." }, { svg: "halfLined", cap: "Built for the Gulf." }],
+      context: L7_CTX_BASE.concat(L7_CTX_MOVES, L4_CTX.lining, L6_CTX.blends) },
+
+    { type: "quiz", part: "quiz", q: "What makes a hand-woven bisht cloak different from a machine-woven one?",
+      options: ["Its color", "Two strips sewn across the middle", "It has a hood", "It's always cheaper"], answer: 1,
+      why: "Hand looms were narrow, so the cloth came in two strips.",
+      whys: ["Color doesn't show how it was woven.", null, "Bishts have no hood.", "Handmade costs more."] },
+    { type: "quiz", part: "quiz", q: "Which fiber is thinnest?",
+      options: ["Human hair", "Super 100s wool", "Cashmere", "Vicuña"], answer: 3,
+      why: "Vicuña, about 12.5 microns.",
+      whys: ["About 100 microns: the thickest here.", "About 18.5 microns.", "Under 19 microns, but vicuña is finer.", null] },
+    { type: "quiz", part: "quiz", q: "In Al-Qatt, what are the amshat (\"combs\")?",
+      options: ["Bands at the bottom", "Thin vertical lines between the triangles", "The painter's brushes", "The ceiling"], answer: 1,
+      why: "Thin vertical lines between triangles. The bottom bands are the kufuf.",
+      whys: ["Those are kufuf, the \"palms\".", null, "The name describes a painted shape, not a tool.", "Amshat sit between the triangles."],
+      hint: { svg: "qattBlank", cap: "Triangles are here. What sits between them?" } },
+    { type: "quiz", part: "quiz", q: "A dobby loom is best for…",
+      options: ["Big, detailed designs like damask", "Small geometric patterns", "Printing", "Embroidery"], answer: 1,
+      why: "Small geometric patterns. Jacquard does big detailed ones.",
+      whys: ["That's jacquard.", null, "Printing happens after weaving.", "Embroidery is stitched on after."] },
+    { type: "quiz", part: "quiz", q: "Why were Najdi walls so thick?",
+      options: ["To show wealth", "Mud brick was at hand, and thick earth walls keep heat out", "Building laws", "To hold up tall towers"], answer: 1,
+      why: "Local material, and they suit the desert climate.",
+      whys: ["Decoration showed wealth, not thickness.", null, "No source mentions building laws.", "Most houses were low; thickness was about heat."] },
+    { type: "quiz", part: "quiz", q: "A fused jacket's big risk is…",
+      options: ["Glue bubbling after dry cleaning", "Too soft", "Too expensive", "Molds to you too much"], answer: 0,
+      why: "Glue can bubble, and it can't be fixed.",
+      whys: [null, "Fused tends to be stiff.", "It's the cheapest build.", "That's canvas."] },
+    { type: "quiz", part: "quiz", q: "Silk's weight is measured in…",
+      options: ["Microns", "Momme", "Super numbers", "Grams of cocoon"], answer: 1,
+      why: "Momme. Microns measure fiber width; Super numbers are for wool.",
+      whys: ["Microns measure how thin a fiber is.", null, "Super numbers are for wool.", "Not a real measure."] },
+    { type: "quiz", part: "quiz", q: "A Najran craftsman wants deep red leather. What does he use?",
+      options: ["Red paint", "St John's wort, a tanning plant", "Pomegranate juice", "Rust"], answer: 1,
+      why: "St John's wort gave deep red; Calligonum gave light red.",
+      whys: ["The red came from plant tanning, not paint.", null, "Pomegranate skins dyed Sadu yarn purple, not leather red.", "Rust wasn't used."] },
+    { type: "quiz", part: "quiz", q: "How many heritage details should your first piece have?",
+      options: ["One", "Three", "As many as fit", "None"], answer: 0,
+      why: "One, used small. That's what makes it quiet luxury.",
+      whys: [null, "Three starts to shout.", "That's a souvenir, not a luxury piece.", "None loses the brand's reason to exist."] },
+
+    { type: "remember", part: "quiz",
+      title: "Three things to keep, for good",
+      items: [
+        ["Copy the reason, not the costume.", "Every Saudi detail solved a problem. Find the problem, and the design follows."],
+        ["One detail, used small, built well.", "Quiet luxury is a single story you can prove, on a garment made with canvas, cupro and honest fiber."],
+        ["Your brief is a real starting point.", "Next step: one sample from a pattern-maker, with a fabric swatch in hand."]
+      ] },
+
+    { type: "video", part: "quiz",
+      title: "Rewatch list",
+      items: [
+        ["Bisht (men's Abaa): skills and practices", "https://www.youtube.com/watch?v=dmesiC4e8BY", "The UNESCO film on the bisht."],
+        ["Traditional weaving of Al Sadu (UNESCO)", "https://www.youtube.com/watch?v=iVaB-bnXAmc", "Sadu, start to finish."],
+        ["Bemberg and Cupro Linings (Rajani Bespoke)", "https://www.youtube.com/watch?v=FsRxbU3c4DE", "Before you brief a factory on linings."]
+      ],
+      note: "That's the week. All seven lessons stay in the Study Book. Retake any quiz whenever you like." }
+  ]
+};
+
+L7.parts = { story: { min: 5 }, see: { label: "Review", min: 5 }, design: { label: "Design your piece", min: 35 }, do: { label: "Your brief", min: 10 }, quiz: { min: 10 } };
+L7.slides.forEach(s => { const o = L7.parts[s.part]; if (o && o.label) s._pl = o.label; });
+
+const LESSONS = [
+  {
+    id: "l1", num: 1, date: "2026-10-25", day: "Sun, Oct 25", ready: true,
+    title: "Built for the weather",
+    pair: "Bisht, thobe and winter layers · Fibers and why linen stays cool",
+    slides: [
+      { type: "cover", part: "warm", img: "l1-49",
+        kicker: "Lesson 1 · about 1 hour",
+        title: "Built for the weather",
+        text: "Every classic Saudi garment solved a weather problem first. Beauty came second. Learn the problem and you can design the answer." },
+
+      { type: "quiz", part: "warm", warm: true,
+        q: "Guess first: what was a traditional bisht mostly made from?",
+        options: ["Cotton and silk", "Camel hair and goat wool", "Polyester", "Linen only"], answer: 1,
+        why: "Camel hair and goat wool, spun and woven into cloth. Soft yarn for summer, coarse hair for winter.",
+        src: [SRC.anBishtDgda] },
+      { type: "quiz", part: "warm", warm: true,
+        q: "Guess first: why did Saudis pick cotton for the everyday white thobe?",
+        options: ["It breathes", "It is the warmest fabric", "It never wrinkles", "It was the only fabric sold"], answer: 0,
+        why: "Breathable cotton was favored. That is how the white thobe became the daily garment across the Kingdom.",
+        src: [SRC.ithraThobe] },
+      { type: "quiz", part: "warm", warm: true,
+        q: "Guess first: which fiber is hollow inside, so heat and sweat leave fast?",
+        options: ["Polyester", "Wool", "Linen (from flax)", "Silk"], answer: 2,
+        why: "Flax fibers have a hollow channel inside. Air moves through and sweat leaves fast, so linen feels cool.",
+        src: [SRC.linen] },
+
+      { type: "compare", part: "story",
+        title: "The problem: one country, two climates",
+        left:  { img: "l1-49", label: "Summer", caption: "Sand dunes at Al-Tawqi, northeast of Riyadh." },
+        right: { img: "l1-45", label: "Winter", caption: "Camels in snow on Jabal al-Lawz, Tabuk, 2021." },
+        takeaway: "Clothes had to handle both. In northern towns like Turaif, winter can average as low as −5°C. So Saudis built a summer wardrobe and a winter one.",
+        src: [SRC.anFarwa] },
+
+      { type: "story", part: "story", img: "l1-4",
+        caption: "A Bedouin camp in eastern Saudi Arabia, near Manifa.",
+        title: "The answer came from the animals",
+        text: [
+          "Bedouin families had no shops. They wove with what their herds gave them: sheep wool, goat hair and camel hair.",
+          "From that they made tents, cushions, sacks, rugs and camel gear. The same skills made bisht cloth.",
+          "The finest pieces were woven from sheep's wool. The price of a piece depended on the fiber used."
+        ],
+        src: [SRC.spSadu] },
+
+      { type: "compare", part: "story",
+        title: "Meet the fiber makers",
+        left:  { img: "l1-15", label: "Camel", caption: "Camel hair: woven into bisht cloth, with goat wool." },
+        right: { img: "l1-37", label: "Najdi sheep", caption: "Najdi sheep in Unaizah. Sheep's wool made the finest Sadu weaving." },
+        takeaway: "Old bishts used camel hair and goat wool for warmth, and sheep's wool made the finest Sadu. One catch: hair from Arabia's one-humped camels is coarse. Soft, luxury camel cloth comes from a different camel, which you will meet in Lesson 2.",
+        src: [SRC.anBishtDgda, SRC.spSadu, SRC.cameo, SRC.fao] },
+
+      { type: "story", part: "story", img: "l1-2",
+        caption: "King Abdulaziz in a bisht, meeting U.S. President Roosevelt aboard the USS Quincy, 14 February 1945.",
+        title: "The bisht: from desert cloak to sign of rank",
+        arabic: "بشت · مشلح",
+        text: [
+          "The bisht started as a Bedouin winter cloak, worn over the thobe on cold desert nights.",
+          "Over time it became what leaders, scholars and grooms wear. The gold braid on the edge was once kept for religious and political leaders.",
+          "Classic colors run from white, beige and cream to brown, grey and black."
+        ],
+        src: [SRC.anBisht2012, SRC.risd] },
+
+      { type: "steps", part: "story", img: "l1-8",
+        caption: "A tailor in Al-Ahsa sewing a Hasawi bisht by hand.",
+        title: "How a Hasawi bisht is made",
+        intro: "Al-Ahsa families have made the best bishts for more than 200 years. Family names became brand names: Al-Qattan, Al-Kharas, Al-Mahdi, Al-Bagli.",
+        steps: ["Fitting", "Al-Tawk", "Buruj", "Al-Maksar", "Lacing", "Khabana", "Bardakh: the gold zari thread is struck to bring out its color"],
+        facts: [
+          ["12–15 days", "by hand, sometimes up to 6 months"],
+          ["12 a day", "what a machine can make"],
+          ["up to 8 people", "on one handmade bisht"],
+          ["age 7", "when master Abdullah Jafar Al-Qattan started"]
+        ],
+        src: [SRC.spHasawi, SRC.anQattan, SRC.anBisht2012] },
+
+      { type: "story", part: "story", img: "l1-13",
+        caption: "A young Saudi man in a white thobe.",
+        title: "The thobe: white for summer, dark for winter",
+        arabic: "ثوب",
+        text: [
+          "After King Abdulaziz united the country, the thobe with a ghutra or shemagh became a sign of being Saudi.",
+          "Cotton was picked because it breathes. That gave the white thobe worn every day.",
+          "In winter, men switch to brown and navy, and to heavier fabrics like wool."
+        ],
+        src: [SRC.ithraThobe] },
+
+      { type: "layers", part: "story",
+        title: "Winter was about layers",
+        intro: "On a cold Najd night a man built his outfit from the inside out.",
+        layers: [
+          ["Thobe", "the base, in brown or navy wool for winter"],
+          ["Sedairi", "a warm vest of broadcloth over the thobe"],
+          ["Labda", "worn by richer Najdi men: wool padded with cotton so the wool would not scratch"],
+          ["Bisht or farwa", "on top: a coarse camel-hair bisht, or a farwa, a long coat lined with sheepskin"]
+        ],
+        src: [SRC.ithraThobe, SRC.spArdah, SRC.aawsat, SRC.anFarwa] },
+
+      { type: "toggle", part: "see",
+        title: "Same man, two seasons",
+        intro: "Switch between the seasons and read why each piece changes.",
+        modes: {
+          Summer: { img: "l1-49", items: [
+            ["Thobe", "white cotton", "breathes, light color"],
+            ["Bisht", "soft, light yarn (some are linen)", "worn for occasions, not warmth"],
+            ["Feel", "loose and light", "air moves around the body"] ] },
+          Winter: { img: "l1-45", items: [
+            ["Thobe", "brown or navy, heavier wool", "holds warmth"],
+            ["Vest", "sedairi in broadcloth", "an extra layer on the chest"],
+            ["Bisht", "coarse camel hair or goat wool", "a blanket you can wear"],
+            ["Coat", "farwa lined with sheepskin", "for the coldest nights"] ] }
+        },
+        src: [SRC.ithraThobe, SRC.anBishtDgda, SRC.wikiBisht, SRC.anFarwa] },
+
+      { type: "reveal", part: "see", img: "l1-31",
+        title: "What are you looking at?",
+        prompt: "Look closely. It looks like stacked roof tiles. Guess what it is, then reveal.",
+        answer: "One merino wool fiber under an electron microscope. Those tiles are scales on the outside of the fiber. They are why rough wool can feel scratchy and why wool shrinks and felts in hot water. Wool fibers are also crimped, so they hold still air. That is why wool keeps you warm." },
+
+      { type: "reveal", part: "see", img: "l1-51",
+        title: "And this one?",
+        prompt: "Long, straight bundles. No tiles. Guess, then reveal.",
+        answer: "Flax fibers, the fiber that becomes linen. These were found inside a gold pendant from the 1500s at the British Museum. They are long and smooth with few bends, so they hold little air and dry fast. That makes linen cool. The same stiffness is why linen wrinkles: the fiber does not spring back.",
+        src: [SRC.linenSci] },
+
+      { type: "compare", part: "see",
+        title: "Where linen comes from",
+        left:  { img: "l1-23", label: "The plant", caption: "Flax in flower. Linen is made from fibers inside its stem." },
+        right: { img: "l1-55", label: "Inside the stem", caption: "A cut flax stem. BF marks the bast fibers. Those become linen thread." },
+        takeaway: "Linen is a stem fiber. That is why it is strong and stiff. Cotton is a seed fiber, which is why it is soft.",
+        src: [SRC.linen, SRC.masterclass] },
+
+      { type: "compare", part: "see",
+        title: "Cotton or linen for the heat?",
+        left:  { img: "l1-25", label: "Cotton", caption: "Cotton grows as soft fluff around the seeds." },
+        right: { img: "l1-28", label: "Linen", caption: "Linen canvas: you can see the open weave and thick, uneven threads." },
+        takeaway: "Both breathe. Linen breathes more and dries faster; cotton is softer and holds sweat longer. Linen wrinkles more.",
+        src: [SRC.masterclass, SRC.linen] },
+
+      { type: "reveal", part: "see", img: "l1-9",
+        title: "Where is the luxury on this cloak?",
+        prompt: "Point to the one place that tells you this man is important.",
+        answer: "The edges. Gold braid runs down the front opening and around the neck. The body is plain dark wool. This 1923 portrait is of Sheikh Chassib of Arabistan (Ahwaz, today in Iran). It is not Saudi, but it shows the same Gulf bisht idea: rank lives on the edge.",
+        src: [SRC.risd] },
+
+      { type: "design", part: "design", svg: "edge",
+        title: "Move 1: The bisht edge",
+        text: "Keep the body of the garment plain. Put your one rich detail where the bisht puts it: down the front opening and around the neck.",
+        how: ["Men: a plain dark overcoat with a thin hand-finished braid only on the front edge.",
+              "Women: the same edge on a long, open coat worn like an abaya.",
+              "A Saudi eye reads \"bisht\". Anyone else just sees a well-made coat."] },
+
+      { type: "design", part: "design", svg: "lining",
+        title: "Move 2: Hidden comfort",
+        text: "The labda padded wool with cotton so it would not scratch. Copy the idea, not the look.",
+        how: ["A wool overshirt with a soft cotton lining inside.",
+              "Nobody sees it. The wearer feels it every time.",
+              "Tell the story on the inside label or the hangtag, not on the outside."] },
+
+      { type: "design", part: "design", svg: "swap",
+        title: "Move 3: One cut, two weights",
+        text: "The bisht came in soft yarn for summer and coarse hair for winter. Same shape, different cloth.",
+        how: ["Summer: linen or a linen-cotton blend, light color.",
+              "Winter: wool or camel hair, in brown or navy, the old Saudi winter colors.",
+              "One pattern, two seasons. That is also cheaper to produce."] },
+
+      { type: "task", part: "do",
+        title: "Closet label hunt",
+        minutes: 5,
+        text: "Go to your closet. Find three pieces you wear a lot.",
+        checklist: ["Read the fiber label inside each one", "Write the fibers and % below", "Pick the one you would wear in Riyadh in July, and say why"],
+        notePrompt: "Example: Black tee — 60% cotton, 40% polyester. Too hot for July because..." },
+
+      { type: "task", part: "do",
+        title: "The breath test",
+        minutes: 3,
+        text: "This is how you feel breathability with no lab.",
+        checklist: ["Hold a cotton or linen shirt to your mouth and breathe out through it", "Do the same with a polyester gym shirt", "Notice which one lets your breath through"],
+        notePrompt: "What did you feel?" },
+
+      { type: "task", part: "do",
+        title: "Sketch the edge",
+        minutes: 2,
+        text: "On paper, draw the front of a simple coat. Then add Move 1.",
+        checklist: ["Draw the coat outline", "Mark where the bisht edge would go", "Decide the braid color: gold, black or tone-on-tone"],
+        notePrompt: "Which braid color did you pick, and why?" },
+
+      { type: "quiz", part: "quiz", q: "Where are the most famous Saudi bishts made?",
+        options: ["Jeddah", "Al-Ahsa", "Abha", "Tabuk"], answer: 1,
+        why: "Al-Ahsa, in the Eastern Province. The Hasawi bisht is the most famous and most expensive kind.", src: [SRC.spHasawi] },
+      { type: "quiz", part: "quiz", q: "In winter, Saudi men switched their thobes to…",
+        options: ["White silk", "Brown or navy, in heavier fabric like wool", "Bright red cotton", "Black polyester"], answer: 1,
+        why: "Brown and navy, and heavier fabrics like wool.", src: [SRC.ithraThobe] },
+      { type: "quiz", part: "quiz", q: "Under a microscope, a wool fiber is covered in…",
+        options: ["A hollow tube", "Tiny scales, like roof tiles", "Nothing, it is smooth", "Small holes"], answer: 1,
+        why: "Scales. They cause scratchiness and felting. Wool's crimp holds still air, which keeps you warm." },
+      { type: "quiz", part: "quiz", q: "Linen comes from…",
+        options: ["The seed pod of the cotton plant", "The stem of the flax plant", "Sheep", "Silkworms"], answer: 1,
+        why: "The stem of the flax plant. Stem fibers are strong and stiff, which is why linen is cool and wrinkles.", src: [SRC.linen] },
+      { type: "quiz", part: "quiz", q: "On a bisht, where does the luxury sit?",
+        options: ["All over the body", "On the edges: the front opening and the neck", "Only on the back", "On the sleeves only"], answer: 1,
+        why: "The edges. The body stays plain. That is Move 1 for A'ila Areeqa.", src: [SRC.risd] },
+      { type: "quiz", part: "quiz", q: "What was the labda?",
+        options: ["A summer hat", "Wool padded with cotton so it would not scratch", "A type of sandal", "A silk belt"], answer: 1,
+        why: "A Najdi winter garment of wool padded with cotton. The comfort was hidden inside.", src: [SRC.aawsat] },
+
+      { type: "remember", part: "quiz",
+        title: "Three things to keep",
+        items: [
+          ["Weather first, beauty second.", "Every classic Saudi garment solved heat or cold before it looked good."],
+          ["The bisht's luxury lives on the edge.", "Plain body, rich front opening and neck."],
+          ["Linen is a hollow stem fiber; wool has scales.", "Linen: cool, strong, wrinkles. Wool: warm, can scratch, can felt."]
+        ] },
+
+      { type: "video", part: "quiz",
+        title: "Watch tonight or tomorrow",
+        items: [
+          ["Learning About Fabrics 1: The Who, What, and How", "https://www.youtube.com/watch?v=-B4tfduOQ7w", "Fiber to yarn to fabric, from a fashion design channel."],
+          ["Exploring Natural Fibre Types", "https://www.youtube.com/watch?v=BM6LWu1EcdE", "Wool, silk, cotton and linen from a natural dyer."]
+        ],
+        note: "No good video exists yet on hand-sewing a Hasawi bisht. Look out for the 2026 documentary King of the Shoulders." }
+    ]
+  },
+  L2,
+  L3,
+  L4,
+  L5,
+  L6,
+  L7,
+];
+
+/* ---- Feedback layer: wrong-answer explanations, hints, look-back pictures, coach facts ---- */
+const CTX = {
+  fibers: [
+    "Cotton comes from the seed fluff of the cotton plant. It breathes and was chosen for the white everyday thobe. It holds sweat longer than linen.",
+    "Linen comes from the stem of the flax plant. Flax fibers are hollow, so linen breathes more than cotton and dries faster. It wrinkles easily.",
+    "Wool is warm because its crimped fibers hold still air. Its surface has scales. Saudis wore heavier wool, in brown or navy, in winter.",
+    "Polyester is a plastic fiber. It does not breathe like cotton and can feel sticky in heat, but it dries fast and resists wrinkles.",
+    "Poly-cotton blends breathe less than pure cotton.",
+    "Breathability means how easily air passes through a fabric. Natural fibers and open weaves usually let more air through.",
+  ],
+  edge: [
+    "A bisht's luxury lives on its edges: the front opening and the neck. The body stays plain.",
+    "Gold braid on the bisht edge was once kept for religious and political leaders.",
+    "Move 1 idea: a plain dark coat with a thin hand-finished braid only on the front edge; women's version on a long open coat.",
+    "Classic bisht colors: white, beige, cream, brown, grey and black.",
+    "Tone-on-tone braid is quieter; gold is louder and more formal.",
+  ],
+  weaves: [
+    "Plain weave: over one, under one. Even grid, same on both sides, crisp. Shirts and thobe cloth.",
+    "Twill: over two, under two, shifting a step each row, which makes diagonal lines. Jeans, chinos, most suit cloth. Herringbone is a twill that switches direction.",
+    "Satin: threads float over four or more before going under, so it is smooth and shiny but snags. Ties, linings, sheets.",
+    "Knits are looped, not woven, and stretch; they show little V shapes.",
+  ],
+  zari: [
+    "Real zari: silk or cotton yarn wrapped in silver wire, then gold-plated.",
+    "Imitation zari: copper wire plated with silver. Since about 1970 some has a plastic core.",
+    "Lurex is a shiny metallic plastic film, not metal.",
+    "Metal thread is stiff, so it is laid on top of cloth and stitched down; it sits raised and catches light.",
+  ],
+  price: [
+    "Machine-made Syrian or Emirati bishts can cost about 200 Saudi riyals (SR). A top handmade Hasawi bisht up to SR 15,000. A rare one worn by Ronaldo was priced over SR 80,000.",
+    "A handmade Hasawi bisht takes 80–120 hours with four tailors; a machine makes about 12 a day.",
+    "Hand-woven bisht cloth comes in two strips sewn across the middle; one seamless wide piece means machine-woven.",
+    "Price is driven by fiber, real vs imitation zari, and hand hours.",
+    "An honest listing names the fiber, the zari type and whether it is handmade.",
+  ],
+};
+
+const PATCH = {
+  l1: {
+    quiz: {
+      "Guess first: what was a traditional bisht mostly made from?": { whys: [
+        "Cotton and silk are smooth, light fibers. A winter cloak for desert nights needed animal fibers that hold warmth.", null,
+        "Polyester was only invented in the 1940s. The bisht is centuries older.",
+        "Linen is the summer fiber that keeps you cool. The bisht started as a cloak for cold nights."] },
+      "Guess first: why did Saudis pick cotton for the everyday white thobe?": { whys: [null,
+        "Warmth was the winter job. In summer you want air to move through the cloth, not heat to stay in.",
+        "Cotton does wrinkle. It was picked for comfort in the heat, not for looking pressed.",
+        "Saudis also wore wool and other cloth. Cotton was chosen on purpose, because it breathes."] },
+      "Guess first: which fiber is hollow inside, so heat and sweat leave fast?": { whys: [
+        "Polyester is a solid plastic strand. That is why it can feel sticky in the heat.",
+        "Wool is the warm one. Its curls hold still air, which keeps heat in: the opposite of what summer needs.", null,
+        "Silk is smooth and light, but it is a solid strand. Flax, which becomes linen, has the hollow channel."] },
+      "Where are the most famous Saudi bishts made?": { hint: { img: "l1-8", cap: "A master tailor sewing a bisht by hand. Which city's name is on the bisht?" }, whys: [
+        "Jeddah is known for its Hijazi houses and trade, not for bishts.", null,
+        "Abha is in Asir, known for Al-Qatt wall painting, not bishts.",
+        "Tabuk is where the camels-in-snow photo came from, not where bishts are made."] },
+      "In winter, Saudi men switched their thobes to…": { whys: [
+        "White and thin is the summer idea. Winter needs darker, heavier cloth.", null,
+        "Cotton is the summer fabric, and bright red was never an everyday thobe color.",
+        "Polyester is a modern fiber. The traditional winter choice was wool, in brown or navy."] },
+      "Under a microscope, a wool fiber is covered in…": { hint: { svg: "fibers", cap: "Two fibers, details hidden. One is wool. Picture its surface." }, whys: [
+        "The hollow tube is flax, which becomes linen. Easy to mix up: linen = hollow, wool = scales.", null,
+        "Smooth is more like silk or polyester. Wool's surface is rough.",
+        "Wool has no holes. Its scales overlap like roof tiles."] },
+      "Linen comes from…": { whys: [
+        "The seed pod gives cotton. Both are plants, but different parts: cotton = seed fluff, linen = stem.", null,
+        "Sheep give wool, an animal fiber. Linen is a plant fiber.",
+        "Silkworms make silk. Linen comes from a plant."] },
+      "On a bisht, where does the luxury sit?": { hint: { svg: "outline", cap: "A plain cloak. Where would the gold go?" }, whys: [
+        "All over would be loud. The bisht keeps its body plain on purpose.", null,
+        "The back stays plain. Think about where the cloak opens and where your face is.",
+        "A bisht has small sleeve slits, not decorated sleeves. The gold follows the opening."] },
+      "What was the labda?": { whys: [
+        "The labda was a winter piece, not a summer hat.", null,
+        "Not footwear. It was a garment worn for warmth.",
+        "Not a belt. Think of a winter layer: wool outside, something soft inside."] },
+    },
+    task: {
+      "Closet label hunt": { context: CTX.fibers, refs: [
+        { img: "l1-25", cap: "Cotton: seed fluff. Soft, breathes, holds sweat longer." },
+        { img: "l1-28", cap: "Linen: stem fiber. Coolest, dries fast, wrinkles." },
+        { img: "l1-31", cap: "Wool: scales and crimp. Warm." }] },
+      "The breath test": { context: CTX.fibers, refs: [
+        { img: "l1-28", cap: "Linen's open weave: air passes easily." },
+        { img: "l1-51", cap: "Flax fibers: long, smooth, hollow." }] },
+      "Sketch the edge": { context: CTX.edge, refs: [
+        { img: "l1-9", cap: "Gold braid on the front edge and neck, 1923." },
+        { img: "l1-2", cap: "King Abdulaziz in a bisht, 1945." },
+        { svg: "edge", cap: "Move 1: braid on the front edge only." }] },
+    },
+  },
+  l2: {
+    quiz: {
+      "Every classic Saudi garment solved what problem first?": { whys: [
+        "Looking rich came later, like the gold edge. The first job was surviving heat and cold.", null,
+        "Standing out came later. The first job of a garment was protection from the weather.",
+        "Cost mattered, but the shapes came from heat and cold first."] },
+      "Where does a bisht keep its luxury?": { hint: { svg: "outline", cap: "A plain cloak. Where would the gold go?" }, whys: [
+        "All over would be loud. The bisht keeps its body plain on purpose.", null,
+        "The back stays plain. Think about where the cloak opens.",
+        "The lining is hidden. The bisht shows its rank where people can see it."] },
+      "Which fiber is covered in tiny scales?": { whys: [
+        "Linen is the hollow one, not the scaly one.",
+        "Cotton looks like a flat, twisted ribbon. No scales.", null,
+        "Polyester is a smooth plastic strand."] },
+      "What is real zari made of?": { hint: { img: "l2-39", cap: "Metal thread on a spool. What's inside it?" }, whys: [
+        "A plastic film is Lurex, a cheap shiny copy. It is not zari.", null,
+        "Solid gold wire would be stiff and costly. Real zari is a soft yarn wrapped in silver, then gold-plated.",
+        "A copper core is the imitation zari."] },
+      "A bisht is one wide piece of cloth with no seam across the middle. What does that tell you?": { hint: { svg: "outline", cap: "Picture the back of a hand-made bisht. Look at the middle." }, whys: [
+        "The oldest ones are the opposite: two strips sewn together, because hand looms were narrow.", null,
+        "The seam tells you how the cloth was woven, not who wears it.",
+        "The season shows in how thick the cloth is, not in the seam."] },
+      "Which weave makes diagonal lines?": { hint: { img: "l2-13", cap: "Herringbone, a cousin of the answer." }, whys: [
+        "Plain is over one, under one, so it makes a flat grid, not lines.", null,
+        "Satin hides its crossings to look smooth and shiny, so there are no clear lines.",
+        "Knit is looped, not woven. It makes little V shapes, not diagonals."] },
+      "Where does the finest camel hair come from?": { hint: { img: "l2-24", cap: "Soft down coming off a camel. Count the humps you'd expect." }, whys: [
+        "That was the twist: Arabian camel hair is coarse, because the hottest deserts grow coarser down.", null,
+        "Tail hair is coarse. Softness comes from the undercoat.",
+        "Baby goats give baby cashmere, a different fiber."] },
+      "Which fiber is the thinnest?": { whys: [
+        "Super 100s wool is about 18.5 microns: fine, but not the finest.",
+        "Cashmere is under 19 microns. Very fine, but vicuña is finer still.", null,
+        "Adult camel down is 19–24 microns, the thickest of these four."] },
+      "The mekasar bisht style is known for…": { whys: [null,
+        "Every bisht style has an edge finish. Mekasar's is silk stitching.",
+        "Bishts have no hood.",
+        "Classic bisht colors stay quiet: white, beige, cream, brown, grey and black."] },
+    },
+    task: {
+      "Weave spotting": { context: CTX.weaves, refs: [
+        { img: "l2-10", cap: "Plain, twill and sateen, 1 cm squares." },
+        { img: "l2-13", cap: "Herringbone: a twill that switches direction." },
+        { img: "l2-11", cap: "Satin: shine from floating threads." }] },
+      "Metal thread check": { context: CTX.zari, refs: [
+        { img: "l2-39", cap: "Metal thread on a spool." },
+        { img: "l2-0", cap: "Gold thread laid on velvet and stitched down." }] },
+      "Price detective": { context: CTX.price, refs: [
+        { svg: "tag", cap: "Move 6: what an honest label says." },
+        { img: "l2-34", cap: "Al-Ahsa's Qaysariyya souq, home of the Hasawi bisht." }] },
+    },
+  },
+};
+
+for (const les of LESSONS) {
+  const p = PATCH[les.id];
+  if (!les.slides) continue;
+  for (const s of les.slides) {
+    if (p && s.type === "quiz" && p.quiz[s.q]) Object.assign(s, p.quiz[s.q]);
+    if (p && s.type === "task" && p.task[s.title]) Object.assign(s, p.task[s.title]);
+  }
+  const r = les.slides.findIndex(s => s.type === "remember");
+  if (r > -1 && !les.slides.some(s => s.type === "score")) les.slides.splice(r, 0, { type: "score", part: "quiz" });
+}
