@@ -7,3 +7,8 @@ compatibility_flags = ["nodejs_compat"]
 [[r2_buckets]]
 binding = "FILES"
 bucket_name = "aila-files"
+
+# Public settings (safe to share; the database rules protect the data). Secrets go in the Cloudflare dashboard.
+[vars]
+SUPABASE_URL = "https://rrbzzcxhsleptynnwgfk.supabase.co"
+SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJyYnp6Y3hoc2xlcHR5bm53Z2ZrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTM1NTc3NzgsImV4cCI6MjEwOTEzMzc3OH0.YCiTxV43pCiPxAS-ikmKWenhZeuluoWPsm4CxhfV5I8"

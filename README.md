@@ -11,7 +11,7 @@ A private website for running A'ila Areeqa: Home, Intel, Study, Collections, Tec
 - **Answer checking** ("Enter: check my answer") runs on the server and asks Claude. The key never reaches the browser.
 
 ## Settings (environment variables)
-Add these in Cloudflare: Pages project, Settings, Variables and Secrets.
+`SUPABASE_URL` and `SUPABASE_ANON_KEY` are already in `wrangler.toml`. Add the secret in Cloudflare: Pages project, Settings, Variables and Secrets.
 
 | Name | What it is | Secret? |
 |---|---|---|
