@@ -7,7 +7,7 @@
 .intel .sub { color: var(--ink-soft); font-size: 14px; }
 .intel .runmeta { font: 400 12px var(--f-mono); color: var(--ink-soft); text-align: right; }
 .intel .runmeta b { display: block; font: 700 30px var(--f-display); color: var(--ink); }
-.intel .verdict { margin-top: 18px; background: var(--ink); color: var(--on-ink); padding: 16px 18px; border-radius: 4px; }
+.intel .verdict { margin-top: 18px; background: var(--panel); color: var(--on-panel); padding: 16px 18px; border-radius: 4px; }
 .intel .verdict .eyebrow { color: var(--gold); }
 .intel .verdict p { margin: 6px 0 0; font-size: 15.5px; max-width: 70ch; }
 .intel nav { position: sticky; top: env(safe-area-inset-top, 0px); background: var(--bg); z-index: 5; display: flex; gap: 4px; overflow-x: auto; padding-block: 12px; margin-top: 8px; border-bottom: 1px solid var(--line); }

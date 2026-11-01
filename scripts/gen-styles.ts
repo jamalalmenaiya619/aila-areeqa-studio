@@ -4,7 +4,7 @@ import { readFileSync, writeFileSync } from "node:fs";
 import { ROOT, VAR_MAP } from "./lib-legacy.ts";
 
 const INTEL_MAP: Record<string, string> = {
-  "--muted": "--ink-soft", "--brass": "--gold", "--navy-ink": "--on-ink", "--navy": "--ink",
+  "--muted": "--ink-soft", "--brass": "--gold", "--navy-ink": "--on-panel", "--navy": "--panel",
   "--ok": "--st-confirmed", "--warn": "--st-tension", "--bad": "--st-down", "--new": "--st-new",
   "--display": "--f-display", "--body": "--f-body", "--mono": "--f-mono",
 };

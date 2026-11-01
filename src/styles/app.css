@@ -29,7 +29,8 @@
 .sync-note { background: var(--accent-wash); color: var(--ink); font-size: 14px; padding: 8px var(--gutter); text-align: center; }
 @media (max-width: 760px) {
   .topbar-in { gap: 6px 12px; }
-  .tabs { order: 3; flex-basis: 100%; margin: 0 -10px; }
+  .tabs { order: 3; flex-basis: 100%; margin: 0 -6px; }
+  .tabs a { padding: 8px 6px; font-size: 13px; }
 }
 
 /* Pages */
@@ -119,6 +120,7 @@
 .seg-choice label { display: flex; gap: 10px; align-items: center; }
 
 /* Intel additions (not in the old page) */
+.intel .verdict .eyebrow { color: var(--panel-accent); }
 .intel .correction { margin: 12px 0 0; max-width: 72ch; }
 .intel-switch { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; margin-top: 18px; }
 .intel-switch .mono-label { margin: 0; }

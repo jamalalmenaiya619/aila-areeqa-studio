@@ -27,6 +27,9 @@
   --bad: var(--c-maroon);
   --bad-wash: #F1DED6;
   --overlay: rgba(20, 18, 16, .72); /* behind the zoom picture */
+  --panel: var(--c-ink);           /* the dark verdict box */
+  --on-panel: var(--c-paper);
+  --panel-accent: #C9A57A;
 
   /* Intel status tags: muted green, brown-blue, ochre, maroon */
   --st-confirmed: #42603C;
@@ -62,7 +65,7 @@
   :root:not([data-theme="light"]) {
     --bg: #16120E; --surface: #211B15; --ink: #EFE6D6; --ink-soft: #B9A98F; --line: #3A3026;
     --accent: #D39A8E; --accent-wash: #2C211B; --gold: #C9A57A; --on-ink: #16120E;
-    --good: #A7BB92; --good-wash: #1F2619; --bad: #D9938A; --bad-wash: #321C18;
+    --good: #A7BB92; --good-wash: #1F2619; --bad: #D9938A; --bad-wash: #321C18; --panel: #2C211B; --on-panel: #EFE6D6;
     --st-confirmed: #A7BB92; --st-new: #A9B8C9; --st-tension: #D4B26A; --st-down: #D9938A;
     color-scheme: dark;
   }
@@ -70,7 +73,7 @@
 :root[data-theme="dark"] {
   --bg: #16120E; --surface: #211B15; --ink: #EFE6D6; --ink-soft: #B9A98F; --line: #3A3026;
   --accent: #D39A8E; --accent-wash: #2C211B; --gold: #C9A57A; --on-ink: #16120E;
-  --good: #A7BB92; --good-wash: #1F2619; --bad: #D9938A; --bad-wash: #321C18;
+  --good: #A7BB92; --good-wash: #1F2619; --bad: #D9938A; --bad-wash: #321C18; --panel: #2C211B; --on-panel: #EFE6D6;
   --st-confirmed: #A7BB92; --st-new: #A9B8C9; --st-tension: #D4B26A; --st-down: #D9938A;
   color-scheme: dark;
 }
