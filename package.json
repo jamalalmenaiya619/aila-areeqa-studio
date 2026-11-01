@@ -5,14 +5,18 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
-    "typecheck": "tsc -b --noEmit",
+    "build": "npm run gen && tsc -p tsconfig.json && tsc -p functions/tsconfig.json && vite build && tsx scripts/check-build.ts",
+    "typecheck": "tsc -p tsconfig.json && tsc -p functions/tsconfig.json",
     "test": "vitest run",
     "e2e": "playwright test",
     "migrate": "tsx scripts/migrate-studybook.ts && tsx scripts/migrate-intel.ts && tsx scripts/migrate-library.ts",
-    "verify": "tsx scripts/verify-migration.ts"
+    "verify": "tsx scripts/verify-migration.ts",
+    "gen": "tsx scripts/gen-drawings.ts && tsx scripts/gen-styles.ts",
+    "serve": "wrangler pages dev dist --port 8788",
+    "test:sql": "bash tests/sql/run.sh"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0",
     "@supabase/ssr": "^0.12.7",
     "@supabase/supabase-js": "^2.118.0",
     "react": "^18.3.1",

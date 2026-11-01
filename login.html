@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Log in · A'ila Areeqa Studio</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..700&family=Albert+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" />
+</head>
+<body>
+  <main class="login">
+    <div class="login-mark">A'ila Areeqa<span>Studio</span></div>
+    <p class="login-tag">Cultured Confidence · A Family of Heritage</p>
+    <form id="login-form" class="login-form">
+      <label for="email">Email</label>
+      <input id="email" type="email" autocomplete="email" required placeholder="you@example.com" />
+      <button id="send" type="submit">Send me a login link</button>
+      <p id="msg" class="login-msg" role="status" aria-live="polite"></p>
+    </form>
+    <div id="test-box" class="login-test" hidden>
+      <p>Test mode (this computer only).</p>
+      <button id="test-login" type="button">Log in as the test user</button>
+    </div>
+  </main>
+  <script type="module" src="/src/login.ts"></script>
+</body>
+</html>

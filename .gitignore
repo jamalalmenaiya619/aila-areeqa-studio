@@ -4,3 +4,6 @@ dist/
 .env.*
 .DS_Store
 .wrangler/
+test-results/
+playwright-report/
+screenshots/compare/

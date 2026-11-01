@@ -1,0 +1,9 @@
+# Cloudflare Pages settings. Secrets (ANTHROPIC_API_KEY) are added in the Cloudflare dashboard, never here.
+name = "aila-areeqa-studio"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[r2_buckets]]
+binding = "FILES"
+bucket_name = "aila-files"

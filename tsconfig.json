@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ES2022", "lib": ["ES2023", "DOM", "DOM.Iterable"], "module": "ESNext", "moduleResolution": "Bundler",
     "jsx": "react-jsx", "strict": true, "noEmit": true, "skipLibCheck": true, "resolveJsonModule": true,
-    "allowImportingTsExtensions": true, "isolatedModules": true, "types": ["node", "@cloudflare/workers-types"], "noFallthroughCasesInSwitch": true
+    "allowImportingTsExtensions": true, "isolatedModules": true, "types": ["node", "vite/client"], "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "scripts", "functions", "tests"]
+  "include": ["src", "scripts", "tests"]
 }
