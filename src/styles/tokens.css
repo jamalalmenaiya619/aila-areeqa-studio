@@ -1,0 +1,76 @@
+/* A'ila Areeqa design tokens. The ONLY place colors, fonts, sizes and shadows are defined.
+   Earth tones only. No neon, no gradients, no gloss. Body text keeps 4.5:1 contrast or better in both modes. */
+:root {
+  /* Palette (brand starting points from CLAUDE.md) */
+  --c-paper: #F6F1E7;
+  --c-raised: #ECE3D1;
+  --c-ink: #221A12;
+  --c-ink-soft: #6B5C48;
+  --c-line: #D9CBAE;
+  --c-maroon: #6B2020;
+  --c-green: #3C4A34;
+  --c-brown: #7A5A3A;
+  --c-black: #141210;
+
+  /* Semantic roles */
+  --bg: var(--c-paper);            /* the page */
+  --surface: var(--c-raised);      /* cards, boxes, inputs */
+  --ink: var(--c-ink);
+  --ink-soft: var(--c-ink-soft);
+  --line: var(--c-line);
+  --accent: var(--c-maroon);       /* links, focus, the one accent */
+  --accent-wash: #EFE2D6;          /* info boxes: "why", coaching, answers */
+  --gold: var(--c-brown);          /* kickers, numbers, the progress thread */
+  --on-ink: var(--c-paper);        /* text on a dark (ink) button */
+  --good: var(--c-green);
+  --good-wash: #E2E3D2;
+  --bad: var(--c-maroon);
+  --bad-wash: #F1DED6;
+  --overlay: rgba(20, 18, 16, .72); /* behind the zoom picture */
+
+  /* Intel status tags: muted green, brown-blue, ochre, maroon */
+  --st-confirmed: #42603C;
+  --st-new: #42566A;
+  --st-tension: #7E5F12;
+  --st-down: #7A2A2A;
+  --st-none: var(--ink-soft);
+
+  /* Drawing colors (materials shown in the Study Book drawings; same in both modes) */
+  --draw-mud: #C9A77C; --draw-mud-line: #8A6A45; --draw-mud-dark: #3A2A1A; --draw-door: #6B4A2A;
+  --draw-leather: #B5674A; --draw-silver: #C9CBD1; --draw-red: #8E2A26; --draw-coral: #9A2F2B;
+  --draw-canvas: #E9DFC9; --draw-chest: #D9CBB0; --draw-cream-line: #7A6440; --draw-cream-text: #5A4A30;
+  /* Al-Qatt exception (CLAUDE.md rule 7): the real Asir colors the lesson teaches */
+  --qatt-red: #C0392B; --qatt-yellow: #E2B33C; --qatt-blue: #2F5DA8; --qatt-black: #1E1E1E;
+  --qatt-sand: #CDBB97; --qatt-wall: #F7F4EC; --qatt-wall-mono: #EDE6D8; --qatt-text: #6B6B6B;
+
+  /* Type */
+  --f-display: "Playfair Display", Georgia, "Times New Roman", serif;
+  --f-body: "Albert Sans", "Helvetica Neue", Arial, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --f-ar: "Noto Naskh Arabic", "Geeza Pro", serif;
+
+  /* Shape and space */
+  --radius-s: 3px; --radius: 6px; --radius-l: 8px; --pill: 999px;
+  --rule: 1px solid var(--line);
+  --page-max: 1180px;
+  --gutter: 16px;
+  --shadow: none;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #16120E; --surface: #211B15; --ink: #EFE6D6; --ink-soft: #B9A98F; --line: #3A3026;
+    --accent: #D39A8E; --accent-wash: #2C211B; --gold: #C9A57A; --on-ink: #16120E;
+    --good: #A7BB92; --good-wash: #1F2619; --bad: #D9938A; --bad-wash: #321C18;
+    --st-confirmed: #A7BB92; --st-new: #A9B8C9; --st-tension: #D4B26A; --st-down: #D9938A;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #16120E; --surface: #211B15; --ink: #EFE6D6; --ink-soft: #B9A98F; --line: #3A3026;
+  --accent: #D39A8E; --accent-wash: #2C211B; --gold: #C9A57A; --on-ink: #16120E;
+  --good: #A7BB92; --good-wash: #1F2619; --bad: #D9938A; --bad-wash: #321C18;
+  --st-confirmed: #A7BB92; --st-new: #A9B8C9; --st-tension: #D4B26A; --st-down: #D9938A;
+  color-scheme: dark;
+}
