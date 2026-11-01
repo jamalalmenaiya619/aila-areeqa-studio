@@ -1,0 +1,354 @@
+[
+  {
+    "id": "l1-s30-remember-0",
+    "kind": "remember",
+    "title": "Weather first, beauty second.",
+    "body": "Every classic Saudi garment solved heat or cold before it looked good.",
+    "format": "text",
+    "tags": [
+      "heritage"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l1",
+      "slide": 30
+    }
+  },
+  {
+    "id": "l1-s30-remember-1",
+    "kind": "remember",
+    "title": "The bisht's luxury lives on the edge.",
+    "body": "Plain body, rich front opening and neck.",
+    "format": "text",
+    "tags": [
+      "heritage"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l1",
+      "slide": 30
+    }
+  },
+  {
+    "id": "l1-s30-remember-2",
+    "kind": "remember",
+    "title": "Linen is a hollow stem fiber; wool has scales.",
+    "body": "Linen: cool, strong, wrinkles. Wool: warm, can scratch, can felt.",
+    "format": "text",
+    "tags": [
+      "fabric"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l1",
+      "slide": 30
+    }
+  },
+  {
+    "id": "l2-s30-remember-0",
+    "kind": "remember",
+    "title": "Real zari = silk or cotton + silver + gold plating.",
+    "body": "Copper or plastic cores are the cheap copies.",
+    "format": "text",
+    "tags": [
+      "fabric"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l2",
+      "slide": 30
+    }
+  },
+  {
+    "id": "l2-s30-remember-1",
+    "kind": "remember",
+    "title": "Two strips sewn across the middle = hand loom.",
+    "body": "One wide seamless piece = machine-woven.",
+    "format": "text",
+    "tags": [
+      "fabric",
+      "construction"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l2",
+      "slide": 30
+    }
+  },
+  {
+    "id": "l2-s30-remember-2",
+    "kind": "remember",
+    "title": "Fine camel hair is Bactrian; thinner fiber = softer cloth.",
+    "body": "Ask every supplier for the micron number in writing.",
+    "format": "text",
+    "tags": [
+      "fabric"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l2",
+      "slide": 30
+    }
+  },
+  {
+    "id": "l3-s28-remember-0",
+    "kind": "remember",
+    "title": "Sadu = Bedouin women's ground-loom weaving.",
+    "body": "Triangles, lines, symmetry, a few strong colors.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "color"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l3",
+      "slide": 28
+    }
+  },
+  {
+    "id": "l3-s28-remember-1",
+    "kind": "remember",
+    "title": "Al-Qatt is built in named layers.",
+    "body": "Kufuf (palms) at the bottom, triangles, amshat (combs). Keep the structure, drop the color.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "color"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l3",
+      "slide": 28
+    }
+  },
+  {
+    "id": "l3-s28-remember-2",
+    "kind": "remember",
+    "title": "Woven-in beats printed for luxury.",
+    "body": "Dobby for small patterns, jacquard for big ones. Turn it over to check.",
+    "format": "text",
+    "tags": [
+      "fabric"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l3",
+      "slide": 28
+    }
+  },
+  {
+    "id": "l4-s27-remember-0",
+    "kind": "remember",
+    "title": "Najdi triangles = air, light, view, defense.",
+    "body": "Useful holes that became a pattern. Move 10 turns them into vents.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "construction"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l4",
+      "slide": 27
+    }
+  },
+  {
+    "id": "l4-s27-remember-1",
+    "kind": "remember",
+    "title": "Rawasheen = see out, not in.",
+    "body": "A wooden garment for the house. Move 11 turns it into a secret lining.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "construction"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l4",
+      "slide": 27
+    }
+  },
+  {
+    "id": "l4-s27-remember-2",
+    "kind": "remember",
+    "title": "Canvas, not glue. Cupro, not polyester.",
+    "body": "Pinch to check canvas. Half-lined for the Gulf, sleeves always lined.",
+    "format": "text",
+    "tags": [
+      "fabric",
+      "construction"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l4",
+      "slide": 27
+    }
+  },
+  {
+    "id": "l5-s26-remember-0",
+    "kind": "remember",
+    "title": "Silver was a woman's bank; bells meant \"heard, not seen\".",
+    "body": "Move 13: one silent silver bead, one coral-red stitch.",
+    "format": "text",
+    "tags": [
+      "construction",
+      "color"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l5",
+      "slide": 26
+    }
+  },
+  {
+    "id": "l5-s26-remember-1",
+    "kind": "remember",
+    "title": "Munaykhal = a sheer \"mesh strainer\" layer over a solid one.",
+    "body": "Move 14: open-weave overshirt for men. Najd's grey and navy for both.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "fabric",
+      "color"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l5",
+      "slide": 26
+    }
+  },
+  {
+    "id": "l5-s26-remember-2",
+    "kind": "remember",
+    "title": "Momme = silk weight. Light, matte silk for heat.",
+    "body": "Habotai or crepe under about 16 momme. Charmeuse for evening only.",
+    "format": "text",
+    "tags": [
+      "fabric"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l5",
+      "slide": 26
+    }
+  },
+  {
+    "id": "l6-s28-remember-0",
+    "kind": "remember",
+    "title": "Najran: janbiya and plant-tanned red leather.",
+    "body": "Move 16: the haskal pocket under the left arm. Move 17: the khabt tab.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "construction",
+      "color",
+      "leather"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l6",
+      "slide": 28
+    }
+  },
+  {
+    "id": "l6-s28-remember-1",
+    "kind": "remember",
+    "title": "Scent and pearls are about what's hidden.",
+    "body": "Oud on the packaging, Taif's al-Arus as a hidden name, red inside like the pearl deal (Move 18).",
+    "format": "text",
+    "tags": [
+      "color",
+      "scent"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l6",
+      "slide": 28
+    }
+  },
+  {
+    "id": "l6-s28-remember-2",
+    "kind": "remember",
+    "title": "Every fiber in a blend must earn its place.",
+    "body": "2–3% elastane max in tailoring. Polyester only for pleats, shells, or a real story.",
+    "format": "text",
+    "tags": [
+      "fabric",
+      "construction"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l6",
+      "slide": 28
+    }
+  },
+  {
+    "id": "l7-s28-remember-0",
+    "kind": "remember",
+    "title": "Copy the reason, not the costume.",
+    "body": "Every Saudi detail solved a problem. Find the problem, and the design follows.",
+    "format": "text",
+    "tags": [
+      "heritage"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l7",
+      "slide": 28
+    }
+  },
+  {
+    "id": "l7-s28-remember-1",
+    "kind": "remember",
+    "title": "One detail, used small, built well.",
+    "body": "Quiet luxury is a single story you can prove, on a garment made with canvas, cupro and honest fiber.",
+    "format": "text",
+    "tags": [
+      "fabric",
+      "construction"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l7",
+      "slide": 28
+    }
+  },
+  {
+    "id": "l7-s28-remember-2",
+    "kind": "remember",
+    "title": "Your brief is a real starting point.",
+    "body": "Next step: one sample from a pattern-maker, with a fabric swatch in hand.",
+    "format": "text",
+    "tags": [
+      "fabric",
+      "construction"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l7",
+      "slide": 28
+    }
+  }
+]

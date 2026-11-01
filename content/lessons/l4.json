@@ -1,0 +1,757 @@
+{
+  "id": "l4",
+  "num": 4,
+  "date": "2026-10-28",
+  "day": "Wed, Oct 28",
+  "ready": true,
+  "title": "Houses become clothes",
+  "pair": "Najdi triangles and Hijazi rawasheen · What's inside a jacket, and linings",
+  "slides": [
+    {
+      "type": "cover",
+      "part": "warm",
+      "img": "l4-2",
+      "coverCaption": "At-Turaif in Diriyah, first capital of the Saudi state.",
+      "kicker": "Lesson 4 · about 1 hour",
+      "title": "Houses become clothes",
+      "text": "Saudi houses solved heat, privacy and welcome with walls and wood. A good jacket solves the same problems with cloth, canvas and lining. Today you learn both, and how one turns into the other."
+    },
+    {
+      "type": "quiz",
+      "part": "warm",
+      "warm": true,
+      "review": 3,
+      "q": "Who wove Al Sadu, and on what?",
+      "options": [
+        "Al-Ahsa tailors, on sewing machines",
+        "Bedouin women, on a ground loom",
+        "Factory workers, on jacquard looms",
+        "Merchants, on standing looms in Jeddah"
+      ],
+      "answer": 1,
+      "why": "Bedouin women, on a loom laid flat on the ground. \"Sadu\" means weaving done in a horizontal style.",
+      "whys": [
+        "Al-Ahsa tailors make bishts. Sadu is a different craft.",
+        null,
+        "Sadu is hand-woven. Jacquard looms are factory machines.",
+        "The loom lies flat, which is where the name comes from."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "warm",
+      "warm": true,
+      "review": 3,
+      "q": "In Al-Qatt, what are the kufuf (\"palms\")?",
+      "options": [
+        "Painted hands",
+        "Horizontal bands at the bottom of the wall, measured with fingers",
+        "Palm trees in the corners",
+        "The colors of the wall"
+      ],
+      "answer": 1,
+      "why": "Bands along the bottom of the wall. Women measured their width with their fingers.",
+      "whys": [
+        "Nobody painted hands. The name comes from how the bands were measured.",
+        null,
+        "Al-Qatt is geometric, no trees.",
+        "Kufuf are a shape layer, not a color."
+      ],
+      "hint": {
+        "svg": "qattBlank",
+        "cap": "The triangle row is here. What runs along the very bottom?"
+      }
+    },
+    {
+      "type": "quiz",
+      "part": "warm",
+      "warm": true,
+      "review": 3,
+      "q": "For quiet luxury, which way of adding a pattern is best?",
+      "options": [
+        "A big printed Sadu pattern",
+        "One small motif woven into the cloth",
+        "A sticker",
+        "Bright embroidery all over"
+      ],
+      "answer": 1,
+      "why": "Woven-in, small and quiet. It lasts as long as the cloth, and only those who know will see it.",
+      "whys": [
+        "Big Sadu prints are everywhere in souvenirs, so they read cheap.",
+        null,
+        "A sticker isn't part of the cloth at all.",
+        "All-over bright embroidery is loud. Quiet luxury keeps the detail small."
+      ]
+    },
+    {
+      "type": "story",
+      "part": "story",
+      "img": "l4-2",
+      "caption": "At-Turaif District in Diriyah, Riyadh: thick mud-brick walls.",
+      "title": "Najdi houses: walls against the sun",
+      "text": [
+        "In Najd, the center of Arabia, houses were built from mud brick with very thick walls, inward-facing courtyards and narrow shaded lanes.",
+        "At-Turaif in Diriyah was founded in the 1400s and became the first capital of the Saudi state. It was destroyed in 1818 and left empty for almost two centuries. UNESCO listed it in 2010.",
+        "Mud brick was used because it was at hand, and because thick earth walls suit the desert climate."
+      ],
+      "src": [
+        [
+          "UNESCO World Heritage: At-Turaif",
+          "https://whc.unesco.org/en/list/1329/"
+        ],
+        [
+          "Wikipedia: At-Turaif District",
+          "https://en.wikipedia.org/wiki/At-Turaif_District"
+        ],
+        [
+          "Parametric Architecture: mudbrick cities",
+          "https://parametric-architecture.com/10-mudbrick-cities-desert-climate/"
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "part": "story",
+      "title": "The triangle openings",
+      "left": {
+        "img": "l4-30",
+        "label": "Shaqra, Najd",
+        "caption": "A Najdi heritage house in Shaqra. Look along the top for the triangles."
+      },
+      "right": {
+        "svg": "facade",
+        "label": "How they work",
+        "caption": "Drawing: small triangle openings stacked into rows."
+      },
+      "takeaway": "These openings, called furjat or luhuj, let in air and light and let people see out. They were also used for defense. They are arranged in rows and stacks, so the wall gets a pattern from something useful.",
+      "src": [
+        [
+          "Wikipedia: Najdi architecture",
+          "https://en.wikipedia.org/wiki/Najdi_architecture"
+        ],
+        [
+          "ACOR archive: triangular openings, Diriyah",
+          "https://archive.acorjordan.org/s/acor/item/85349"
+        ]
+      ]
+    },
+    {
+      "type": "story",
+      "part": "story",
+      "img": "l4-25",
+      "caption": "The carved wooden door of Al-Masmak Fortress, Riyadh.",
+      "title": "The qahwa: the room for guests",
+      "arabic": "القهوة",
+      "text": [
+        "The most decorated room in a Najdi house was the qahwa, the men's room for welcoming guests. Its decoration showed the family's generosity.",
+        "It had small square or triangle openings near the ceiling, and a slot in the ceiling called al-sawamah to let out the smoke from the coffee fire.",
+        "Same idea as Al-Qatt in Asir: the guest room is where a family shows its pride."
+      ],
+      "src": [
+        [
+          "Wikipedia: Najdi architecture",
+          "https://en.wikipedia.org/wiki/Najdi_architecture"
+        ],
+        [
+          "Saudipedia: al-Jawf architecture",
+          "https://saudipedia.com/en/article/3155/culture/traditional-architecture-in-al-jawf-province"
+        ]
+      ]
+    },
+    {
+      "type": "story",
+      "part": "story",
+      "img": "l4-12",
+      "caption": "Rawasheen in Historic Jeddah's Culture Square, 2025.",
+      "title": "Hijazi rawasheen: see out, not in",
+      "arabic": "رواشين",
+      "text": [
+        "In the Hijaz, the west coast, houses wore carved wooden boxes on their fronts called rawasheen (one is a roshan). You find them in Jeddah, Makkah, Madinah, Yanbu and Taif.",
+        "They did three jobs: shade, airflow and privacy. People inside could see out; no one outside could see in. They also showed a family's wealth.",
+        "The wood was bought from India, Indonesia and Sudan. Classic colors are natural wood, brown and green. Historic Jeddah was listed by UNESCO in 2014."
+      ],
+      "src": [
+        [
+          "Saudipedia: Al-Rawashin",
+          "https://saudipedia.com/en/article/530/culture/cultural-affairs/al-rawashin"
+        ],
+        [
+          "Arab News: Rawasheen in Makkah",
+          "https://arabnews.com/node/1847861"
+        ],
+        [
+          "Bayut: Al Rawashin",
+          "https://www.bayut.sa/blog/en/explore-saudi/al-rawashin-saudi-arabia/"
+        ],
+        [
+          "CNN: Jeddah's Al-Balad",
+          "https://edition.cnn.com/travel/article/jeddah-al-balad-saudi-arabia"
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "part": "see",
+      "title": "A wooden garment for a house",
+      "left": {
+        "img": "l4-14",
+        "label": "Up close",
+        "caption": "Carved roshan detail, Historic Jeddah."
+      },
+      "right": {
+        "img": "l4-8",
+        "label": "On the street",
+        "caption": "A white coral-stone house wearing its rawasheen."
+      },
+      "takeaway": "One researcher calls the roshan a wooden garment wrapped around the building. That makes it the easiest house detail to bring into clothing. Designer Makram Marzuki already turned a Jeddah roshan pattern into a bridal look, so a literal copy is taken. The quiet version is the idea: see out, not in.",
+      "src": [
+        [
+          "WIT Press: the mechanism of the rawasheen",
+          "https://www.witpress.com/elibrary/wit-transactions-on-ecology-and-the-environment/128/20814"
+        ],
+        [
+          "Arab News: Banat Al-Balad collection",
+          "https://arab.news/b63v2"
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "part": "see",
+      "title": "Earth towns of Arabia",
+      "left": {
+        "img": "l4-4",
+        "label": "Riyadh",
+        "caption": "Al-Masmak Fortress, mud brick, Riyadh."
+      },
+      "right": {
+        "img": "l4-35",
+        "label": "AlUla",
+        "caption": "The old town of AlUla, 2011."
+      },
+      "takeaway": "Thick earth walls, small openings and narrow lanes show up across Arabia, because they keep heat out. For clothing the lesson is the same: block the sun, let air move.",
+      "src": [
+        [
+          "Parametric Architecture: mudbrick cities",
+          "https://parametric-architecture.com/10-mudbrick-cities-desert-climate/"
+        ]
+      ]
+    },
+    {
+      "type": "story",
+      "part": "see",
+      "img": "l4-21",
+      "caption": "A half-finished Savile Row jacket by Kathryn Sargent: white basting stitches, and the stitched canvas showing on the lapel.",
+      "title": "Inside a jacket",
+      "text": [
+        "A jacket is a house too: outside cloth, a hidden frame and an inner wall. The frame is the canvas, and the inner wall is the lining.",
+        "Look at the lapel in this photo. That pale quilted layer is horsehair canvas, stitched by hand so the lapel rolls softly.",
+        "The white lines are basting: temporary hand stitches that hold the pieces while the tailor fits them."
+      ],
+      "src": [
+        [
+          "Art of Manliness: fused vs canvassed",
+          "https://www.artofmanliness.com/STYLE/CLOTHING/THE-ART-OF-MANLINESS-SUIT-SCHOOL-PART-I-FUSED-VS-CANVASSED-SUITS/"
+        ],
+        [
+          "Articles of Style: a quality suit",
+          "https://articlesofstyle.com/blogs/news/how-to-spot-a-quality-suit"
+        ]
+      ]
+    },
+    {
+      "type": "svgtoggle",
+      "part": "see",
+      "title": "Three ways to build a jacket front",
+      "intro": "What's inside decides how a jacket hangs and how long it lasts. Switch between the three.",
+      "modes": {
+        "Fused": {
+          "svg": "layFused",
+          "how": "Glue only.",
+          "items": [
+            [
+              "Feel",
+              "Can look stiff and flat"
+            ],
+            [
+              "Risk",
+              "Glue can bubble after dry cleaning. That can't be fixed."
+            ],
+            [
+              "Cost",
+              "Cheapest"
+            ]
+          ]
+        },
+        "Half canvas": {
+          "svg": "layHalf",
+          "how": "Canvas sewn into the chest and lapel; glue below.",
+          "items": [
+            [
+              "Feel",
+              "Lapel rolls, chest shapes to you"
+            ],
+            [
+              "Risk",
+              "Lower body still glued"
+            ],
+            [
+              "Cost",
+              "Middle: the smart choice for most pieces"
+            ]
+          ]
+        },
+        "Full canvas": {
+          "svg": "layFull",
+          "how": "Horsehair canvas sewn through the whole front.",
+          "items": [
+            [
+              "Feel",
+              "Molds to your body over time"
+            ],
+            [
+              "Risk",
+              "Almost none, if well made"
+            ],
+            [
+              "Cost",
+              "Most expensive"
+            ]
+          ]
+        }
+      },
+      "src": [
+        [
+          "Art of Manliness: fused vs canvassed",
+          "https://www.artofmanliness.com/STYLE/CLOTHING/THE-ART-OF-MANLINESS-SUIT-SCHOOL-PART-I-FUSED-VS-CANVASSED-SUITS/"
+        ],
+        [
+          "Gentleman's Gazette: how to spot a cheap suit",
+          "https://www.gentlemansgazette.com/how-to-spot-a-cheap-suit/"
+        ]
+      ]
+    },
+    {
+      "type": "layers",
+      "part": "see",
+      "title": "Linings for Gulf heat",
+      "intro": "The lining touches your body. In the heat, a lining that lets sweat out matters more than shine.",
+      "layers": [
+        [
+          "Cupro (Bemberg)",
+          "Breathes best. Made by Asahi Kasei from the fuzz on cotton seeds. Smooth, no static. Costs more.",
+          "Best"
+        ],
+        [
+          "Viscose",
+          "Breathes well and is tough. Many top tailors use it.",
+          "Good"
+        ],
+        [
+          "Acetate",
+          "Light but weak and flimsy. Not a good cheap swap.",
+          "Weak"
+        ],
+        [
+          "Polyester",
+          "Breathes poorly; one tailoring writer says it feels like a sauna. A sign of a cheap suit.",
+          "Avoid"
+        ],
+        [
+          "Silk",
+          "Breathes, but wears out fastest and costs five times or more.",
+          "Rare"
+        ]
+      ],
+      "note": "How much lining: unlined lets in the most air but can rumple. Half-lined, across the back shoulders only, lets heat out and still hangs well. Keep the sleeves lined so the jacket slides on.",
+      "src": [
+        [
+          "Permanent Style: guide to linings",
+          "https://www.permanentstyle.com/2016/05/bemberg-cupro-ermezine-the-guide-to-linings"
+        ],
+        [
+          "Asahi Kasei: Bemberg features",
+          "https://www.asahi-kasei.co.jp/fibers/en/bemberg/benefit/features/"
+        ],
+        [
+          "Bias Bespoke: linings",
+          "https://www.biasbespoke.com/tailoring/lining-fabrics/"
+        ],
+        [
+          "Permanent Style: half-lined and unlined",
+          "https://www.permanentstyle.com/2010/05/half-lined-and-unlined-jackets.html"
+        ],
+        [
+          "Gentleman's Gazette: how to spot a cheap suit",
+          "https://www.gentlemansgazette.com/how-to-spot-a-cheap-suit/"
+        ]
+      ]
+    },
+    {
+      "type": "reveal",
+      "part": "see",
+      "img": "l4-18",
+      "title": "Hand or machine?",
+      "prompt": "A buttonhole being sewn. How can you tell a hand-made one on a finished jacket?",
+      "answer": "A hand buttonhole takes 30 to 45 minutes. On the back it looks raised and slightly uneven, because each stitch is pulled by hand. A machine buttonhole is flat and perfectly even. The same goes for the pick stitch along a lapel edge: by hand it wanders slightly; by machine it's perfectly straight. In luxury, tiny unevenness is proof of hands.",
+      "src": [
+        [
+          "Husbands Paris: the pick stitch",
+          "https://husbands-paris.com/en/the-pick-stitch"
+        ],
+        [
+          "Articles of Style: a quality suit",
+          "https://articlesofstyle.com/blogs/news/how-to-spot-a-quality-suit"
+        ]
+      ]
+    },
+    {
+      "type": "design",
+      "part": "design",
+      "svg": "vents",
+      "title": "Move 10: Furjat vents",
+      "text": "Najdi walls used small triangle openings to let air through. Give a summer overshirt the same job.",
+      "how": [
+        "A neat row of small triangle vents across the back yoke, where heat builds up.",
+        "A short row under the arm, where you sweat most.",
+        "Keep them small and in a line, so they read as a pattern, like on the wall."
+      ]
+    },
+    {
+      "type": "design",
+      "part": "design",
+      "svg": "lattice",
+      "title": "Move 11: The roshan lining",
+      "text": "The roshan lets you see out without being seen. Turn that into a secret inside the coat.",
+      "how": [
+        "A lattice-pattern lining, woven in, that only shows when the coat opens.",
+        "Use cupro so the secret also breathes.",
+        "Women: the same lining in a long open coat, flashing as she walks."
+      ]
+    },
+    {
+      "type": "design",
+      "part": "design",
+      "svg": "halfLined",
+      "title": "Move 12: Built for the Gulf",
+      "text": "Your quality standard, written down once so every factory gets the same brief.",
+      "how": [
+        "Coats and bisht-style pieces: at least half canvas, never fused.",
+        "Half-lined in cupro (Bemberg) for summer; sleeves always lined.",
+        "Hand buttonholes on the top line. Inside unlined pieces, neat bound seams."
+      ]
+    },
+    {
+      "type": "task",
+      "part": "do",
+      "title": "The pinch test",
+      "minutes": 4,
+      "text": "Take any blazer or suit jacket you own.",
+      "checklist": [
+        "Pinch the sleeve to feel normal thickness",
+        "Pinch the front below the lowest buttonhole and gently pull the layers apart",
+        "Floating third layer = canvas. Stiff, stuck together = fused. Write what you found."
+      ],
+      "notePrompt": "My navy blazer: I felt ___, so I think it's ___ because...",
+      "refs": [
+        {
+          "img": "l4-21",
+          "cap": "Canvas visible on a half-made lapel."
+        },
+        {
+          "svg": "layFused",
+          "cap": "Fused: cloth glued to a stiff layer."
+        },
+        {
+          "svg": "layFull",
+          "cap": "Full canvas: a loose, stitched layer."
+        }
+      ],
+      "context": [
+        "Full canvas: horsehair canvas sewn through the whole front. It shapes to the body over time. Costs most.",
+        "Half canvas: canvas only in the chest and lapel; the rest is glued.",
+        "Fused: glue only. Cheapest, can look stiff, and the glue can bubble after dry cleaning, which cannot be fixed.",
+        "Pinch test: pinch the sleeve to feel normal thickness. Then pinch the front below the lowest buttonhole and gently pull apart. A loose third layer floating in between = canvas. Stiff with no separate layer = fused.",
+        "Hand buttonholes take 30–45 minutes, look raised and slightly uneven on the back. A hand pick stitch along the lapel wanders slightly; machine stitching is perfectly even.",
+        "Rule for A'ila Areeqa: coats and bisht-style pieces at least half canvas, never fused."
+      ]
+    },
+    {
+      "type": "task",
+      "part": "do",
+      "title": "Lining check",
+      "minutes": 3,
+      "text": "Open the same jacket, or another coat.",
+      "checklist": [
+        "Read the lining label: polyester, viscose, cupro or silk?",
+        "Is it fully lined, half-lined or unlined?",
+        "Would you wear it in Riyadh in May? Say why."
+      ],
+      "notePrompt": "Lining: 100% polyester, fully lined. In May I think...",
+      "refs": [
+        {
+          "svg": "halfLined",
+          "cap": "Half-lined: shoulders only."
+        }
+      ],
+      "context": [
+        "Cupro (brand name Bemberg, made by Asahi Kasei from cotton-seed fuzz) breathes best and is smooth and anti-static; costs more.",
+        "Viscose breathes well and is tough. Acetate is light but weak and flimsy. Polyester lining breathes poorly and feels like a sauna; it is a sign of a cheap suit. Silk breathes but wears out fastest and costs five times or more.",
+        "Unlined lets in the most air but can rumple. Half-lined (back across the shoulders only) lets heat out and still hangs well. Keep sleeves lined so the jacket slides on.",
+        "Gulf summers pass 35°C, so half-lined is the default; lining in cupro, never polyester."
+      ]
+    },
+    {
+      "type": "task",
+      "part": "do",
+      "title": "Place the vents",
+      "minutes": 3,
+      "text": "Sketch the back of an overshirt. Add Move 10.",
+      "checklist": [
+        "Draw the shirt back and the yoke line",
+        "Place one row of small triangle vents",
+        "Say why you put them there"
+      ],
+      "notePrompt": "I put the vents ___ because...",
+      "refs": [
+        {
+          "img": "l4-30",
+          "cap": "Shaqra house: triangles along the top."
+        },
+        {
+          "svg": "facade",
+          "cap": "Rows of triangle openings (drawing)."
+        },
+        {
+          "svg": "vents",
+          "cap": "Move 10: vents on the yoke and under the arm."
+        }
+      ],
+      "context": [
+        "Najdi walls have small triangle and square openings (furjat or luhuj) for air, light and a view out; they were also used for defense. They are stacked into patterns on the wall.",
+        "Move 10 idea: a row of small triangle vents across the back yoke or under the arm of an overshirt, doing the same job: letting air move.",
+        "Keep vents small and in a neat row so they read as a pattern, like on the wall."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "What were the small triangle openings in Najdi walls for?",
+      "options": [
+        "Decoration only",
+        "Air, light and a view out, and also defense",
+        "Draining rain water",
+        "Holding oil lamps"
+      ],
+      "answer": 1,
+      "why": "Air, light and a view out, and they were also used for defense. The pattern came from something useful.",
+      "whys": [
+        "They do look decorative, but every one had a job.",
+        null,
+        "Rain is rare in Najd, and these sit high on the wall.",
+        "They're openings, not shelves."
+      ],
+      "hint": {
+        "svg": "facade",
+        "cap": "Small openings, high on a thick wall, in a hot desert."
+      },
+      "src": [
+        [
+          "Wikipedia: Najdi architecture",
+          "https://en.wikipedia.org/wiki/Najdi_architecture"
+        ],
+        [
+          "ACOR archive: triangular openings, Diriyah",
+          "https://archive.acorjordan.org/s/acor/item/85349"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "Which room in a Najdi house got the most decoration?",
+      "options": [
+        "The kitchen",
+        "The qahwa, where guests were welcomed",
+        "The roof",
+        "The storeroom"
+      ],
+      "answer": 1,
+      "why": "The qahwa, the guest room. Decoration showed the family's generosity.",
+      "whys": [
+        "The kitchen was a working room, not a show room.",
+        null,
+        "Roofs were for sleeping and air, not show.",
+        "Storerooms were private, not shown to guests."
+      ],
+      "src": [
+        [
+          "Wikipedia: Najdi architecture",
+          "https://en.wikipedia.org/wiki/Najdi_architecture"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "What did the rawasheen let the people inside do?",
+      "options": [
+        "See out without being seen",
+        "Keep rain out only",
+        "Store food",
+        "Climb to the roof"
+      ],
+      "answer": 0,
+      "why": "See out without being seen, while getting shade and airflow.",
+      "whys": [
+        null,
+        "Rain is rare in Jeddah. Their jobs were shade, air and privacy.",
+        "They're windows, not cupboards.",
+        "They're windows, not stairs."
+      ],
+      "hint": {
+        "img": "l4-14",
+        "cap": "Carved wood with many small holes, on the front of a house."
+      },
+      "src": [
+        [
+          "Saudipedia: Al-Rawashin",
+          "https://saudipedia.com/en/article/530/culture/cultural-affairs/al-rawashin"
+        ],
+        [
+          "Bayut: Al Rawashin",
+          "https://www.bayut.sa/blog/en/explore-saudi/al-rawashin-saudi-arabia/"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "Best jacket lining for Gulf heat?",
+      "options": [
+        "Polyester",
+        "Cupro (Bemberg)",
+        "Acetate",
+        "No lining at all, sleeves included"
+      ],
+      "answer": 1,
+      "why": "Cupro breathes best and is smooth. Half-line it for summer and keep the sleeves lined.",
+      "whys": [
+        "Polyester breathes poorly. It's the cheap-suit lining.",
+        null,
+        "Acetate is light but weak and tears.",
+        "Unlined lets air in, but unlined sleeves catch on your shirt. Keep sleeves lined."
+      ],
+      "src": [
+        [
+          "Permanent Style: guide to linings",
+          "https://www.permanentstyle.com/2016/05/bemberg-cupro-ermezine-the-guide-to-linings"
+        ],
+        [
+          "Permanent Style: half-lined and unlined",
+          "https://www.permanentstyle.com/2010/05/half-lined-and-unlined-jackets.html"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "In the pinch test, a loose third layer floating inside the front means…",
+      "options": [
+        "The jacket is fused",
+        "The jacket has canvas",
+        "The jacket is unlined",
+        "The lining is polyester"
+      ],
+      "answer": 1,
+      "why": "Canvas. It's sewn in, not glued, so it floats as its own layer.",
+      "whys": [
+        "Fused is the opposite: everything is glued, so there's no loose layer.",
+        null,
+        "Unlined has fewer layers, not a floating one.",
+        "The pinch test checks the front's insides, not the lining fabric."
+      ],
+      "hint": {
+        "img": "l4-21",
+        "cap": "The pale quilted layer on this lapel."
+      },
+      "src": [
+        [
+          "Gentleman's Gazette: how to spot a cheap suit",
+          "https://www.gentlemansgazette.com/how-to-spot-a-cheap-suit/"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "What can go wrong with a fused jacket?",
+      "options": [
+        "The glue can bubble after dry cleaning",
+        "It's too soft",
+        "It costs too much",
+        "It molds to your body too much"
+      ],
+      "answer": 0,
+      "why": "The glue can bubble after cleaning, and that can't be fixed.",
+      "whys": [
+        null,
+        "Fused jackets tend to be stiffer, not softer.",
+        "Fused is the cheapest way to build.",
+        "Molding to the body is what canvas does, not glue."
+      ],
+      "src": [
+        [
+          "Art of Manliness: fused vs canvassed",
+          "https://www.artofmanliness.com/STYLE/CLOTHING/THE-ART-OF-MANLINESS-SUIT-SCHOOL-PART-I-FUSED-VS-CANVASSED-SUITS/"
+        ]
+      ]
+    },
+    {
+      "type": "score",
+      "part": "quiz"
+    },
+    {
+      "type": "remember",
+      "part": "quiz",
+      "title": "Three things to keep",
+      "items": [
+        [
+          "Najdi triangles = air, light, view, defense.",
+          "Useful holes that became a pattern. Move 10 turns them into vents."
+        ],
+        [
+          "Rawasheen = see out, not in.",
+          "A wooden garment for the house. Move 11 turns it into a secret lining."
+        ],
+        [
+          "Canvas, not glue. Cupro, not polyester.",
+          "Pinch to check canvas. Half-lined for the Gulf, sleeves always lined."
+        ]
+      ]
+    },
+    {
+      "type": "video",
+      "part": "quiz",
+      "title": "Watch tonight or tomorrow",
+      "items": [
+        [
+          "Bemberg and Cupro Linings: Are they the best? (Rajani Bespoke)",
+          "https://www.youtube.com/watch?v=FsRxbU3c4DE",
+          "A tailor explains linings. Pairs with the lining slide."
+        ],
+        [
+          "Inside the Fort of AlUla Old Town",
+          "https://www.youtube.com/watch?v=z-K8N4A86TM",
+          "Walls, lanes and openings of an Arabian earth town."
+        ],
+        [
+          "AlUla Old Town",
+          "https://www.youtube.com/watch?v=xwHYpglrEFI",
+          "A walk through the old town's houses."
+        ]
+      ],
+      "note": "No good video was found showing Najdi triangle openings up close. Look for them in person at At-Turaif in Diriyah."
+    }
+  ]
+}

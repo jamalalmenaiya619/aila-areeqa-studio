@@ -1,0 +1,361 @@
+[
+  {
+    "id": "move-01",
+    "kind": "move",
+    "title": "Move 1: The bisht edge",
+    "body": "Plain body; one rich line on the front edge and neck.\n\nKeep the body of the garment plain. Put your one rich detail where the bisht puts it: down the front opening and around the neck.\n\n- Men: a plain dark overcoat with a thin hand-finished braid only on the front edge.\n\n- Women: the same edge on a long, open coat worn like an abaya.\n\n- A Saudi eye reads \"bisht\". Anyone else just sees a well-made coat.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "construction"
+    ],
+    "sources": [],
+    "move": 1,
+    "origin": {
+      "type": "lesson",
+      "lesson": "l1",
+      "slide": 17
+    },
+    "svg": "edge"
+  },
+  {
+    "id": "move-02",
+    "kind": "move",
+    "title": "Move 2: Hidden comfort",
+    "body": "Soft cotton inside wool, like the labda.\n\nThe labda padded wool with cotton so it would not scratch. Copy the idea, not the look.\n\n- A wool overshirt with a soft cotton lining inside.\n\n- Nobody sees it. The wearer feels it every time.\n\n- Tell the story on the inside label or the hangtag, not on the outside.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "fabric",
+      "construction"
+    ],
+    "sources": [],
+    "move": 2,
+    "origin": {
+      "type": "lesson",
+      "lesson": "l1",
+      "slide": 18
+    },
+    "svg": "lining"
+  },
+  {
+    "id": "move-03",
+    "kind": "move",
+    "title": "Move 3: One cut, two weights",
+    "body": "Same pattern in linen for summer, wool or camel for winter.\n\nThe bisht came in soft yarn for summer and coarse hair for winter. Same shape, different cloth.\n\n- Summer: linen or a linen-cotton blend, light color.\n\n- Winter: wool or camel hair, in brown or navy, the old Saudi winter colors.\n\n- One pattern, two seasons. That is also cheaper to produce.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "fabric",
+      "construction",
+      "color"
+    ],
+    "sources": [],
+    "move": 3,
+    "origin": {
+      "type": "lesson",
+      "lesson": "l1",
+      "slide": 19
+    },
+    "svg": "swap"
+  },
+  {
+    "id": "move-04",
+    "kind": "move",
+    "title": "Move 4: The mekasar line",
+    "body": "Tone-on-tone silk stitching along the front.\n\nTake the mekasar edge, silk stitching along the cloth's edge, and drop the gold. Stitch it in the same color as the cloth.\n\n- Men: two thin rows of tone-on-tone silk stitching down a jacket's front.\n\n- Up close it catches light. From across a room it disappears.\n\n- Women: the same line on a long open coat, worn draped like a bisht.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "fabric",
+      "construction",
+      "color"
+    ],
+    "sources": [],
+    "move": 4,
+    "origin": {
+      "type": "lesson",
+      "lesson": "l2",
+      "slide": 17
+    },
+    "svg": "mekasar"
+  },
+  {
+    "id": "move-05",
+    "kind": "move",
+    "title": "Move 5: The barqa overcoat",
+    "body": "Long winter coat in undyed goat wool or camel hair.\n\nThe bisht al-barqa was hand-knitted from goat wool against cold desert nights. Bring back the idea: a long winter coat in undyed fiber.\n\n- Undyed cream or brown goat wool or camel hair. No dye, so the fiber's natural color is the story.\n\n- Long and loose, open at the front like a bisht.\n\n- Name it after the barqa only on the label, for those who know.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "fabric",
+      "color"
+    ],
+    "sources": [],
+    "move": 5,
+    "origin": {
+      "type": "lesson",
+      "lesson": "l2",
+      "slide": 18
+    },
+    "svg": "barqa"
+  },
+  {
+    "id": "move-06",
+    "kind": "move",
+    "title": "Move 6: The honest label",
+    "body": "Fiber, micron, origin, trim type, written inside.\n\nLuxury buyers trust what they can check. Put the facts a bisht maker would brag about inside the garment.\n\n- Fiber and %, micron, country of origin.\n\n- Trim type: say \"gold-plated silver zari\" only if it is true.\n\n- This is also your shield: if a supplier won't give you these numbers in writing, don't buy.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "fabric",
+      "construction"
+    ],
+    "sources": [],
+    "move": 6,
+    "origin": {
+      "type": "lesson",
+      "lesson": "l2",
+      "slide": 19
+    },
+    "svg": "tag"
+  },
+  {
+    "id": "move-07",
+    "kind": "move",
+    "title": "Move 7: One Sadu motif, small",
+    "body": "One woven-in triangle band in two quiet colors.\n\nSadu is everywhere in souvenirs, so a big Sadu print reads cheap. Take one motif and shrink it.\n\n- Weave one triangle band into a waistband, collar stand or bag strap.\n\n- Use dobby or jacquard so it is part of the cloth, not printed on top.\n\n- Two quiet colors only, like black and sand. Those who know will see it.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "fabric",
+      "construction",
+      "color"
+    ],
+    "sources": [],
+    "move": 7,
+    "origin": {
+      "type": "lesson",
+      "lesson": "l3",
+      "slide": 15
+    },
+    "svg": "qattMono"
+  },
+  {
+    "id": "move-08",
+    "kind": "move",
+    "title": "Move 8: Al-Qatt structure",
+    "body": "Triangle row and finger-width bands, color dropped.\n\nAl-Qatt is a bright women's art. Keep its bones: the triangle row and the finger-width bands.\n\n- Men: knit the triangle row into a sweater's hem or a scarf border, in black and sand.\n\n- Women: the same band in one deep color on a long coat's hem.\n\n- Never copy one family's wall. Use the rules, not a specific painting.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "fabric",
+      "construction",
+      "color"
+    ],
+    "sources": [],
+    "move": 8,
+    "origin": {
+      "type": "lesson",
+      "lesson": "l3",
+      "slide": 16
+    },
+    "svg": "qattColor"
+  },
+  {
+    "id": "move-09",
+    "kind": "move",
+    "title": "Move 9: Plant-dye palette",
+    "body": "Madder red, indigo, turmeric, loomi green.\n\nBuild a capsule using only the old plant colors: madder red, indigo blue, turmeric yellow, loomi green.\n\n- Pick one main color and one accent per season.\n\n- Natural dye varies a little: say so on the label and turn it into the story.\n\n- Ask suppliers for color-fastness test results, because plant dyes can fade.",
+    "format": "text",
+    "tags": [
+      "color"
+    ],
+    "sources": [],
+    "move": 9,
+    "origin": {
+      "type": "lesson",
+      "lesson": "l3",
+      "slide": 17
+    },
+    "img": "l3-14"
+  },
+  {
+    "id": "move-10",
+    "kind": "move",
+    "title": "Move 10: Furjat vents",
+    "body": "Small triangle vents on the yoke and under the arm.\n\nNajdi walls used small triangle openings to let air through. Give a summer overshirt the same job.\n\n- A neat row of small triangle vents across the back yoke, where heat builds up.\n\n- A short row under the arm, where you sweat most.\n\n- Keep them small and in a line, so they read as a pattern, like on the wall.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "construction"
+    ],
+    "sources": [],
+    "move": 10,
+    "origin": {
+      "type": "lesson",
+      "lesson": "l4",
+      "slide": 14
+    },
+    "svg": "vents"
+  },
+  {
+    "id": "move-11",
+    "kind": "move",
+    "title": "Move 11: The roshan lining",
+    "body": "Lattice lining seen only when the coat opens.\n\nThe roshan lets you see out without being seen. Turn that into a secret inside the coat.\n\n- A lattice-pattern lining, woven in, that only shows when the coat opens.\n\n- Use cupro so the secret also breathes.\n\n- Women: the same lining in a long open coat, flashing as she walks.",
+    "format": "text",
+    "tags": [
+      "fabric",
+      "construction"
+    ],
+    "sources": [],
+    "move": 11,
+    "origin": {
+      "type": "lesson",
+      "lesson": "l4",
+      "slide": 15
+    },
+    "svg": "lattice"
+  },
+  {
+    "id": "move-12",
+    "kind": "move",
+    "title": "Move 12: Built for the Gulf",
+    "body": "Half canvas, half-lined in cupro, sleeves lined.\n\nYour quality standard, written down once so every factory gets the same brief.\n\n- Coats and bisht-style pieces: at least half canvas, never fused.\n\n- Half-lined in cupro (Bemberg) for summer; sleeves always lined.\n\n- Hand buttonholes on the top line. Inside unlined pieces, neat bound seams.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "fabric",
+      "construction"
+    ],
+    "sources": [],
+    "move": 12,
+    "origin": {
+      "type": "lesson",
+      "lesson": "l4",
+      "slide": 16
+    },
+    "svg": "halfLined"
+  },
+  {
+    "id": "move-13",
+    "kind": "move",
+    "title": "Move 13: The silent bell",
+    "body": "One closed silver bead; one coral-red stitch.\n\nA woman's bell said \"I'm here\" without being seen. Turn it into a men's detail that says the same thing, quietly.\n\n- One small closed silver bead on a drawstring end or a zip pull.\n\n- No clapper inside, so it's silent. Only the wearer knows what it was.\n\n- Inside a cuff: one stitch in deep coral red, a nod to ra'af beads.",
+    "format": "text",
+    "tags": [
+      "construction",
+      "color"
+    ],
+    "sources": [],
+    "move": 13,
+    "origin": {
+      "type": "lesson",
+      "lesson": "l5",
+      "slide": 13
+    },
+    "svg": "silentBell"
+  },
+  {
+    "id": "move-14",
+    "kind": "move",
+    "title": "Move 14: The munaykhal layer",
+    "body": "Open-weave overshirt over a solid base.\n\nThe Najdi overdress was a sheer \"mesh strainer\" layer over a solid dress. Keep the layering idea, change the shape.\n\n- Men: a dark open-weave summer overshirt over a white thobe or tee.\n\n- Sharper shoulders, straight cut, no embroidery.\n\n- Women: georgette in Najd's muted grey or navy, long and wide-sleeved.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "fabric",
+      "construction",
+      "color"
+    ],
+    "sources": [],
+    "move": 14,
+    "origin": {
+      "type": "lesson",
+      "lesson": "l5",
+      "slide": 14
+    },
+    "svg": "sheerLayer"
+  },
+  {
+    "id": "move-15",
+    "kind": "move",
+    "title": "Move 15: The muted palette",
+    "body": "Najdi grey, navy, sand; one small accent.\n\nNajdi women started with grey and navy before brighter colors arrived. That's already a quiet-luxury palette.\n\n- Base colors: Najdi grey, navy, sand.\n\n- One accent only: coral red (ra'af) or zari gold, used small.\n\n- Use it for both men and women, so the brand looks like one family.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "color"
+    ],
+    "sources": [],
+    "move": 15,
+    "origin": {
+      "type": "lesson",
+      "lesson": "l5",
+      "slide": 15
+    },
+    "svg": "najdiDress"
+  },
+  {
+    "id": "move-16",
+    "kind": "move",
+    "title": "Move 16: The haskal pocket",
+    "body": "Slim inside pocket under the left arm.\n\nNajdi men kept money in a pouch under the left arm. Put a slim inside pocket in the same spot.\n\n- A slim inside pocket under the left arm of a jacket or coat, for a phone or cards.\n\n- Lined in plant-tanned leather, the light Calligonum red.\n\n- Women: the same pocket inside a long open coat.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "construction",
+      "color",
+      "leather"
+    ],
+    "sources": [],
+    "move": 16,
+    "origin": {
+      "type": "lesson",
+      "lesson": "l6",
+      "slide": 15
+    },
+    "svg": "haskal"
+  },
+  {
+    "id": "move-17",
+    "kind": "move",
+    "title": "Move 17: The khabt tab",
+    "body": "Small plant-tanned leather tab on the cuff.\n\nDivers protected their fingers with small leather covers. Turn it into a small leather tab on a cuff or glove.\n\n- A small plant-tanned leather tab on a shirt or jacket cuff.\n\n- One silver snap only.\n\n- Tell the diver's story on the hangtag.",
+    "format": "text",
+    "tags": [
+      "construction",
+      "leather"
+    ],
+    "sources": [],
+    "move": 17,
+    "origin": {
+      "type": "lesson",
+      "lesson": "l6",
+      "slide": 16
+    },
+    "svg": "khabtTab"
+  },
+  {
+    "id": "move-18",
+    "kind": "move",
+    "title": "Move 18: The red-cloth secret",
+    "body": "Deep red where only the wearer sees it.\n\nPearl prices were agreed by touching fingers under a red cloth. Put that red where only the wearer sees it.\n\n- A deep red lining in a plain black or sand coat.\n\n- Or one red-lined pocket.\n\n- Pack each piece with an oud-scented card, not scented cloth (see the collar-pocket idea).",
+    "format": "text",
+    "tags": [
+      "fabric",
+      "construction",
+      "color",
+      "scent"
+    ],
+    "sources": [],
+    "move": 18,
+    "origin": {
+      "type": "lesson",
+      "lesson": "l6",
+      "slide": 17
+    },
+    "svg": "redLining"
+  }
+]

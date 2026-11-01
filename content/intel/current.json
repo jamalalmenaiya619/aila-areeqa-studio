@@ -1,0 +1,901 @@
+{
+  "asOfRun": 17,
+  "masthead": {
+    "eyebrow": "Luxury menswear market intelligence · US · Europe · Saudi Arabia",
+    "title": "AW Menswear Battlefield",
+    "sub": "Founder briefing for Jamal. Refreshed every Monday and Thursday. Builds on every prior run."
+  },
+  "verdict": {
+    "eyebrow": "This run's verdict",
+    "html": "Verdict: a quiet run with one real update. No new earnings or hard Saudi data arrived; the product items re-read this run (Purple Label SS27, Harrods, Trendalytics) were already logged in Runs 11-14 and are re-confirmations. Dubai Fashion Week SS27 (Oct 22-26) has now happened and, per The National's line-up, showed no menswear and no Saudi labels, so the watch item closes empty. Ralph Lauren Purple Label SS27 (softer shoulders, wider fluid trousers) leans toward the soft side of the shoulder debate; Harrods AW26 aubergine, mustard and emerald (Run 11) holds as the accent lane. Quarter-zips appear only as a single Burberry product (GBP 855), so the category stays a basic, not a trend. Still open: trouser prices, the Zegna Middle East figure, the follower recount (10th run without one), and any Saudi purchase data."
+  },
+  "correction": "Correction: the luxury sidairi is not unclaimed. Noura Sulaiman (Riyadh) has sold a cashmere sidairi at SAR 2,700 since about 2021, and Brunello Cucinelli gilets sit above it. The vest over the thobe is a proven, tiered category. The opening is a better-built version inside it, not an empty shelf.",
+  "tabOrder": [
+    "overview",
+    "@season",
+    "social",
+    "saudi",
+    "comp",
+    "sat",
+    "log"
+  ],
+  "panels": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "t": "calls",
+          "cards": [
+            {
+              "tags": [
+                {
+                  "kind": "conf",
+                  "label": "Confirmed"
+                }
+              ],
+              "title": "Soft side of the shoulder debate",
+              "html": "Ralph Lauren Purple Label SS27 (Milan, 78 looks incl. Polo): softer shoulders, wider fluid trousers, silk-linen and silk-wool suits, buttery leather blousons, field jackets over band-collar shirts and fine-gauge knits; sandy neutrals, deep indigo, jet black. Source: RetailBoss, Jun 23 (part paywalled)."
+            },
+            {
+              "tags": [
+                {
+                  "kind": "conf",
+                  "label": "Re-confirmed"
+                }
+              ],
+              "title": "Aubergine and jewel tones",
+              "html": "Harrods AW26 guide (first logged Run 11): black, navy, grey shot through with jewel tones; deep aubergine the most popular Milan/Paris shade, plus mustard and emerald. Pleated trousers belted, tech windbreaker worn as a blazer, leather jacket as investment piece. Undated; part of the detail comes from a summary."
+            },
+            {
+              "tags": [
+                {
+                  "kind": "down",
+                  "label": "Closed"
+                }
+              ],
+              "title": "Dubai Fashion Week: no menswear, no Saudi",
+              "html": "The National (Oct 21): opening Ludovic de Saint Sernin; Kuwait, Bahrain, Egypt, Lebanon, Colombia, UAE and India (Tarun Tahiliani, closing, with a first non-India boutique in Jumeirah). No menswear and no Saudi labels named; no buyer programme in this article. Only retail tie-in: Harvey Nichols Dubai pop-up."
+            },
+            {
+              "tags": [
+                {
+                  "kind": "conf",
+                  "label": "Confirmed"
+                }
+              ],
+              "title": "Gulf base still weak",
+              "html": "Bain-Altagamma (Jul 16): Gulf luxury consumer base -15% to -25% in H1 2026; Middle Eastern spend in Europe began recovering in Q2; Americas surging. No Saudi or menswear split. Deloitte ranks the Middle East third for luxury growth (RetailBoss, paywalled)."
+            }
+          ]
+        },
+        {
+          "t": "calls",
+          "cards": [
+            {
+              "tags": [
+                {
+                  "kind": "conf",
+                  "label": "Confirmed"
+                }
+              ],
+              "title": "Zegna Q3: US-led, DTC-first",
+              "html": "Q3 EUR 433.8M +8.9%; 9M EUR 1,421.1M +7.2% (+8.9% organic). ZEGNA brand Q3 +13.8%, Tom Ford Fashion +5.4%, Thom Browne -5.9%. Americas +14.0%, EMEA +6.9%. DTC 85% of branded sales; wholesale cut to protect exclusivity. Falcon jacket, Su Misura and luxury leisurewear cited. October started 'a touch better'. No numeric guidance."
+            },
+            {
+              "tags": [
+                {
+                  "kind": "new",
+                  "label": "New"
+                }
+              ],
+              "title": "Chore coat and shirt jacket",
+              "html": "MR Magazine (Feb 2026): a US retailer calls chore coats 'the category killer for the season'; shirt jackets predicted as the go-to. Olives and browns overtake blue at Harry Rosen. Hypothesis: a chore coat cut to layer over a thobe is open ground. Untested."
+            },
+            {
+              "tags": [
+                {
+                  "kind": "sharp",
+                  "label": "Tension"
+                }
+              ],
+              "title": "Soft vs sharp shoulder",
+              "html": "The Impression (Feb 2026): the softened silhouette 'appears to be over'; sharp shoulders and clean lines return. Against Cucinelli soft natural shoulder and Zegna 'fluid'. Both February-dated. Unresolved."
+            },
+            {
+              "tags": [
+                {
+                  "kind": "sharp",
+                  "label": "Sharpened"
+                }
+              ],
+              "title": "Wide-leg pleated trouser spreads down-market",
+              "html": "Officine Generale FW26: high-rise wide-leg double-pleat trousers pooling over the shoe. Retailers praise relaxed trousers (Myths, Malcom). Now at luxury, contemporary and retailer-buy level, so it is crowded as a pure Western product. No trouser prices found."
+            }
+          ]
+        },
+        {
+          "t": "calls",
+          "cards": [
+            {
+              "tags": [
+                {
+                  "kind": "new",
+                  "label": "New"
+                }
+              ],
+              "title": "Pants: two luxury answers",
+              "html": "Cucinelli FW26: high-waisted forward-pleat, gently tapered; flat-pocket cotton-twill cargo; white corduroy straight leg; pinstripe wool. Loro Piana FW26: balloon-cut with drawstring or elastic cuffs; straight, wide-leg and pleated. No slim leg at either. Open ground: a trouser cut for a Saudi wearer (rise, break, fabric weight), not a decorated Western one. No trouser prices found."
+            },
+            {
+              "tags": [
+                {
+                  "kind": "sharp",
+                  "label": "Tension"
+                }
+              ],
+              "title": "Slim line returns at Prada, Milan",
+              "html": "SS27 Prada: lean, linear, pale skinny jeans, sheer trousers; D&amp;G muscular fits; FashionUnited reports body-conscious knit and transparent fabrics across Milan. Paris stays fluid. The \"no contrary luxury signal\" streak for relaxed pleated trousers ends. A long, clean line also suits a modern thobe (inference)."
+            },
+            {
+              "tags": [
+                {
+                  "kind": "new",
+                  "label": "New"
+                }
+              ],
+              "title": "Toby by Hatem Alakeel (Saudi)",
+              "html": "Sports-luxe thobe reinterpretation with sporty Arabesque embroidery and a Western-style shirt version. The decorative route this tracker flags as crowded. Date, price and scale unverified (Buro 24/7)."
+            },
+            {
+              "tags": [
+                {
+                  "kind": "new",
+                  "label": "New"
+                }
+              ],
+              "title": "Milan thins, quiet launches gain",
+              "html": "Low Milan participation; presentations replacing shows (FashionUnited). Backs the Toteme-style quiet launch. Bain: Gulf luxury base -15-25% in H1, with Q2 signs of recovery in Middle Eastern spend in Europe."
+            },
+            {
+              "tags": [
+                {
+                  "kind": "sharp",
+                  "label": "Tension"
+                }
+              ],
+              "title": "Soft vs structured tailoring",
+              "html": "Trendalytics: classic-fit suiting +44% in market adoption, double-breasted +4%, pointed shoulders +12%. Dior, Loro Piana and Armani point soft for SS27. Likely AW26 retail lagging SS27 runways. Only 5 of Trendalytics' 10 trends were readable; confirm before changing the soft-construction call."
+            },
+            {
+              "tags": [
+                {
+                  "kind": "new",
+                  "label": "New"
+                }
+              ],
+              "title": "Ralph Lauren sells \"one wardrobe\"",
+              "html": "Fall 2026 (Milan) presents casual and tailored pieces together; Purple Label softens the fit with easier shoulders and roomier trousers. The wardrobe-as-system framing is now mainstream at the top. RL has no Gulf cut."
+            },
+            {
+              "tags": [
+                {
+                  "kind": "new",
+                  "label": "New"
+                }
+              ],
+              "title": "ILLIYEEN: lead to verify",
+              "html": "Dubai luxury ready-to-wear thobes and abayas, says it plans Saudi entry. Sole source is sponsored content (Mar 2025); prices and scale unknown. Isaia, Eleventy and Corneliani have also made first Saudi openings this year."
+            }
+          ]
+        },
+        {
+          "t": "h2",
+          "text": "Dates that matter"
+        },
+        {
+          "t": "table",
+          "head": [
+            "Date",
+            "Event",
+            "Status"
+          ],
+          "rows": [
+            [
+              {
+                "html": "Oct 15",
+                "num": true
+              },
+              {
+                "html": "Riyadh Fashion Week 2026 (POSTPONED to 2027)"
+              },
+              {
+                "html": "RESOLVED Run 14: FACT (Oct 15) announced postponement; no 2026 lineup. Earlier note: (FACT only has a Sept 7 headline for the 4th edition; Platinumlist updated Sept 8; Look Book Living paywalled). Shows described as couture, RTW and streetwear; ~30 designers"
+              }
+            ],
+            [
+              {
+                "html": "Oct 15",
+                "num": true
+              },
+              {
+                "html": "Brunello Cucinelli Q3 revenue"
+              },
+              {
+                "html": "RESOLVED Run 14: 9M EUR 1.12bn +13.3% cc; FY26 guide raised to +12%"
+              }
+            ],
+            [
+              {
+                "html": "Oct 15–20",
+                "num": true
+              },
+              {
+                "html": "Riyadh Fashion Week, 4th edition"
+              },
+              {
+                "html": "Cancelled for 2026 (postponed to 2027, dates TBC)"
+              }
+            ],
+            [
+              {
+                "html": "Oct 21",
+                "num": true
+              },
+              {
+                "html": "Riyadh Season opens (10 weeks)"
+              },
+              {
+                "html": "Peak domestic footfall window"
+              }
+            ],
+            [
+              {
+                "html": "Oct 22",
+                "num": true
+              },
+              {
+                "html": "Zegna Q3 results"
+              },
+              {
+                "html": "RESOLVED Run 16: +8.9%, ZEGNA +13.8%, Americas +14.0%; Middle East not broken out"
+              }
+            ],
+            [
+              {
+                "html": "Oct 22–26",
+                "num": true
+              },
+              {
+                "html": "Dubai Fashion Week"
+              },
+              {
+                "html": "RESOLVED Run 17: held; no menswear or Saudi labels in the published line-up"
+              }
+            ],
+            [
+              {
+                "html": "Q4 2026",
+                "num": true
+              },
+              {
+                "html": "Westfield Riyadh"
+              },
+              {
+                "html": "Cenomi now guides Q4; preview in October"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "social",
+      "label": "Social tiers",
+      "blocks": [
+        {
+          "t": "h2",
+          "text": "Social signal by follower tier"
+        },
+        {
+          "t": "p",
+          "html": "<strong>No recount this run</strong> (unattended run, no browser approval). Panel last refreshed Sept 25."
+        },
+        {
+          "t": "cols",
+          "cols": [
+            [
+              {
+                "t": "h3",
+                "text": "10k–50k",
+                "tags": []
+              },
+              {
+                "t": "p",
+                "html": "Still wins on specificity. The niche sidairi players fit here: Noura Sulaiman sells by WhatsApp and Instagram with four sidairi sub-lines (cashmere, safari, sport, classic). That is what one tightly defined product line looks like in practice."
+              }
+            ],
+            [
+              {
+                "t": "h3",
+                "text": "50k–1M+",
+                "tags": []
+              },
+              {
+                "t": "p",
+                "html": "Big brands are acting like small ones. Highsnobiety: big houses now \"compete with a whole constellation of small brands.\" Toteme (~$230M womenswear) launched menswear with one Instagram video. Reach-tier TikTok still recaps runway headlines."
+              }
+            ]
+          ]
+        },
+        {
+          "t": "h3",
+          "text": "What differs between scales",
+          "tags": []
+        },
+        {
+          "t": "p",
+          "html": "The method gap is closing: big brands are copying the small-tier playbook (quiet launch, product-first, word of mouth). What the small tier still has, and big brands do not, is cultural specificity. That is the advantage to protect."
+        }
+      ]
+    },
+    {
+      "id": "saudi",
+      "label": "Saudi consumer",
+      "blocks": [
+        {
+          "t": "h2",
+          "text": "Saudi consumer layer"
+        },
+        {
+          "t": "h3",
+          "text": "What affluent men are buying",
+          "tags": []
+        },
+        {
+          "t": "p",
+          "html": "The Gulf luxury consumer base shrank 15–25% in H1 (Bain–Altagamma), with early Q2 recovery. Tailoring held: Zegna's Middle East business stayed positive. Mass Saudi menswear is heavily promotional, with 50% markdowns and buy-one-get-one offers at Mihyar. Luxury has to stay out of that language."
+        },
+        {
+          "t": "p",
+          "html": "Context (Communicate Online, Aug 30): demand is widening from weddings to evening wear and considered daywear; GCC personal luxury reached $12.8B in 2024 (+6%), a pre-shock figure. Isaia, Eleventy and Corneliani opened first Saudi stores, so Italian soft tailoring is now sold in-country."
+        },
+        {
+          "t": "p",
+          "html": "<strong>Run 14:</strong> Riyadh Fashion Week 2026 was postponed to 2027, so there is no local runway read this season. Cucinelli's nine-month release gives no Middle East figure, only a \"solid\" Q3 despite weaker tourism. Communicate Online (Aug 30) adds that demand is spreading into daywear, with modest silhouettes and Arab-aesthetic detail shaping collections (secondhand, no menswear split)."
+        },
+        {
+          "t": "h3",
+          "text": "What they wear day to day",
+          "tags": []
+        },
+        {
+          "t": "p",
+          "html": "Slimmer-cut thobes; darker thobes in winter; a blazer or denim jacket over the thobe; a youth revival of the sidairi."
+        },
+        {
+          "t": "h3",
+          "text": "Resonating vs falling flat",
+          "tags": []
+        },
+        {
+          "t": "table",
+          "head": [
+            "Signal",
+            "Local read",
+            "Why"
+          ],
+          "rows": [
+            [
+              {
+                "html": "Soft, unstructured tailoring"
+              },
+              {
+                "html": "Strong",
+                "kind": "conf"
+              },
+              {
+                "html": "Climate fit; layers over the thobe"
+              }
+            ],
+            [
+              {
+                "html": "Vest / sleeveless layering"
+              },
+              {
+                "html": "Strong, proven",
+                "kind": "conf"
+              },
+              {
+                "html": "Four price tiers already exist, from SAR 249 to $6,900"
+              }
+            ],
+            [
+              {
+                "html": "Relaxed pleated trousers"
+              },
+              {
+                "html": "Strong (inference)",
+                "kind": "conf"
+              },
+              {
+                "html": "Comfort and drape fit local codes"
+              }
+            ],
+            [
+              {
+                "html": "Funnel necks, high collars"
+              },
+              {
+                "html": "Weak (inference)",
+                "kind": "down"
+              },
+              {
+                "html": "Likely to clash with ghutra or shemagh drape"
+              }
+            ],
+            [
+              {
+                "html": "Head-to-toe leather, faux fur"
+              },
+              {
+                "html": "Limited",
+                "kind": "sharp"
+              },
+              {
+                "html": "Mild winter; desert-night or travel only"
+              }
+            ],
+            [
+              {
+                "html": "Bold mass-market color"
+              },
+              {
+                "html": "Weak for luxury",
+                "kind": "down"
+              },
+              {
+                "html": "Quiet register; color works in knit and accessories"
+              }
+            ]
+          ]
+        },
+        {
+          "t": "h3",
+          "text": "Implications",
+          "tags": []
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<strong>Silhouette:</strong> the sidairi stays in the plan, but as a proven category to beat, not an empty one. Differentiate on build: tailored woven construction, a fitted shoulder over the thobe, real linings.",
+            "<strong>Pricing:</strong> the market already accepts SAR 2,700 for a Saudi cashmere sidairi. Run 09's SAR 2,500–4,500 band is plausible but has no gap below SAR 2,700. Between Noura Sulaiman (~$720) and Cucinelli (~$3,850+) sits a SAR 4,000–7,000 tier with no Saudi maker found (speculative).",
+            "<strong>Positioning:</strong> never discount. Noura Sulaiman also shows a 40% markdown on one colorway.",
+            "<strong>Timing:</strong> unchanged. Winter 2027, in market by late November."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comp",
+      "label": "Competitors",
+      "blocks": [
+        {
+          "t": "h2",
+          "text": "Competitive positioning"
+        },
+        {
+          "t": "table",
+          "head": [
+            "Brand",
+            "Doing well",
+            "Surface-level / white space left"
+          ],
+          "rows": [
+            [
+              {
+                "html": "<strong>Noura Sulaiman</strong> <span class=\"tag t-new\">New</span>"
+              },
+              {
+                "html": "Riyadh label; cashmere sudairya SAR 2,700; four sidairi lines; mostly sold out"
+              },
+              {
+                "html": "Womenswear-led house; WordPress store and WhatsApp sales; product images date from 2021. Limited range beyond the sidairi."
+              }
+            ],
+            [
+              {
+                "html": "<strong>Mokharaz / Al Qattan</strong> <span class=\"tag t-new\">New</span>"
+              },
+              {
+                "html": "Cashmere and fur-lined sidairis; Al Qattan is a royal bisht house"
+              },
+              {
+                "html": "Traditional, ornate register; mid-price; no wider wardrobe"
+              }
+            ],
+            [
+              {
+                "html": "<strong>Toteme (men)</strong> <span class=\"tag t-new\">New</span>"
+              },
+              {
+                "html": "Quiet launch, hidden heritage details, separate menswear team"
+              },
+              {
+                "html": "Scandinavian heritage only; no Gulf relevance"
+              }
+            ],
+            [
+              {
+                "html": "<strong>ILLIYEEN (Dubai)</strong> <span class=\"tag t-new\">New</span>"
+              },
+              {
+                "html": "Luxury ready-to-wear thobes and abayas; says it plans Saudi entry"
+              },
+              {
+                "html": "Sponsored-content source only (Mar 2025); thobe-centred, not a layered wardrobe. Verify prices and scale"
+              }
+            ],
+            [
+              {
+                "html": "<strong>Ralph Lauren</strong>"
+              },
+              {
+                "html": "Casual and tailored shown as one wardrobe (Fall 2026)"
+              },
+              {
+                "html": "No Gulf cut"
+              }
+            ],
+            [
+              {
+                "html": "<strong>SADF</strong>"
+              },
+              {
+                "html": "Italian cashmere and wool; Saudi 100; Paris"
+              },
+              {
+                "html": "Bold, not quiet; menswear prices still unverified"
+              }
+            ],
+            [
+              {
+                "html": "<strong>Mihyar</strong>"
+              },
+              {
+                "html": "~60 stores; mass sidairi"
+              },
+              {
+                "html": "Promotional; no luxury tier"
+              }
+            ],
+            [
+              {
+                "html": "<strong>KML</strong>"
+              },
+              {
+                "html": "Architectural tailoring"
+              },
+              {
+                "html": "Runway-first, no daily range"
+              }
+            ],
+            [
+              {
+                "html": "<strong>1886</strong>"
+              },
+              {
+                "html": "\"Urban luxury\" move"
+              },
+              {
+                "html": "No update"
+              }
+            ],
+            [
+              {
+                "html": "<strong>Cucinelli / Loro Piana / Zegna</strong>"
+              },
+              {
+                "html": "Own the top of the vest-over-thobe look"
+              },
+              {
+                "html": "No cultural cut; their gilets are Western garments worn over the thobe"
+              }
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "html": "The vest over the thobe is served by mass Saudi makers, a boutique Saudi label and global houses. No one sells it as one part of a full luxury wardrobe built around the thobe."
+        }
+      ]
+    },
+    {
+      "id": "sat",
+      "label": "Saturation vs opportunity",
+      "blocks": [
+        {
+          "t": "h2",
+          "text": "Saturation vs opportunity"
+        },
+        {
+          "t": "cols",
+          "cols": [
+            [
+              {
+                "t": "h3",
+                "text": "",
+                "tags": [
+                  {
+                    "kind": "down",
+                    "label": "Crowded"
+                  }
+                ]
+              },
+              {
+                "t": "ul",
+                "items": [
+                  "The sidairi as a stand-alone hero product <span class=\"tag t-new\">New</span>: four price tiers already exist",
+                  "Saudi heritage reworked for the Paris runway (KML, SADF, Saudi 100)",
+                  "Generic Italian soft tailoring with nothing Saudi in the cut (Isaia, Eleventy, Corneliani now in Saudi)",
+                  "Embroidery as the Arab signal",
+                  "Graphic heritage streetwear; check-led capsules; quarter-zip as hero"
+                ]
+              }
+            ],
+            [
+              {
+                "t": "h3",
+                "text": "",
+                "tags": [
+                  {
+                    "kind": "conf",
+                    "label": "Open ground"
+                  }
+                ]
+              },
+              {
+                "t": "ul",
+                "items": [
+                  "<strong>The thobe layer system as one wardrobe:</strong> sidairi, jacket, trouser and outer layer designed together. No one found sells this.",
+                  "<strong>The SAR 4,000–7,000 Saudi-made tier:</strong> between Noura Sulaiman and Cucinelli (speculative)",
+                  "<strong>Quiet, fiber-led luxury in a Saudi cut:</strong> SADF is bold, local sidairis lean ornate",
+                  "<strong>Heritage in the detail, not the surface:</strong> the Toteme approach applied to Saudi codes",
+                  "<strong>Production as a moat</strong>"
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "html": "If the brand looks like everyone else, Phase 2 has failed. A cashmere sidairi on its own would now look like Noura Sulaiman.",
+          "note": true
+        }
+      ]
+    }
+  ],
+  "log": {
+    "id": "log",
+    "label": "Trend log",
+    "blocks": [
+      {
+        "t": "h2",
+        "text": "Running trend log"
+      },
+      {
+        "t": "p",
+        "html": "Newest first. Each run records what strengthened, what's new, and what didn't pan out.",
+        "note": true
+      }
+    ]
+  },
+  "seasons": [
+    {
+      "id": "AW26",
+      "label": "Autumn/Winter 2026",
+      "tabs": [
+        {
+          "id": "autumn",
+          "label": "Autumn",
+          "blocks": [
+            {
+              "t": "h2",
+              "text": "Autumn direction (early season)"
+            },
+            {
+              "t": "h3",
+              "text": "Color",
+              "tags": [
+                {
+                  "kind": "sharp",
+                  "label": "Sharpened"
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "html": "Camel, burgundy, chocolate, olive and forest green hold. Highsnobiety's \"aspirational realism\" adds the SS27 bridge palette: olive, stone, tobacco, oatmeal, faded navy. No harsh tones. AW26 retail leans jewel: Harrods names aubergine the most popular Milan and Paris shade, with mustard and emerald behind it. A consumer blog says brown is replacing navy (low authority)."
+            },
+            {
+              "t": "h3",
+              "text": "Silhouettes",
+              "tags": [
+                {
+                  "kind": "conf",
+                  "label": "Confirmed"
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "html": "The relaxed pleated trouser held eleven runs without a contrary luxury signal; Prada SS27 (lean, linear, pale skinny jeans, sheer trousers) now ends that streak, and Milan overall leans to the body. Paris stays fluid. Hermès SS27 centered its tailoring on fluid pleated trousers with contrast patch pockets. Harrods and Ralph Lauren Fall 2026 both describe relaxed, layered tailoring. Counter-signal: Trendalytics suiting adoption +44%. Run 15: Cucinelli FW26 soft natural shoulders with generous peak lapels and boxy outerwear over straight legs; Loro Piana dropped-shoulder cocoon outerwear and balloon trousers."
+            },
+            {
+              "t": "h3",
+              "text": "Fabric",
+              "tags": [
+                {
+                  "kind": "conf",
+                  "label": "Confirmed"
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "html": "Corduroy and velvet texture; technical and noble fibers mixed inside one outfit."
+            },
+            {
+              "t": "h3",
+              "text": "Knitwear",
+              "tags": [
+                {
+                  "kind": "conf",
+                  "label": "Confirmed"
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "html": "Loud (chunky cable, Fair Isle) and quiet (cashmere core) both hold. Quarter-zip stays table stakes. Toteme's \"borrowed\" petite cardigans show a slimmer knit proportion starting at the niche end."
+            },
+            {
+              "t": "h3",
+              "text": "Hardware",
+              "tags": [
+                {
+                  "kind": "none",
+                  "label": "Minor signal"
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "html": "Statement collars and cuffs named a trend (Trendalytics). Leather bombers +28%. Frog buttons and fireman clasps (Run 07) stand. Gilets are moving from glossy quilting to matte shells and snap-flap pockets."
+            },
+            {
+              "t": "h3",
+              "text": "Storytelling and tone",
+              "tags": [
+                {
+                  "kind": "sharp",
+                  "label": "Sharpened"
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "html": "Ralph Lauren Purple Label pre-fall 2026 (Tyler Mitchell): no narrative, cream, camel and taupe in neutral interiors. The critique worth keeping is that a muted palette flattens the images, so quiet needs one deliberate point of tension. \"Aspirational realism\": clothes that look owned, not styled. Toteme adds a quieter mechanism: no runway, a single Instagram video, word of mouth, and heritage hidden in linings and references."
+            }
+          ]
+        },
+        {
+          "id": "winter",
+          "label": "Winter",
+          "blocks": [
+            {
+              "t": "h2",
+              "text": "Winter direction (peak season)"
+            },
+            {
+              "t": "h3",
+              "text": "Silhouettes",
+              "tags": [
+                {
+                  "kind": "conf",
+                  "label": "Confirmed"
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "html": "The long overcoat with a rounded raglan shoulder holds. TikTok trend pages amplify funnel necks, high collars, cropped trenches and oversized faux fur. These are reach-tier runway recaps, not early signal."
+            },
+            {
+              "t": "h3",
+              "text": "Color and fabric",
+              "tags": [
+                {
+                  "kind": "conf",
+                  "label": "Confirmed"
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "html": "Charcoal, midnight, smoky grey, wine-red. Velvet, fine cashmere, leather, intelligent blends. Head-to-toe leather is getting heavy social coverage."
+            },
+            {
+              "t": "h3",
+              "text": "The Saudi winter system",
+              "tags": [
+                {
+                  "kind": "conf",
+                  "label": "Confirmed"
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "html": "In Riyadh, winter means a darker thobe (navy, grey, black, beige) under a structured layer: a blazer, a denim jacket, or a sidairi in wool, cashmere or velvet. The local winter sidairi register includes fur collars and fur linings (Rex rabbit at Mokharaz and Al Qattan). That is less quiet than the global gilet."
+            },
+            {
+              "t": "h3",
+              "text": "Sidairi and gilet price ladder",
+              "tags": [
+                {
+                  "kind": "new",
+                  "label": "New"
+                }
+              ]
+            },
+            {
+              "t": "price",
+              "items": [
+                {
+                  "value": "SAR 249",
+                  "label": "Mihyar wool sidairi, 50% markdown (Oct 4)"
+                },
+                {
+                  "value": "~$93–386",
+                  "label": "Mokharaz, Al Qattan cashmere and fur-lined sidairis (search listings)"
+                },
+                {
+                  "value": "SAR 2,700",
+                  "label": "Noura Sulaiman cashmere sudairya (~$720); 4 of 5 out of stock"
+                },
+                {
+                  "value": "$3,850–6,900",
+                  "label": "Brunello Cucinelli zip gilet worn by the Crown Prince (2023)"
+                },
+                {
+                  "value": "SAR 499",
+                  "label": "Mihyar wool sidairi, list price"
+                },
+                {
+                  "value": "$800–3,000",
+                  "label": "Zegna knitwear and outerwear"
+                },
+                {
+                  "value": "$5,650",
+                  "label": "Loro Piana Torino cashmere coat"
+                },
+                {
+                  "value": "$13,000",
+                  "label": "Brunello Cucinelli cashmere overcoat"
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "html": "Coat prices from Run 07. Mokharaz and Al Qattan prices come from search listings; their pages did not load.",
+              "note": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "currentSeason": "AW26",
+  "footer": "Full citations: weekly-reports/2026-10-29-aw-luxury-menswear-intel.docx. Status tags compare each run with the one before it. Items marked \"inference\" or \"speculative\" are judgment, not sourced fact."
+}

@@ -1,0 +1,1218 @@
+[
+  {
+    "id": "l1-s4-compare",
+    "kind": "fact",
+    "title": "The problem: one country, two climates",
+    "body": "Clothes had to handle both. In northern towns like Turaif, winter can average as low as −5°C. So Saudis built a summer wardrobe and a winter one.",
+    "format": "text",
+    "tags": [
+      "heritage"
+    ],
+    "sources": [
+      [
+        "Arab News: the farwa",
+        "https://arabnews.pk/node/1776911"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l1",
+      "slide": 4
+    },
+    "img": "l1-49"
+  },
+  {
+    "id": "l1-s5-story",
+    "kind": "fact",
+    "title": "The answer came from the animals",
+    "body": "Bedouin families had no shops. They wove with what their herds gave them: sheep wool, goat hair and camel hair.\n\nFrom that they made tents, cushions, sacks, rugs and camel gear. The same skills made bisht cloth.\n\nThe finest pieces were woven from sheep's wool. The price of a piece depended on the fiber used.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "fabric"
+    ],
+    "sources": [
+      [
+        "Saudipedia: What is al-Sadu?",
+        "https://saudipedia.com/en/what-is-al-sadu"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l1",
+      "slide": 5
+    },
+    "img": "l1-4"
+  },
+  {
+    "id": "l1-s6-compare",
+    "kind": "fact",
+    "title": "Meet the fiber makers",
+    "body": "Old bishts used camel hair and goat wool for warmth, and sheep's wool made the finest Sadu. One catch: hair from Arabia's one-humped camels is coarse. Soft, luxury camel cloth comes from a different camel, which you will meet in Lesson 2.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "fabric"
+    ],
+    "sources": [
+      [
+        "Arab News: Diriyah bisht line",
+        "https://arabnews.com/node/2014101"
+      ],
+      [
+        "Saudipedia: What is al-Sadu?",
+        "https://saudipedia.com/en/what-is-al-sadu"
+      ],
+      [
+        "Museum of Fine Arts (MFA) Boston, CAMEO database: Camel hair",
+        "https://cameo.mfa.org/wiki/Camel_hair"
+      ],
+      [
+        "UN Food and Agriculture Organization (FAO): Camel hair",
+        "https://www.fao.org/4/v9384e/v9384e05.htm"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l1",
+      "slide": 6
+    },
+    "img": "l1-15"
+  },
+  {
+    "id": "l1-s7-story",
+    "kind": "fact",
+    "title": "The bisht: from desert cloak to sign of rank",
+    "body": "The bisht started as a Bedouin winter cloak, worn over the thobe on cold desert nights.\n\nOver time it became what leaders, scholars and grooms wear. The gold braid on the edge was once kept for religious and political leaders.\n\nClassic colors run from white, beige and cream to brown, grey and black.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "construction",
+      "color"
+    ],
+    "sources": [
+      [
+        "Arab News: The Saudi man's bisht",
+        "https://www.arabnews.com/fashion/traditional-modern-the-saudi-mans-bisht-429954"
+      ],
+      [
+        "RISD Museum: man's bisht, 1949",
+        "https://risdmuseum.org/node/1212336"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l1",
+      "slide": 7
+    },
+    "img": "l1-2"
+  },
+  {
+    "id": "l1-s9-story",
+    "kind": "fact",
+    "title": "The thobe: white for summer, dark for winter",
+    "body": "After King Abdulaziz united the country, the thobe with a ghutra or shemagh became a sign of being Saudi.\n\nCotton was picked because it breathes. That gave the white thobe worn every day.\n\nIn winter, men switch to brown and navy, and to heavier fabrics like wool.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "fabric",
+      "color"
+    ],
+    "sources": [
+      [
+        "Ithra: The Saudi Thobe",
+        "https://www.ithra.com/en/news/saudi-thobe-ongoing-story"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l1",
+      "slide": 9
+    },
+    "img": "l1-13"
+  },
+  {
+    "id": "l1-s14-compare",
+    "kind": "fact",
+    "title": "Where linen comes from",
+    "body": "Linen is a stem fiber. That is why it is strong and stiff. Cotton is a seed fiber, which is why it is soft.",
+    "format": "text",
+    "tags": [
+      "fabric",
+      "construction"
+    ],
+    "sources": [
+      [
+        "Cable: What is linen?",
+        "https://www.cablemelbourne.com/blogs/news/what-is-linen"
+      ],
+      [
+        "MasterClass: cotton vs linen",
+        "https://www.masterclass.com/articles/what-is-cotton-and-what-is-linen"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l1",
+      "slide": 14
+    },
+    "img": "l1-23"
+  },
+  {
+    "id": "l1-s15-compare",
+    "kind": "fact",
+    "title": "Cotton or linen for the heat?",
+    "body": "Both breathe. Linen breathes more and dries faster; cotton is softer and holds sweat longer. Linen wrinkles more.",
+    "format": "text",
+    "tags": [
+      "fabric",
+      "construction"
+    ],
+    "sources": [
+      [
+        "MasterClass: cotton vs linen",
+        "https://www.masterclass.com/articles/what-is-cotton-and-what-is-linen"
+      ],
+      [
+        "Cable: What is linen?",
+        "https://www.cablemelbourne.com/blogs/news/what-is-linen"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l1",
+      "slide": 15
+    },
+    "img": "l1-25"
+  },
+  {
+    "id": "l2-s4-story",
+    "kind": "fact",
+    "title": "Why Al-Ahsa?",
+    "body": "The Hasawi bisht is named after Al-Ahsa, where its weaving and gold trim were perfected.\n\nAl-Ahsa has had the best bisht tailors for over 200 years. Family names became brands: Al-Qattan, Al-Kharas, Al-Mahdi, Al-Bagli.\n\nMaster Abdullah Jafar Al-Qattan works from a shop in this same souq. He says any photo of a Saudi royal shows a Hasawi bisht.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "construction"
+    ],
+    "sources": [
+      [
+        "Saudipedia: Hasawi Bisht",
+        "https://saudipedia.com/en/article/1968/society/garments-and-accessories/al-mashleh-al-hassawi"
+      ],
+      [
+        "Arab News: The Saudi man's bisht",
+        "https://www.arabnews.com/fashion/traditional-modern-the-saudi-mans-bisht-429954"
+      ],
+      [
+        "Arab News: Bisht, symbol of royalty",
+        "https://www.arabnews.com/node/1747996/saudi-arabia"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l2",
+      "slide": 4
+    },
+    "img": "l2-34"
+  },
+  {
+    "id": "l2-s5-story",
+    "kind": "fact",
+    "title": "What zari really is",
+    "body": "Zari is the gold thread on a bisht's edge. Real zari is silk or cotton yarn wrapped in silver wire, then plated with gold.\n\nCheaper zari uses copper wire plated with silver. Since about 1970, some has a plastic core. Lurex is a shiny plastic film, not metal at all.\n\nGold zari for Hasawi bishts is imported from India, Germany or France. A Hasawi bisht trimmed with German zari is a piece families work hard to own.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "fabric"
+    ],
+    "sources": [
+      [
+        "Aza: real vs fake zari",
+        "https://www.azafashions.com/blog/is-your-zari-real-how-to-identify-the-difference/"
+      ],
+      [
+        "Wikipedia: Surat zari",
+        "https://en.wikipedia.org/wiki/Surat_zari"
+      ],
+      [
+        "Saudipedia: Hasawi Bisht",
+        "https://saudipedia.com/en/article/1968/society/garments-and-accessories/al-mashleh-al-hassawi"
+      ],
+      [
+        "Arab News: The Saudi man's bisht",
+        "https://www.arabnews.com/fashion/traditional-modern-the-saudi-mans-bisht-429954"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l2",
+      "slide": 5
+    },
+    "img": "l2-39"
+  },
+  {
+    "id": "l2-s7-story",
+    "kind": "fact",
+    "title": "How to spot a hand-woven bisht",
+    "body": "Old bisht cloth was woven on a hand loom set into a pit in the floor. The loom was narrow, so the cloak is two equal strips sewn together across the middle.\n\nIf the cloak is one wide piece with no middle seam, the cloth was machine-woven.\n\nA regular bisht takes about 8 meters of cloth. It is fitted to each customer; it is not one-size.\n\nIn Kuwait, bisht cloth now comes from Japan and Britain. Saudipedia says Hasawi bishts use Japanese fabric.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "fabric",
+      "construction"
+    ],
+    "sources": [
+      [
+        "Encyclocrafts: bisht making in Kuwait",
+        "https://encyclocraftsapr.com/bisht-making-in-kuwait/"
+      ],
+      [
+        "Saudi Arabesque: bisht making",
+        "https://saudiarabesque.com/traditional-urban-men-s-dress-of-saudi-arabia-continued/"
+      ],
+      [
+        "Kuwait Times: bishts and abayas",
+        "https://kuwaittimes.com/bishts-abayas-continue-to-charm-kuwait/"
+      ],
+      [
+        "Saudipedia: Hasawi Bisht",
+        "https://saudipedia.com/en/article/1968/society/garments-and-accessories/al-mashleh-al-hassawi"
+      ],
+      [
+        "Arab News: The Saudi man's bisht",
+        "https://www.arabnews.com/fashion/traditional-modern-the-saudi-mans-bisht-429954"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l2",
+      "slide": 7
+    }
+  },
+  {
+    "id": "l2-s9-story",
+    "kind": "fact",
+    "title": "How a bisht is worn, and why it is protected",
+    "body": "A bisht has two sleeve slots. It is worn with one arm through a sleeve and the other side wrapped loosely and tucked in.\n\nIn 2025 UNESCO (the United Nations' culture and heritage agency) listed \"Bisht (men's Abaa): skills and practices\" as shared heritage of nine countries, Saudi Arabia among them.\n\nToday the Royal Institute of Traditional Arts (Wrth) runs a 23-month Hasawi bisht course in Al-Ahsa. A Hofuf tailor says cheap machine-made robes are hurting the hand craft.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "construction"
+    ],
+    "sources": [
+      [
+        "Arab News: King of the Shoulders review",
+        "https://www.arabnews.pk/node/2648762/lifestyle"
+      ],
+      [
+        "UNESCO: Bisht skills and practices",
+        "https://ich.unesco.org/fr/RL/le-bisht-abaa-pour-hommes-savoir-faire-et-pratiques-02233?RL=02233"
+      ],
+      [
+        "Wrth: Hasawi bisht apprenticeship",
+        "https://wrth.edu.sa/en/learn/apprenticeships/al-bisht-al-hasawi-apprenticeship-program"
+      ],
+      [
+        "Malay Mail: Saudi tailor fights to save the bisht",
+        "https://malaymail.com/news/life/2025/03/29/saudi-tailor-fights-to-save-ancient-bisht-craft-as-mass-produced-robes-dominate-market/171203"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l2",
+      "slide": 9
+    }
+  },
+  {
+    "id": "l2-s10-compare",
+    "kind": "fact",
+    "title": "Gold on the spool, gold on the cloth",
+    "body": "Metal thread is stiff. It is laid on top of the cloth and stitched down, which is why it sits proud and catches light. That raised line is what you see on a bisht's edge.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "fabric",
+      "construction"
+    ],
+    "sources": [
+      [
+        "Aza: real vs fake zari",
+        "https://www.azafashions.com/blog/is-your-zari-real-how-to-identify-the-difference/"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l2",
+      "slide": 10
+    },
+    "img": "l2-39"
+  },
+  {
+    "id": "l2-s12-story",
+    "kind": "fact",
+    "title": "Now see them for real",
+    "body": "Top: plain. Every thread crosses every thread, so the surface looks like tiny bumps.\n\nMiddle: twill. The threads skip, so lines run on a slant.\n\nBottom: sateen. Threads float over several others before dipping under. Fewer crossings means more shine.",
+    "format": "text",
+    "tags": [
+      "fabric"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Twill",
+        "https://en.wikipedia.org/wiki/Twill"
+      ],
+      [
+        "Première Vision: basic weaves",
+        "https://www.premierevision.com/en/articles/b452b2cb-76fa-ef11-90cb-00224888722c/textile-glossary-basic-weaves"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l2",
+      "slide": 12
+    },
+    "img": "l2-10"
+  },
+  {
+    "id": "l2-s13-compare",
+    "kind": "fact",
+    "title": "Two twins of the weaves",
+    "body": "Herringbone is how a plain dark coat gets texture without color or print. Satin's shine is beautiful, but it shows sweat and snags, so keep it for linings and evening.",
+    "format": "text",
+    "tags": [
+      "fabric",
+      "construction",
+      "color"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Twill",
+        "https://en.wikipedia.org/wiki/Twill"
+      ],
+      [
+        "Wikipedia: Satin",
+        "https://en.wikipedia.org/wiki/Satin"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l2",
+      "slide": 13
+    },
+    "img": "l2-13"
+  },
+  {
+    "id": "l2-s14-compare",
+    "kind": "fact",
+    "title": "Twist: the finest camel hair is not from Arabia",
+    "body": "Fine camel hair is the soft undercoat of the two-humped Bactrian camel, mostly from China and Mongolia. Arabian one-humped camel hair is coarse and rarely used for fine cloth, because camels in the hottest deserts grow coarser down. Bishts were woven from camel hair and goat wool for warmth. For soft, luxury camel cloth today, look for Bactrian.",
+    "format": "text",
+    "tags": [
+      "fabric"
+    ],
+    "sources": [
+      [
+        "UN Food and Agriculture Organization (FAO): Camel hair",
+        "https://www.fao.org/4/v9384e/v9384e05.htm"
+      ],
+      [
+        "Museum of Fine Arts (MFA) Boston, CAMEO database: Camel hair",
+        "https://cameo.mfa.org/wiki/Camel_hair"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l2",
+      "slide": 14
+    },
+    "img": "l2-23"
+  },
+  {
+    "id": "l2-s16-compare",
+    "kind": "fact",
+    "title": "The animals at the top of the ladder",
+    "body": "China makes about 70% of the world's cashmere and Mongolia about 20%. Vicuña lives wild in the Andes above 4,000 meters, which is part of why it is the rarest.",
+    "format": "text",
+    "tags": [
+      "fabric"
+    ],
+    "sources": [
+      [
+        "Gentleman's Gazette: cashmere explained",
+        "https://www.gentlemansgazette.com/cashmere-explained/"
+      ],
+      [
+        "Loro Piana: Vicuña",
+        "https://us.loropiana.com/en/our-world/vicuna"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l2",
+      "slide": 16
+    },
+    "img": "l2-28"
+  },
+  {
+    "id": "l3-s4-story",
+    "kind": "fact",
+    "title": "Al Sadu: weaving the desert",
+    "body": "Al Sadu means \"weaving done in a horizontal style\". The loom lies flat on the ground, and the weaver sits at it.\n\nThe master weavers are older Bedouin women. They teach the skill inside the home, mother to daughter. Men also wove, but the detailed patterns are credited to women.\n\nThe cloth is a tight, tough weave, made for tents, cushions, rugs, camel gear and even bisht cloth. UNESCO listed it for Saudi Arabia and Kuwait in 2020.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "fabric"
+    ],
+    "sources": [
+      [
+        "UNESCO: Traditional weaving of Al Sadu",
+        "https://ich.unesco.org/en/RL/traditional-weaving-of-al-sadu-01586"
+      ],
+      [
+        "Saudipedia: What is al-Sadu?",
+        "https://saudipedia.com/en/what-is-al-sadu"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l3",
+      "slide": 4
+    },
+    "img": "l3-8"
+  },
+  {
+    "id": "l3-s6-story",
+    "kind": "fact",
+    "title": "Al-Qatt Al-Asiri: walls painted by women",
+    "body": "In Asir, women painted the inside walls of their homes, mostly the guest room, because that room shows a family's pride.\n\nThey painted on white gypsum, which they gathered from the mountains and even caves. Neighbors competed to paint the boldest walls. The painter is called al-qattatah.\n\nA famous master, Fatima Abou Gahas, taught the art until she died in 2010. UNESCO listed Al-Qatt in 2017.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "construction",
+      "color"
+    ],
+    "sources": [
+      [
+        "UNESCO: Al-Qatt Al-Asiri",
+        "https://ich.unesco.org/en/RL/01261"
+      ],
+      [
+        "Ithra: Art by Women for All",
+        "https://ithraeyat.ithra.com/editions/threads/art-by-women-for-all-al-qatt-al-asiri"
+      ],
+      [
+        "Saudipedia: Al-Qatt Al-Asiri",
+        "https://saudipedia.com/en/article/585/culture/visual-arts/al-qatt-al-asiri"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l3",
+      "slide": 6
+    },
+    "img": "l3-19"
+  },
+  {
+    "id": "l3-s9-compare",
+    "kind": "fact",
+    "title": "Sadu, close up",
+    "body": "Notice the rules: only straight lines and triangles, always symmetry, a few strong colors. Triangles and lines are the most common Sadu shapes.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "color"
+    ],
+    "sources": [
+      [
+        "UNESCO: Traditional weaving of Al Sadu",
+        "https://ich.unesco.org/en/RL/traditional-weaving-of-al-sadu-01586"
+      ],
+      [
+        "ArchiExpo: Aljoud Lootah on Al Sadu",
+        "https://emag.archiexpo.com/the-story-of-al-sadu-with-uae-designer-aljoud-lootah/"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l3",
+      "slide": 9
+    },
+    "img": "l3-52"
+  },
+  {
+    "id": "l3-s11-compare",
+    "kind": "fact",
+    "title": "The dye pots",
+    "body": "Natural dye never comes out exactly the same twice. In luxury that small variation is a selling point: each piece is a little different.",
+    "format": "text",
+    "tags": [
+      "fabric",
+      "color"
+    ],
+    "sources": [
+      [
+        "Al Jadid: Bedouin Weaving of Saudi Arabia (Hilden)",
+        "https://aljadid.com/node/1557"
+      ],
+      [
+        "Al-Bab: Indigo in the Arab World",
+        "https://al-bab.com/book-review-indigo-arab-world"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l3",
+      "slide": 11
+    },
+    "img": "l3-12"
+  },
+  {
+    "id": "l3-s12-compare",
+    "kind": "fact",
+    "title": "Two kitchen dyes",
+    "body": "Both are still in every Gulf kitchen. A capsule colored only with plant dyes tells the heritage story with no pattern at all.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "construction",
+      "color"
+    ],
+    "sources": [
+      [
+        "Al Jadid: Bedouin Weaving of Saudi Arabia (Hilden)",
+        "https://aljadid.com/node/1557"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l3",
+      "slide": 12
+    },
+    "img": "l3-30"
+  },
+  {
+    "id": "l3-s14-compare",
+    "kind": "fact",
+    "title": "Small pattern or big pattern: dobby vs jacquard",
+    "body": "Dobby makes small geometric patterns, like the tiny textures on a fine shirt. Jacquard lifts every thread on its own, so it can weave big, detailed designs like damask. Jacquard costs more. Jacquard's punched cards, patented in Lyon in 1805, later inspired the first computers.",
+    "format": "text",
+    "tags": [
+      "fabric",
+      "construction"
+    ],
+    "sources": [
+      [
+        "iFactory: dobby vs jacquard",
+        "https://ifactoryapp.com/industries/textile-manufacturing/dobby-vs-jacquard-weaving-pattern-capability-cost"
+      ],
+      [
+        "Wikipedia: Joseph Marie Jacquard",
+        "https://en.wikipedia.org/wiki/Joseph_Marie_Jacquard"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l3",
+      "slide": 14
+    },
+    "img": "l3-43"
+  },
+  {
+    "id": "l4-s4-story",
+    "kind": "fact",
+    "title": "Najdi houses: walls against the sun",
+    "body": "In Najd, the center of Arabia, houses were built from mud brick with very thick walls, inward-facing courtyards and narrow shaded lanes.\n\nAt-Turaif in Diriyah was founded in the 1400s and became the first capital of the Saudi state. It was destroyed in 1818 and left empty for almost two centuries. UNESCO listed it in 2010.\n\nMud brick was used because it was at hand, and because thick earth walls suit the desert climate.",
+    "format": "text",
+    "tags": [
+      "heritage"
+    ],
+    "sources": [
+      [
+        "UNESCO World Heritage: At-Turaif",
+        "https://whc.unesco.org/en/list/1329/"
+      ],
+      [
+        "Wikipedia: At-Turaif District",
+        "https://en.wikipedia.org/wiki/At-Turaif_District"
+      ],
+      [
+        "Parametric Architecture: mudbrick cities",
+        "https://parametric-architecture.com/10-mudbrick-cities-desert-climate/"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l4",
+      "slide": 4
+    },
+    "img": "l4-2"
+  },
+  {
+    "id": "l4-s5-compare",
+    "kind": "fact",
+    "title": "The triangle openings",
+    "body": "These openings, called furjat or luhuj, let in air and light and let people see out. They were also used for defense. They are arranged in rows and stacks, so the wall gets a pattern from something useful.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "construction"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Najdi architecture",
+        "https://en.wikipedia.org/wiki/Najdi_architecture"
+      ],
+      [
+        "ACOR archive: triangular openings, Diriyah",
+        "https://archive.acorjordan.org/s/acor/item/85349"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l4",
+      "slide": 5
+    },
+    "img": "l4-30"
+  },
+  {
+    "id": "l4-s6-story",
+    "kind": "fact",
+    "title": "The qahwa: the room for guests",
+    "body": "The most decorated room in a Najdi house was the qahwa, the men's room for welcoming guests. Its decoration showed the family's generosity.\n\nIt had small square or triangle openings near the ceiling, and a slot in the ceiling called al-sawamah to let out the smoke from the coffee fire.\n\nSame idea as Al-Qatt in Asir: the guest room is where a family shows its pride.",
+    "format": "text",
+    "tags": [
+      "heritage"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Najdi architecture",
+        "https://en.wikipedia.org/wiki/Najdi_architecture"
+      ],
+      [
+        "Saudipedia: al-Jawf architecture",
+        "https://saudipedia.com/en/article/3155/culture/traditional-architecture-in-al-jawf-province"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l4",
+      "slide": 6
+    },
+    "img": "l4-25"
+  },
+  {
+    "id": "l4-s7-story",
+    "kind": "fact",
+    "title": "Hijazi rawasheen: see out, not in",
+    "body": "In the Hijaz, the west coast, houses wore carved wooden boxes on their fronts called rawasheen (one is a roshan). You find them in Jeddah, Makkah, Madinah, Yanbu and Taif.\n\nThey did three jobs: shade, airflow and privacy. People inside could see out; no one outside could see in. They also showed a family's wealth.\n\nThe wood was bought from India, Indonesia and Sudan. Classic colors are natural wood, brown and green. Historic Jeddah was listed by UNESCO in 2014.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "color"
+    ],
+    "sources": [
+      [
+        "Saudipedia: Al-Rawashin",
+        "https://saudipedia.com/en/article/530/culture/cultural-affairs/al-rawashin"
+      ],
+      [
+        "Arab News: Rawasheen in Makkah",
+        "https://arabnews.com/node/1847861"
+      ],
+      [
+        "Bayut: Al Rawashin",
+        "https://www.bayut.sa/blog/en/explore-saudi/al-rawashin-saudi-arabia/"
+      ],
+      [
+        "CNN: Jeddah's Al-Balad",
+        "https://edition.cnn.com/travel/article/jeddah-al-balad-saudi-arabia"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l4",
+      "slide": 7
+    },
+    "img": "l4-12"
+  },
+  {
+    "id": "l4-s8-compare",
+    "kind": "fact",
+    "title": "A wooden garment for a house",
+    "body": "One researcher calls the roshan a wooden garment wrapped around the building. That makes it the easiest house detail to bring into clothing. Designer Makram Marzuki already turned a Jeddah roshan pattern into a bridal look, so a literal copy is taken. The quiet version is the idea: see out, not in.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "construction",
+      "color"
+    ],
+    "sources": [
+      [
+        "WIT Press: the mechanism of the rawasheen",
+        "https://www.witpress.com/elibrary/wit-transactions-on-ecology-and-the-environment/128/20814"
+      ],
+      [
+        "Arab News: Banat Al-Balad collection",
+        "https://arab.news/b63v2"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l4",
+      "slide": 8
+    },
+    "img": "l4-14"
+  },
+  {
+    "id": "l4-s9-compare",
+    "kind": "fact",
+    "title": "Earth towns of Arabia",
+    "body": "Thick earth walls, small openings and narrow lanes show up across Arabia, because they keep heat out. For clothing the lesson is the same: block the sun, let air move.",
+    "format": "text",
+    "tags": [
+      "heritage"
+    ],
+    "sources": [
+      [
+        "Parametric Architecture: mudbrick cities",
+        "https://parametric-architecture.com/10-mudbrick-cities-desert-climate/"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l4",
+      "slide": 9
+    },
+    "img": "l4-4"
+  },
+  {
+    "id": "l4-s10-story",
+    "kind": "fact",
+    "title": "Inside a jacket",
+    "body": "A jacket is a house too: outside cloth, a hidden frame and an inner wall. The frame is the canvas, and the inner wall is the lining.\n\nLook at the lapel in this photo. That pale quilted layer is horsehair canvas, stitched by hand so the lapel rolls softly.\n\nThe white lines are basting: temporary hand stitches that hold the pieces while the tailor fits them.",
+    "format": "text",
+    "tags": [
+      "fabric",
+      "construction",
+      "color"
+    ],
+    "sources": [
+      [
+        "Art of Manliness: fused vs canvassed",
+        "https://www.artofmanliness.com/STYLE/CLOTHING/THE-ART-OF-MANLINESS-SUIT-SCHOOL-PART-I-FUSED-VS-CANVASSED-SUITS/"
+      ],
+      [
+        "Articles of Style: a quality suit",
+        "https://articlesofstyle.com/blogs/news/how-to-spot-a-quality-suit"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l4",
+      "slide": 10
+    },
+    "img": "l4-21"
+  },
+  {
+    "id": "l5-s4-story",
+    "kind": "fact",
+    "title": "Najd: the mesh-strainer dress",
+    "body": "Najdi women's dress was loose and long, to the ankle or floor, with embroidery. Early colors were muted grey and navy. Brighter colors came later. Many women cut and sewed their own clothes.\n\nFor special occasions they wore the thawb najdi: a huge T-shaped overdress of sheer tulle with very wide sleeves, embroidered at the neck front and back.\n\nLocally it is called munaykhal, \"mesh strainer\", because the cloth is full of tiny holes.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "fabric",
+      "construction",
+      "color"
+    ],
+    "sources": [
+      [
+        "Arab News: the revival of Najdi fashion",
+        "https://www.arabnews.com/node/2381461/amp"
+      ],
+      [
+        "Zay Initiative: Najdi overdress (thawb najdi)",
+        "https://thezay.org/product/zi1990-50071-ksaembroidered-overgarment-with-zari-saudi-arabia"
+      ],
+      [
+        "Saudipedia: Women's garments in the First Saudi State",
+        "https://saudipedia.com/en/article/3839/history/the-first-saudi-state/womens-garments-in-the-first-saudi-state"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l5",
+      "slide": 4
+    }
+  },
+  {
+    "id": "l5-s6-story",
+    "kind": "fact",
+    "title": "Silver was a woman's bank",
+    "body": "Part of a bride's dowry bought her jewelry. It belonged to her alone. In hard times she could sell it. It was her safety net.\n\nSouthern pieces were mostly big silver with few stones, decorated with fine silver wire. They used amber, fire agate, blood coral and old glass beads. Ra'af means deep red coral beads.\n\nIn Najran: kharous (earrings), harouz (necklaces), halqah (head piece), lazem and shamiliyyat (wide bracelets), marda' (rings). Some bracelets weighed about 200 grams.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "color"
+    ],
+    "sources": [
+      [
+        "Riyadh Daily: Najran women's jewelry",
+        "https://alriyadhdaily.com/article/762e67d9dd6b43e1b57ececa0241e89e"
+      ],
+      [
+        "UNESCO: Bedouin jewellery",
+        "https://en.unesco.org/silkroad/content/traditional-bedouin-crafts-jewellery"
+      ],
+      [
+        "AramcoWorld 1979: Bedouin jewelry",
+        "https://archive.aramcoworld.com/issue/197902/the.beauty.of.bedouin.jewelry.htm"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l5",
+      "slide": 6
+    },
+    "img": "l5-1"
+  },
+  {
+    "id": "l5-s7-story",
+    "kind": "fact",
+    "title": "Heard, but not seen",
+    "body": "Some necklace cases held verses of the Qur'an. Turquoise was worn against the evil eye.\n\nTiny bells hung from many pieces. As a woman walked, the bells told people she was near, so men looked away. She was heard, but not seen.\n\nBedouin silver also used carnelian, turquoise, bells and coins. In Saudi Arabia, silversmiths worked in Riyadh's Batha souq and in Taif.",
+    "format": "text",
+    "tags": [
+      "heritage"
+    ],
+    "sources": [
+      [
+        "AramcoWorld 1979: Bedouin jewelry",
+        "https://archive.aramcoworld.com/issue/197902/the.beauty.of.bedouin.jewelry.htm"
+      ],
+      [
+        "Riyadh Daily: Najran women's jewelry",
+        "https://alriyadhdaily.com/article/762e67d9dd6b43e1b57ececa0241e89e"
+      ],
+      [
+        "Saudipedia: Jewelry crafting",
+        "https://saudipedia.com/en/jewelry-crafting-in-saudi-arabia"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l5",
+      "slide": 7
+    },
+    "img": "l5-11"
+  },
+  {
+    "id": "l5-s8-compare",
+    "kind": "fact",
+    "title": "Two necklaces, two ideas",
+    "body": "Left: weight and sound, from many dangling pieces. Right: fine wire worked into lace. For a men's piece, keep one idea only: either one small dangling bead, or a little filigree texture on a button. Never both.",
+    "format": "text",
+    "tags": [
+      "construction"
+    ],
+    "sources": [
+      [
+        "AramcoWorld 2012: Yemeni silver",
+        "https://archive.aramcoworld.com/issue/201201/silver.the.enduring.craft.of.yemeni.silver.htm"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l5",
+      "slide": 8
+    },
+    "img": "l5-8"
+  },
+  {
+    "id": "l5-s9-story",
+    "kind": "fact",
+    "title": "Where silk comes from",
+    "body": "Silk is spun by silkworms. Each worm wraps itself in one long thread to make a cocoon.\n\nCocoons are boiled to loosen the thread, then it is unwound. That's why silk is so smooth: it's one long filament, not short fibers twisted together.\n\nSilk breathes and feels cool, but it's delicate and shows water and sweat marks easily.",
+    "format": "text",
+    "tags": [
+      "fabric"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l5",
+      "slide": 9
+    },
+    "img": "l5-24"
+  },
+  {
+    "id": "l5-s10-compare",
+    "kind": "fact",
+    "title": "From cocoon to cloth",
+    "body": "Charmeuse is woven in a satin weave, which is why it shines. You met satin in Lesson 2: long floating threads, smooth and shiny, but it shows every mark.",
+    "format": "text",
+    "tags": [
+      "fabric"
+    ],
+    "sources": [
+      [
+        "Minerva: silk types compared",
+        "https://minervapatterns.com/blog/silk-types-compared-charmeuse-habotai-dupioni-and-crepe"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l5",
+      "slide": 10
+    },
+    "img": "l5-26"
+  },
+  {
+    "id": "l6-s4-story",
+    "kind": "fact",
+    "title": "The janbiya: courage on the belt",
+    "body": "The janbiya is a curved dagger worn at the front of a belt. In Najran it's made of iron or steel with a horn handle, often with silver or gold added. The best sheaths are inlaid with silver.\n\nIt stands for courage, manhood and tribe. When tribes make peace, they lay their daggers down. Many boys get their first one in their teens.\n\nNajran's Al-Janabi souq is known for janbiya makers. Prices run from about 20 Saudi riyals (SR) to SR 250,000 or more.",
+    "format": "text",
+    "tags": [
+      "heritage"
+    ],
+    "sources": [
+      [
+        "Arab News: Najran's janbiya",
+        "https://www.arabnews.com/saudi-arabia/najrans-janbiya-a-timeless-symbol-of-cultural-heritage-2595464"
+      ],
+      [
+        "Arab News: why the janbiya remains a symbol",
+        "https://www.arabnews.com/node/2059516/amp"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l6",
+      "slide": 4
+    },
+    "img": "l6-0"
+  },
+  {
+    "id": "l6-s5-story",
+    "kind": "fact",
+    "title": "Najran's leather",
+    "body": "Najran's leather workers made belts, a baby carrier (mezab) and big storage cases (zamalah). Hides came from camels, cattle, sheep and goats.\n\nThey tanned leather with plants. One plant (Calligonum) gave a light red. Another (St John's wort) gave a deep red.\n\nMen wore the haskal: a money pouch under the left arm on a braided strap. Sandals had camel-skin soles and goat-skin tops.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "color",
+      "leather"
+    ],
+    "sources": [
+      [
+        "Saudipedia: Najran handicrafts",
+        "https://saudipedia.com/en/list-of-handicrafts-in-najran-province"
+      ],
+      [
+        "Arab News: Najran's leather artisans",
+        "https://www.arabnews.pk/saudi-arabia/najrans-leather-artisans-preserve-cultural-heritage-2566716"
+      ],
+      [
+        "Saudipedia: Leather goods",
+        "https://saudipedia.com/en/leather-goods-in-the-kingdom"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l6",
+      "slide": 5
+    },
+    "img": "l6-7"
+  },
+  {
+    "id": "l6-s6-compare",
+    "kind": "fact",
+    "title": "Smoke as a welcome",
+    "body": "The mabkhara burns amber and oud on hot coals. The smoke scents the room, clothes, hair and guests. At weddings it's passed round so each guest can scent himself. In nine months of 2023–24, Saudi Arabia imported about 1.1 million kilograms of oud wood.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "scent"
+    ],
+    "sources": [
+      [
+        "Saudipedia: The incense burner",
+        "https://saudipedia.com/en/the-incense-burner"
+      ],
+      [
+        "Ithraeyat: The art of hospitality",
+        "https://ithraeyat.ithra.com/editions/identity/the-art-of-hospitality"
+      ],
+      [
+        "Gulf News: oud sales",
+        "https://gulfnews.com/world/gulf/saudi/scent-of-eid-incense-and-oud-sales-soar-in-saudi-arabia-1.102051066"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l6",
+      "slide": 6
+    },
+    "img": "l6-31"
+  },
+  {
+    "id": "l6-s7-story",
+    "kind": "fact",
+    "title": "Taif roses: picked before sunrise",
+    "body": "Over 910 farms in Taif grow about 550 million roses a year. The bushes bloom only once a year, for 40 to 50 days.\n\nRoses are picked early each morning, before the heat. Then they're distilled into rose water and oil.\n\nGrades have names: al-Arus, \"the bride's\", is the strongest at about 80%. Then al-thanou at about 50%, and al-sayer at 20% or less.",
+    "format": "text",
+    "tags": [
+      "scent"
+    ],
+    "sources": [
+      [
+        "Arab News: Taif's roses",
+        "https://www.arabnews.pk/saudi-arabia/blooming-once-a-year-taifs-roses-embody-regions-heritage-2458111"
+      ],
+      [
+        "Saudipedia: How Taif rose water is made",
+        "https://saudipedia.com/en/how-is-taif-rose-water-made"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l6",
+      "slide": 7
+    },
+    "img": "l6-17"
+  },
+  {
+    "id": "l6-s8-story",
+    "kind": "fact",
+    "title": "The pearl divers of the east coast",
+    "body": "On the Eastern Province coast, the main diving season lasted 130 days. Divers went down about 2 minutes at a time, to about 18 meters, around 50 times a day.\n\nThey wore sirwal shorts and a black shamshool, or cotton suits against jellyfish. A nose clip (fattam) was made of bone or horn. Leather finger covers (khabt) protected their hands from sharp rocks.\n\nOn a Saudi boat the catch was split: captain 20%, diver 40%, rope-puller 30%, helper 10%. Buyer and seller agreed a price by touching fingers under a red cloth.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "fabric",
+      "color",
+      "leather"
+    ],
+    "sources": [
+      [
+        "Saudipedia: Diving in Saudi Arabia",
+        "https://saudipedia.com/en/article/3630/society/sports/diving-in-saudi-arabia"
+      ],
+      [
+        "Saudipedia: Historical maritime occupations",
+        "https://saudipedia.com/en/historical-maritime-occupations-in-saudi-arabia"
+      ],
+      [
+        "Abu Dhabi Culture: diving equipment",
+        "https://abudhabiculture.ae/en/cultural-heritage/intangible/heritage-register/traditional-handicraft/diving-equipment-in-the-past"
+      ],
+      [
+        "AramcoWorld: Servants of the Pearl",
+        "https://archive.aramcoworld.com/issue/199005/servants.of.the.pearl.htm"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l6",
+      "slide": 8
+    },
+    "img": "l6-20"
+  },
+  {
+    "id": "l6-s9-compare",
+    "kind": "fact",
+    "title": "What the sea gave",
+    "body": "Rough outside, shining inside. That's the same idea as the roshan lining in Lesson 4 and the red-cloth deal: the beauty is hidden from the outside world. Mother-of-pearl buttons are a direct, honest nod to the divers.",
+    "format": "text",
+    "tags": [
+      "fabric",
+      "construction",
+      "color"
+    ],
+    "sources": [
+      [
+        "AramcoWorld: Servants of the Pearl",
+        "https://archive.aramcoworld.com/issue/199005/servants.of.the.pearl.htm"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l6",
+      "slide": 9
+    },
+    "img": "l6-27"
+  },
+  {
+    "id": "l6-s10-compare",
+    "kind": "fact",
+    "title": "Two scents, two raw materials",
+    "body": "Arabia traded incense for thousands of years. Scent belongs to how Saudis welcome guests. For a garment, keep scent on the packaging or a removable card, not baked into the cloth, so the customer chooses.",
+    "format": "text",
+    "tags": [
+      "fabric",
+      "scent"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l6",
+      "slide": 10
+    },
+    "img": "l6-40"
+  },
+  {
+    "id": "l6-s11-story",
+    "kind": "fact",
+    "title": "Now the fabric part: why mix fibers?",
+    "body": "A blend mixes two or more fibers so each one adds what the others lack. The rule: every fiber must earn its place.\n\nElastane, also called spandex or Lycra, is a stretchy fiber. A little of it lets a woven fabric move with you.\n\nPolyester in a blend can add strength and stop wrinkles. But it also lowers breathability, which matters a lot in Gulf heat.",
+    "format": "text",
+    "tags": [
+      "fabric"
+    ],
+    "sources": [
+      [
+        "Gelato: polyester and cotton blends",
+        "https://www.gelato.com/blog/cotton-polyester-blends-guide"
+      ],
+      [
+        "Nona Source: why luxury uses synthetics",
+        "https://www.nona-source.com/blogs/news/why-are-synthetic-and-artificial-textiles-used-in-luxury-fashion"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l6",
+      "slide": 11
+    },
+    "img": "l6-47"
+  },
+  {
+    "id": "l7-s6-compare",
+    "kind": "fact",
+    "title": "Two sides of the brand",
+    "body": "A'ila Areeqa lives between these two photos. The left gives you the story and the details. The right gives you the build quality that makes a story believable. You need both in every piece.",
+    "format": "text",
+    "tags": [
+      "heritage",
+      "construction"
+    ],
+    "sources": [
+      [
+        "Arab News: The Saudi man's bisht",
+        "https://www.arabnews.com/fashion/traditional-modern-the-saudi-mans-bisht-429954"
+      ],
+      [
+        "Art of Manliness: fused vs canvassed",
+        "https://www.artofmanliness.com/STYLE/CLOTHING/THE-ART-OF-MANLINESS-SUIT-SCHOOL-PART-I-FUSED-VS-CANVASSED-SUITS/"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l7",
+      "slide": 6
+    },
+    "img": "l1-2"
+  }
+]

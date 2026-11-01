@@ -1,0 +1,796 @@
+{
+  "id": "l1",
+  "num": 1,
+  "date": "2026-10-25",
+  "day": "Sun, Oct 25",
+  "ready": true,
+  "title": "Built for the weather",
+  "pair": "Bisht, thobe and winter layers · Fibers and why linen stays cool",
+  "slides": [
+    {
+      "type": "cover",
+      "part": "warm",
+      "img": "l1-49",
+      "kicker": "Lesson 1 · about 1 hour",
+      "title": "Built for the weather",
+      "text": "Every classic Saudi garment solved a weather problem first. Beauty came second. Learn the problem and you can design the answer."
+    },
+    {
+      "type": "quiz",
+      "part": "warm",
+      "warm": true,
+      "q": "Guess first: what was a traditional bisht mostly made from?",
+      "options": [
+        "Cotton and silk",
+        "Camel hair and goat wool",
+        "Polyester",
+        "Linen only"
+      ],
+      "answer": 1,
+      "why": "Camel hair and goat wool, spun and woven into cloth. Soft yarn for summer, coarse hair for winter.",
+      "src": [
+        [
+          "Arab News: Diriyah bisht line",
+          "https://arabnews.com/node/2014101"
+        ]
+      ],
+      "whys": [
+        "Cotton and silk are smooth, light fibers. A winter cloak for desert nights needed animal fibers that hold warmth.",
+        null,
+        "Polyester was only invented in the 1940s. The bisht is centuries older.",
+        "Linen is the summer fiber that keeps you cool. The bisht started as a cloak for cold nights."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "warm",
+      "warm": true,
+      "q": "Guess first: why did Saudis pick cotton for the everyday white thobe?",
+      "options": [
+        "It breathes",
+        "It is the warmest fabric",
+        "It never wrinkles",
+        "It was the only fabric sold"
+      ],
+      "answer": 0,
+      "why": "Breathable cotton was favored. That is how the white thobe became the daily garment across the Kingdom.",
+      "src": [
+        [
+          "Ithra: The Saudi Thobe",
+          "https://www.ithra.com/en/news/saudi-thobe-ongoing-story"
+        ]
+      ],
+      "whys": [
+        null,
+        "Warmth was the winter job. In summer you want air to move through the cloth, not heat to stay in.",
+        "Cotton does wrinkle. It was picked for comfort in the heat, not for looking pressed.",
+        "Saudis also wore wool and other cloth. Cotton was chosen on purpose, because it breathes."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "warm",
+      "warm": true,
+      "q": "Guess first: which fiber is hollow inside, so heat and sweat leave fast?",
+      "options": [
+        "Polyester",
+        "Wool",
+        "Linen (from flax)",
+        "Silk"
+      ],
+      "answer": 2,
+      "why": "Flax fibers have a hollow channel inside. Air moves through and sweat leaves fast, so linen feels cool.",
+      "src": [
+        [
+          "Cable: What is linen?",
+          "https://www.cablemelbourne.com/blogs/news/what-is-linen"
+        ]
+      ],
+      "whys": [
+        "Polyester is a solid plastic strand. That is why it can feel sticky in the heat.",
+        "Wool is the warm one. Its curls hold still air, which keeps heat in: the opposite of what summer needs.",
+        null,
+        "Silk is smooth and light, but it is a solid strand. Flax, which becomes linen, has the hollow channel."
+      ]
+    },
+    {
+      "type": "compare",
+      "part": "story",
+      "title": "The problem: one country, two climates",
+      "left": {
+        "img": "l1-49",
+        "label": "Summer",
+        "caption": "Sand dunes at Al-Tawqi, northeast of Riyadh."
+      },
+      "right": {
+        "img": "l1-45",
+        "label": "Winter",
+        "caption": "Camels in snow on Jabal al-Lawz, Tabuk, 2021."
+      },
+      "takeaway": "Clothes had to handle both. In northern towns like Turaif, winter can average as low as −5°C. So Saudis built a summer wardrobe and a winter one.",
+      "src": [
+        [
+          "Arab News: the farwa",
+          "https://arabnews.pk/node/1776911"
+        ]
+      ]
+    },
+    {
+      "type": "story",
+      "part": "story",
+      "img": "l1-4",
+      "caption": "A Bedouin camp in eastern Saudi Arabia, near Manifa.",
+      "title": "The answer came from the animals",
+      "text": [
+        "Bedouin families had no shops. They wove with what their herds gave them: sheep wool, goat hair and camel hair.",
+        "From that they made tents, cushions, sacks, rugs and camel gear. The same skills made bisht cloth.",
+        "The finest pieces were woven from sheep's wool. The price of a piece depended on the fiber used."
+      ],
+      "src": [
+        [
+          "Saudipedia: What is al-Sadu?",
+          "https://saudipedia.com/en/what-is-al-sadu"
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "part": "story",
+      "title": "Meet the fiber makers",
+      "left": {
+        "img": "l1-15",
+        "label": "Camel",
+        "caption": "Camel hair: woven into bisht cloth, with goat wool."
+      },
+      "right": {
+        "img": "l1-37",
+        "label": "Najdi sheep",
+        "caption": "Najdi sheep in Unaizah. Sheep's wool made the finest Sadu weaving."
+      },
+      "takeaway": "Old bishts used camel hair and goat wool for warmth, and sheep's wool made the finest Sadu. One catch: hair from Arabia's one-humped camels is coarse. Soft, luxury camel cloth comes from a different camel, which you will meet in Lesson 2.",
+      "src": [
+        [
+          "Arab News: Diriyah bisht line",
+          "https://arabnews.com/node/2014101"
+        ],
+        [
+          "Saudipedia: What is al-Sadu?",
+          "https://saudipedia.com/en/what-is-al-sadu"
+        ],
+        [
+          "Museum of Fine Arts (MFA) Boston, CAMEO database: Camel hair",
+          "https://cameo.mfa.org/wiki/Camel_hair"
+        ],
+        [
+          "UN Food and Agriculture Organization (FAO): Camel hair",
+          "https://www.fao.org/4/v9384e/v9384e05.htm"
+        ]
+      ]
+    },
+    {
+      "type": "story",
+      "part": "story",
+      "img": "l1-2",
+      "caption": "King Abdulaziz in a bisht, meeting U.S. President Roosevelt aboard the USS Quincy, 14 February 1945.",
+      "title": "The bisht: from desert cloak to sign of rank",
+      "arabic": "بشت · مشلح",
+      "text": [
+        "The bisht started as a Bedouin winter cloak, worn over the thobe on cold desert nights.",
+        "Over time it became what leaders, scholars and grooms wear. The gold braid on the edge was once kept for religious and political leaders.",
+        "Classic colors run from white, beige and cream to brown, grey and black."
+      ],
+      "src": [
+        [
+          "Arab News: The Saudi man's bisht",
+          "https://www.arabnews.com/fashion/traditional-modern-the-saudi-mans-bisht-429954"
+        ],
+        [
+          "RISD Museum: man's bisht, 1949",
+          "https://risdmuseum.org/node/1212336"
+        ]
+      ]
+    },
+    {
+      "type": "steps",
+      "part": "story",
+      "img": "l1-8",
+      "caption": "A tailor in Al-Ahsa sewing a Hasawi bisht by hand.",
+      "title": "How a Hasawi bisht is made",
+      "intro": "Al-Ahsa families have made the best bishts for more than 200 years. Family names became brand names: Al-Qattan, Al-Kharas, Al-Mahdi, Al-Bagli.",
+      "steps": [
+        "Fitting",
+        "Al-Tawk",
+        "Buruj",
+        "Al-Maksar",
+        "Lacing",
+        "Khabana",
+        "Bardakh: the gold zari thread is struck to bring out its color"
+      ],
+      "facts": [
+        [
+          "12–15 days",
+          "by hand, sometimes up to 6 months"
+        ],
+        [
+          "12 a day",
+          "what a machine can make"
+        ],
+        [
+          "up to 8 people",
+          "on one handmade bisht"
+        ],
+        [
+          "age 7",
+          "when master Abdullah Jafar Al-Qattan started"
+        ]
+      ],
+      "src": [
+        [
+          "Saudipedia: Hasawi Bisht",
+          "https://saudipedia.com/en/article/1968/society/garments-and-accessories/al-mashleh-al-hassawi"
+        ],
+        [
+          "Arab News: Bisht, symbol of royalty",
+          "https://www.arabnews.com/node/1747996/saudi-arabia"
+        ],
+        [
+          "Arab News: The Saudi man's bisht",
+          "https://www.arabnews.com/fashion/traditional-modern-the-saudi-mans-bisht-429954"
+        ]
+      ]
+    },
+    {
+      "type": "story",
+      "part": "story",
+      "img": "l1-13",
+      "caption": "A young Saudi man in a white thobe.",
+      "title": "The thobe: white for summer, dark for winter",
+      "arabic": "ثوب",
+      "text": [
+        "After King Abdulaziz united the country, the thobe with a ghutra or shemagh became a sign of being Saudi.",
+        "Cotton was picked because it breathes. That gave the white thobe worn every day.",
+        "In winter, men switch to brown and navy, and to heavier fabrics like wool."
+      ],
+      "src": [
+        [
+          "Ithra: The Saudi Thobe",
+          "https://www.ithra.com/en/news/saudi-thobe-ongoing-story"
+        ]
+      ]
+    },
+    {
+      "type": "layers",
+      "part": "story",
+      "title": "Winter was about layers",
+      "intro": "On a cold Najd night a man built his outfit from the inside out.",
+      "layers": [
+        [
+          "Thobe",
+          "the base, in brown or navy wool for winter"
+        ],
+        [
+          "Sedairi",
+          "a warm vest of broadcloth over the thobe"
+        ],
+        [
+          "Labda",
+          "worn by richer Najdi men: wool padded with cotton so the wool would not scratch"
+        ],
+        [
+          "Bisht or farwa",
+          "on top: a coarse camel-hair bisht, or a farwa, a long coat lined with sheepskin"
+        ]
+      ],
+      "src": [
+        [
+          "Ithra: The Saudi Thobe",
+          "https://www.ithra.com/en/news/saudi-thobe-ongoing-story"
+        ],
+        [
+          "Saudipedia: Ardah costumes",
+          "https://saudipedia.com/en/what-are-the-traditional-costumes-for-the-saudi-ardah"
+        ],
+        [
+          "Asharq Al-Awsat: Saudi traditional dress",
+          "https://english.aawsat.com/home/article/3489611/saudi-traditional-dress-remains-fashionable-kingdoms-founding-3-centuries-ago"
+        ],
+        [
+          "Arab News: the farwa",
+          "https://arabnews.pk/node/1776911"
+        ]
+      ]
+    },
+    {
+      "type": "toggle",
+      "part": "see",
+      "title": "Same man, two seasons",
+      "intro": "Switch between the seasons and read why each piece changes.",
+      "modes": {
+        "Summer": {
+          "img": "l1-49",
+          "items": [
+            [
+              "Thobe",
+              "white cotton",
+              "breathes, light color"
+            ],
+            [
+              "Bisht",
+              "soft, light yarn (some are linen)",
+              "worn for occasions, not warmth"
+            ],
+            [
+              "Feel",
+              "loose and light",
+              "air moves around the body"
+            ]
+          ]
+        },
+        "Winter": {
+          "img": "l1-45",
+          "items": [
+            [
+              "Thobe",
+              "brown or navy, heavier wool",
+              "holds warmth"
+            ],
+            [
+              "Vest",
+              "sedairi in broadcloth",
+              "an extra layer on the chest"
+            ],
+            [
+              "Bisht",
+              "coarse camel hair or goat wool",
+              "a blanket you can wear"
+            ],
+            [
+              "Coat",
+              "farwa lined with sheepskin",
+              "for the coldest nights"
+            ]
+          ]
+        }
+      },
+      "src": [
+        [
+          "Ithra: The Saudi Thobe",
+          "https://www.ithra.com/en/news/saudi-thobe-ongoing-story"
+        ],
+        [
+          "Arab News: Diriyah bisht line",
+          "https://arabnews.com/node/2014101"
+        ],
+        [
+          "Wikipedia: Bisht",
+          "https://en.wikipedia.org/wiki/Bisht_(clothing)"
+        ],
+        [
+          "Arab News: the farwa",
+          "https://arabnews.pk/node/1776911"
+        ]
+      ]
+    },
+    {
+      "type": "reveal",
+      "part": "see",
+      "img": "l1-31",
+      "title": "What are you looking at?",
+      "prompt": "Look closely. It looks like stacked roof tiles. Guess what it is, then reveal.",
+      "answer": "One merino wool fiber under an electron microscope. Those tiles are scales on the outside of the fiber. They are why rough wool can feel scratchy and why wool shrinks and felts in hot water. Wool fibers are also crimped, so they hold still air. That is why wool keeps you warm."
+    },
+    {
+      "type": "reveal",
+      "part": "see",
+      "img": "l1-51",
+      "title": "And this one?",
+      "prompt": "Long, straight bundles. No tiles. Guess, then reveal.",
+      "answer": "Flax fibers, the fiber that becomes linen. These were found inside a gold pendant from the 1500s at the British Museum. They are long and smooth with few bends, so they hold little air and dry fast. That makes linen cool. The same stiffness is why linen wrinkles: the fiber does not spring back.",
+      "src": [
+        [
+          "Why linen behaves the way it does",
+          "https://yoosclub.com/blogs/suit-fabric-journal/why-linen-behaves-the-way-it-does-the-science-of-moisture-coolness-and-wrinkles"
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "part": "see",
+      "title": "Where linen comes from",
+      "left": {
+        "img": "l1-23",
+        "label": "The plant",
+        "caption": "Flax in flower. Linen is made from fibers inside its stem."
+      },
+      "right": {
+        "img": "l1-55",
+        "label": "Inside the stem",
+        "caption": "A cut flax stem. BF marks the bast fibers. Those become linen thread."
+      },
+      "takeaway": "Linen is a stem fiber. That is why it is strong and stiff. Cotton is a seed fiber, which is why it is soft.",
+      "src": [
+        [
+          "Cable: What is linen?",
+          "https://www.cablemelbourne.com/blogs/news/what-is-linen"
+        ],
+        [
+          "MasterClass: cotton vs linen",
+          "https://www.masterclass.com/articles/what-is-cotton-and-what-is-linen"
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "part": "see",
+      "title": "Cotton or linen for the heat?",
+      "left": {
+        "img": "l1-25",
+        "label": "Cotton",
+        "caption": "Cotton grows as soft fluff around the seeds."
+      },
+      "right": {
+        "img": "l1-28",
+        "label": "Linen",
+        "caption": "Linen canvas: you can see the open weave and thick, uneven threads."
+      },
+      "takeaway": "Both breathe. Linen breathes more and dries faster; cotton is softer and holds sweat longer. Linen wrinkles more.",
+      "src": [
+        [
+          "MasterClass: cotton vs linen",
+          "https://www.masterclass.com/articles/what-is-cotton-and-what-is-linen"
+        ],
+        [
+          "Cable: What is linen?",
+          "https://www.cablemelbourne.com/blogs/news/what-is-linen"
+        ]
+      ]
+    },
+    {
+      "type": "reveal",
+      "part": "see",
+      "img": "l1-9",
+      "title": "Where is the luxury on this cloak?",
+      "prompt": "Point to the one place that tells you this man is important.",
+      "answer": "The edges. Gold braid runs down the front opening and around the neck. The body is plain dark wool. This 1923 portrait is of Sheikh Chassib of Arabistan (Ahwaz, today in Iran). It is not Saudi, but it shows the same Gulf bisht idea: rank lives on the edge.",
+      "src": [
+        [
+          "RISD Museum: man's bisht, 1949",
+          "https://risdmuseum.org/node/1212336"
+        ]
+      ]
+    },
+    {
+      "type": "design",
+      "part": "design",
+      "svg": "edge",
+      "title": "Move 1: The bisht edge",
+      "text": "Keep the body of the garment plain. Put your one rich detail where the bisht puts it: down the front opening and around the neck.",
+      "how": [
+        "Men: a plain dark overcoat with a thin hand-finished braid only on the front edge.",
+        "Women: the same edge on a long, open coat worn like an abaya.",
+        "A Saudi eye reads \"bisht\". Anyone else just sees a well-made coat."
+      ]
+    },
+    {
+      "type": "design",
+      "part": "design",
+      "svg": "lining",
+      "title": "Move 2: Hidden comfort",
+      "text": "The labda padded wool with cotton so it would not scratch. Copy the idea, not the look.",
+      "how": [
+        "A wool overshirt with a soft cotton lining inside.",
+        "Nobody sees it. The wearer feels it every time.",
+        "Tell the story on the inside label or the hangtag, not on the outside."
+      ]
+    },
+    {
+      "type": "design",
+      "part": "design",
+      "svg": "swap",
+      "title": "Move 3: One cut, two weights",
+      "text": "The bisht came in soft yarn for summer and coarse hair for winter. Same shape, different cloth.",
+      "how": [
+        "Summer: linen or a linen-cotton blend, light color.",
+        "Winter: wool or camel hair, in brown or navy, the old Saudi winter colors.",
+        "One pattern, two seasons. That is also cheaper to produce."
+      ]
+    },
+    {
+      "type": "task",
+      "part": "do",
+      "title": "Closet label hunt",
+      "minutes": 5,
+      "text": "Go to your closet. Find three pieces you wear a lot.",
+      "checklist": [
+        "Read the fiber label inside each one",
+        "Write the fibers and % below",
+        "Pick the one you would wear in Riyadh in July, and say why"
+      ],
+      "notePrompt": "Example: Black tee — 60% cotton, 40% polyester. Too hot for July because...",
+      "context": [
+        "Cotton comes from the seed fluff of the cotton plant. It breathes and was chosen for the white everyday thobe. It holds sweat longer than linen.",
+        "Linen comes from the stem of the flax plant. Flax fibers are hollow, so linen breathes more than cotton and dries faster. It wrinkles easily.",
+        "Wool is warm because its crimped fibers hold still air. Its surface has scales. Saudis wore heavier wool, in brown or navy, in winter.",
+        "Polyester is a plastic fiber. It does not breathe like cotton and can feel sticky in heat, but it dries fast and resists wrinkles.",
+        "Poly-cotton blends breathe less than pure cotton.",
+        "Breathability means how easily air passes through a fabric. Natural fibers and open weaves usually let more air through."
+      ],
+      "refs": [
+        {
+          "img": "l1-25",
+          "cap": "Cotton: seed fluff. Soft, breathes, holds sweat longer."
+        },
+        {
+          "img": "l1-28",
+          "cap": "Linen: stem fiber. Coolest, dries fast, wrinkles."
+        },
+        {
+          "img": "l1-31",
+          "cap": "Wool: scales and crimp. Warm."
+        }
+      ]
+    },
+    {
+      "type": "task",
+      "part": "do",
+      "title": "The breath test",
+      "minutes": 3,
+      "text": "This is how you feel breathability with no lab.",
+      "checklist": [
+        "Hold a cotton or linen shirt to your mouth and breathe out through it",
+        "Do the same with a polyester gym shirt",
+        "Notice which one lets your breath through"
+      ],
+      "notePrompt": "What did you feel?",
+      "context": [
+        "Cotton comes from the seed fluff of the cotton plant. It breathes and was chosen for the white everyday thobe. It holds sweat longer than linen.",
+        "Linen comes from the stem of the flax plant. Flax fibers are hollow, so linen breathes more than cotton and dries faster. It wrinkles easily.",
+        "Wool is warm because its crimped fibers hold still air. Its surface has scales. Saudis wore heavier wool, in brown or navy, in winter.",
+        "Polyester is a plastic fiber. It does not breathe like cotton and can feel sticky in heat, but it dries fast and resists wrinkles.",
+        "Poly-cotton blends breathe less than pure cotton.",
+        "Breathability means how easily air passes through a fabric. Natural fibers and open weaves usually let more air through."
+      ],
+      "refs": [
+        {
+          "img": "l1-28",
+          "cap": "Linen's open weave: air passes easily."
+        },
+        {
+          "img": "l1-51",
+          "cap": "Flax fibers: long, smooth, hollow."
+        }
+      ]
+    },
+    {
+      "type": "task",
+      "part": "do",
+      "title": "Sketch the edge",
+      "minutes": 2,
+      "text": "On paper, draw the front of a simple coat. Then add Move 1.",
+      "checklist": [
+        "Draw the coat outline",
+        "Mark where the bisht edge would go",
+        "Decide the braid color: gold, black or tone-on-tone"
+      ],
+      "notePrompt": "Which braid color did you pick, and why?",
+      "context": [
+        "A bisht's luxury lives on its edges: the front opening and the neck. The body stays plain.",
+        "Gold braid on the bisht edge was once kept for religious and political leaders.",
+        "Move 1 idea: a plain dark coat with a thin hand-finished braid only on the front edge; women's version on a long open coat.",
+        "Classic bisht colors: white, beige, cream, brown, grey and black.",
+        "Tone-on-tone braid is quieter; gold is louder and more formal."
+      ],
+      "refs": [
+        {
+          "img": "l1-9",
+          "cap": "Gold braid on the front edge and neck, 1923."
+        },
+        {
+          "img": "l1-2",
+          "cap": "King Abdulaziz in a bisht, 1945."
+        },
+        {
+          "svg": "edge",
+          "cap": "Move 1: braid on the front edge only."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "Where are the most famous Saudi bishts made?",
+      "options": [
+        "Jeddah",
+        "Al-Ahsa",
+        "Abha",
+        "Tabuk"
+      ],
+      "answer": 1,
+      "why": "Al-Ahsa, in the Eastern Province. The Hasawi bisht is the most famous and most expensive kind.",
+      "src": [
+        [
+          "Saudipedia: Hasawi Bisht",
+          "https://saudipedia.com/en/article/1968/society/garments-and-accessories/al-mashleh-al-hassawi"
+        ]
+      ],
+      "hint": {
+        "img": "l1-8",
+        "cap": "A master tailor sewing a bisht by hand. Which city's name is on the bisht?"
+      },
+      "whys": [
+        "Jeddah is known for its Hijazi houses and trade, not for bishts.",
+        null,
+        "Abha is in Asir, known for Al-Qatt wall painting, not bishts.",
+        "Tabuk is where the camels-in-snow photo came from, not where bishts are made."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "In winter, Saudi men switched their thobes to…",
+      "options": [
+        "White silk",
+        "Brown or navy, in heavier fabric like wool",
+        "Bright red cotton",
+        "Black polyester"
+      ],
+      "answer": 1,
+      "why": "Brown and navy, and heavier fabrics like wool.",
+      "src": [
+        [
+          "Ithra: The Saudi Thobe",
+          "https://www.ithra.com/en/news/saudi-thobe-ongoing-story"
+        ]
+      ],
+      "whys": [
+        "White and thin is the summer idea. Winter needs darker, heavier cloth.",
+        null,
+        "Cotton is the summer fabric, and bright red was never an everyday thobe color.",
+        "Polyester is a modern fiber. The traditional winter choice was wool, in brown or navy."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "Under a microscope, a wool fiber is covered in…",
+      "options": [
+        "A hollow tube",
+        "Tiny scales, like roof tiles",
+        "Nothing, it is smooth",
+        "Small holes"
+      ],
+      "answer": 1,
+      "why": "Scales. They cause scratchiness and felting. Wool's crimp holds still air, which keeps you warm.",
+      "hint": {
+        "svg": "fibers",
+        "cap": "Two fibers, details hidden. One is wool. Picture its surface."
+      },
+      "whys": [
+        "The hollow tube is flax, which becomes linen. Easy to mix up: linen = hollow, wool = scales.",
+        null,
+        "Smooth is more like silk or polyester. Wool's surface is rough.",
+        "Wool has no holes. Its scales overlap like roof tiles."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "Linen comes from…",
+      "options": [
+        "The seed pod of the cotton plant",
+        "The stem of the flax plant",
+        "Sheep",
+        "Silkworms"
+      ],
+      "answer": 1,
+      "why": "The stem of the flax plant. Stem fibers are strong and stiff, which is why linen is cool and wrinkles.",
+      "src": [
+        [
+          "Cable: What is linen?",
+          "https://www.cablemelbourne.com/blogs/news/what-is-linen"
+        ]
+      ],
+      "whys": [
+        "The seed pod gives cotton. Both are plants, but different parts: cotton = seed fluff, linen = stem.",
+        null,
+        "Sheep give wool, an animal fiber. Linen is a plant fiber.",
+        "Silkworms make silk. Linen comes from a plant."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "On a bisht, where does the luxury sit?",
+      "options": [
+        "All over the body",
+        "On the edges: the front opening and the neck",
+        "Only on the back",
+        "On the sleeves only"
+      ],
+      "answer": 1,
+      "why": "The edges. The body stays plain. That is Move 1 for A'ila Areeqa.",
+      "src": [
+        [
+          "RISD Museum: man's bisht, 1949",
+          "https://risdmuseum.org/node/1212336"
+        ]
+      ],
+      "hint": {
+        "svg": "outline",
+        "cap": "A plain cloak. Where would the gold go?"
+      },
+      "whys": [
+        "All over would be loud. The bisht keeps its body plain on purpose.",
+        null,
+        "The back stays plain. Think about where the cloak opens and where your face is.",
+        "A bisht has small sleeve slits, not decorated sleeves. The gold follows the opening."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "What was the labda?",
+      "options": [
+        "A summer hat",
+        "Wool padded with cotton so it would not scratch",
+        "A type of sandal",
+        "A silk belt"
+      ],
+      "answer": 1,
+      "why": "A Najdi winter garment of wool padded with cotton. The comfort was hidden inside.",
+      "src": [
+        [
+          "Asharq Al-Awsat: Saudi traditional dress",
+          "https://english.aawsat.com/home/article/3489611/saudi-traditional-dress-remains-fashionable-kingdoms-founding-3-centuries-ago"
+        ]
+      ],
+      "whys": [
+        "The labda was a winter piece, not a summer hat.",
+        null,
+        "Not footwear. It was a garment worn for warmth.",
+        "Not a belt. Think of a winter layer: wool outside, something soft inside."
+      ]
+    },
+    {
+      "type": "score",
+      "part": "quiz"
+    },
+    {
+      "type": "remember",
+      "part": "quiz",
+      "title": "Three things to keep",
+      "items": [
+        [
+          "Weather first, beauty second.",
+          "Every classic Saudi garment solved heat or cold before it looked good."
+        ],
+        [
+          "The bisht's luxury lives on the edge.",
+          "Plain body, rich front opening and neck."
+        ],
+        [
+          "Linen is a hollow stem fiber; wool has scales.",
+          "Linen: cool, strong, wrinkles. Wool: warm, can scratch, can felt."
+        ]
+      ]
+    },
+    {
+      "type": "video",
+      "part": "quiz",
+      "title": "Watch tonight or tomorrow",
+      "items": [
+        [
+          "Learning About Fabrics 1: The Who, What, and How",
+          "https://www.youtube.com/watch?v=-B4tfduOQ7w",
+          "Fiber to yarn to fabric, from a fashion design channel."
+        ],
+        [
+          "Exploring Natural Fibre Types",
+          "https://www.youtube.com/watch?v=BM6LWu1EcdE",
+          "Wool, silk, cotton and linen from a natural dyer."
+        ]
+      ],
+      "note": "No good video exists yet on hand-sewing a Hasawi bisht. Look out for the 2026 documentary King of the Shoulders."
+    }
+  ]
+}

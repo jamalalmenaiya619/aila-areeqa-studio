@@ -1,0 +1,786 @@
+{
+  "id": "l6",
+  "num": 6,
+  "date": "2026-10-30",
+  "day": "Fri, Oct 30",
+  "ready": true,
+  "title": "Leather, scent and the sea",
+  "pair": "Janbiya, incense, Taif rose, pearl divers · Blends, stretch and when polyester is fine",
+  "slides": [
+    {
+      "type": "cover",
+      "part": "warm",
+      "img": "l6-17",
+      "coverCaption": "Taif rose harvest, 2026.",
+      "kicker": "Lesson 6 · about 1 hour",
+      "title": "Leather, scent and the sea",
+      "text": "Not all heritage is cloth. A dagger on a belt, smoke from a burner, a diver's leather finger guard. Today you collect the small things that make a garment feel Saudi, then learn when mixing fibers, even polyester, makes a garment better."
+    },
+    {
+      "type": "quiz",
+      "part": "warm",
+      "warm": true,
+      "review": 5,
+      "q": "What did the tiny bells on women's jewelry do?",
+      "options": [
+        "Scared animals away",
+        "Let people know a woman was near, so men looked away",
+        "Kept time for dancing",
+        "Called children home"
+      ],
+      "answer": 1,
+      "why": "\"Heard, but not seen.\" Move 13 turns it into a silent silver bead.",
+      "whys": [
+        "The sources tie the bells to people, not animals.",
+        null,
+        "They were worn every day, not just for dancing.",
+        "That wasn't their stated purpose."
+      ],
+      "hint": {
+        "svg": "silentBell",
+        "cap": "A sound that says \"I'm here\"."
+      }
+    },
+    {
+      "type": "quiz",
+      "part": "warm",
+      "warm": true,
+      "review": 5,
+      "q": "What does munaykhal (\"mesh strainer\") describe?",
+      "options": [
+        "A kitchen tool",
+        "The Najdi overdress's sheer cloth, full of tiny holes",
+        "A silver necklace",
+        "A type of tent"
+      ],
+      "answer": 1,
+      "why": "The sheer tulle overdress. Move 14 turns it into an open-weave overshirt for men.",
+      "whys": [
+        "The name borrows a kitchen word, but it describes a dress.",
+        null,
+        "It's a dress, not jewelry.",
+        "It's a dress, not a tent."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "warm",
+      "warm": true,
+      "review": 5,
+      "q": "Best silk for a summer abaya lining?",
+      "options": [
+        "Heavy glossy charmeuse",
+        "Light matte habotai or crepe under about 16 momme",
+        "Polyester satin",
+        "Thick silk twill"
+      ],
+      "answer": 1,
+      "why": "Light, matte, plain or crepe silk. Charmeuse is for evening.",
+      "whys": [
+        "Charmeuse clings and shows sweat.",
+        null,
+        "That's not silk, and it traps heat.",
+        "Twill is heavier."
+      ]
+    },
+    {
+      "type": "story",
+      "part": "story",
+      "img": "l6-0",
+      "caption": "A janbiya with a steel blade, bought in the souq of Sana'a, Yemen, in 1986.",
+      "title": "The janbiya: courage on the belt",
+      "arabic": "جنبية",
+      "text": [
+        "The janbiya is a curved dagger worn at the front of a belt. In Najran it's made of iron or steel with a horn handle, often with silver or gold added. The best sheaths are inlaid with silver.",
+        "It stands for courage, manhood and tribe. When tribes make peace, they lay their daggers down. Many boys get their first one in their teens.",
+        "Najran's Al-Janabi souq is known for janbiya makers. Prices run from about 20 Saudi riyals (SR) to SR 250,000 or more."
+      ],
+      "src": [
+        [
+          "Arab News: Najran's janbiya",
+          "https://www.arabnews.com/saudi-arabia/najrans-janbiya-a-timeless-symbol-of-cultural-heritage-2595464"
+        ],
+        [
+          "Arab News: why the janbiya remains a symbol",
+          "https://www.arabnews.com/node/2059516/amp"
+        ]
+      ]
+    },
+    {
+      "type": "story",
+      "part": "story",
+      "img": "l6-7",
+      "caption": "Najran Fort (Emara Palace), Saudi Arabia.",
+      "title": "Najran's leather",
+      "text": [
+        "Najran's leather workers made belts, a baby carrier (mezab) and big storage cases (zamalah). Hides came from camels, cattle, sheep and goats.",
+        "They tanned leather with plants. One plant (Calligonum) gave a light red. Another (St John's wort) gave a deep red.",
+        "Men wore the haskal: a money pouch under the left arm on a braided strap. Sandals had camel-skin soles and goat-skin tops."
+      ],
+      "note": "Plant-tanned leather is what luxury leather brands still sell today. It ages, darkens and softens. Najran was doing it with local plants.",
+      "src": [
+        [
+          "Saudipedia: Najran handicrafts",
+          "https://saudipedia.com/en/list-of-handicrafts-in-najran-province"
+        ],
+        [
+          "Arab News: Najran's leather artisans",
+          "https://www.arabnews.pk/saudi-arabia/najrans-leather-artisans-preserve-cultural-heritage-2566716"
+        ],
+        [
+          "Saudipedia: Leather goods",
+          "https://saudipedia.com/en/leather-goods-in-the-kingdom"
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "part": "story",
+      "title": "Smoke as a welcome",
+      "left": {
+        "img": "l6-31",
+        "label": "2,400 years ago",
+        "caption": "Stone incense burner from Yemen, 5th–4th century BCE (before the common era). Its inscription lists incense woods and resins."
+      },
+      "right": {
+        "img": "l6-12",
+        "label": "Oud wood",
+        "caption": "Top-grade agarwood, the wood burned as oud."
+      },
+      "takeaway": "The mabkhara burns amber and oud on hot coals. The smoke scents the room, clothes, hair and guests. At weddings it's passed round so each guest can scent himself. In nine months of 2023–24, Saudi Arabia imported about 1.1 million kilograms of oud wood.",
+      "src": [
+        [
+          "Saudipedia: The incense burner",
+          "https://saudipedia.com/en/the-incense-burner"
+        ],
+        [
+          "Ithraeyat: The art of hospitality",
+          "https://ithraeyat.ithra.com/editions/identity/the-art-of-hospitality"
+        ],
+        [
+          "Gulf News: oud sales",
+          "https://gulfnews.com/world/gulf/saudi/scent-of-eid-incense-and-oud-sales-soar-in-saudi-arabia-1.102051066"
+        ]
+      ]
+    },
+    {
+      "type": "story",
+      "part": "story",
+      "img": "l6-17",
+      "caption": "Picking Taif roses, 2026.",
+      "title": "Taif roses: picked before sunrise",
+      "arabic": "ورد طائفي",
+      "text": [
+        "Over 910 farms in Taif grow about 550 million roses a year. The bushes bloom only once a year, for 40 to 50 days.",
+        "Roses are picked early each morning, before the heat. Then they're distilled into rose water and oil.",
+        "Grades have names: al-Arus, \"the bride's\", is the strongest at about 80%. Then al-thanou at about 50%, and al-sayer at 20% or less."
+      ],
+      "src": [
+        [
+          "Arab News: Taif's roses",
+          "https://www.arabnews.pk/saudi-arabia/blooming-once-a-year-taifs-roses-embody-regions-heritage-2458111"
+        ],
+        [
+          "Saudipedia: How Taif rose water is made",
+          "https://saudipedia.com/en/how-is-taif-rose-water-made"
+        ]
+      ]
+    },
+    {
+      "type": "story",
+      "part": "story",
+      "img": "l6-20",
+      "caption": "Arab pearl divers at work in the Gulf. From George Frederick Kunz, The Book of the Pearl (1908).",
+      "title": "The pearl divers of the east coast",
+      "text": [
+        "On the Eastern Province coast, the main diving season lasted 130 days. Divers went down about 2 minutes at a time, to about 18 meters, around 50 times a day.",
+        "They wore sirwal shorts and a black shamshool, or cotton suits against jellyfish. A nose clip (fattam) was made of bone or horn. Leather finger covers (khabt) protected their hands from sharp rocks.",
+        "On a Saudi boat the catch was split: captain 20%, diver 40%, rope-puller 30%, helper 10%. Buyer and seller agreed a price by touching fingers under a red cloth."
+      ],
+      "note": "A secret price, agreed under a red cloth. That's a very quiet-luxury story.",
+      "src": [
+        [
+          "Saudipedia: Diving in Saudi Arabia",
+          "https://saudipedia.com/en/article/3630/society/sports/diving-in-saudi-arabia"
+        ],
+        [
+          "Saudipedia: Historical maritime occupations",
+          "https://saudipedia.com/en/historical-maritime-occupations-in-saudi-arabia"
+        ],
+        [
+          "Abu Dhabi Culture: diving equipment",
+          "https://abudhabiculture.ae/en/cultural-heritage/intangible/heritage-register/traditional-handicraft/diving-equipment-in-the-past"
+        ],
+        [
+          "AramcoWorld: Servants of the Pearl",
+          "https://archive.aramcoworld.com/issue/199005/servants.of.the.pearl.htm"
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "part": "see",
+      "title": "What the sea gave",
+      "left": {
+        "img": "l6-27",
+        "label": "The oyster",
+        "caption": "A pearl oyster shell: rough outside, mother-of-pearl inside."
+      },
+      "right": {
+        "img": "l6-20",
+        "label": "The work",
+        "caption": "Divers and rope-pullers on the boat."
+      },
+      "takeaway": "Rough outside, shining inside. That's the same idea as the roshan lining in Lesson 4 and the red-cloth deal: the beauty is hidden from the outside world. Mother-of-pearl buttons are a direct, honest nod to the divers.",
+      "src": [
+        [
+          "AramcoWorld: Servants of the Pearl",
+          "https://archive.aramcoworld.com/issue/199005/servants.of.the.pearl.htm"
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "part": "see",
+      "title": "Two scents, two raw materials",
+      "left": {
+        "img": "l6-40",
+        "label": "Resin",
+        "caption": "Frankincense resin, the tears of a tree."
+      },
+      "right": {
+        "img": "l6-12",
+        "label": "Wood",
+        "caption": "Oud: wood made dark and fragrant inside the tree."
+      },
+      "takeaway": "Arabia traded incense for thousands of years. Scent belongs to how Saudis welcome guests. For a garment, keep scent on the packaging or a removable card, not baked into the cloth, so the customer chooses."
+    },
+    {
+      "type": "story",
+      "part": "see",
+      "img": "l6-47",
+      "caption": "A spool of spandex (elastane) yarn.",
+      "title": "Now the fabric part: why mix fibers?",
+      "text": [
+        "A blend mixes two or more fibers so each one adds what the others lack. The rule: every fiber must earn its place.",
+        "Elastane, also called spandex or Lycra, is a stretchy fiber. A little of it lets a woven fabric move with you.",
+        "Polyester in a blend can add strength and stop wrinkles. But it also lowers breathability, which matters a lot in Gulf heat."
+      ],
+      "src": [
+        [
+          "Gelato: polyester and cotton blends",
+          "https://www.gelato.com/blog/cotton-polyester-blends-guide"
+        ],
+        [
+          "Nona Source: why luxury uses synthetics",
+          "https://www.nona-source.com/blogs/news/why-are-synthetic-and-artificial-textiles-used-in-luxury-fashion"
+        ]
+      ]
+    },
+    {
+      "type": "layers",
+      "part": "see",
+      "title": "Five blends, five reasons",
+      "intro": "Read each blend like a recipe: what each fiber adds, and who the blend is for.",
+      "layers": [
+        [
+          "65% polyester / 35% cotton",
+          "Tough, cheap, few wrinkles. Breathes less. Uniforms, not luxury.",
+          "Workwear"
+        ],
+        [
+          "Cotton-heavy, e.g. 65 cotton / 35 polyester",
+          "Keeps cotton's softness, adds strength.",
+          "Mid-market"
+        ],
+        [
+          "97% wool / 3% elastane",
+          "Wool look with comfort stretch. Trousers, soft tailoring.",
+          "Good"
+        ],
+        [
+          "~50 wool / 48 polyester / 2 elastane",
+          "Cuts cost, adds toughness. High-street suits.",
+          "Budget"
+        ],
+        [
+          "Wool / silk / linen",
+          "Wool stops linen wrinkling, silk adds shine, linen adds coolness. Loro Piana's summer cloth is 71% merino wool and 15% silk.",
+          "Luxury summer"
+        ]
+      ],
+      "src": [
+        [
+          "Gelato: polyester and cotton blends",
+          "https://www.gelato.com/blog/cotton-polyester-blends-guide"
+        ],
+        [
+          "Truro Fabrics: 97% wool, 3% elastane",
+          "https://trurofabrics.com/products/stretch-wool-suiting-fabric-black"
+        ],
+        [
+          "Marks & Spencer (M&S): wool blend trousers",
+          "https://www.marksandspencer.com/black-textured-tailored-fit-trousers/p/clp60205839"
+        ],
+        [
+          "Bonne Gueule: Loro Piana wool, silk and linen",
+          "https://bonnegueule.fr/en-eu/blogs/medias/le-retour-de-nos-costumes-dete-en-tissu-laine-lin-et-soie"
+        ],
+        [
+          "Permanent Style: wool, silk, linen",
+          "https://www.permanentstyle.com/2017/03/a-guide-to-wool-silk-linens-mixes-colours-bunches"
+        ]
+      ]
+    },
+    {
+      "type": "ladder",
+      "part": "see",
+      "title": "How much stretch is too much?",
+      "intro": "Elastane percentage in a woven tailoring fabric.",
+      "rows": [
+        [
+          "7% or more",
+          7,
+          "can cause wavy, puckered seams"
+        ],
+        [
+          "4–6%",
+          5,
+          "starts to feel like activewear"
+        ],
+        [
+          "2–3%",
+          3,
+          "normal comfort stretch",
+          true
+        ],
+        [
+          "0%",
+          0.3,
+          "pure wool: the classic"
+        ]
+      ],
+      "note": "A 2024 study of suit fabrics found 7% or more elastane in the crosswise threads can make seams pucker. Knits for sport go much higher on purpose, but that's a different garment.",
+      "src": [
+        [
+          "Journal of Natural Fibers (2024): elastane in suiting",
+          "https://doaj.org/article/542e21882932402fb39206625ef5a6d2"
+        ],
+        [
+          "Truro Fabrics: 97% wool, 3% elastane",
+          "https://trurofabrics.com/products/stretch-wool-suiting-fabric-black"
+        ]
+      ]
+    },
+    {
+      "type": "toggle",
+      "part": "see",
+      "title": "When is polyester fine?",
+      "intro": "Polyester is cheap when it replaces a better fiber. It's fine when it does a job natural fibers can't.",
+      "modes": {
+        "Fine": {
+          "img": "l6-47",
+          "cap": "Synthetic yarn on a spool (this one is spandex). Synthetics earn their place when they do a job.",
+          "items": [
+            [
+              "Pleats",
+              "Polyester holds a heat-set pleat",
+              "natural fibers lose it"
+            ],
+            [
+              "Weather shell",
+              "A waterproof outer layer",
+              "on a coat, not against skin"
+            ],
+            [
+              "Signature story",
+              "Prada's Re-Nylon, from recycled fishing nets",
+              "the synthetic is the point"
+            ]
+          ]
+        },
+        "Not fine": {
+          "img": "l1-28",
+          "cap": "Linen: what belongs next to the skin in Gulf heat.",
+          "items": [
+            [
+              "Next to the skin",
+              "In Gulf heat, it traps sweat",
+              "use cotton, linen, silk or fine wool"
+            ],
+            [
+              "Linings",
+              "Feels like a sauna",
+              "use cupro (Lesson 4)"
+            ],
+            [
+              "Faking a better fiber",
+              "\"Silky\" polyester sold as luxury",
+              "customers notice"
+            ]
+          ]
+        }
+      },
+      "src": [
+        [
+          "Dazed: Prada Re-Nylon",
+          "https://www.dazeddigital.com/fashion/article/45002/1/miuccia-prada-sustainable-re-nylon-aquafil"
+        ],
+        [
+          "Nona Source: why luxury uses synthetics",
+          "https://www.nona-source.com/blogs/news/why-are-synthetic-and-artificial-textiles-used-in-luxury-fashion"
+        ],
+        [
+          "Gelato: polyester and cotton blends",
+          "https://www.gelato.com/blog/cotton-polyester-blends-guide"
+        ]
+      ]
+    },
+    {
+      "type": "design",
+      "part": "design",
+      "svg": "haskal",
+      "title": "Move 16: The haskal pocket",
+      "text": "Najdi men kept money in a pouch under the left arm. Put a slim inside pocket in the same spot.",
+      "how": [
+        "A slim inside pocket under the left arm of a jacket or coat, for a phone or cards.",
+        "Lined in plant-tanned leather, the light Calligonum red.",
+        "Women: the same pocket inside a long open coat."
+      ]
+    },
+    {
+      "type": "design",
+      "part": "design",
+      "svg": "khabtTab",
+      "title": "Move 17: The khabt tab",
+      "text": "Divers protected their fingers with small leather covers. Turn it into a small leather tab on a cuff or glove.",
+      "how": [
+        "A small plant-tanned leather tab on a shirt or jacket cuff.",
+        "One silver snap only.",
+        "Tell the diver's story on the hangtag."
+      ]
+    },
+    {
+      "type": "design",
+      "part": "design",
+      "svg": "redLining",
+      "title": "Move 18: The red-cloth secret",
+      "text": "Pearl prices were agreed by touching fingers under a red cloth. Put that red where only the wearer sees it.",
+      "how": [
+        "A deep red lining in a plain black or sand coat.",
+        "Or one red-lined pocket.",
+        "Pack each piece with an oud-scented card, not scented cloth (see the collar-pocket idea)."
+      ]
+    },
+    {
+      "type": "task",
+      "part": "do",
+      "title": "Read three blend labels",
+      "minutes": 4,
+      "text": "Find three garments with mixed fibers on the label.",
+      "checklist": [
+        "Write each blend with its percentages",
+        "For each fiber, say what it adds",
+        "Judge it: luxury, mid-market, or workwear?"
+      ],
+      "notePrompt": "Trousers: 52% wool, 46% polyester, 2% elastane. Wool adds..., polyester adds..., I'd call it...",
+      "refs": [
+        {
+          "img": "l6-47",
+          "cap": "Elastane (spandex) yarn."
+        },
+        {
+          "img": "l1-31",
+          "cap": "Wool fiber (Lesson 1)."
+        },
+        {
+          "img": "l1-28",
+          "cap": "Linen (Lesson 1)."
+        }
+      ],
+      "context": [
+        "Every fiber in a blend must earn its place. 65% polyester / 35% cotton is tough, cheap, and wrinkle-resistant but breathes less than cotton: uniforms, not luxury.",
+        "97% wool / 3% elastane gives comfort stretch for trousers. 2–3% elastane is normal in tailoring; a 2024 study found 7% or more can cause seam puckering.",
+        "Wool/silk/linen: wool stops linen wrinkling, silk adds shine, linen adds coolness; Loro Piana's 'Summertime' cloth is 71% merino wool and 15% silk.",
+        "Polyester is fine when it does a job natural fibers can't: holding a pleat, a weatherproof shell, a signature nylon with a story (Prada Re-Nylon from recycled fishing nets). Not next to the skin in Gulf heat."
+      ]
+    },
+    {
+      "type": "task",
+      "part": "do",
+      "title": "Design one leather detail",
+      "minutes": 3,
+      "text": "Pick Move 16 or Move 17 and place it on a real piece you'd sell.",
+      "checklist": [
+        "Name the garment",
+        "Choose haskal pocket or khabt tab",
+        "Say the leather color and why"
+      ],
+      "notePrompt": "Garment: ___. Detail: ___. Leather color: ___ because...",
+      "refs": [
+        {
+          "svg": "haskal",
+          "cap": "Move 16: haskal pocket."
+        },
+        {
+          "svg": "khabtTab",
+          "cap": "Move 17: khabt tab."
+        },
+        {
+          "img": "l6-0",
+          "cap": "Janbiya: steel, wood and silver."
+        },
+        {
+          "img": "l6-7",
+          "cap": "Najran."
+        }
+      ],
+      "context": [
+        "The janbiya is a curved dagger worn at the front of a belt; in Najran it is iron or steel with a horn handle, often with silver or gold added. It stands for courage, manhood and tribe; when tribes make peace they lay daggers down.",
+        "Najran leather workers make the masbat (waist belt), mezab (baby carrier) and zamalah (storage case). Hides: camel, cattle, sheep, goat. Plant tanning gave light red (Calligonum) or deep red (St John's wort).",
+        "The haskal is a money pouch worn under the left arm on a braided strap. Divers wore khabt, leather finger covers, against sharp rocks.",
+        "Design ideas: a plant-tanned leather belt or strap with one small engraved silver piece; a slim inside pocket under the left arm like the haskal; a small leather tab on a cuff like the khabt."
+      ]
+    },
+    {
+      "type": "task",
+      "part": "do",
+      "title": "Plan the scent",
+      "minutes": 3,
+      "text": "Decide how scent shows up when a customer opens an A'ila Areeqa box.",
+      "checklist": [
+        "Pick the scent: oud, Taif rose or amber",
+        "Pick where: tissue paper, a card, or a collar pocket",
+        "Say why it's on the packaging, not in the cloth"
+      ],
+      "notePrompt": "Scent: ___. Where: ___. Not in the cloth because...",
+      "refs": [
+        {
+          "img": "l6-31",
+          "cap": "An ancient incense burner."
+        },
+        {
+          "img": "l6-17",
+          "cap": "Taif rose harvest."
+        },
+        {
+          "svg": "scentPocket",
+          "cap": "Idea: a tiny collar pocket for a scent card."
+        }
+      ],
+      "context": [
+        "The mabkhara is a charcoal incense burner: square base, sloping sides, metal-lined cup on top. Amber and oud wood are burned on hot coals; the smoke scents the room, clothes, hair and guests. At weddings it is passed round so each guest can scent himself.",
+        "Taif has over 910 farms growing about 550 million roses a year; the bush blooms once a year for 40–50 days and roses are picked early each morning. Al-Arus ('the bride's') rose water is about 80% strength.",
+        "Design ideas: wrap each garment in tissue lightly scented with oud bakhoor; a tiny collar pocket for a scent card; 'Al-Arus' as a hidden name on a label. Scent should be on packaging or removable cards, not baked into the cloth."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "What does the janbiya stand for?",
+      "options": [
+        "Wealth only",
+        "Courage, manhood and tribe",
+        "Cooking skill",
+        "Religious rank"
+      ],
+      "answer": 1,
+      "why": "Courage, manhood and tribe. Tribes lay daggers down when they make peace.",
+      "whys": [
+        "Silver on it can show wealth, but its meaning is bigger.",
+        null,
+        "It's a dagger of honor, not a kitchen knife.",
+        "It's tribal and personal, not a religious rank."
+      ],
+      "src": [
+        [
+          "Arab News: Najran's janbiya",
+          "https://www.arabnews.com/saudi-arabia/najrans-janbiya-a-timeless-symbol-of-cultural-heritage-2595464"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "How did Najran craftsmen color leather red?",
+      "options": [
+        "With plants",
+        "With paint",
+        "With rust",
+        "They didn't; it's natural"
+      ],
+      "answer": 0,
+      "why": "With plants: Calligonum gave light red, St John's wort gave deep red.",
+      "whys": [
+        null,
+        "No paint: the color comes from tanning plants.",
+        "Rust wasn't used.",
+        "Raw hide isn't red. The plants made it red."
+      ],
+      "hint": {
+        "svg": "khabtTab",
+        "cap": "Look at the color of this leather."
+      },
+      "src": [
+        [
+          "Saudipedia: Leather goods",
+          "https://saudipedia.com/en/leather-goods-in-the-kingdom"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "Al-Arus Taif rose water is…",
+      "options": [
+        "The weakest grade",
+        "The strongest grade, about 80%",
+        "Made from oud",
+        "Only for cooking"
+      ],
+      "answer": 1,
+      "why": "\"The bride's\" grade, about 80% strength. The best.",
+      "whys": [
+        "That's al-sayer, at 20% or less.",
+        null,
+        "It's made from Taif roses.",
+        "It's used for scent too, not only cooking."
+      ],
+      "src": [
+        [
+          "Saudipedia: How Taif rose water is made",
+          "https://saudipedia.com/en/how-is-taif-rose-water-made"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "How did pearl buyers and sellers agree a price?",
+      "options": [
+        "Shouting in the souq",
+        "Touching fingers under a red cloth",
+        "Writing a contract",
+        "Flipping a coin"
+      ],
+      "answer": 1,
+      "why": "Touching fingers under a red cloth, so nobody else knew. Move 18.",
+      "whys": [
+        "The point was secrecy, not noise.",
+        null,
+        "The deal was silent and hidden.",
+        "Not chance: a secret, careful deal."
+      ],
+      "hint": {
+        "svg": "redLining",
+        "cap": "Something hidden, in red."
+      },
+      "src": [
+        [
+          "AramcoWorld: Servants of the Pearl",
+          "https://archive.aramcoworld.com/issue/199005/servants.of.the.pearl.htm"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "How much elastane is normal in tailored wool trousers?",
+      "options": [
+        "0.5%",
+        "2–3%",
+        "10%",
+        "25%"
+      ],
+      "answer": 1,
+      "why": "2–3% gives comfort stretch. 7% or more can pucker seams.",
+      "whys": [
+        "That's too little to feel.",
+        null,
+        "10% is activewear territory and can pucker seams.",
+        "That's swimwear or leggings."
+      ],
+      "src": [
+        [
+          "Journal of Natural Fibers (2024): elastane in suiting",
+          "https://doaj.org/article/542e21882932402fb39206625ef5a6d2"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "When is polyester a good choice for A'ila Areeqa?",
+      "options": [
+        "Next to the skin in summer",
+        "As a jacket lining",
+        "For a heat-set pleat or a weatherproof outer shell",
+        "To fake silk"
+      ],
+      "answer": 2,
+      "why": "When it does a job natural fibers can't: holding a pleat, or a weather shell.",
+      "whys": [
+        "In Gulf heat it traps sweat.",
+        "Use cupro for linings (Lesson 4).",
+        null,
+        "Faking a better fiber reads cheap."
+      ],
+      "src": [
+        [
+          "Nona Source: why luxury uses synthetics",
+          "https://www.nona-source.com/blogs/news/why-are-synthetic-and-artificial-textiles-used-in-luxury-fashion"
+        ]
+      ]
+    },
+    {
+      "type": "score",
+      "part": "quiz"
+    },
+    {
+      "type": "remember",
+      "part": "quiz",
+      "title": "Three things to keep",
+      "items": [
+        [
+          "Najran: janbiya and plant-tanned red leather.",
+          "Move 16: the haskal pocket under the left arm. Move 17: the khabt tab."
+        ],
+        [
+          "Scent and pearls are about what's hidden.",
+          "Oud on the packaging, Taif's al-Arus as a hidden name, red inside like the pearl deal (Move 18)."
+        ],
+        [
+          "Every fiber in a blend must earn its place.",
+          "2–3% elastane max in tailoring. Polyester only for pleats, shells, or a real story."
+        ]
+      ]
+    },
+    {
+      "type": "video",
+      "part": "quiz",
+      "title": "Watch tonight or tomorrow",
+      "items": [
+        [
+          "Janbiya Dagger Making in Najran",
+          "https://www.youtube.com/watch?v=jSNClnVM5GY",
+          "See a janbiya being made in Najran."
+        ],
+        [
+          "How to Use a Traditional Arabian Incense Burner (Mabkhara)",
+          "https://www.youtube.com/watch?v=QBRPl0d330Y",
+          "How the mabkhara and bakhoor are used."
+        ],
+        [
+          "What's inside a Taif Rose factory?",
+          "https://www.youtube.com/watch?v=0oI8U3kZRlw",
+          "How Taif rose water and oil are made."
+        ],
+        [
+          "Pearl Diving in the Gulf, 1938",
+          "https://www.youtube.com/watch?v=oalx-6uRRNA",
+          "Real Gulf divers, their clothes and tools."
+        ]
+      ]
+    }
+  ]
+}

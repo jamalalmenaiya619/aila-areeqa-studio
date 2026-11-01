@@ -1,0 +1,128 @@
+[
+  {
+    "id": "brand-mission",
+    "kind": "brand",
+    "title": "Why this brand exists",
+    "body": "<p class=\"lede\">Because of what this brand builds, a Saudi man who isn't rich or well-connected gets real access to craft, knowledge, and rooms that money used to be the only ticket into — and proof that he can build something world-class on his own terms.</p>\n      <p>This is not a claim that money doesn't matter. It still does, and building still takes real work. The claim is narrower: talent, discipline, and vision shouldn't be locked out just because someone wasn't born connected or wealthy.</p>\n        <p><strong>The man this brand is built around is not climbing toward this — he's already arrived.</strong> The aspirational buyer exists and is welcome, a wallet, an accessory, an entry piece, but he is not who the brand centers on.</p>",
+    "format": "html",
+    "tags": [
+      "heritage"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "brand",
+      "section": "01 — Mission"
+    }
+  },
+  {
+    "id": "brand-character",
+    "kind": "brand",
+    "title": "The moral baseline",
+    "body": "<p class=\"lede\">Real, but shared by most disciplined men — not what sets this brand apart, just the floor it stands on.</p>\n      <ul><li>Kind, never cruel — never puts people down, even in disagreement</li>\n          <li>Disciplined, never lazy — always building: himself, his work, his family</li>\n          <li>Faith-driven, keeps God present without making a performance of it</li>\n          <li>Says the truth, but never to wound</li>\n          <li>Not boastful about money — he knows it keeps coming because of how he lives, so he's focused on quality and building something bigger than himself</li>\n          <li>Confident without being cocky or rude</li></ul>",
+    "format": "html",
+    "tags": [],
+    "sources": [],
+    "origin": {
+      "type": "brand",
+      "section": "02 — Character"
+    }
+  },
+  {
+    "id": "brand-style",
+    "kind": "brand",
+    "title": "What he wears, and never does",
+    "body": "<p class=\"lede\">This is the part a stylist or designer can act on directly.</p>\n      <ul><li><strong>Silver, never gold.</strong> Religious and personal conviction, not a trend choice.</li>\n          <li><strong>Watches:</strong> Patek Philippe, Royal Oak, Richard Mille, Vacheron Constantin — quiet, clean dials, never the loud obvious flex.</li>\n          <li><strong>Fragrance:</strong> niche houses over big commercial names — he'd rather smell like something you can't immediately place.</li>\n          <li><strong>Cohesion over loudness.</strong> A single piece can be bold, but the full look never fights itself.</li>\n          <li><strong>Never sneakers with a suit.</strong> Hard line, no exceptions.</li>\n          <li><strong>Always groomed, pressed, clean shoes</strong> — no visible wear-and-tear, ever.</li>\n          <li><strong>Never skinny-fit, never tight all over.</strong> Loose or fitted, never both extremes forced at once. A shirt can hug in one place without clinging everywhere.</li>\n          <li><strong>No neon, no gradient, no glossy effects.</strong> Earth tones only. Statement pieces exist but stay quiet even when bold.</li>\n          <li><strong>Logos are allowed but never shout.</strong> A mark can sit mid-chest on a polo, never oversized, never the whole point of the piece. Plain white Henleys and plain long sleeves live in the same collection.</li>\n          <li>One wardrobe, many silhouettes: a running fit, a quiet comfortable day, a sharp night out — always unmistakably him, never a different man.</li></ul>",
+    "format": "html",
+    "tags": [
+      "color",
+      "scent"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "brand",
+      "section": "03 — Style"
+    }
+  },
+  {
+    "id": "brand-voice",
+    "kind": "brand",
+    "title": "How the brand talks",
+    "body": "<p class=\"quote\">\"Gold's not it.\"</p>\n      <p>That's the surface answer. The real reasoning is reserved for people who've earned it — mysterious in public, open in private.</p>\n        <ul><li><strong>Punctuation is deliberate, not decorative.</strong> A period closes a thought with a boundary. A comma signals it's still going. Nothing thrown away carelessly.</li>\n          <li><strong>Never raises its voice on paper.</strong> No exclamation points, no urgency-chasing. Confidence stays quiet even at high energy.</li>\n          <li><strong>Two registers, same person.</strong> Composed and serious as the brand itself; can laugh and loosen up in lived-experience content. Poised and unreadable in the boardroom, looser with people it trusts.</li>\n          <li><strong>Never acknowledges competitors.</strong> The only outside names that appear are collaborators the brand chose to stand beside.</li></ul>",
+    "format": "html",
+    "tags": [],
+    "sources": [],
+    "origin": {
+      "type": "brand",
+      "section": "04 — Voice"
+    }
+  },
+  {
+    "id": "brand-customer",
+    "kind": "brand",
+    "title": "The man this is built for",
+    "body": "<p>He's an established man in his early-to-mid 30s, not climbing, not stretching to afford this. Spending here is unremarkable to him. But he isn't finished; he's building his own culture daily, still becoming, still growing into more of himself. He's romantic, either settled with a partner or still searching, never hardened by the money.</p>\n        <p>From the same wardrobe he pulls a running fit, a quiet comfortable day, and a sharp night out — different moments, always unmistakably him, never a different man.</p>\n        <p>Every day he dresses to prove something to himself: that he's disciplined, specific, culturally serious, not generically wealthy. He's not performing for an audience. But when people eventually see real Saudi taste and culture instead of the \"oil money\" stereotype, that recognition lands as a quiet, earned bonus, never the point.</p>\n        <p>He's based in Saudi Arabia, free to travel whenever he wants. Whether he works for himself or for someone else doesn't matter — what matters is he feels like he's building something, not clocking in. He already shops Represent, Hermès, Ralph Lauren, and ALD, and is leveling his streetwear up into cleaner, better-made pieces. His first suit is on the horizon.</p>",
+    "format": "html",
+    "tags": [
+      "heritage"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "brand",
+      "section": "05 — Customer"
+    }
+  },
+  {
+    "id": "brand-pricing",
+    "kind": "brand",
+    "title": "Design with price in mind",
+    "body": "<p>Differentiate pieces by real construction, fabric grade, sleeve length, the placement and density of detail work, not just colorway. The customer should always understand why one piece costs more than another.</p>\n        <p>Reference model: an ALD-style spread — a genuinely expensive core, with accessible entry pieces for the secondary, aspirational buyer.</p>\n        <p>Working first draft, not final</p>\n        <p>Roughly $80 at the entry tier up to $300 for outerwear, pending real research before any number is committed.</p>",
+    "format": "html",
+    "tags": [
+      "fabric",
+      "construction"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "brand",
+      "section": "06 — Pricing"
+    }
+  },
+  {
+    "id": "brand-heritage",
+    "kind": "brand",
+    "title": "The material library, and how to use it",
+    "body": "<p>The method</p>\n        <p>Most Saudi objects of status, a gold-handled sword, a gem-set thermos, are already luxury. Elevating them again adds nothing. Instead: take an object from outside Saudi culture, something from the man's actual daily life, and finish or construct it using Saudi material language. Recontextualization, not elevation.</p>\n        <p>Hidden heritage encoding</p>\n        <p>Not every reference needs to be visible. Real heritage meaning gets encoded inside the construction itself, a stitch, a weave, a shape, so it only reveals itself to someone who looks closely or asks. A honeycomb-stitched polo with no visible logo or hexagon print is the model: the pattern only shows up in how the garment is sewn. A real cultural motif, the bisht's weave, a six-triangle pattern, gets buried in the construction of an ordinary piece, never stamped on top.</p>\n        <p>Objects and motifs</p>\n        <ul><li><strong>Curved door motif</strong> — backward-C into regular-C, touching, with a curl at the top. A linear pattern for stitching, embossing, or hardware.</li>\n          <li><strong>Finjal and the gold/silver thermos</strong> — vessel shapes; a reference for hardware, buttons, bottle and packaging design.</li>\n          <li><strong>Prayer-garment floral print system</strong> — repeating florals on varying ground colors. A modular textile print system on its own.</li>\n          <li><strong>Sword</strong> — curved blade, gold handle, inset gems. A reference for an emblem, a clasp, a zipper pull.</li>\n          <li><strong>Camel and horse saddle pompoms</strong> — purple, black, red tufting. An unexpected trim or accessory texture.</li>\n          <li><strong>Woven baskets, marble floors, the bukhur holder</strong> — handwoven softness next to hard stone next to carved wood.</li></ul>\n        <p>Atmosphere</p>\n        <p>The smell of dates and Saudi food, sitting on the sufra, gathering with cousins, days at Darahiyah and Janadriyah, grass picnics, the swirl ice cream truck, light-up toys. Not directly designable, it's what a room, an event, or a video should feel like. Traditional Eid and Ramadan dress is the one atmosphere reference that is also a real garment silhouette, not just a mood.</p>\n        <p>Content strategy</p>\n        <p>Craftsmanship videos explain the real heritage behind a hidden design choice after the fact, the history and function of the bisht, then how that shaped a specific garment's stitching, then why that construction choice was made. Product and room staging place genuine childhood objects inside otherwise luxury-styled settings, without stripping their original meaning to make room for a new one.</p>",
+    "format": "html",
+    "tags": [
+      "heritage",
+      "fabric",
+      "construction",
+      "color",
+      "scent"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "brand",
+      "section": "07 — Heritage"
+    },
+    "flag": "Open question (PLAN.md 4.2): this example uses a honeycomb-stitched polo, but THE HERITAGE POLO has no honeycomb stitch. Wording to be fixed by Jamal."
+  },
+  {
+    "id": "brand-capsule",
+    "kind": "brand",
+    "title": "Two directions in progress",
+    "body": "<h4>Tennis racket</h4>\n          <p>Dark wood construction, bukhur-smoke finishing effect. Takes a Western \"old money\" object, the classic wooden racket revival, and makes it unmistakably Saudi through material and finish.</p>\n        <h4>Shib-shib &rarr; half-loafer</h4>\n          <p>The traditional Saudi sandal, open toe, covered big toe, slide-back, reconstructed using Western luxury loafer construction. Structural, not decorative, the build itself changes.</p>",
+    "format": "html",
+    "tags": [
+      "heritage",
+      "construction",
+      "leather",
+      "scent"
+    ],
+    "sources": [],
+    "origin": {
+      "type": "brand",
+      "section": "08 — Capsule Concepts"
+    }
+  }
+]

@@ -1,0 +1,904 @@
+{
+  "id": "l2",
+  "num": 2,
+  "date": "2026-10-26",
+  "day": "Mon, Oct 26",
+  "ready": true,
+  "title": "The bisht up close",
+  "pair": "Gold thread, edges and trims · The three weaves and camel hair grades",
+  "slides": [
+    {
+      "type": "cover",
+      "part": "warm",
+      "img": "l2-0",
+      "coverCaption": "Gold metal-thread embroidery on velvet, Gujarat, about 1700–1750.",
+      "kicker": "Lesson 2 · about 1 hour",
+      "title": "The bisht up close",
+      "text": "Yesterday you learned why the bisht exists. Today you learn how to read one: its gold thread, its edge, its cloth and its weave. By the end you'll know a real one from a cheap one."
+    },
+    {
+      "type": "quiz",
+      "part": "warm",
+      "warm": true,
+      "review": 1,
+      "q": "Every classic Saudi garment solved what problem first?",
+      "options": [
+        "Looking rich",
+        "The weather: heat or cold",
+        "Standing out from other tribes",
+        "Saving money"
+      ],
+      "answer": 1,
+      "why": "Weather first, beauty second. The bisht started as a winter cloak for cold desert nights.",
+      "whys": [
+        "Looking rich came later, like the gold edge. The first job was surviving heat and cold.",
+        null,
+        "Standing out came later. The first job of a garment was protection from the weather.",
+        "Cost mattered, but the shapes came from heat and cold first."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "warm",
+      "warm": true,
+      "review": 1,
+      "q": "Where does a bisht keep its luxury?",
+      "options": [
+        "All over the body",
+        "On the edges: front opening and neck",
+        "On the back panel",
+        "In the lining"
+      ],
+      "answer": 1,
+      "why": "On the edges. Today you'll learn exactly what that edge is made of.",
+      "hint": {
+        "svg": "outline",
+        "cap": "A plain cloak. Where would the gold go?"
+      },
+      "whys": [
+        "All over would be loud. The bisht keeps its body plain on purpose.",
+        null,
+        "The back stays plain. Think about where the cloak opens.",
+        "The lining is hidden. The bisht shows its rank where people can see it."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "warm",
+      "warm": true,
+      "review": 1,
+      "q": "Which fiber is covered in tiny scales?",
+      "options": [
+        "Linen",
+        "Cotton",
+        "Wool",
+        "Polyester"
+      ],
+      "answer": 2,
+      "why": "Wool. Today you meet its finer cousins: camel hair, cashmere and vicuña.",
+      "whys": [
+        "Linen is the hollow one, not the scaly one.",
+        "Cotton looks like a flat, twisted ribbon. No scales.",
+        null,
+        "Polyester is a smooth plastic strand."
+      ]
+    },
+    {
+      "type": "story",
+      "part": "story",
+      "img": "l2-34",
+      "caption": "Al-Qaysariyya market in Al-Hofuf, Al-Ahsa, built from 1822 onward.",
+      "title": "Why Al-Ahsa?",
+      "arabic": "الحساوي",
+      "text": [
+        "The Hasawi bisht is named after Al-Ahsa, where its weaving and gold trim were perfected.",
+        "Al-Ahsa has had the best bisht tailors for over 200 years. Family names became brands: Al-Qattan, Al-Kharas, Al-Mahdi, Al-Bagli.",
+        "Master Abdullah Jafar Al-Qattan works from a shop in this same souq. He says any photo of a Saudi royal shows a Hasawi bisht."
+      ],
+      "src": [
+        [
+          "Saudipedia: Hasawi Bisht",
+          "https://saudipedia.com/en/article/1968/society/garments-and-accessories/al-mashleh-al-hassawi"
+        ],
+        [
+          "Arab News: The Saudi man's bisht",
+          "https://www.arabnews.com/fashion/traditional-modern-the-saudi-mans-bisht-429954"
+        ],
+        [
+          "Arab News: Bisht, symbol of royalty",
+          "https://www.arabnews.com/node/1747996/saudi-arabia"
+        ]
+      ]
+    },
+    {
+      "type": "story",
+      "part": "story",
+      "img": "l2-39",
+      "caption": "Metal thread on a spool, France. Metropolitan Museum of Art.",
+      "title": "What zari really is",
+      "arabic": "زري",
+      "text": [
+        "Zari is the gold thread on a bisht's edge. Real zari is silk or cotton yarn wrapped in silver wire, then plated with gold.",
+        "Cheaper zari uses copper wire plated with silver. Since about 1970, some has a plastic core. Lurex is a shiny plastic film, not metal at all.",
+        "Gold zari for Hasawi bishts is imported from India, Germany or France. A Hasawi bisht trimmed with German zari is a piece families work hard to own."
+      ],
+      "note": "A real Hasawi bisht is always handmade and uses gold or silver thread, sometimes both.",
+      "src": [
+        [
+          "Aza: real vs fake zari",
+          "https://www.azafashions.com/blog/is-your-zari-real-how-to-identify-the-difference/"
+        ],
+        [
+          "Wikipedia: Surat zari",
+          "https://en.wikipedia.org/wiki/Surat_zari"
+        ],
+        [
+          "Saudipedia: Hasawi Bisht",
+          "https://saudipedia.com/en/article/1968/society/garments-and-accessories/al-mashleh-al-hassawi"
+        ],
+        [
+          "Arab News: The Saudi man's bisht",
+          "https://www.arabnews.com/fashion/traditional-modern-the-saudi-mans-bisht-429954"
+        ]
+      ]
+    },
+    {
+      "type": "layers",
+      "part": "story",
+      "title": "Three edges, three bishts",
+      "intro": "Bisht tailors name the style by how the edge is finished.",
+      "layers": [
+        [
+          "Darbeyah",
+          "Square and loose, with real zari on the edge.",
+          "Style 1"
+        ],
+        [
+          "Mekasar (also Gasbi)",
+          "Silk stitching runs along the edge of the cloth.",
+          "Style 2"
+        ],
+        [
+          "Tarkeeb",
+          "\"Tarkeeb\" means fitting. A darbeyah design with gold zari, on tailored cloth.",
+          "Style 3"
+        ]
+      ],
+      "note": "Classic colors stay quiet: white, beige, cream, brown, grey and black. New colors only came in during the early 1990s, and older men still stick to black, brown and cream.",
+      "src": [
+        [
+          "Arab News: The Saudi man's bisht",
+          "https://www.arabnews.com/fashion/traditional-modern-the-saudi-mans-bisht-429954"
+        ]
+      ]
+    },
+    {
+      "type": "story",
+      "part": "story",
+      "title": "How to spot a hand-woven bisht",
+      "text": [
+        "Old bisht cloth was woven on a hand loom set into a pit in the floor. The loom was narrow, so the cloak is two equal strips sewn together across the middle.",
+        "If the cloak is one wide piece with no middle seam, the cloth was machine-woven.",
+        "A regular bisht takes about 8 meters of cloth. It is fitted to each customer; it is not one-size.",
+        "In Kuwait, bisht cloth now comes from Japan and Britain. Saudipedia says Hasawi bishts use Japanese fabric."
+      ],
+      "facts": [
+        [
+          "2 strips",
+          "sewn across the middle = hand loom"
+        ],
+        [
+          "1 piece",
+          "no middle seam = machine-woven"
+        ],
+        [
+          "~8 meters",
+          "of cloth in one bisht"
+        ],
+        [
+          "80–120 hours",
+          "and four tailors for a handmade one"
+        ]
+      ],
+      "src": [
+        [
+          "Encyclocrafts: bisht making in Kuwait",
+          "https://encyclocraftsapr.com/bisht-making-in-kuwait/"
+        ],
+        [
+          "Saudi Arabesque: bisht making",
+          "https://saudiarabesque.com/traditional-urban-men-s-dress-of-saudi-arabia-continued/"
+        ],
+        [
+          "Kuwait Times: bishts and abayas",
+          "https://kuwaittimes.com/bishts-abayas-continue-to-charm-kuwait/"
+        ],
+        [
+          "Saudipedia: Hasawi Bisht",
+          "https://saudipedia.com/en/article/1968/society/garments-and-accessories/al-mashleh-al-hassawi"
+        ],
+        [
+          "Arab News: The Saudi man's bisht",
+          "https://www.arabnews.com/fashion/traditional-modern-the-saudi-mans-bisht-429954"
+        ]
+      ]
+    },
+    {
+      "type": "layers",
+      "part": "story",
+      "title": "The price ladder",
+      "intro": "Same shape, very different prices. What you pay for is fiber, thread and hands.",
+      "layers": [
+        [
+          "About 200 Saudi riyals (SR)",
+          "Machine-made Syrian or Emirati bishts.",
+          "Entry"
+        ],
+        [
+          "Up to SR 15,000",
+          "A top Hasawi bisht made entirely by hand.",
+          "Master-made"
+        ],
+        [
+          "Over SR 80,000",
+          "The rare \"Al-Ma'allama\" bisht Cristiano Ronaldo wore: about 30 days of weaving and nine craftsmen.",
+          "One of a kind"
+        ]
+      ],
+      "note": "The jump from SR 200 to SR 15,000 is not the cloak's shape. It is the fiber, the real zari and the hand hours. Luxury is labor you can see.",
+      "src": [
+        [
+          "Arab News: Bisht, symbol of royalty",
+          "https://www.arabnews.com/node/1747996/saudi-arabia"
+        ],
+        [
+          "Khaleej Times: Ronaldo's rare bisht",
+          "https://www.khaleejtimes.com/world/gulf/saudi-cristiano-ronaldo-rare-bisht"
+        ]
+      ]
+    },
+    {
+      "type": "story",
+      "part": "story",
+      "title": "How a bisht is worn, and why it is protected",
+      "text": [
+        "A bisht has two sleeve slots. It is worn with one arm through a sleeve and the other side wrapped loosely and tucked in.",
+        "In 2025 UNESCO (the United Nations' culture and heritage agency) listed \"Bisht (men's Abaa): skills and practices\" as shared heritage of nine countries, Saudi Arabia among them.",
+        "Today the Royal Institute of Traditional Arts (Wrth) runs a 23-month Hasawi bisht course in Al-Ahsa. A Hofuf tailor says cheap machine-made robes are hurting the hand craft."
+      ],
+      "src": [
+        [
+          "Arab News: King of the Shoulders review",
+          "https://www.arabnews.pk/node/2648762/lifestyle"
+        ],
+        [
+          "UNESCO: Bisht skills and practices",
+          "https://ich.unesco.org/fr/RL/le-bisht-abaa-pour-hommes-savoir-faire-et-pratiques-02233?RL=02233"
+        ],
+        [
+          "Wrth: Hasawi bisht apprenticeship",
+          "https://wrth.edu.sa/en/learn/apprenticeships/al-bisht-al-hasawi-apprenticeship-program"
+        ],
+        [
+          "Malay Mail: Saudi tailor fights to save the bisht",
+          "https://malaymail.com/news/life/2025/03/29/saudi-tailor-fights-to-save-ancient-bisht-craft-as-mass-produced-robes-dominate-market/171203"
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "part": "see",
+      "title": "Gold on the spool, gold on the cloth",
+      "left": {
+        "img": "l2-39",
+        "label": "The thread",
+        "caption": "Metal thread wound on a spool, ready to stitch."
+      },
+      "right": {
+        "img": "l2-0",
+        "label": "The finished work",
+        "caption": "Gold thread laid on velvet. Not a bisht, but the same metal-thread craft that trims one."
+      },
+      "takeaway": "Metal thread is stiff. It is laid on top of the cloth and stitched down, which is why it sits proud and catches light. That raised line is what you see on a bisht's edge.",
+      "src": [
+        [
+          "Aza: real vs fake zari",
+          "https://www.azafashions.com/blog/is-your-zari-real-how-to-identify-the-difference/"
+        ]
+      ]
+    },
+    {
+      "type": "weave",
+      "part": "see",
+      "title": "Weave it yourself",
+      "intro": "Every woven cloth is threads going over and under. Switch the weave and watch the pattern change.",
+      "modes": {
+        "Plain": {
+          "rule": "plain",
+          "how": "Over one, under one.",
+          "items": [
+            [
+              "Looks",
+              "Even grid, same on both sides"
+            ],
+            [
+              "Feels",
+              "Crisp, firm"
+            ],
+            [
+              "Used for",
+              "Shirts, thobe cloth, Al Sadu"
+            ]
+          ]
+        },
+        "Twill": {
+          "rule": "twill",
+          "how": "Over two, under two, shifting one step each row.",
+          "items": [
+            [
+              "Looks",
+              "Diagonal lines"
+            ],
+            [
+              "Feels",
+              "Softer drape, hides stains"
+            ],
+            [
+              "Used for",
+              "Suits, chinos, denim"
+            ]
+          ]
+        },
+        "Satin": {
+          "rule": "satin",
+          "how": "Over four, under one, spread out.",
+          "items": [
+            [
+              "Looks",
+              "Smooth, shiny, few crossings"
+            ],
+            [
+              "Feels",
+              "Slippery, soft"
+            ],
+            [
+              "Watch out",
+              "Long floats snag easily"
+            ]
+          ]
+        }
+      },
+      "src": [
+        [
+          "Première Vision: basic weaves",
+          "https://www.premierevision.com/en/articles/b452b2cb-76fa-ef11-90cb-00224888722c/textile-glossary-basic-weaves"
+        ],
+        [
+          "Wikipedia: Twill",
+          "https://en.wikipedia.org/wiki/Twill"
+        ],
+        [
+          "Wikipedia: Satin",
+          "https://en.wikipedia.org/wiki/Satin"
+        ]
+      ]
+    },
+    {
+      "type": "story",
+      "part": "see",
+      "img": "l2-10",
+      "caption": "Plain, twill and sateen, each a 1 cm square, under magnification.",
+      "title": "Now see them for real",
+      "text": [
+        "Top: plain. Every thread crosses every thread, so the surface looks like tiny bumps.",
+        "Middle: twill. The threads skip, so lines run on a slant.",
+        "Bottom: sateen. Threads float over several others before dipping under. Fewer crossings means more shine."
+      ],
+      "note": "Most suit and coat cloth is twill. It drapes well and recovers from creases better than plain weave.",
+      "src": [
+        [
+          "Wikipedia: Twill",
+          "https://en.wikipedia.org/wiki/Twill"
+        ],
+        [
+          "Première Vision: basic weaves",
+          "https://www.premierevision.com/en/articles/b452b2cb-76fa-ef11-90cb-00224888722c/textile-glossary-basic-weaves"
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "part": "see",
+      "title": "Two twins of the weaves",
+      "left": {
+        "img": "l2-13",
+        "label": "Herringbone",
+        "caption": "A twill that switches direction every few threads, like fish bones."
+      },
+      "right": {
+        "img": "l2-11",
+        "label": "Satin",
+        "caption": "Satin sheets: all shine, from long floating threads."
+      },
+      "takeaway": "Herringbone is how a plain dark coat gets texture without color or print. Satin's shine is beautiful, but it shows sweat and snags, so keep it for linings and evening.",
+      "src": [
+        [
+          "Wikipedia: Twill",
+          "https://en.wikipedia.org/wiki/Twill"
+        ],
+        [
+          "Wikipedia: Satin",
+          "https://en.wikipedia.org/wiki/Satin"
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "part": "see",
+      "title": "Twist: the finest camel hair is not from Arabia",
+      "left": {
+        "img": "l2-23",
+        "label": "Bactrian camel",
+        "caption": "A two-humped Bactrian camel shedding its winter coat."
+      },
+      "right": {
+        "img": "l2-24",
+        "label": "The undercoat",
+        "caption": "Close up: the soft down underneath is what becomes fine camel-hair cloth."
+      },
+      "takeaway": "Fine camel hair is the soft undercoat of the two-humped Bactrian camel, mostly from China and Mongolia. Arabian one-humped camel hair is coarse and rarely used for fine cloth, because camels in the hottest deserts grow coarser down. Bishts were woven from camel hair and goat wool for warmth. For soft, luxury camel cloth today, look for Bactrian.",
+      "src": [
+        [
+          "UN Food and Agriculture Organization (FAO): Camel hair",
+          "https://www.fao.org/4/v9384e/v9384e05.htm"
+        ],
+        [
+          "Museum of Fine Arts (MFA) Boston, CAMEO database: Camel hair",
+          "https://cameo.mfa.org/wiki/Camel_hair"
+        ]
+      ]
+    },
+    {
+      "type": "ladder",
+      "part": "see",
+      "title": "How thin is luxury?",
+      "intro": "Fibers are measured in microns: one thousandth of a millimeter. The thinner the fiber, the softer the cloth, and the higher the price.",
+      "rows": [
+        [
+          "Human hair",
+          100,
+          "about 100 microns (µm)"
+        ],
+        [
+          "Adult camel down",
+          21.5,
+          "19–24 µm"
+        ],
+        [
+          "Cashmere",
+          19,
+          "must average under 19 µm (US rule)"
+        ],
+        [
+          "Baby camel",
+          19,
+          "about 19 µm",
+          true
+        ],
+        [
+          "Super 100s wool",
+          18.5,
+          "about 18.5 µm"
+        ],
+        [
+          "Best cashmere",
+          14.8,
+          "about 14–15.5 µm"
+        ],
+        [
+          "Vicuña",
+          12.5,
+          "about 12.5 µm",
+          true
+        ]
+      ],
+      "note": "Every fiber here is many times thinner than your hair. When a supplier sells you \"baby camel\" or \"cashmere\", ask for the micron number in writing.",
+      "src": [
+        [
+          "UN Food and Agriculture Organization (FAO): Camel hair",
+          "https://www.fao.org/4/v9384e/v9384e05.htm"
+        ],
+        [
+          "Gentleman's Gazette: cashmere explained",
+          "https://www.gentlemansgazette.com/cashmere-explained/"
+        ],
+        [
+          "Robert Old: grades of cashmere",
+          "https://www.robertold.co.uk/pages/understanding-the-different-grades-of-cashmere"
+        ],
+        [
+          "Enzo Custom: Super numbers",
+          "https://enzocustom.com/journal/understanding-super-numbers-in-fabrics-the-key-to-quality-and-comfort"
+        ],
+        [
+          "Loro Piana: Vicuña",
+          "https://us.loropiana.com/en/our-world/vicuna"
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "part": "see",
+      "title": "The animals at the top of the ladder",
+      "left": {
+        "img": "l2-28",
+        "label": "Cashmere goats",
+        "caption": "Cashmere comes from the soft winter undercoat of these goats."
+      },
+      "right": {
+        "img": "l2-32",
+        "label": "Vicuña",
+        "caption": "Wild vicuña near Lake Chungarà, Chile, at 4,570 meters."
+      },
+      "takeaway": "China makes about 70% of the world's cashmere and Mongolia about 20%. Vicuña lives wild in the Andes above 4,000 meters, which is part of why it is the rarest.",
+      "src": [
+        [
+          "Gentleman's Gazette: cashmere explained",
+          "https://www.gentlemansgazette.com/cashmere-explained/"
+        ],
+        [
+          "Loro Piana: Vicuña",
+          "https://us.loropiana.com/en/our-world/vicuna"
+        ]
+      ]
+    },
+    {
+      "type": "design",
+      "part": "design",
+      "svg": "mekasar",
+      "title": "Move 4: The mekasar line",
+      "text": "Take the mekasar edge, silk stitching along the cloth's edge, and drop the gold. Stitch it in the same color as the cloth.",
+      "how": [
+        "Men: two thin rows of tone-on-tone silk stitching down a jacket's front.",
+        "Up close it catches light. From across a room it disappears.",
+        "Women: the same line on a long open coat, worn draped like a bisht."
+      ]
+    },
+    {
+      "type": "design",
+      "part": "design",
+      "svg": "barqa",
+      "title": "Move 5: The barqa overcoat",
+      "text": "The bisht al-barqa was hand-knitted from goat wool against cold desert nights. Bring back the idea: a long winter coat in undyed fiber.",
+      "how": [
+        "Undyed cream or brown goat wool or camel hair. No dye, so the fiber's natural color is the story.",
+        "Long and loose, open at the front like a bisht.",
+        "Name it after the barqa only on the label, for those who know."
+      ],
+      "src": [
+        [
+          "Arab News: Diriyah bisht line",
+          "https://arabnews.com/node/2014101"
+        ]
+      ]
+    },
+    {
+      "type": "design",
+      "part": "design",
+      "svg": "tag",
+      "title": "Move 6: The honest label",
+      "text": "Luxury buyers trust what they can check. Put the facts a bisht maker would brag about inside the garment.",
+      "how": [
+        "Fiber and %, micron, country of origin.",
+        "Trim type: say \"gold-plated silver zari\" only if it is true.",
+        "This is also your shield: if a supplier won't give you these numbers in writing, don't buy."
+      ]
+    },
+    {
+      "type": "task",
+      "part": "do",
+      "title": "Weave spotting",
+      "minutes": 4,
+      "text": "Find one of each weave at home. Look closely, or zoom in with your phone camera.",
+      "checklist": [
+        "Plain weave: a dress shirt or thobe",
+        "Twill: jeans or chinos (look for the diagonal)",
+        "Satin: a tie, jacket lining or shiny sheet"
+      ],
+      "notePrompt": "Shirt: plain, tiny grid. Jeans: twill, lines go up to the right...",
+      "context": [
+        "Plain weave: over one, under one. Even grid, same on both sides, crisp. Shirts and thobe cloth.",
+        "Twill: over two, under two, shifting a step each row, which makes diagonal lines. Jeans, chinos, most suit cloth. Herringbone is a twill that switches direction.",
+        "Satin: threads float over four or more before going under, so it is smooth and shiny but snags. Ties, linings, sheets.",
+        "Knits are looped, not woven, and stretch; they show little V shapes."
+      ],
+      "refs": [
+        {
+          "img": "l2-10",
+          "cap": "Plain, twill and sateen, 1 cm squares."
+        },
+        {
+          "img": "l2-13",
+          "cap": "Herringbone: a twill that switches direction."
+        },
+        {
+          "img": "l2-11",
+          "cap": "Satin: shine from floating threads."
+        }
+      ]
+    },
+    {
+      "type": "task",
+      "part": "do",
+      "title": "Metal thread check",
+      "minutes": 3,
+      "text": "Find anything with gold or silver thread: a bisht, a ghutra, an abaya, a scarf.",
+      "checklist": [
+        "Zoom in with your phone on a thread end",
+        "Is there a soft core with metal wrapped around it?",
+        "Or is it a flat shiny film (likely Lurex)?"
+      ],
+      "notePrompt": "What did you find, and which kind of thread do you think it is?",
+      "context": [
+        "Real zari: silk or cotton yarn wrapped in silver wire, then gold-plated.",
+        "Imitation zari: copper wire plated with silver. Since about 1970 some has a plastic core.",
+        "Lurex is a shiny metallic plastic film, not metal.",
+        "Metal thread is stiff, so it is laid on top of cloth and stitched down; it sits raised and catches light."
+      ],
+      "refs": [
+        {
+          "img": "l2-39",
+          "cap": "Metal thread on a spool."
+        },
+        {
+          "img": "l2-0",
+          "cap": "Gold thread laid on velvet and stitched down."
+        }
+      ]
+    },
+    {
+      "type": "task",
+      "part": "do",
+      "title": "Price detective",
+      "minutes": 3,
+      "text": "Search online for three bishts at different prices.",
+      "checklist": [
+        "Write each price",
+        "Note what it says about fiber, zari and handmade vs machine",
+        "Which one says the least? That's usually the cheapest truth."
+      ],
+      "notePrompt": "Bisht 1: SR ___, fiber ___, zari ___, handmade? ___",
+      "context": [
+        "Machine-made Syrian or Emirati bishts can cost about 200 Saudi riyals (SR). A top handmade Hasawi bisht up to SR 15,000. A rare one worn by Ronaldo was priced over SR 80,000.",
+        "A handmade Hasawi bisht takes 80–120 hours with four tailors; a machine makes about 12 a day.",
+        "Hand-woven bisht cloth comes in two strips sewn across the middle; one seamless wide piece means machine-woven.",
+        "Price is driven by fiber, real vs imitation zari, and hand hours.",
+        "An honest listing names the fiber, the zari type and whether it is handmade."
+      ],
+      "refs": [
+        {
+          "svg": "tag",
+          "cap": "Move 6: what an honest label says."
+        },
+        {
+          "img": "l2-34",
+          "cap": "Al-Ahsa's Qaysariyya souq, home of the Hasawi bisht."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "What is real zari made of?",
+      "options": [
+        "Plastic film",
+        "Silk or cotton yarn wrapped in silver wire, then gold-plated",
+        "Solid gold wire",
+        "Copper painted gold"
+      ],
+      "answer": 1,
+      "why": "Silk or cotton wrapped in silver, then gold-plated. Copper-core and plastic-core zari are the cheaper copies.",
+      "src": [
+        [
+          "Aza: real vs fake zari",
+          "https://www.azafashions.com/blog/is-your-zari-real-how-to-identify-the-difference/"
+        ],
+        [
+          "Wikipedia: Surat zari",
+          "https://en.wikipedia.org/wiki/Surat_zari"
+        ]
+      ],
+      "hint": {
+        "img": "l2-39",
+        "cap": "Metal thread on a spool. What's inside it?"
+      },
+      "whys": [
+        "A plastic film is Lurex, a cheap shiny copy. It is not zari.",
+        null,
+        "Solid gold wire would be stiff and costly. Real zari is a soft yarn wrapped in silver, then gold-plated.",
+        "A copper core is the imitation zari."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "A bisht is one wide piece of cloth with no seam across the middle. What does that tell you?",
+      "options": [
+        "It's the oldest kind",
+        "The cloth was machine-woven",
+        "It's a women's bisht",
+        "It's a winter bisht"
+      ],
+      "answer": 1,
+      "why": "Hand looms were narrow, so hand-woven cloaks are two strips sewn across the middle.",
+      "src": [
+        [
+          "Encyclocrafts: bisht making in Kuwait",
+          "https://encyclocraftsapr.com/bisht-making-in-kuwait/"
+        ]
+      ],
+      "hint": {
+        "svg": "outline",
+        "cap": "Picture the back of a hand-made bisht. Look at the middle."
+      },
+      "whys": [
+        "The oldest ones are the opposite: two strips sewn together, because hand looms were narrow.",
+        null,
+        "The seam tells you how the cloth was woven, not who wears it.",
+        "The season shows in how thick the cloth is, not in the seam."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "Which weave makes diagonal lines?",
+      "options": [
+        "Plain",
+        "Twill",
+        "Satin",
+        "Knit"
+      ],
+      "answer": 1,
+      "why": "Twill: over two, under two, shifting one step each row. Most suit cloth is twill.",
+      "hint": {
+        "img": "l2-13",
+        "cap": "Herringbone, a cousin of the answer."
+      },
+      "whys": [
+        "Plain is over one, under one, so it makes a flat grid, not lines.",
+        null,
+        "Satin hides its crossings to look smooth and shiny, so there are no clear lines.",
+        "Knit is looped, not woven. It makes little V shapes, not diagonals."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "Where does the finest camel hair come from?",
+      "options": [
+        "Arabian one-humped camels",
+        "The undercoat of two-humped Bactrian camels",
+        "Camel tails",
+        "Baby goats"
+      ],
+      "answer": 1,
+      "why": "The Bactrian camel's soft undercoat, mostly from China and Mongolia.",
+      "src": [
+        [
+          "UN Food and Agriculture Organization (FAO): Camel hair",
+          "https://www.fao.org/4/v9384e/v9384e05.htm"
+        ]
+      ],
+      "hint": {
+        "img": "l2-24",
+        "cap": "Soft down coming off a camel. Count the humps you'd expect."
+      },
+      "whys": [
+        "That was the twist: Arabian camel hair is coarse, because the hottest deserts grow coarser down.",
+        null,
+        "Tail hair is coarse. Softness comes from the undercoat.",
+        "Baby goats give baby cashmere, a different fiber."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "Which fiber is the thinnest?",
+      "options": [
+        "Super 100s wool",
+        "Cashmere",
+        "Vicuña",
+        "Adult camel down"
+      ],
+      "answer": 2,
+      "why": "Vicuña, about 12.5 microns. Thinner fiber, softer cloth, higher price.",
+      "src": [
+        [
+          "Loro Piana: Vicuña",
+          "https://us.loropiana.com/en/our-world/vicuna"
+        ]
+      ],
+      "whys": [
+        "Super 100s wool is about 18.5 microns: fine, but not the finest.",
+        "Cashmere is under 19 microns. Very fine, but vicuña is finer still.",
+        null,
+        "Adult camel down is 19–24 microns, the thickest of these four."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "The mekasar bisht style is known for…",
+      "options": [
+        "Silk stitching along the edge",
+        "No trim at all",
+        "A hood",
+        "Bright colors"
+      ],
+      "answer": 0,
+      "why": "Silk stitching along the edge. That's Move 4: the same idea, tone-on-tone.",
+      "src": [
+        [
+          "Arab News: The Saudi man's bisht",
+          "https://www.arabnews.com/fashion/traditional-modern-the-saudi-mans-bisht-429954"
+        ]
+      ],
+      "whys": [
+        null,
+        "Every bisht style has an edge finish. Mekasar's is silk stitching.",
+        "Bishts have no hood.",
+        "Classic bisht colors stay quiet: white, beige, cream, brown, grey and black."
+      ]
+    },
+    {
+      "type": "score",
+      "part": "quiz"
+    },
+    {
+      "type": "remember",
+      "part": "quiz",
+      "title": "Three things to keep",
+      "items": [
+        [
+          "Real zari = silk or cotton + silver + gold plating.",
+          "Copper or plastic cores are the cheap copies."
+        ],
+        [
+          "Two strips sewn across the middle = hand loom.",
+          "One wide seamless piece = machine-woven."
+        ],
+        [
+          "Fine camel hair is Bactrian; thinner fiber = softer cloth.",
+          "Ask every supplier for the micron number in writing."
+        ]
+      ]
+    },
+    {
+      "type": "video",
+      "part": "quiz",
+      "title": "Watch tonight or tomorrow",
+      "items": [
+        [
+          "Bisht (men's Abaa): skills and practices",
+          "https://www.youtube.com/watch?v=dmesiC4e8BY",
+          "The UNESCO film on the bisht craft."
+        ],
+        [
+          "The bisht: Holding on to heritage skills in Saudi Arabia",
+          "https://www.youtube.com/watch?v=VQtOsBZ71w0",
+          "Saudi tailors keeping hand bisht-making alive."
+        ],
+        [
+          "How to Identify Real & Fake Zari?",
+          "https://www.youtube.com/watch?v=e8fLvhrXFxs",
+          "Telling real metal zari from imitation."
+        ],
+        [
+          "The 3 Fundamental Textile Weaves: Plain, Twill and Satin",
+          "https://www.youtube.com/watch?v=TYrQBcPBk3U",
+          "Pairs with the weave slide."
+        ]
+      ]
+    }
+  ]
+}

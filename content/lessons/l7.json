@@ -1,0 +1,924 @@
+{
+  "id": "l7",
+  "num": 7,
+  "date": "2026-10-31",
+  "day": "Sat, Oct 31",
+  "ready": true,
+  "title": "Your first A'ila Areeqa piece",
+  "pair": "Review of the week · Design one garment from everything you learned",
+  "slides": [
+    {
+      "type": "cover",
+      "part": "warm",
+      "img": "l1-9",
+      "coverCaption": "The bisht edge, 1923: where Lesson 1 started.",
+      "kicker": "Lesson 7 · about 1 hour",
+      "title": "Your first A'ila Areeqa piece",
+      "text": "Six lessons, eighteen design moves. Today you don't learn anything new. You use it. You'll review the week, then design one real garment, step by step, and leave with a one-page brief you could hand to a factory."
+    },
+    {
+      "type": "quiz",
+      "part": "warm",
+      "warm": true,
+      "review": 6,
+      "q": "Where did Najdi men carry money, and what's the A'ila Areeqa move?",
+      "options": [
+        "In a hat; a hat pocket",
+        "In the haskal, a pouch under the left arm; a slim inside pocket there",
+        "In their sandal; a shoe pocket",
+        "Around the neck; a necklace"
+      ],
+      "answer": 1,
+      "why": "The haskal, under the left arm. Move 16 puts a slim inside pocket in the same spot.",
+      "whys": [
+        "Hats weren't used for money.",
+        null,
+        "Sandals had camel-skin soles, not pockets.",
+        "Money went in the haskal, under the arm."
+      ],
+      "hint": {
+        "svg": "outline",
+        "cap": "Think of a hidden spot on the body, close to the heart."
+      }
+    },
+    {
+      "type": "quiz",
+      "part": "warm",
+      "warm": true,
+      "review": 6,
+      "q": "Why put scent on the packaging, not in the cloth?",
+      "options": [
+        "Scent is bad",
+        "So the customer chooses, and the cloth isn't changed",
+        "It's cheaper",
+        "Cloth can't hold scent"
+      ],
+      "answer": 1,
+      "why": "The customer decides, and the fabric stays clean. Oud in the tissue, or a scent card.",
+      "whys": [
+        "Scent is a big part of Saudi welcome. It just shouldn't be forced into the cloth.",
+        null,
+        "It's about choice, not cost.",
+        "Cloth holds scent well, which is why smoke from a mabkhara works."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "warm",
+      "warm": true,
+      "review": 6,
+      "q": "A trouser fabric is 90% wool and 10% elastane. What's the risk?",
+      "options": [
+        "None",
+        "Seams can pucker and it feels like activewear",
+        "It will be too warm",
+        "It can't be dyed"
+      ],
+      "answer": 1,
+      "why": "2–3% is normal. 7% or more can pucker seams.",
+      "whys": [
+        "10% is far above normal for tailoring.",
+        null,
+        "Warmth comes from the wool, not the elastane amount.",
+        "It can be dyed. The problem is fit and seams."
+      ]
+    },
+    {
+      "type": "gallery",
+      "part": "story",
+      "title": "Your 18 design moves",
+      "intro": "Everything you designed this week, in one place. Click any card to see it big. You'll pick from these in a few minutes.",
+      "refs": [
+        {
+          "svg": "edge",
+          "label": "Move 1 · Lesson 1",
+          "title": "The bisht edge",
+          "cap": "Plain body; one rich line on the front edge and neck."
+        },
+        {
+          "svg": "lining",
+          "label": "Move 2 · Lesson 1",
+          "title": "Hidden comfort",
+          "cap": "Soft cotton inside wool, like the labda."
+        },
+        {
+          "svg": "swap",
+          "label": "Move 3 · Lesson 1",
+          "title": "One cut, two weights",
+          "cap": "Same pattern in linen for summer, wool or camel for winter."
+        },
+        {
+          "svg": "mekasar",
+          "label": "Move 4 · Lesson 2",
+          "title": "The mekasar line",
+          "cap": "Tone-on-tone silk stitching along the front."
+        },
+        {
+          "svg": "barqa",
+          "label": "Move 5 · Lesson 2",
+          "title": "The barqa overcoat",
+          "cap": "Long winter coat in undyed goat wool or camel hair."
+        },
+        {
+          "svg": "tag",
+          "label": "Move 6 · Lesson 2",
+          "title": "The honest label",
+          "cap": "Fiber, micron, origin, trim type, written inside."
+        },
+        {
+          "svg": "qattMono",
+          "label": "Move 7 · Lesson 3",
+          "title": "One Sadu motif, small",
+          "cap": "One woven-in triangle band in two quiet colors."
+        },
+        {
+          "svg": "qattColor",
+          "label": "Move 8 · Lesson 3",
+          "title": "Al-Qatt structure",
+          "cap": "Triangle row and finger-width bands, color dropped."
+        },
+        {
+          "img": "l3-14",
+          "label": "Move 9 · Lesson 3",
+          "title": "Plant-dye palette",
+          "cap": "Madder red, indigo, turmeric, loomi green."
+        },
+        {
+          "svg": "vents",
+          "label": "Move 10 · Lesson 4",
+          "title": "Furjat vents",
+          "cap": "Small triangle vents on the yoke and under the arm."
+        },
+        {
+          "svg": "lattice",
+          "label": "Move 11 · Lesson 4",
+          "title": "The roshan lining",
+          "cap": "Lattice lining seen only when the coat opens."
+        },
+        {
+          "svg": "halfLined",
+          "label": "Move 12 · Lesson 4",
+          "title": "Built for the Gulf",
+          "cap": "Half canvas, half-lined in cupro, sleeves lined."
+        },
+        {
+          "svg": "silentBell",
+          "label": "Move 13 · Lesson 5",
+          "title": "The silent bell",
+          "cap": "One closed silver bead; one coral-red stitch."
+        },
+        {
+          "svg": "sheerLayer",
+          "label": "Move 14 · Lesson 5",
+          "title": "The munaykhal layer",
+          "cap": "Open-weave overshirt over a solid base."
+        },
+        {
+          "svg": "najdiDress",
+          "label": "Move 15 · Lesson 5",
+          "title": "The muted palette",
+          "cap": "Najdi grey, navy, sand; one small accent."
+        },
+        {
+          "svg": "haskal",
+          "label": "Move 16 · Lesson 6",
+          "title": "The haskal pocket",
+          "cap": "Slim inside pocket under the left arm."
+        },
+        {
+          "svg": "khabtTab",
+          "label": "Move 17 · Lesson 6",
+          "title": "The khabt tab",
+          "cap": "Small plant-tanned leather tab on the cuff."
+        },
+        {
+          "svg": "redLining",
+          "label": "Move 18 · Lesson 6",
+          "title": "The red-cloth secret",
+          "cap": "Deep red where only the wearer sees it."
+        }
+      ]
+    },
+    {
+      "type": "layers",
+      "part": "story",
+      "title": "Six lessons in six lines",
+      "intro": "The one idea to carry from each lesson.",
+      "layers": [
+        [
+          "Weather first, beauty second.",
+          "The bisht's luxury lives on its edge. Linen is cool; wool has scales.",
+          "Lesson 1"
+        ],
+        [
+          "Real zari, hand-loom seams, thin fibers.",
+          "Fine camel hair is Bactrian. Ask for microns in writing.",
+          "Lesson 2"
+        ],
+        [
+          "Patterns carry meaning.",
+          "Sadu and Al-Qatt: keep the structure, drop the loud color. Woven-in beats printed.",
+          "Lesson 3"
+        ],
+        [
+          "Houses solved heat; jackets can too.",
+          "Triangle vents, roshan privacy, canvas not glue, cupro not polyester.",
+          "Lesson 4"
+        ],
+        [
+          "Women's heritage can turn masculine.",
+          "Keep the idea and material, change the size and shape. Light matte silk for heat.",
+          "Lesson 5"
+        ],
+        [
+          "Small things make it Saudi.",
+          "Plant-tanned leather, scent, red hidden inside. Every fiber earns its place.",
+          "Lesson 6"
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "part": "story",
+      "title": "Two sides of the brand",
+      "left": {
+        "img": "l1-2",
+        "label": "Heritage",
+        "caption": "King Abdulaziz in a bisht, 1945."
+      },
+      "right": {
+        "img": "l4-21",
+        "label": "Craft",
+        "caption": "A half-made Savile Row jacket: canvas and hand stitches."
+      },
+      "takeaway": "A'ila Areeqa lives between these two photos. The left gives you the story and the details. The right gives you the build quality that makes a story believable. You need both in every piece.",
+      "src": [
+        [
+          "Arab News: The Saudi man's bisht",
+          "https://www.arabnews.com/fashion/traditional-modern-the-saudi-mans-bisht-429954"
+        ],
+        [
+          "Art of Manliness: fused vs canvassed",
+          "https://www.artofmanliness.com/STYLE/CLOTHING/THE-ART-OF-MANLINESS-SUIT-SCHOOL-PART-I-FUSED-VS-CANVASSED-SUITS/"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "see",
+      "q": "Which detail is most \"if you know, you know\"?",
+      "options": [
+        "A big Sadu print across the back",
+        "A tone-on-tone stitched line along the front edge",
+        "The brand name in large gold letters",
+        "Bright Al-Qatt colors all over"
+      ],
+      "answer": 1,
+      "why": "The mekasar line: only a trained eye catches it.",
+      "whys": [
+        "Big Sadu prints are everywhere in souvenirs and read cheap.",
+        null,
+        "Loud logos are the opposite of quiet luxury.",
+        "Al-Qatt colors are beautiful on a wall, but loud on a garment. Keep the structure, drop the color."
+      ],
+      "hint": {
+        "svg": "mekasar",
+        "cap": "Look closely at the front."
+      },
+      "_pl": "Review"
+    },
+    {
+      "type": "quiz",
+      "part": "see",
+      "q": "You want a summer jacket for Riyadh in May. Best build?",
+      "options": [
+        "Fused, fully lined in polyester",
+        "Half canvas, half-lined in cupro, sleeves lined",
+        "Full canvas, fully lined in heavy silk",
+        "Unlined sleeves, polyester body"
+      ],
+      "answer": 1,
+      "why": "Move 12: half canvas, half-lined in cupro, sleeves lined.",
+      "whys": [
+        "Glue and polyester: the cheap-suit combination, and hot.",
+        null,
+        "Heavy and expensive, and silk wears out fast.",
+        "Unlined sleeves catch, and a polyester body traps heat."
+      ],
+      "src": [
+        [
+          "Permanent Style: guide to linings",
+          "https://www.permanentstyle.com/2016/05/bemberg-cupro-ermezine-the-guide-to-linings"
+        ],
+        [
+          "Permanent Style: half-lined and unlined",
+          "https://www.permanentstyle.com/2010/05/half-lined-and-unlined-jackets.html"
+        ]
+      ],
+      "_pl": "Review"
+    },
+    {
+      "type": "quiz",
+      "part": "see",
+      "q": "Turning a feminine heritage piece masculine, what do you usually keep?",
+      "options": [
+        "The exact shape",
+        "The idea and the material",
+        "All the colors",
+        "The size"
+      ],
+      "answer": 1,
+      "why": "Keep the idea and the material; change the shape and size.",
+      "whys": [
+        "Copying the shape keeps it feminine.",
+        null,
+        "Bright colors usually get dropped for quiet ones.",
+        "The size usually shrinks: one bead, not a necklace."
+      ],
+      "_pl": "Review"
+    },
+    {
+      "type": "task",
+      "part": "design",
+      "title": "Step 1: Pick your garment",
+      "minutes": 5,
+      "flow": "Garment",
+      "text": "Choose ONE garment for your first piece. Pick something you'd wear yourself.",
+      "checklist": [
+        "Choose one: overcoat, overshirt, jacket, trousers or long open coat",
+        "Say who it's for: men, women, or both",
+        "Say when it's worn: everyday, evening, or travel"
+      ],
+      "notePrompt": "My garment: a ___ for ___, worn for ___.",
+      "refs": [
+        {
+          "svg": "outline",
+          "cap": "Start with a shape."
+        },
+        {
+          "img": "l4-21",
+          "cap": "Tailored jacket."
+        },
+        {
+          "svg": "barqa",
+          "cap": "Long overcoat."
+        }
+      ],
+      "context": [
+        "Jamal is designing ONE first A'ila Areeqa garment, step by step. Each step's answer should be consistent with the earlier steps he chose. A'ila Areeqa is quiet luxury rooted in Saudi heritage: subtle, 'if you know, you know' details.",
+        "Quiet-luxury rule from the course: one heritage detail per garment, used small. Loud prints, many details at once, or obvious souvenir motifs read cheap.",
+        "Good first pieces are ones with clear construction and room for one detail: an overcoat, overshirt, jacket, or long open coat."
+      ],
+      "_pl": "Design your piece"
+    },
+    {
+      "type": "task",
+      "part": "design",
+      "title": "Step 2: Season and fabric",
+      "minutes": 8,
+      "flow": "Season and fabric",
+      "text": "Pick the season, then the main fabric and its blend.",
+      "checklist": [
+        "Summer, winter or both (Move 3)?",
+        "Main fiber: linen, cotton, wool, wool/silk/linen, camel hair or silk",
+        "Any blend? Give the percentages and why each fiber is there"
+      ],
+      "notePrompt": "Season: ___. Fabric: ___ (___%). Because...",
+      "refs": [
+        {
+          "img": "l1-28",
+          "cap": "Linen: coolest."
+        },
+        {
+          "img": "l1-31",
+          "cap": "Wool: warm, scaled."
+        },
+        {
+          "img": "l2-24",
+          "cap": "Bactrian camel down."
+        },
+        {
+          "svg": "swap",
+          "cap": "Move 3: one cut, two weights."
+        }
+      ],
+      "context": [
+        "Jamal is designing ONE first A'ila Areeqa garment, step by step. Each step's answer should be consistent with the earlier steps he chose. A'ila Areeqa is quiet luxury rooted in Saudi heritage: subtle, 'if you know, you know' details.",
+        "Quiet-luxury rule from the course: one heritage detail per garment, used small. Loud prints, many details at once, or obvious souvenir motifs read cheap.",
+        "Every fiber in a blend must earn its place. 65% polyester / 35% cotton is tough, cheap, and wrinkle-resistant but breathes less than cotton: uniforms, not luxury.",
+        "97% wool / 3% elastane gives comfort stretch for trousers. 2–3% elastane is normal in tailoring; a 2024 study found 7% or more can cause seam puckering.",
+        "Wool/silk/linen: wool stops linen wrinkling, silk adds shine, linen adds coolness; Loro Piana's 'Summertime' cloth is 71% merino wool and 15% silk.",
+        "Polyester is fine when it does a job natural fibers can't: holding a pleat, a weatherproof shell, a signature nylon with a story (Prada Re-Nylon from recycled fishing nets). Not next to the skin in Gulf heat.",
+        "Linen: stem fiber, hollow, coolest, dries fast, wrinkles. Cotton breathes but holds sweat longer. Wool keeps warm with crimp; fine wool can be worn in mild weather.",
+        "Fine camel hair is the Bactrian camel's undercoat (19–24 microns adult, about 19 baby camel). Silk: light, matte habotai or crepe under about 16 momme for heat."
+      ],
+      "_pl": "Design your piece"
+    },
+    {
+      "type": "task",
+      "part": "design",
+      "title": "Step 3: One heritage detail",
+      "minutes": 8,
+      "flow": "Heritage detail",
+      "text": "Pick ONE move from the gallery. Only one. That's the quiet-luxury rule.",
+      "checklist": [
+        "Name the move and its number",
+        "Say exactly where it goes on your garment",
+        "Write the story in one sentence, for the hangtag"
+      ],
+      "notePrompt": "Move ___: ___. It goes ___. Story: ...",
+      "refs": [
+        {
+          "svg": "edge",
+          "label": "Move 1 · Lesson 1",
+          "title": "The bisht edge",
+          "cap": "Plain body; one rich line on the front edge and neck."
+        },
+        {
+          "svg": "mekasar",
+          "label": "Move 4 · Lesson 2",
+          "title": "The mekasar line",
+          "cap": "Tone-on-tone silk stitching along the front."
+        },
+        {
+          "svg": "qattMono",
+          "label": "Move 7 · Lesson 3",
+          "title": "One Sadu motif, small",
+          "cap": "One woven-in triangle band in two quiet colors."
+        },
+        {
+          "svg": "vents",
+          "label": "Move 10 · Lesson 4",
+          "title": "Furjat vents",
+          "cap": "Small triangle vents on the yoke and under the arm."
+        },
+        {
+          "svg": "silentBell",
+          "label": "Move 13 · Lesson 5",
+          "title": "The silent bell",
+          "cap": "One closed silver bead; one coral-red stitch."
+        },
+        {
+          "svg": "haskal",
+          "label": "Move 16 · Lesson 6",
+          "title": "The haskal pocket",
+          "cap": "Slim inside pocket under the left arm."
+        },
+        {
+          "svg": "khabtTab",
+          "label": "Move 17 · Lesson 6",
+          "title": "The khabt tab",
+          "cap": "Small plant-tanned leather tab on the cuff."
+        },
+        {
+          "svg": "redLining",
+          "label": "Move 18 · Lesson 6",
+          "title": "The red-cloth secret",
+          "cap": "Deep red where only the wearer sees it."
+        }
+      ],
+      "context": [
+        "Jamal is designing ONE first A'ila Areeqa garment, step by step. Each step's answer should be consistent with the earlier steps he chose. A'ila Areeqa is quiet luxury rooted in Saudi heritage: subtle, 'if you know, you know' details.",
+        "Quiet-luxury rule from the course: one heritage detail per garment, used small. Loud prints, many details at once, or obvious souvenir motifs read cheap.",
+        "Move 1 (The bisht edge): Plain body; one rich line on the front edge and neck.",
+        "Move 2 (Hidden comfort): Soft cotton inside wool, like the labda.",
+        "Move 3 (One cut, two weights): Same pattern in linen for summer, wool or camel for winter.",
+        "Move 4 (The mekasar line): Tone-on-tone silk stitching along the front.",
+        "Move 5 (The barqa overcoat): Long winter coat in undyed goat wool or camel hair.",
+        "Move 6 (The honest label): Fiber, micron, origin, trim type, written inside.",
+        "Move 7 (One Sadu motif, small): One woven-in triangle band in two quiet colors.",
+        "Move 8 (Al-Qatt structure): Triangle row and finger-width bands, color dropped.",
+        "Move 9 (Plant-dye palette): Madder red, indigo, turmeric, loomi green.",
+        "Move 10 (Furjat vents): Small triangle vents on the yoke and under the arm.",
+        "Move 11 (The roshan lining): Lattice lining seen only when the coat opens.",
+        "Move 12 (Built for the Gulf): Half canvas, half-lined in cupro, sleeves lined.",
+        "Move 13 (The silent bell): One closed silver bead; one coral-red stitch.",
+        "Move 14 (The munaykhal layer): Open-weave overshirt over a solid base.",
+        "Move 15 (The muted palette): Najdi grey, navy, sand; one small accent.",
+        "Move 16 (The haskal pocket): Slim inside pocket under the left arm.",
+        "Move 17 (The khabt tab): Small plant-tanned leather tab on the cuff.",
+        "Move 18 (The red-cloth secret): Deep red where only the wearer sees it."
+      ],
+      "_pl": "Design your piece"
+    },
+    {
+      "type": "task",
+      "part": "design",
+      "title": "Step 4: Build and lining",
+      "minutes": 6,
+      "flow": "Build and lining",
+      "text": "Decide how it's built inside. Use Lesson 4.",
+      "checklist": [
+        "Fused, half canvas or full canvas? (Only if it's a jacket or coat)",
+        "Lining: none, half, or full; which fabric?",
+        "One hand-finished touch, like hand buttonholes"
+      ],
+      "notePrompt": "Build: ___. Lining: ___ in ___. Hand touch: ___.",
+      "refs": [
+        {
+          "svg": "layHalf",
+          "cap": "Half canvas."
+        },
+        {
+          "svg": "halfLined",
+          "cap": "Half-lined."
+        },
+        {
+          "img": "l4-18",
+          "cap": "Hand buttonhole."
+        }
+      ],
+      "context": [
+        "Jamal is designing ONE first A'ila Areeqa garment, step by step. Each step's answer should be consistent with the earlier steps he chose. A'ila Areeqa is quiet luxury rooted in Saudi heritage: subtle, 'if you know, you know' details.",
+        "Quiet-luxury rule from the course: one heritage detail per garment, used small. Loud prints, many details at once, or obvious souvenir motifs read cheap.",
+        "Full canvas: horsehair canvas sewn through the whole front. It shapes to the body over time. Costs most.",
+        "Half canvas: canvas only in the chest and lapel; the rest is glued.",
+        "Fused: glue only. Cheapest, can look stiff, and the glue can bubble after dry cleaning, which cannot be fixed.",
+        "Pinch test: pinch the sleeve to feel normal thickness. Then pinch the front below the lowest buttonhole and gently pull apart. A loose third layer floating in between = canvas. Stiff with no separate layer = fused.",
+        "Hand buttonholes take 30–45 minutes, look raised and slightly uneven on the back. A hand pick stitch along the lapel wanders slightly; machine stitching is perfectly even.",
+        "Rule for A'ila Areeqa: coats and bisht-style pieces at least half canvas, never fused.",
+        "Cupro (brand name Bemberg, made by Asahi Kasei from cotton-seed fuzz) breathes best and is smooth and anti-static; costs more.",
+        "Viscose breathes well and is tough. Acetate is light but weak and flimsy. Polyester lining breathes poorly and feels like a sauna; it is a sign of a cheap suit. Silk breathes but wears out fastest and costs five times or more.",
+        "Unlined lets in the most air but can rumple. Half-lined (back across the shoulders only) lets heat out and still hangs well. Keep sleeves lined so the jacket slides on.",
+        "Gulf summers pass 35°C, so half-lined is the default; lining in cupro, never polyester.",
+        "Shirts, overshirts and trousers usually have no canvas; for unlined pieces, neat bound (Hong Kong) seams look finished inside."
+      ],
+      "_pl": "Design your piece"
+    },
+    {
+      "type": "task",
+      "part": "design",
+      "title": "Step 5: Palette",
+      "minutes": 5,
+      "flow": "Palette",
+      "text": "Pick the colors. Use Move 9 or Move 15.",
+      "checklist": [
+        "Main color",
+        "Accent color (small, or none)",
+        "Where each color comes from in Saudi heritage"
+      ],
+      "notePrompt": "Main: ___. Accent: ___. They come from...",
+      "refs": [
+        {
+          "svg": "najdiDress",
+          "cap": "Najd: muted base, gold accent."
+        },
+        {
+          "img": "l3-14",
+          "cap": "Indigo."
+        },
+        {
+          "img": "l3-12",
+          "cap": "Madder red."
+        },
+        {
+          "img": "l1-2",
+          "cap": "Bisht browns and blacks."
+        }
+      ],
+      "context": [
+        "Jamal is designing ONE first A'ila Areeqa garment, step by step. Each step's answer should be consistent with the earlier steps he chose. A'ila Areeqa is quiet luxury rooted in Saudi heritage: subtle, 'if you know, you know' details.",
+        "Quiet-luxury rule from the course: one heritage detail per garment, used small. Loud prints, many details at once, or obvious souvenir motifs read cheap.",
+        "Najdi women's dress: loose shapes, ankle or floor length, with embroidery. Early colors were muted grey and navy; brighter colors came later. Many women sewed and cut their own clothes.",
+        "The Najdi overdress (thawb najdi) is a huge T-shape of sheer tulle with very wide sleeves and big underarm panels, embroidered at the neck front and back. Locally called munaykhal, 'mesh strainer', because the cloth is full of holes. Worn for special occasions.",
+        "Hijaz ceremonial dress is white with gold zari thread; Asir and Jazan dress is many-colored with geometric patterns and floral headpieces.",
+        "Move 14 idea (feminine to masculine): keep the idea of a sheer open layer over a solid one; for men, a dark open-weave summer overshirt over a white thobe or tee, sharper shoulders, no embroidery.",
+        "Bedouin natural dyes: madder root for red, dried limes for green, pomegranate skins for purple, turmeric for yellow, indigo for blue.",
+        "Natural colors vary from batch to batch; that variation is part of their character.",
+        "A palette built only from these plant colors tells a heritage story with no pattern at all.",
+        "Classic bisht colors: white, beige, cream, brown, grey and black; black with gold is the most popular."
+      ],
+      "_pl": "Design your piece"
+    },
+    {
+      "type": "task",
+      "part": "design",
+      "title": "Step 6: The honest label",
+      "minutes": 5,
+      "flow": "Label",
+      "text": "Write the inside label for your piece, like Move 6.",
+      "checklist": [
+        "Fiber and %",
+        "Origin of the fiber or cloth (or write \"ask supplier\")",
+        "Trim, lining, and one line of story"
+      ],
+      "notePrompt": "100% ___ · Origin: ___ · Lining: ___ · Story: ...",
+      "refs": [
+        {
+          "svg": "tag",
+          "cap": "Move 6: the honest label (example)."
+        }
+      ],
+      "context": [
+        "Jamal is designing ONE first A'ila Areeqa garment, step by step. Each step's answer should be consistent with the earlier steps he chose. A'ila Areeqa is quiet luxury rooted in Saudi heritage: subtle, 'if you know, you know' details.",
+        "Quiet-luxury rule from the course: one heritage detail per garment, used small. Loud prints, many details at once, or obvious souvenir motifs read cheap.",
+        "Move 6: put fiber and %, micron (for wool, camel, cashmere), country of origin, and trim type (e.g. gold-plated silver zari) inside the garment. Only claim what a supplier will put in writing.",
+        "If he doesn't know an origin yet, 'ask supplier' is honest and correct; never invent one."
+      ],
+      "_pl": "Design your piece"
+    },
+    {
+      "type": "brief",
+      "part": "do",
+      "title": "Your garment brief",
+      "intro": "Here are your six answers on one page. This is the first draft of a real factory brief. Click Edit to change any step.",
+      "note": "Next real-world step: take this brief to a pattern-maker or a sample tailor in Riyadh and ask for one sample. Bring a swatch of the fabric you named.",
+      "_pl": "Your brief"
+    },
+    {
+      "type": "task",
+      "part": "do",
+      "title": "Check your brief",
+      "minutes": 5,
+      "text": "Read your brief out loud once. Then check it against the rules.",
+      "checklist": [
+        "Is there only ONE heritage detail?",
+        "Does the fabric fit the season?",
+        "Is every claim on the label something you can prove?"
+      ],
+      "notePrompt": "Paste or summarize your brief here, then press Enter to get feedback on the whole piece.",
+      "refs": [
+        {
+          "svg": "tag",
+          "cap": "Honest label."
+        },
+        {
+          "svg": "halfLined",
+          "cap": "Built for the Gulf."
+        }
+      ],
+      "context": [
+        "Jamal is designing ONE first A'ila Areeqa garment, step by step. Each step's answer should be consistent with the earlier steps he chose. A'ila Areeqa is quiet luxury rooted in Saudi heritage: subtle, 'if you know, you know' details.",
+        "Quiet-luxury rule from the course: one heritage detail per garment, used small. Loud prints, many details at once, or obvious souvenir motifs read cheap.",
+        "Move 1 (The bisht edge): Plain body; one rich line on the front edge and neck.",
+        "Move 2 (Hidden comfort): Soft cotton inside wool, like the labda.",
+        "Move 3 (One cut, two weights): Same pattern in linen for summer, wool or camel for winter.",
+        "Move 4 (The mekasar line): Tone-on-tone silk stitching along the front.",
+        "Move 5 (The barqa overcoat): Long winter coat in undyed goat wool or camel hair.",
+        "Move 6 (The honest label): Fiber, micron, origin, trim type, written inside.",
+        "Move 7 (One Sadu motif, small): One woven-in triangle band in two quiet colors.",
+        "Move 8 (Al-Qatt structure): Triangle row and finger-width bands, color dropped.",
+        "Move 9 (Plant-dye palette): Madder red, indigo, turmeric, loomi green.",
+        "Move 10 (Furjat vents): Small triangle vents on the yoke and under the arm.",
+        "Move 11 (The roshan lining): Lattice lining seen only when the coat opens.",
+        "Move 12 (Built for the Gulf): Half canvas, half-lined in cupro, sleeves lined.",
+        "Move 13 (The silent bell): One closed silver bead; one coral-red stitch.",
+        "Move 14 (The munaykhal layer): Open-weave overshirt over a solid base.",
+        "Move 15 (The muted palette): Najdi grey, navy, sand; one small accent.",
+        "Move 16 (The haskal pocket): Slim inside pocket under the left arm.",
+        "Move 17 (The khabt tab): Small plant-tanned leather tab on the cuff.",
+        "Move 18 (The red-cloth secret): Deep red where only the wearer sees it.",
+        "Cupro (brand name Bemberg, made by Asahi Kasei from cotton-seed fuzz) breathes best and is smooth and anti-static; costs more.",
+        "Viscose breathes well and is tough. Acetate is light but weak and flimsy. Polyester lining breathes poorly and feels like a sauna; it is a sign of a cheap suit. Silk breathes but wears out fastest and costs five times or more.",
+        "Unlined lets in the most air but can rumple. Half-lined (back across the shoulders only) lets heat out and still hangs well. Keep sleeves lined so the jacket slides on.",
+        "Gulf summers pass 35°C, so half-lined is the default; lining in cupro, never polyester.",
+        "Every fiber in a blend must earn its place. 65% polyester / 35% cotton is tough, cheap, and wrinkle-resistant but breathes less than cotton: uniforms, not luxury.",
+        "97% wool / 3% elastane gives comfort stretch for trousers. 2–3% elastane is normal in tailoring; a 2024 study found 7% or more can cause seam puckering.",
+        "Wool/silk/linen: wool stops linen wrinkling, silk adds shine, linen adds coolness; Loro Piana's 'Summertime' cloth is 71% merino wool and 15% silk.",
+        "Polyester is fine when it does a job natural fibers can't: holding a pleat, a weatherproof shell, a signature nylon with a story (Prada Re-Nylon from recycled fishing nets). Not next to the skin in Gulf heat."
+      ],
+      "_pl": "Your brief"
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "What makes a hand-woven bisht cloak different from a machine-woven one?",
+      "options": [
+        "Its color",
+        "Two strips sewn across the middle",
+        "It has a hood",
+        "It's always cheaper"
+      ],
+      "answer": 1,
+      "why": "Hand looms were narrow, so the cloth came in two strips.",
+      "whys": [
+        "Color doesn't show how it was woven.",
+        null,
+        "Bishts have no hood.",
+        "Handmade costs more."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "Which fiber is thinnest?",
+      "options": [
+        "Human hair",
+        "Super 100s wool",
+        "Cashmere",
+        "Vicuña"
+      ],
+      "answer": 3,
+      "why": "Vicuña, about 12.5 microns.",
+      "whys": [
+        "About 100 microns: the thickest here.",
+        "About 18.5 microns.",
+        "Under 19 microns, but vicuña is finer.",
+        null
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "In Al-Qatt, what are the amshat (\"combs\")?",
+      "options": [
+        "Bands at the bottom",
+        "Thin vertical lines between the triangles",
+        "The painter's brushes",
+        "The ceiling"
+      ],
+      "answer": 1,
+      "why": "Thin vertical lines between triangles. The bottom bands are the kufuf.",
+      "whys": [
+        "Those are kufuf, the \"palms\".",
+        null,
+        "The name describes a painted shape, not a tool.",
+        "Amshat sit between the triangles."
+      ],
+      "hint": {
+        "svg": "qattBlank",
+        "cap": "Triangles are here. What sits between them?"
+      }
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "A dobby loom is best for…",
+      "options": [
+        "Big, detailed designs like damask",
+        "Small geometric patterns",
+        "Printing",
+        "Embroidery"
+      ],
+      "answer": 1,
+      "why": "Small geometric patterns. Jacquard does big detailed ones.",
+      "whys": [
+        "That's jacquard.",
+        null,
+        "Printing happens after weaving.",
+        "Embroidery is stitched on after."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "Why were Najdi walls so thick?",
+      "options": [
+        "To show wealth",
+        "Mud brick was at hand, and thick earth walls keep heat out",
+        "Building laws",
+        "To hold up tall towers"
+      ],
+      "answer": 1,
+      "why": "Local material, and they suit the desert climate.",
+      "whys": [
+        "Decoration showed wealth, not thickness.",
+        null,
+        "No source mentions building laws.",
+        "Most houses were low; thickness was about heat."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "A fused jacket's big risk is…",
+      "options": [
+        "Glue bubbling after dry cleaning",
+        "Too soft",
+        "Too expensive",
+        "Molds to you too much"
+      ],
+      "answer": 0,
+      "why": "Glue can bubble, and it can't be fixed.",
+      "whys": [
+        null,
+        "Fused tends to be stiff.",
+        "It's the cheapest build.",
+        "That's canvas."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "Silk's weight is measured in…",
+      "options": [
+        "Microns",
+        "Momme",
+        "Super numbers",
+        "Grams of cocoon"
+      ],
+      "answer": 1,
+      "why": "Momme. Microns measure fiber width; Super numbers are for wool.",
+      "whys": [
+        "Microns measure how thin a fiber is.",
+        null,
+        "Super numbers are for wool.",
+        "Not a real measure."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "A Najran craftsman wants deep red leather. What does he use?",
+      "options": [
+        "Red paint",
+        "St John's wort, a tanning plant",
+        "Pomegranate juice",
+        "Rust"
+      ],
+      "answer": 1,
+      "why": "St John's wort gave deep red; Calligonum gave light red.",
+      "whys": [
+        "The red came from plant tanning, not paint.",
+        null,
+        "Pomegranate skins dyed Sadu yarn purple, not leather red.",
+        "Rust wasn't used."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "How many heritage details should your first piece have?",
+      "options": [
+        "One",
+        "Three",
+        "As many as fit",
+        "None"
+      ],
+      "answer": 0,
+      "why": "One, used small. That's what makes it quiet luxury.",
+      "whys": [
+        null,
+        "Three starts to shout.",
+        "That's a souvenir, not a luxury piece.",
+        "None loses the brand's reason to exist."
+      ]
+    },
+    {
+      "type": "score",
+      "part": "quiz"
+    },
+    {
+      "type": "remember",
+      "part": "quiz",
+      "title": "Three things to keep, for good",
+      "items": [
+        [
+          "Copy the reason, not the costume.",
+          "Every Saudi detail solved a problem. Find the problem, and the design follows."
+        ],
+        [
+          "One detail, used small, built well.",
+          "Quiet luxury is a single story you can prove, on a garment made with canvas, cupro and honest fiber."
+        ],
+        [
+          "Your brief is a real starting point.",
+          "Next step: one sample from a pattern-maker, with a fabric swatch in hand."
+        ]
+      ]
+    },
+    {
+      "type": "video",
+      "part": "quiz",
+      "title": "Rewatch list",
+      "items": [
+        [
+          "Bisht (men's Abaa): skills and practices",
+          "https://www.youtube.com/watch?v=dmesiC4e8BY",
+          "The UNESCO film on the bisht."
+        ],
+        [
+          "Traditional weaving of Al Sadu (UNESCO)",
+          "https://www.youtube.com/watch?v=iVaB-bnXAmc",
+          "Sadu, start to finish."
+        ],
+        [
+          "Bemberg and Cupro Linings (Rajani Bespoke)",
+          "https://www.youtube.com/watch?v=FsRxbU3c4DE",
+          "Before you brief a factory on linings."
+        ]
+      ],
+      "note": "That's the week. All seven lessons stay in the Study Book. Retake any quiz whenever you like."
+    }
+  ],
+  "parts": {
+    "story": {
+      "min": 5
+    },
+    "see": {
+      "label": "Review",
+      "min": 5
+    },
+    "design": {
+      "label": "Design your piece",
+      "min": 35
+    },
+    "do": {
+      "label": "Your brief",
+      "min": 10
+    },
+    "quiz": {
+      "min": 10
+    }
+  }
+}

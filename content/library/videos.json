@@ -1,0 +1,462 @@
+[
+  {
+    "id": "l1-s31-video-0",
+    "kind": "video",
+    "title": "Learning About Fabrics 1: The Who, What, and How",
+    "body": "Fiber to yarn to fabric, from a fashion design channel.",
+    "format": "text",
+    "tags": [
+      "fabric"
+    ],
+    "sources": [
+      [
+        "Learning About Fabrics 1: The Who, What, and How",
+        "https://www.youtube.com/watch?v=-B4tfduOQ7w"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l1",
+      "slide": 31
+    }
+  },
+  {
+    "id": "l1-s31-video-1",
+    "kind": "video",
+    "title": "Exploring Natural Fibre Types",
+    "body": "Wool, silk, cotton and linen from a natural dyer.",
+    "format": "text",
+    "tags": [
+      "fabric"
+    ],
+    "sources": [
+      [
+        "Exploring Natural Fibre Types",
+        "https://www.youtube.com/watch?v=BM6LWu1EcdE"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l1",
+      "slide": 31
+    }
+  },
+  {
+    "id": "l2-s31-video-0",
+    "kind": "video",
+    "title": "Bisht (men's Abaa): skills and practices",
+    "body": "The UNESCO film on the bisht craft.",
+    "format": "text",
+    "tags": [
+      "heritage"
+    ],
+    "sources": [
+      [
+        "Bisht (men's Abaa): skills and practices",
+        "https://www.youtube.com/watch?v=dmesiC4e8BY"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l2",
+      "slide": 31
+    }
+  },
+  {
+    "id": "l2-s31-video-1",
+    "kind": "video",
+    "title": "The bisht: Holding on to heritage skills in Saudi Arabia",
+    "body": "Saudi tailors keeping hand bisht-making alive.",
+    "format": "text",
+    "tags": [
+      "heritage"
+    ],
+    "sources": [
+      [
+        "The bisht: Holding on to heritage skills in Saudi Arabia",
+        "https://www.youtube.com/watch?v=VQtOsBZ71w0"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l2",
+      "slide": 31
+    }
+  },
+  {
+    "id": "l2-s31-video-2",
+    "kind": "video",
+    "title": "How to Identify Real & Fake Zari?",
+    "body": "Telling real metal zari from imitation.",
+    "format": "text",
+    "tags": [],
+    "sources": [
+      [
+        "How to Identify Real & Fake Zari?",
+        "https://www.youtube.com/watch?v=e8fLvhrXFxs"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l2",
+      "slide": 31
+    }
+  },
+  {
+    "id": "l2-s31-video-3",
+    "kind": "video",
+    "title": "The 3 Fundamental Textile Weaves: Plain, Twill and Satin",
+    "body": "Pairs with the weave slide.",
+    "format": "text",
+    "tags": [
+      "fabric"
+    ],
+    "sources": [
+      [
+        "The 3 Fundamental Textile Weaves: Plain, Twill and Satin",
+        "https://www.youtube.com/watch?v=TYrQBcPBk3U"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l2",
+      "slide": 31
+    }
+  },
+  {
+    "id": "l3-s29-video-0",
+    "kind": "video",
+    "title": "Traditional weaving of Al Sadu (UNESCO)",
+    "body": "The official film by the Saudi Heritage Preservation Society.",
+    "format": "text",
+    "tags": [
+      "heritage"
+    ],
+    "sources": [
+      [
+        "Traditional weaving of Al Sadu (UNESCO)",
+        "https://www.youtube.com/watch?v=iVaB-bnXAmc"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l3",
+      "slide": 29
+    }
+  },
+  {
+    "id": "l3-s29-video-1",
+    "kind": "video",
+    "title": "Al-Qatt Al-Asiri, women's wall decoration in Asir (UNESCO)",
+    "body": "Real walls being painted: see the kufuf and triangles.",
+    "format": "text",
+    "tags": [
+      "heritage"
+    ],
+    "sources": [
+      [
+        "Al-Qatt Al-Asiri, women's wall decoration in Asir (UNESCO)",
+        "https://www.youtube.com/watch?v=swLtZIftq74"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l3",
+      "slide": 29
+    }
+  },
+  {
+    "id": "l3-s29-video-2",
+    "kind": "video",
+    "title": "Al Sadu Weaving in Souq Waqif",
+    "body": "Hand-spinning and ground-loom weaving up close.",
+    "format": "text",
+    "tags": [
+      "heritage"
+    ],
+    "sources": [
+      [
+        "Al Sadu Weaving in Souq Waqif",
+        "https://www.youtube.com/watch?v=jokSTOliexc"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l3",
+      "slide": 29
+    }
+  },
+  {
+    "id": "l4-s28-video-0",
+    "kind": "video",
+    "title": "Bemberg and Cupro Linings: Are they the best? (Rajani Bespoke)",
+    "body": "A tailor explains linings. Pairs with the lining slide.",
+    "format": "text",
+    "tags": [
+      "fabric",
+      "construction"
+    ],
+    "sources": [
+      [
+        "Bemberg and Cupro Linings: Are they the best? (Rajani Bespoke)",
+        "https://www.youtube.com/watch?v=FsRxbU3c4DE"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l4",
+      "slide": 28
+    }
+  },
+  {
+    "id": "l4-s28-video-1",
+    "kind": "video",
+    "title": "Inside the Fort of AlUla Old Town",
+    "body": "Walls, lanes and openings of an Arabian earth town.",
+    "format": "text",
+    "tags": [
+      "heritage"
+    ],
+    "sources": [
+      [
+        "Inside the Fort of AlUla Old Town",
+        "https://www.youtube.com/watch?v=z-K8N4A86TM"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l4",
+      "slide": 28
+    }
+  },
+  {
+    "id": "l4-s28-video-2",
+    "kind": "video",
+    "title": "AlUla Old Town",
+    "body": "A walk through the old town's houses.",
+    "format": "text",
+    "tags": [
+      "heritage"
+    ],
+    "sources": [
+      [
+        "AlUla Old Town",
+        "https://www.youtube.com/watch?v=xwHYpglrEFI"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l4",
+      "slide": 28
+    }
+  },
+  {
+    "id": "l5-s27-video-0",
+    "kind": "video",
+    "title": "Yemen's Unknown Treasure: Traditional Silver Jewelry of Bedouin & Tribal Women",
+    "body": "The southern silver style Najran pieces share.",
+    "format": "text",
+    "tags": [
+      "heritage"
+    ],
+    "sources": [
+      [
+        "Yemen's Unknown Treasure: Traditional Silver Jewelry of Bedouin & Tribal Women",
+        "https://www.youtube.com/watch?v=CMx8k6_Cyik"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l5",
+      "slide": 27
+    }
+  },
+  {
+    "id": "l5-s27-video-1",
+    "kind": "video",
+    "title": "It's Silk, Not Polyester! Crepe, chiffon, satin and taffeta",
+    "body": "Pairs with the silk slides.",
+    "format": "text",
+    "tags": [
+      "fabric"
+    ],
+    "sources": [
+      [
+        "It's Silk, Not Polyester! Crepe, chiffon, satin and taffeta",
+        "https://www.youtube.com/watch?v=KTxQ0Fw6cZc"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l5",
+      "slide": 27
+    }
+  },
+  {
+    "id": "l5-s27-video-2",
+    "kind": "video",
+    "title": "Why Are These Traditional Saudi Arabian Dresses So Huge?",
+    "body": "About very wide traditional robes.",
+    "format": "text",
+    "tags": [
+      "heritage"
+    ],
+    "sources": [
+      [
+        "Why Are These Traditional Saudi Arabian Dresses So Huge?",
+        "https://www.youtube.com/watch?v=Iykmei0TEsg"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l5",
+      "slide": 27
+    }
+  },
+  {
+    "id": "l6-s29-video-0",
+    "kind": "video",
+    "title": "Janbiya Dagger Making in Najran",
+    "body": "See a janbiya being made in Najran.",
+    "format": "text",
+    "tags": [
+      "heritage"
+    ],
+    "sources": [
+      [
+        "Janbiya Dagger Making in Najran",
+        "https://www.youtube.com/watch?v=jSNClnVM5GY"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l6",
+      "slide": 29
+    }
+  },
+  {
+    "id": "l6-s29-video-1",
+    "kind": "video",
+    "title": "How to Use a Traditional Arabian Incense Burner (Mabkhara)",
+    "body": "How the mabkhara and bakhoor are used.",
+    "format": "text",
+    "tags": [
+      "scent"
+    ],
+    "sources": [
+      [
+        "How to Use a Traditional Arabian Incense Burner (Mabkhara)",
+        "https://www.youtube.com/watch?v=QBRPl0d330Y"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l6",
+      "slide": 29
+    }
+  },
+  {
+    "id": "l6-s29-video-2",
+    "kind": "video",
+    "title": "What's inside a Taif Rose factory?",
+    "body": "How Taif rose water and oil are made.",
+    "format": "text",
+    "tags": [
+      "scent"
+    ],
+    "sources": [
+      [
+        "What's inside a Taif Rose factory?",
+        "https://www.youtube.com/watch?v=0oI8U3kZRlw"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l6",
+      "slide": 29
+    }
+  },
+  {
+    "id": "l6-s29-video-3",
+    "kind": "video",
+    "title": "Pearl Diving in the Gulf, 1938",
+    "body": "Real Gulf divers, their clothes and tools.",
+    "format": "text",
+    "tags": [],
+    "sources": [
+      [
+        "Pearl Diving in the Gulf, 1938",
+        "https://www.youtube.com/watch?v=oalx-6uRRNA"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l6",
+      "slide": 29
+    }
+  },
+  {
+    "id": "l7-s29-video-0",
+    "kind": "video",
+    "title": "Bisht (men's Abaa): skills and practices",
+    "body": "The UNESCO film on the bisht.",
+    "format": "text",
+    "tags": [
+      "heritage"
+    ],
+    "sources": [
+      [
+        "Bisht (men's Abaa): skills and practices",
+        "https://www.youtube.com/watch?v=dmesiC4e8BY"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l7",
+      "slide": 29
+    }
+  },
+  {
+    "id": "l7-s29-video-1",
+    "kind": "video",
+    "title": "Traditional weaving of Al Sadu (UNESCO)",
+    "body": "Sadu, start to finish.",
+    "format": "text",
+    "tags": [
+      "heritage"
+    ],
+    "sources": [
+      [
+        "Traditional weaving of Al Sadu (UNESCO)",
+        "https://www.youtube.com/watch?v=iVaB-bnXAmc"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l7",
+      "slide": 29
+    }
+  },
+  {
+    "id": "l7-s29-video-2",
+    "kind": "video",
+    "title": "Bemberg and Cupro Linings (Rajani Bespoke)",
+    "body": "Before you brief a factory on linings.",
+    "format": "text",
+    "tags": [
+      "fabric",
+      "construction"
+    ],
+    "sources": [
+      [
+        "Bemberg and Cupro Linings (Rajani Bespoke)",
+        "https://www.youtube.com/watch?v=FsRxbU3c4DE"
+      ]
+    ],
+    "origin": {
+      "type": "lesson",
+      "lesson": "l7",
+      "slide": 29
+    }
+  }
+]

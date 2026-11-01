@@ -1,0 +1,789 @@
+{
+  "id": "l3",
+  "num": 3,
+  "date": "2026-10-27",
+  "day": "Tue, Oct 27",
+  "ready": true,
+  "title": "Patterns that mean something",
+  "pair": "Al Sadu, Al-Qatt Al-Asiri and natural dyes · How a pattern gets into cloth",
+  "slides": [
+    {
+      "type": "cover",
+      "part": "warm",
+      "img": "l3-52",
+      "coverCaption": "Al Sadu weaving: a diamond worked in red, black and white.",
+      "kicker": "Lesson 3 · about 1 hour",
+      "title": "Patterns that mean something",
+      "text": "Saudi patterns were never random. Bedouin women wove the desert into tents, and Asiri women painted their walls to welcome guests. Learn what the shapes say, then learn the three ways a pattern can get into cloth."
+    },
+    {
+      "type": "quiz",
+      "part": "warm",
+      "warm": true,
+      "review": 2,
+      "q": "Real zari is made of…",
+      "options": [
+        "A shiny plastic film",
+        "Silk or cotton yarn wrapped in silver wire, then gold-plated",
+        "Solid gold wire",
+        "Copper wire painted gold"
+      ],
+      "answer": 1,
+      "why": "Silk or cotton wrapped in silver, then gold-plated. Copper-core and plastic-core threads are the cheap copies.",
+      "whys": [
+        "That is Lurex, a cheap shiny copy, not zari.",
+        null,
+        "Solid gold would be stiff and very costly. Real zari is a soft yarn with a metal wrap.",
+        "Copper wire is the core of imitation zari."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "warm",
+      "warm": true,
+      "review": 2,
+      "q": "A bisht made of two strips sewn across the middle tells you…",
+      "options": [
+        "It was torn and repaired",
+        "The cloth was woven on a narrow hand loom",
+        "It's a cheap machine copy",
+        "It's a summer bisht"
+      ],
+      "answer": 1,
+      "why": "Hand looms were narrow, so hand-woven bisht cloth came in two strips. One wide seamless piece means a machine.",
+      "whys": [
+        "The seam is on purpose, not a repair.",
+        null,
+        "The opposite: one seamless wide piece is the machine sign.",
+        "The season shows in the cloth's thickness, not the seam."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "warm",
+      "warm": true,
+      "review": 2,
+      "q": "For soft, luxury camel cloth, which camel do you want?",
+      "options": [
+        "Arabian one-humped camel",
+        "Two-humped Bactrian camel undercoat",
+        "Any camel, it's the same",
+        "Camel tail hair"
+      ],
+      "answer": 1,
+      "why": "The Bactrian camel's soft undercoat. Arabian camel hair is coarse, because the hottest deserts grow coarser down.",
+      "whys": [
+        "Arabian camel hair is coarse. It is warm, but not soft enough for fine cloth.",
+        null,
+        "Not the same: fiber width changes a lot between camels.",
+        "Tail hair is coarse. Softness comes from the undercoat."
+      ]
+    },
+    {
+      "type": "story",
+      "part": "story",
+      "img": "l3-8",
+      "caption": "A Bedouin woman weaving on a ground loom, in the Negev. Al Sadu uses this same kind of loom.",
+      "title": "Al Sadu: weaving the desert",
+      "arabic": "السدو",
+      "text": [
+        "Al Sadu means \"weaving done in a horizontal style\". The loom lies flat on the ground, and the weaver sits at it.",
+        "The master weavers are older Bedouin women. They teach the skill inside the home, mother to daughter. Men also wove, but the detailed patterns are credited to women.",
+        "The cloth is a tight, tough weave, made for tents, cushions, rugs, camel gear and even bisht cloth. UNESCO listed it for Saudi Arabia and Kuwait in 2020."
+      ],
+      "src": [
+        [
+          "UNESCO: Traditional weaving of Al Sadu",
+          "https://ich.unesco.org/en/RL/traditional-weaving-of-al-sadu-01586"
+        ],
+        [
+          "Saudipedia: What is al-Sadu?",
+          "https://saudipedia.com/en/what-is-al-sadu"
+        ]
+      ]
+    },
+    {
+      "type": "steps",
+      "part": "story",
+      "img": "l3-51",
+      "caption": "A Sadu piece: red fields, black-and-white triangle bands.",
+      "title": "From sheep to Sadu",
+      "intro": "Every piece starts with an animal and ends with a pattern. This is the process in the Gulf.",
+      "steps": [
+        "Cut the wool and goat hair; collect camel hair",
+        "Sort by color and length",
+        "Shake and comb out thorns, dust and sand",
+        "Wash it three or more times",
+        "Spin it into yarn on a drop spindle",
+        "Dye it with plants and spices",
+        "Weave on the ground loom"
+      ],
+      "facts": [
+        [
+          "Sheep's wool",
+          "makes the finest Sadu"
+        ],
+        [
+          "Black, white, brown, beige, red",
+          "the traditional colors"
+        ]
+      ],
+      "src": [
+        [
+          "Abu Dhabi Culture: Al Sadu",
+          "https://abudhabiculture.ae/en/heritage-records/intangible-cultural-heritage/al-sadu-unesco"
+        ],
+        [
+          "Saudipedia: What is al-Sadu?",
+          "https://saudipedia.com/en/what-is-al-sadu"
+        ]
+      ]
+    },
+    {
+      "type": "story",
+      "part": "story",
+      "img": "l3-19",
+      "caption": "Rijal Almaa village in Asir, 2021: stone houses with white trim.",
+      "title": "Al-Qatt Al-Asiri: walls painted by women",
+      "arabic": "القط العسيري",
+      "text": [
+        "In Asir, women painted the inside walls of their homes, mostly the guest room, because that room shows a family's pride.",
+        "They painted on white gypsum, which they gathered from the mountains and even caves. Neighbors competed to paint the boldest walls. The painter is called al-qattatah.",
+        "A famous master, Fatima Abou Gahas, taught the art until she died in 2010. UNESCO listed Al-Qatt in 2017."
+      ],
+      "note": "No free-to-use photo of a painted Al-Qatt room exists online that we can show here, so the next slides use a drawing based on UNESCO's description. The video at the end shows real walls.",
+      "src": [
+        [
+          "UNESCO: Al-Qatt Al-Asiri",
+          "https://ich.unesco.org/en/RL/01261"
+        ],
+        [
+          "Ithra: Art by Women for All",
+          "https://ithraeyat.ithra.com/editions/threads/art-by-women-for-all-al-qatt-al-asiri"
+        ],
+        [
+          "Saudipedia: Al-Qatt Al-Asiri",
+          "https://saudipedia.com/en/article/585/culture/visual-arts/al-qatt-al-asiri"
+        ]
+      ]
+    },
+    {
+      "type": "builder",
+      "part": "story",
+      "title": "Build an Al-Qatt wall",
+      "intro": "Al-Qatt is painted in layers, and each layer has its own name. Add them one at a time.",
+      "layers": [
+        [
+          "Kufuf, \"palms\":",
+          "horizontal bands at the bottom. Women measured their width with their fingers."
+        ],
+        [
+          "Triangles:",
+          "a row of triangles. Some sources say they stand for the family."
+        ],
+        [
+          "Amshat, \"combs\":",
+          "thin vertical lines between the triangles."
+        ],
+        [
+          "Upper band:",
+          "a row of small shapes higher up the wall."
+        ]
+      ],
+      "colorNote": "Traditional colors are red, yellow, blue and black on white, mixed to make more. Today some painters use colors from limestone, colored clay and plants.",
+      "monoNote": "Same structure, two quiet colors. This is how a bright women's wall art becomes a calm men's detail: keep the shapes and the finger-width rhythm, drop the color.",
+      "src": [
+        [
+          "UNESCO inventory: Al-Qatt (PDF)",
+          "https://ich.unesco.org/doc/src/34853.pdf"
+        ],
+        [
+          "Architizer: Al-Qatt Al-Asiri",
+          "https://architizer.com/blog/?p=188528"
+        ],
+        [
+          "Saudi Press Agency (SPA): Asir's colors",
+          "https://www.spa.gov.sa/en/N2030519"
+        ]
+      ]
+    },
+    {
+      "type": "layers",
+      "part": "story",
+      "title": "Where the colors came from",
+      "intro": "Before factory dyes, every color came from a plant, and each one had a source you could hold.",
+      "layers": [
+        [
+          "Red",
+          "madder root",
+          "Plant"
+        ],
+        [
+          "Green",
+          "dried limes",
+          "Plant"
+        ],
+        [
+          "Purple",
+          "pomegranate skins",
+          "Plant"
+        ],
+        [
+          "Yellow",
+          "turmeric",
+          "Plant"
+        ],
+        [
+          "Blue",
+          "indigo, a big trade in Yemen, especially Zabid",
+          "Plant"
+        ]
+      ],
+      "note": "These came from one book, Joy Totah Hilden's Bedouin Weaving of Saudi Arabia and Its Neighbors. Weavers still dye this way today.",
+      "src": [
+        [
+          "Al Jadid: Bedouin Weaving of Saudi Arabia (Hilden)",
+          "https://aljadid.com/node/1557"
+        ],
+        [
+          "Al-Bab: Indigo in the Arab World",
+          "https://al-bab.com/book-review-indigo-arab-world"
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "part": "see",
+      "title": "Sadu, close up",
+      "left": {
+        "img": "l3-52",
+        "label": "A center diamond",
+        "caption": "A diamond built from small triangles, with mirror-image symmetry."
+      },
+      "right": {
+        "img": "l3-53",
+        "label": "Bands and stripes",
+        "caption": "Long red fields broken by narrow patterned bands."
+      },
+      "takeaway": "Notice the rules: only straight lines and triangles, always symmetry, a few strong colors. Triangles and lines are the most common Sadu shapes.",
+      "src": [
+        [
+          "UNESCO: Traditional weaving of Al Sadu",
+          "https://ich.unesco.org/en/RL/traditional-weaving-of-al-sadu-01586"
+        ],
+        [
+          "ArchiExpo: Aljoud Lootah on Al Sadu",
+          "https://emag.archiexpo.com/the-story-of-al-sadu-with-uae-designer-aljoud-lootah/"
+        ]
+      ]
+    },
+    {
+      "type": "reveal",
+      "part": "see",
+      "img": "l3-5",
+      "title": "Is this real Sadu?",
+      "prompt": "A majlis in the United Arab Emirates (UAE). Look at the cushions and rugs. Guess: hand-woven Sadu, or a modern copy?",
+      "answer": "Most likely a modern copy in \"Sadu style\": the photo's own title calls it that. Real Sadu is hand-woven on a ground loom, so lines wobble slightly and colors shift a little between yarn batches. Machine copies are perfectly even. Sadu patterns are now everywhere in tourist goods and furniture, which is why a loud Sadu print on a garment can read cheap.",
+      "src": [
+        [
+          "AramcoWorld: Al Sadu weaves stories",
+          "https://www.aramcoworld.com/articles/2025/ja25/al-sadu-weaves-stories-of-culture-and-identity"
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "part": "see",
+      "title": "The dye pots",
+      "left": {
+        "img": "l3-12",
+        "label": "Red",
+        "caption": "Madder root and yarn dyed with it."
+      },
+      "right": {
+        "img": "l3-14",
+        "label": "Blue",
+        "caption": "Indigo cloth lifted from the dye vat."
+      },
+      "takeaway": "Natural dye never comes out exactly the same twice. In luxury that small variation is a selling point: each piece is a little different.",
+      "src": [
+        [
+          "Al Jadid: Bedouin Weaving of Saudi Arabia (Hilden)",
+          "https://aljadid.com/node/1557"
+        ],
+        [
+          "Al-Bab: Indigo in the Arab World",
+          "https://al-bab.com/book-review-indigo-arab-world"
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "part": "see",
+      "title": "Two kitchen dyes",
+      "left": {
+        "img": "l3-30",
+        "label": "Yellow",
+        "caption": "Turmeric root and powder."
+      },
+      "right": {
+        "img": "l3-27",
+        "label": "Green",
+        "caption": "Dried limes (loomi) in a Bahrain market."
+      },
+      "takeaway": "Both are still in every Gulf kitchen. A capsule colored only with plant dyes tells the heritage story with no pattern at all.",
+      "src": [
+        [
+          "Al Jadid: Bedouin Weaving of Saudi Arabia (Hilden)",
+          "https://aljadid.com/node/1557"
+        ]
+      ]
+    },
+    {
+      "type": "toggle",
+      "part": "see",
+      "title": "Three ways to put a pattern on cloth",
+      "intro": "Same pattern, three methods. Switch between them and compare.",
+      "modes": {
+        "Woven": {
+          "img": "l3-40",
+          "cap": "A Jacquard loom: the loom builds the pattern into the cloth.",
+          "items": [
+            [
+              "How",
+              "Built into the cloth on the loom",
+              "the threads themselves make the pattern"
+            ],
+            [
+              "Back",
+              "Pattern shows on the back too",
+              "often in reverse colors"
+            ],
+            [
+              "Lasts",
+              "As long as the cloth",
+              "can't wash or rub off"
+            ]
+          ]
+        },
+        "Printed": {
+          "img": "l3-49",
+          "cap": "A carved wooden block for printing cloth, Jaipur, India.",
+          "items": [
+            [
+              "How",
+              "Pressed onto the surface after weaving",
+              "here with a carved wooden block"
+            ],
+            [
+              "Back",
+              "Usually plain or faded",
+              "the color sits on top"
+            ],
+            [
+              "Lasts",
+              "Can fade or crack",
+              "cheapest way to add a pattern"
+            ]
+          ]
+        },
+        "Embroidered": {
+          "img": "l2-0",
+          "cap": "Gold thread stitched onto velvet.",
+          "items": [
+            [
+              "How",
+              "Stitched onto finished cloth",
+              "by hand or machine"
+            ],
+            [
+              "Back",
+              "You can see the stitches",
+              "the front sits raised"
+            ],
+            [
+              "Lasts",
+              "Strong, but can snag",
+              "slow, so it costs more"
+            ]
+          ]
+        }
+      },
+      "src": [
+        [
+          "FashionUnited: weaving vs embroidery",
+          "https://fashionunited.uk/news/fashion/explained-the-distinction-between-weaving-and-embroidery/2023082471221"
+        ],
+        [
+          "iFactory: dobby vs jacquard",
+          "https://ifactoryapp.com/industries/textile-manufacturing/dobby-vs-jacquard-weaving-pattern-capability-cost"
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "part": "see",
+      "title": "Small pattern or big pattern: dobby vs jacquard",
+      "left": {
+        "img": "l3-43",
+        "label": "Dobby",
+        "caption": "A dobby head. It lifts warp threads in groups, through up to about 28 frames."
+      },
+      "right": {
+        "img": "l3-40",
+        "label": "Jacquard",
+        "caption": "A Jacquard loom. Each punched card is one row of the design."
+      },
+      "takeaway": "Dobby makes small geometric patterns, like the tiny textures on a fine shirt. Jacquard lifts every thread on its own, so it can weave big, detailed designs like damask. Jacquard costs more. Jacquard's punched cards, patented in Lyon in 1805, later inspired the first computers.",
+      "src": [
+        [
+          "iFactory: dobby vs jacquard",
+          "https://ifactoryapp.com/industries/textile-manufacturing/dobby-vs-jacquard-weaving-pattern-capability-cost"
+        ],
+        [
+          "Wikipedia: Joseph Marie Jacquard",
+          "https://en.wikipedia.org/wiki/Joseph_Marie_Jacquard"
+        ]
+      ]
+    },
+    {
+      "type": "design",
+      "part": "design",
+      "svg": "qattMono",
+      "title": "Move 7: One Sadu motif, made small",
+      "text": "Sadu is everywhere in souvenirs, so a big Sadu print reads cheap. Take one motif and shrink it.",
+      "how": [
+        "Weave one triangle band into a waistband, collar stand or bag strap.",
+        "Use dobby or jacquard so it is part of the cloth, not printed on top.",
+        "Two quiet colors only, like black and sand. Those who know will see it."
+      ]
+    },
+    {
+      "type": "design",
+      "part": "design",
+      "svg": "qattColor",
+      "title": "Move 8: Al-Qatt structure, no color",
+      "text": "Al-Qatt is a bright women's art. Keep its bones: the triangle row and the finger-width bands.",
+      "how": [
+        "Men: knit the triangle row into a sweater's hem or a scarf border, in black and sand.",
+        "Women: the same band in one deep color on a long coat's hem.",
+        "Never copy one family's wall. Use the rules, not a specific painting."
+      ]
+    },
+    {
+      "type": "design",
+      "part": "design",
+      "svg": "swap",
+      "title": "Move 9: A plant-dye palette",
+      "text": "Build a capsule using only the old plant colors: madder red, indigo blue, turmeric yellow, loomi green.",
+      "how": [
+        "Pick one main color and one accent per season.",
+        "Natural dye varies a little: say so on the label and turn it into the story.",
+        "Ask suppliers for color-fastness test results, because plant dyes can fade."
+      ]
+    },
+    {
+      "type": "task",
+      "part": "do",
+      "title": "Pattern hunt at home",
+      "minutes": 4,
+      "text": "Find three patterned things at home: clothes, cushions, a rug or a scarf.",
+      "checklist": [
+        "Find one woven-in pattern, one print and one embroidery",
+        "Turn each one over and look at the back",
+        "Write how you could tell which is which"
+      ],
+      "notePrompt": "Scarf: woven, because the pattern shows on the back in reverse colors...",
+      "refs": [
+        {
+          "img": "l3-40",
+          "cap": "Woven-in: the loom makes the pattern."
+        },
+        {
+          "img": "l3-49",
+          "cap": "Printed: a block presses color on top."
+        },
+        {
+          "img": "l2-0",
+          "cap": "Embroidered: thread stitched on, raised."
+        }
+      ],
+      "context": [
+        "Woven-in patterns are part of the cloth: dobby looms move warp threads in groups through up to about 28 shafts and make small geometric patterns; jacquard looms lift each warp thread on its own and make large detailed designs. Cost: jacquard > dobby > plain.",
+        "Prints are applied on the surface after weaving, for example by woodblock; the back of the cloth is usually plain or faded.",
+        "Embroidery is stitched onto finished cloth and sits raised; you can see stitches on the back.",
+        "The Jacquard loom used punched cards, one card per row of the design, and was patented in 1805 in Lyon; it inspired early computers."
+      ]
+    },
+    {
+      "type": "task",
+      "part": "do",
+      "title": "Draw a quiet Al-Qatt band",
+      "minutes": 3,
+      "text": "On paper, draw a 10 cm band you could put on a sweater hem.",
+      "checklist": [
+        "Draw finger-width stripes at the bottom",
+        "Add a row of triangles above them",
+        "Use only two colors, and write which two"
+      ],
+      "notePrompt": "My two colors are ___ and ___, because...",
+      "refs": [
+        {
+          "svg": "qattColor",
+          "cap": "Al-Qatt style, Asir colors (drawing)."
+        },
+        {
+          "svg": "qattMono",
+          "cap": "Same structure, two quiet colors."
+        },
+        {
+          "img": "l3-19",
+          "cap": "Rijal Almaa, Asir."
+        }
+      ],
+      "context": [
+        "Al-Qatt Al-Asiri is painted by women on interior walls in Asir, mostly the guest room, on white gypsum. UNESCO listed it in 2017.",
+        "Patterns are layers of geometric shapes, each layer with its own name. Horizontal bands at the bottom are called kufuf, 'palms of the hands', and women measured them with their fingers. Vertical lines between triangles are amshat, 'combs'.",
+        "Traditional colors: red, yellow, blue and black, mixed to make others. Some sources say triangles stand for the family.",
+        "Design idea (Move 8): keep the structure (triangle row, finger-width bands) and drop the bright colors, using two quiet colors like black and sand on a knit or scarf border."
+      ]
+    },
+    {
+      "type": "task",
+      "part": "do",
+      "title": "Your plant palette",
+      "minutes": 3,
+      "text": "Pick three of the old plant colors for one A'ila Areeqa capsule.",
+      "checklist": [
+        "Choose a main color and two accents",
+        "Name one garment for each color",
+        "Say which season it suits and why"
+      ],
+      "notePrompt": "Main: indigo, for a winter overshirt, because...",
+      "refs": [
+        {
+          "img": "l3-12",
+          "cap": "Madder red."
+        },
+        {
+          "img": "l3-14",
+          "cap": "Indigo blue."
+        },
+        {
+          "img": "l3-30",
+          "cap": "Turmeric yellow."
+        },
+        {
+          "img": "l3-27",
+          "cap": "Loomi (dried lime) green."
+        }
+      ],
+      "context": [
+        "Bedouin natural dyes: madder root for red, dried limes for green, pomegranate skins for purple, turmeric for yellow, indigo for blue.",
+        "Natural colors vary from batch to batch; that variation is part of their character.",
+        "A palette built only from these plant colors tells a heritage story with no pattern at all."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "Who are the master weavers of Al Sadu?",
+      "options": [
+        "Tailors in Al-Ahsa",
+        "Older Bedouin women",
+        "Factory workers in Riyadh",
+        "Merchants in Jeddah"
+      ],
+      "answer": 1,
+      "why": "Older Bedouin women, who teach the skill inside the home.",
+      "whys": [
+        "Al-Ahsa tailors make bishts. Sadu is a different craft.",
+        null,
+        "Sadu is hand-woven on a ground loom, not factory-made.",
+        "Merchants sold cloth; Bedouin women wove Sadu."
+      ],
+      "src": [
+        [
+          "UNESCO: Traditional weaving of Al Sadu",
+          "https://ich.unesco.org/en/RL/traditional-weaving-of-al-sadu-01586"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "What does \"Sadu\" mean?",
+      "options": [
+        "Red cloth",
+        "Weaving done in a horizontal style",
+        "Desert tent",
+        "Pattern of the stars"
+      ],
+      "answer": 1,
+      "why": "Weaving done in a horizontal style: the loom lies flat on the ground.",
+      "whys": [
+        "Red is a common Sadu color, but it is not what the word means.",
+        null,
+        "Tents were made from Sadu, but the word means the way of weaving.",
+        "That's a nice idea, but the word describes the loom's position."
+      ],
+      "hint": {
+        "img": "l3-8",
+        "cap": "Look at how the loom sits."
+      },
+      "src": [
+        [
+          "UNESCO: Traditional weaving of Al Sadu",
+          "https://ich.unesco.org/en/RL/traditional-weaving-of-al-sadu-01586"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "In Al-Qatt, what are the kufuf (\"palms\")?",
+      "options": [
+        "Painted hands on the door",
+        "Horizontal bands at the bottom of the wall, measured with fingers",
+        "Palm trees in the corners",
+        "The ceiling beams"
+      ],
+      "answer": 1,
+      "why": "Bands at the bottom of the wall. Women used their fingers to measure the width.",
+      "whys": [
+        "The name means palms, but nobody painted hands. It's about how the bands were measured.",
+        null,
+        "No palm trees: Al-Qatt is geometric.",
+        "Ceilings could be painted too, but kufuf are the bottom bands."
+      ],
+      "hint": {
+        "svg": "qattBlank",
+        "cap": "The wall has triangles. What runs along the very bottom?"
+      },
+      "src": [
+        [
+          "UNESCO inventory: Al-Qatt (PDF)",
+          "https://ich.unesco.org/doc/src/34853.pdf"
+        ],
+        [
+          "Architizer: Al-Qatt Al-Asiri",
+          "https://architizer.com/blog/?p=188528"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "Which plant gave Bedouin weavers their red?",
+      "options": [
+        "Turmeric",
+        "Madder root",
+        "Dried limes",
+        "Indigo"
+      ],
+      "answer": 1,
+      "why": "Madder root. Turmeric gave yellow, dried limes green, indigo blue.",
+      "whys": [
+        "Turmeric gives yellow.",
+        null,
+        "Dried limes give green.",
+        "Indigo gives blue."
+      ],
+      "src": [
+        [
+          "Al Jadid: Bedouin Weaving of Saudi Arabia (Hilden)",
+          "https://aljadid.com/node/1557"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "A fine shirt has a tiny woven-in geometric texture. Which loom most likely made it?",
+      "options": [
+        "Dobby",
+        "Jacquard",
+        "None: it's printed",
+        "None: it's embroidered"
+      ],
+      "answer": 0,
+      "why": "Dobby. It lifts threads in groups and makes small geometric patterns. Jacquard is for big, detailed designs.",
+      "whys": [
+        null,
+        "Jacquard can do it, but it's built for big detailed designs and costs more. Small geometric = dobby.",
+        "The question says woven-in. A print sits on top.",
+        "Embroidery is stitched on afterwards, not woven in."
+      ],
+      "src": [
+        [
+          "iFactory: dobby vs jacquard",
+          "https://ifactoryapp.com/industries/textile-manufacturing/dobby-vs-jacquard-weaving-pattern-capability-cost"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "Why can a loud Sadu print on a garment read cheap?",
+      "options": [
+        "Sadu is ugly",
+        "Sadu patterns are everywhere in souvenirs and furniture now",
+        "Prints are not allowed",
+        "Sadu is only for women"
+      ],
+      "answer": 1,
+      "why": "Sadu is everywhere in tourist goods. For quiet luxury, use one small woven-in motif instead.",
+      "whys": [
+        "Sadu is beautiful. The problem is how common the cheap copies are.",
+        null,
+        "Prints are allowed. The issue is how common they are.",
+        "Men also wove Sadu, and Sadu was used for everyone's tents and gear."
+      ]
+    },
+    {
+      "type": "score",
+      "part": "quiz"
+    },
+    {
+      "type": "remember",
+      "part": "quiz",
+      "title": "Three things to keep",
+      "items": [
+        [
+          "Sadu = Bedouin women's ground-loom weaving.",
+          "Triangles, lines, symmetry, a few strong colors."
+        ],
+        [
+          "Al-Qatt is built in named layers.",
+          "Kufuf (palms) at the bottom, triangles, amshat (combs). Keep the structure, drop the color."
+        ],
+        [
+          "Woven-in beats printed for luxury.",
+          "Dobby for small patterns, jacquard for big ones. Turn it over to check."
+        ]
+      ]
+    },
+    {
+      "type": "video",
+      "part": "quiz",
+      "title": "Watch tonight or tomorrow",
+      "items": [
+        [
+          "Traditional weaving of Al Sadu (UNESCO)",
+          "https://www.youtube.com/watch?v=iVaB-bnXAmc",
+          "The official film by the Saudi Heritage Preservation Society."
+        ],
+        [
+          "Al-Qatt Al-Asiri, women's wall decoration in Asir (UNESCO)",
+          "https://www.youtube.com/watch?v=swLtZIftq74",
+          "Real walls being painted: see the kufuf and triangles."
+        ],
+        [
+          "Al Sadu Weaving in Souq Waqif",
+          "https://www.youtube.com/watch?v=jokSTOliexc",
+          "Hand-spinning and ground-loom weaving up close."
+        ]
+      ]
+    }
+  ]
+}

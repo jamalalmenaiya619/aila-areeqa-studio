@@ -1,0 +1,806 @@
+{
+  "order": [
+    "l1",
+    "l2",
+    "l3",
+    "l4",
+    "l5",
+    "l6",
+    "l7"
+  ],
+  "PARTS": {
+    "warm": {
+      "label": "Warm-up",
+      "min": 5
+    },
+    "story": {
+      "label": "The story",
+      "min": 10
+    },
+    "see": {
+      "label": "See it",
+      "min": 20
+    },
+    "design": {
+      "label": "Design move",
+      "min": 10
+    },
+    "do": {
+      "label": "Do it",
+      "min": 10
+    },
+    "quiz": {
+      "label": "Quiz",
+      "min": 5
+    }
+  },
+  "SRC": {
+    "ithraThobe": [
+      "Ithra: The Saudi Thobe",
+      "https://www.ithra.com/en/news/saudi-thobe-ongoing-story"
+    ],
+    "anBishtDgda": [
+      "Arab News: Diriyah bisht line",
+      "https://arabnews.com/node/2014101"
+    ],
+    "anBisht2012": [
+      "Arab News: The Saudi man's bisht",
+      "https://www.arabnews.com/fashion/traditional-modern-the-saudi-mans-bisht-429954"
+    ],
+    "anQattan": [
+      "Arab News: Bisht, symbol of royalty",
+      "https://www.arabnews.com/node/1747996/saudi-arabia"
+    ],
+    "spHasawi": [
+      "Saudipedia: Hasawi Bisht",
+      "https://saudipedia.com/en/article/1968/society/garments-and-accessories/al-mashleh-al-hassawi"
+    ],
+    "risd": [
+      "RISD Museum: man's bisht, 1949",
+      "https://risdmuseum.org/node/1212336"
+    ],
+    "anFarwa": [
+      "Arab News: the farwa",
+      "https://arabnews.pk/node/1776911"
+    ],
+    "spSadu": [
+      "Saudipedia: What is al-Sadu?",
+      "https://saudipedia.com/en/what-is-al-sadu"
+    ],
+    "spArdah": [
+      "Saudipedia: Ardah costumes",
+      "https://saudipedia.com/en/what-are-the-traditional-costumes-for-the-saudi-ardah"
+    ],
+    "aawsat": [
+      "Asharq Al-Awsat: Saudi traditional dress",
+      "https://english.aawsat.com/home/article/3489611/saudi-traditional-dress-remains-fashionable-kingdoms-founding-3-centuries-ago"
+    ],
+    "wikiBisht": [
+      "Wikipedia: Bisht",
+      "https://en.wikipedia.org/wiki/Bisht_(clothing)"
+    ],
+    "linen": [
+      "Cable: What is linen?",
+      "https://www.cablemelbourne.com/blogs/news/what-is-linen"
+    ],
+    "linenSci": [
+      "Why linen behaves the way it does",
+      "https://yoosclub.com/blogs/suit-fabric-journal/why-linen-behaves-the-way-it-does-the-science-of-moisture-coolness-and-wrinkles"
+    ],
+    "masterclass": [
+      "MasterClass: cotton vs linen",
+      "https://www.masterclass.com/articles/what-is-cotton-and-what-is-linen"
+    ],
+    "anFestival": [
+      "Arab News: Al-Bisht Al-Hasawi Festival",
+      "https://www.arabnews.com/node/2631724/amp"
+    ],
+    "anReview": [
+      "Arab News: King of the Shoulders review",
+      "https://www.arabnews.pk/node/2648762/lifestyle"
+    ],
+    "khaleej": [
+      "Khaleej Times: Ronaldo's rare bisht",
+      "https://www.khaleejtimes.com/world/gulf/saudi-cristiano-ronaldo-rare-bisht"
+    ],
+    "arabesque": [
+      "Saudi Arabesque: bisht making",
+      "https://saudiarabesque.com/traditional-urban-men-s-dress-of-saudi-arabia-continued/"
+    ],
+    "encyclo": [
+      "Encyclocrafts: bisht making in Kuwait",
+      "https://encyclocraftsapr.com/bisht-making-in-kuwait/"
+    ],
+    "kuwaitTimes": [
+      "Kuwait Times: bishts and abayas",
+      "https://kuwaittimes.com/bishts-abayas-continue-to-charm-kuwait/"
+    ],
+    "unescoBisht": [
+      "UNESCO: Bisht skills and practices",
+      "https://ich.unesco.org/fr/RL/le-bisht-abaa-pour-hommes-savoir-faire-et-pratiques-02233?RL=02233"
+    ],
+    "wrth": [
+      "Wrth: Hasawi bisht apprenticeship",
+      "https://wrth.edu.sa/en/learn/apprenticeships/al-bisht-al-hasawi-apprenticeship-program"
+    ],
+    "aza": [
+      "Aza: real vs fake zari",
+      "https://www.azafashions.com/blog/is-your-zari-real-how-to-identify-the-difference/"
+    ],
+    "suratZari": [
+      "Wikipedia: Surat zari",
+      "https://en.wikipedia.org/wiki/Surat_zari"
+    ],
+    "premiere": [
+      "Première Vision: basic weaves",
+      "https://www.premierevision.com/en/articles/b452b2cb-76fa-ef11-90cb-00224888722c/textile-glossary-basic-weaves"
+    ],
+    "wikiTwill": [
+      "Wikipedia: Twill",
+      "https://en.wikipedia.org/wiki/Twill"
+    ],
+    "wikiSatin": [
+      "Wikipedia: Satin",
+      "https://en.wikipedia.org/wiki/Satin"
+    ],
+    "malay": [
+      "Malay Mail: Saudi tailor fights to save the bisht",
+      "https://malaymail.com/news/life/2025/03/29/saudi-tailor-fights-to-save-ancient-bisht-craft-as-mass-produced-robes-dominate-market/171203"
+    ],
+    "fao": [
+      "UN Food and Agriculture Organization (FAO): Camel hair",
+      "https://www.fao.org/4/v9384e/v9384e05.htm"
+    ],
+    "cameo": [
+      "Museum of Fine Arts (MFA) Boston, CAMEO database: Camel hair",
+      "https://cameo.mfa.org/wiki/Camel_hair"
+    ],
+    "lpVicuna": [
+      "Loro Piana: Vicuña",
+      "https://us.loropiana.com/en/our-world/vicuna"
+    ],
+    "robertOld": [
+      "Robert Old: grades of cashmere",
+      "https://www.robertold.co.uk/pages/understanding-the-different-grades-of-cashmere"
+    ],
+    "ggCashmere": [
+      "Gentleman's Gazette: cashmere explained",
+      "https://www.gentlemansgazette.com/cashmere-explained/"
+    ],
+    "enzo": [
+      "Enzo Custom: Super numbers",
+      "https://enzocustom.com/journal/understanding-super-numbers-in-fabrics-the-key-to-quality-and-comfort"
+    ],
+    "unescoSadu": [
+      "UNESCO: Traditional weaving of Al Sadu",
+      "https://ich.unesco.org/en/RL/traditional-weaving-of-al-sadu-01586"
+    ],
+    "adSadu": [
+      "Abu Dhabi Culture: Al Sadu",
+      "https://abudhabiculture.ae/en/heritage-records/intangible-cultural-heritage/al-sadu-unesco"
+    ],
+    "shajarah": [
+      "248am: the Shajarah pattern",
+      "https://248am.com/?p=581198"
+    ],
+    "lootah": [
+      "ArchiExpo: Aljoud Lootah on Al Sadu",
+      "https://emag.archiexpo.com/the-story-of-al-sadu-with-uae-designer-aljoud-lootah/"
+    ],
+    "aramcoSadu": [
+      "AramcoWorld: Al Sadu weaves stories",
+      "https://www.aramcoworld.com/articles/2025/ja25/al-sadu-weaves-stories-of-culture-and-identity"
+    ],
+    "hilden": [
+      "Al Jadid: Bedouin Weaving of Saudi Arabia (Hilden)",
+      "https://aljadid.com/node/1557"
+    ],
+    "indigoArab": [
+      "Al-Bab: Indigo in the Arab World",
+      "https://al-bab.com/book-review-indigo-arab-world"
+    ],
+    "unescoQatt": [
+      "UNESCO: Al-Qatt Al-Asiri",
+      "https://ich.unesco.org/en/RL/01261"
+    ],
+    "unescoQattPdf": [
+      "UNESCO inventory: Al-Qatt (PDF)",
+      "https://ich.unesco.org/doc/src/34853.pdf"
+    ],
+    "architizer": [
+      "Architizer: Al-Qatt Al-Asiri",
+      "https://architizer.com/blog/?p=188528"
+    ],
+    "ithraQatt": [
+      "Ithra: Art by Women for All",
+      "https://ithraeyat.ithra.com/editions/threads/art-by-women-for-all-al-qatt-al-asiri"
+    ],
+    "spaQatt": [
+      "Saudi Press Agency (SPA): Asir's colors",
+      "https://www.spa.gov.sa/en/N2030519"
+    ],
+    "spQatt": [
+      "Saudipedia: Al-Qatt Al-Asiri",
+      "https://saudipedia.com/en/article/585/culture/visual-arts/al-qatt-al-asiri"
+    ],
+    "ifactory": [
+      "iFactory: dobby vs jacquard",
+      "https://ifactoryapp.com/industries/textile-manufacturing/dobby-vs-jacquard-weaving-pattern-capability-cost"
+    ],
+    "wikiJacquard": [
+      "Wikipedia: Joseph Marie Jacquard",
+      "https://en.wikipedia.org/wiki/Joseph_Marie_Jacquard"
+    ],
+    "fuWeaveEmb": [
+      "FashionUnited: weaving vs embroidery",
+      "https://fashionunited.uk/news/fashion/explained-the-distinction-between-weaving-and-embroidery/2023082471221"
+    ],
+    "unescoTuraif": [
+      "UNESCO World Heritage: At-Turaif",
+      "https://whc.unesco.org/en/list/1329/"
+    ],
+    "wikiTuraif": [
+      "Wikipedia: At-Turaif District",
+      "https://en.wikipedia.org/wiki/At-Turaif_District"
+    ],
+    "wikiNajdi": [
+      "Wikipedia: Najdi architecture",
+      "https://en.wikipedia.org/wiki/Najdi_architecture"
+    ],
+    "acor": [
+      "ACOR archive: triangular openings, Diriyah",
+      "https://archive.acorjordan.org/s/acor/item/85349"
+    ],
+    "spJawf": [
+      "Saudipedia: al-Jawf architecture",
+      "https://saudipedia.com/en/article/3155/culture/traditional-architecture-in-al-jawf-province"
+    ],
+    "mudbrick": [
+      "Parametric Architecture: mudbrick cities",
+      "https://parametric-architecture.com/10-mudbrick-cities-desert-climate/"
+    ],
+    "spRawasheen": [
+      "Saudipedia: Al-Rawashin",
+      "https://saudipedia.com/en/article/530/culture/cultural-affairs/al-rawashin"
+    ],
+    "anMakkah": [
+      "Arab News: Rawasheen in Makkah",
+      "https://arabnews.com/node/1847861"
+    ],
+    "witRawasheen": [
+      "WIT Press: the mechanism of the rawasheen",
+      "https://www.witpress.com/elibrary/wit-transactions-on-ecology-and-the-environment/128/20814"
+    ],
+    "bayut": [
+      "Bayut: Al Rawashin",
+      "https://www.bayut.sa/blog/en/explore-saudi/al-rawashin-saudi-arabia/"
+    ],
+    "cnnBalad": [
+      "CNN: Jeddah's Al-Balad",
+      "https://edition.cnn.com/travel/article/jeddah-al-balad-saudi-arabia"
+    ],
+    "psLinings": [
+      "Permanent Style: guide to linings",
+      "https://www.permanentstyle.com/2016/05/bemberg-cupro-ermezine-the-guide-to-linings"
+    ],
+    "psHalf": [
+      "Permanent Style: half-lined and unlined",
+      "https://www.permanentstyle.com/2010/05/half-lined-and-unlined-jackets.html"
+    ],
+    "bemberg": [
+      "Asahi Kasei: Bemberg features",
+      "https://www.asahi-kasei.co.jp/fibers/en/bemberg/benefit/features/"
+    ],
+    "bias": [
+      "Bias Bespoke: linings",
+      "https://www.biasbespoke.com/tailoring/lining-fabrics/"
+    ],
+    "ggCheap": [
+      "Gentleman's Gazette: how to spot a cheap suit",
+      "https://www.gentlemansgazette.com/how-to-spot-a-cheap-suit/"
+    ],
+    "aom": [
+      "Art of Manliness: fused vs canvassed",
+      "https://www.artofmanliness.com/STYLE/CLOTHING/THE-ART-OF-MANLINESS-SUIT-SCHOOL-PART-I-FUSED-VS-CANVASSED-SUITS/"
+    ],
+    "pick": [
+      "Husbands Paris: the pick stitch",
+      "https://husbands-paris.com/en/the-pick-stitch"
+    ],
+    "seams": [
+      "Eileen Fisher: anatomy of a seam",
+      "https://www.eileenfisher.com/a-sustainable-life/journal/repair-care/anatomy-of-a-seam.html?loc=CA"
+    ],
+    "anRawasheenFashion": [
+      "Arab News: Banat Al-Balad collection",
+      "https://arab.news/b63v2"
+    ],
+    "aos": [
+      "Articles of Style: a quality suit",
+      "https://articlesofstyle.com/blogs/news/how-to-spot-a-quality-suit"
+    ],
+    "najranJewel": [
+      "Riyadh Daily: Najran women's jewelry",
+      "https://alriyadhdaily.com/article/762e67d9dd6b43e1b57ececa0241e89e"
+    ],
+    "spJewel": [
+      "Saudipedia: Jewelry crafting",
+      "https://saudipedia.com/en/jewelry-crafting-in-saudi-arabia"
+    ],
+    "unescoBedJewel": [
+      "UNESCO: Bedouin jewellery",
+      "https://en.unesco.org/silkroad/content/traditional-bedouin-crafts-jewellery"
+    ],
+    "anTreasures": [
+      "Arab News: Hidden Treasures",
+      "https://www.arabnews.com/art-culture/hidden-treasures-the-jewelry-of-saudi-arabia-goes-on-display-in-dubai-1475196"
+    ],
+    "aramco79": [
+      "AramcoWorld 1979: Bedouin jewelry",
+      "https://archive.aramcoworld.com/issue/197902/the.beauty.of.bedouin.jewelry.htm"
+    ],
+    "aramco12": [
+      "AramcoWorld 2012: Yemeni silver",
+      "https://archive.aramcoworld.com/issue/201201/silver.the.enduring.craft.of.yemeni.silver.htm"
+    ],
+    "anNajdi": [
+      "Arab News: the revival of Najdi fashion",
+      "https://www.arabnews.com/node/2381461/amp"
+    ],
+    "zay": [
+      "Zay Initiative: Najdi overdress (thawb najdi)",
+      "https://thezay.org/product/zi1990-50071-ksaembroidered-overgarment-with-zari-saudi-arabia"
+    ],
+    "spFirstState": [
+      "Saudipedia: Women's garments in the First Saudi State",
+      "https://saudipedia.com/en/article/3839/history/the-first-saudi-state/womens-garments-in-the-first-saudi-state"
+    ],
+    "doodle": [
+      "Google Doodle: Saudi National Day 2017",
+      "https://doodles.google/doodle/saudi-arabia-national-day-2017/"
+    ],
+    "anGowns": [
+      "Arab News: Reviving traditional gowns",
+      "https://www.arabnews.com/node/216382"
+    ],
+    "silkWeights": [
+      "Silk World: silk weights",
+      "https://www.silkworld.com.au/blogs/curated-edits/silk-weights-and-measures"
+    ],
+    "momme": [
+      "Mulberry Park Silks: what is momme",
+      "https://mulberryparksilks.com/blogs/mulberry/what-is-momme-in-silk-fabric"
+    ],
+    "minerva": [
+      "Minerva: silk types compared",
+      "https://minervapatterns.com/blog/silk-types-compared-charmeuse-habotai-dupioni-and-crepe"
+    ],
+    "anuprerna": [
+      "Anuprerna: is silk good for hot weather",
+      "https://anuprerna.com/blogs/is-silk-good-for-hot-weather-a-summer-fabric-analysis/163120936"
+    ],
+    "anJanbiya": [
+      "Arab News: Najran's janbiya",
+      "https://www.arabnews.com/saudi-arabia/najrans-janbiya-a-timeless-symbol-of-cultural-heritage-2595464"
+    ],
+    "anJanbiya2": [
+      "Arab News: why the janbiya remains a symbol",
+      "https://www.arabnews.com/node/2059516/amp"
+    ],
+    "spNajran": [
+      "Saudipedia: Najran handicrafts",
+      "https://saudipedia.com/en/list-of-handicrafts-in-najran-province"
+    ],
+    "anLeather": [
+      "Arab News: Najran's leather artisans",
+      "https://www.arabnews.pk/saudi-arabia/najrans-leather-artisans-preserve-cultural-heritage-2566716"
+    ],
+    "spLeather": [
+      "Saudipedia: Leather goods",
+      "https://saudipedia.com/en/leather-goods-in-the-kingdom"
+    ],
+    "csmon": [
+      "CS Monitor: Daisies and daggers",
+      "https://www.csmonitor.com/World/Middle-East/2022/0613/Daisies-and-daggers-In-Saudi-mountains-garlands-crown-the-brave"
+    ],
+    "spBurner": [
+      "Saudipedia: The incense burner",
+      "https://saudipedia.com/en/the-incense-burner"
+    ],
+    "ithraHosp": [
+      "Ithraeyat: The art of hospitality",
+      "https://ithraeyat.ithra.com/editions/identity/the-art-of-hospitality"
+    ],
+    "anPerfume": [
+      "Arab News: 6 perfume traditions",
+      "https://www.arabnews.com/the-six/6-perfume-traditions-from-the-region-2591135"
+    ],
+    "anTaif": [
+      "Arab News: Taif's roses",
+      "https://www.arabnews.pk/saudi-arabia/blooming-once-a-year-taifs-roses-embody-regions-heritage-2458111"
+    ],
+    "spTaif": [
+      "Saudipedia: How Taif rose water is made",
+      "https://saudipedia.com/en/how-is-taif-rose-water-made"
+    ],
+    "gnOud": [
+      "Gulf News: oud sales",
+      "https://gulfnews.com/world/gulf/saudi/scent-of-eid-incense-and-oud-sales-soar-in-saudi-arabia-1.102051066"
+    ],
+    "spDiving": [
+      "Saudipedia: Diving in Saudi Arabia",
+      "https://saudipedia.com/en/article/3630/society/sports/diving-in-saudi-arabia"
+    ],
+    "spMaritime": [
+      "Saudipedia: Historical maritime occupations",
+      "https://saudipedia.com/en/historical-maritime-occupations-in-saudi-arabia"
+    ],
+    "adDiving": [
+      "Abu Dhabi Culture: diving equipment",
+      "https://abudhabiculture.ae/en/cultural-heritage/intangible/heritage-register/traditional-handicraft/diving-equipment-in-the-past"
+    ],
+    "aramcoPearl": [
+      "AramcoWorld: Servants of the Pearl",
+      "https://archive.aramcoworld.com/issue/199005/servants.of.the.pearl.htm"
+    ],
+    "gelato": [
+      "Gelato: polyester and cotton blends",
+      "https://www.gelato.com/blog/cotton-polyester-blends-guide"
+    ],
+    "truro": [
+      "Truro Fabrics: 97% wool, 3% elastane",
+      "https://trurofabrics.com/products/stretch-wool-suiting-fabric-black"
+    ],
+    "mns": [
+      "Marks & Spencer (M&S): wool blend trousers",
+      "https://www.marksandspencer.com/black-textured-tailored-fit-trousers/p/clp60205839"
+    ],
+    "bonne": [
+      "Bonne Gueule: Loro Piana wool, silk and linen",
+      "https://bonnegueule.fr/en-eu/blogs/medias/le-retour-de-nos-costumes-dete-en-tissu-laine-lin-et-soie"
+    ],
+    "psWsl": [
+      "Permanent Style: wool, silk, linen",
+      "https://www.permanentstyle.com/2017/03/a-guide-to-wool-silk-linens-mixes-colours-bunches"
+    ],
+    "jnf": [
+      "Journal of Natural Fibers (2024): elastane in suiting",
+      "https://doaj.org/article/542e21882932402fb39206625ef5a6d2"
+    ],
+    "dazed": [
+      "Dazed: Prada Re-Nylon",
+      "https://www.dazeddigital.com/fashion/article/45002/1/miuccia-prada-sustainable-re-nylon-aquafil"
+    ],
+    "nona": [
+      "Nona Source: why luxury uses synthetics",
+      "https://www.nona-source.com/blogs/news/why-are-synthetic-and-artificial-textiles-used-in-luxury-fashion"
+    ]
+  },
+  "PHOTOS": {
+    "l1-2": {
+      "by": "U.S. Army Signal Corps",
+      "lic": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Franklin_D._Roosevelt_with_King_Ibn_Saud_aboard_USS_Quincy_(CA-71)_on_14_February_1945_(USA-C-545).jpg"
+    },
+    "l1-4": {
+      "by": "Tom and Linda Anderson",
+      "lic": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Bedouin_Camp_1_by_Tom_And_Linda_Anderson_3841041338.jpg"
+    },
+    "l1-8": {
+      "by": "Saudi Press Agency",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%D8%AE%D9%8A%D8%A7%D8%B7%D8%A9_%D8%A7%D9%84%D9%85%D8%B4%D9%84%D8%AD_%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D9%88%D9%8A_%D9%8A%D8%AF%D9%88%D9%8A%D8%A7_%D9%81%D9%8A_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9.jpg"
+    },
+    "l1-9": {
+      "by": "Unidentified photographer",
+      "lic": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:His_Highness_Sheikh_Chassib.jpg"
+    },
+    "l1-13": {
+      "by": "Ravi-336099000",
+      "lic": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Saudi_man_in_white_thobe.png"
+    },
+    "l1-15": {
+      "by": "Manojkiri photography",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Arabian_Camel_in_Kuwait.jpg"
+    },
+    "l1-23": {
+      "by": "Dennis Lamczak",
+      "lic": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Linum_usitatissimum_close_to_a_little_tree_in_a_garden.jpg"
+    },
+    "l1-25": {
+      "by": "USDA NRCS Texas",
+      "lic": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Cotton_boll_opening_following_defoliation_during_the_2010_crop_year._(24821524380).jpg"
+    },
+    "l1-28": {
+      "by": "JohanahoJ",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Linen_canvas.jpg"
+    },
+    "l1-31": {
+      "by": "CSIRO",
+      "lic": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_2487_Electron_Microscope_Image_of_Merino_Wool_Fibre.jpg"
+    },
+    "l1-37": {
+      "by": "Slmcom",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Najdi_sheep_3.jpg"
+    },
+    "l1-45": {
+      "by": "Saudi Press Agency",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%A5%D8%A8%D9%84_%D8%A8%D9%8A%D9%86_%D8%A7%D9%84%D8%AB%D9%84%D9%88%D8%AC_%D9%81%D9%8A_%D8%AC%D8%A8%D9%84_%D8%A7%D9%84%D9%84%D9%88%D8%B2.jpg"
+    },
+    "l1-49": {
+      "by": "Meshari Alawfi",
+      "lic": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sand_Dunes_sa.jpg"
+    },
+    "l1-51": {
+      "by": "The British Museum, Ian Richardson",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Scanning_Electron_Microscope_image_of_contents_of_pendant,_showing_unprocessed_flax_fibres_(FindID_256636).jpg"
+    },
+    "l1-55": {
+      "by": "Ryan R. McKenzie",
+      "lic": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Flax_stem_cross-section_showing_bast_fibers_(modified_from_image_by_Ryan_R._McKenzie).png"
+    },
+    "l2-0": {
+      "by": "Gujarat/Surat Mughal workshop for the Indo-Portuguese market",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:The_Velvet_of_the_Indian_Ocean,_c._1700%E2%80%931750._Indo-Portuguese_monumental_apparatus_velvet_panel.jpg"
+    },
+    "l2-10": {
+      "by": "Jan Široký, Barbora Široká and Thomas Bechtold",
+      "lic": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tabby,_twill,_and_6-harness_satin_weaves,_1x1cm_lyocell_samples.png"
+    },
+    "l2-11": {
+      "by": "Jwrusa & Kjoonlee",
+      "lic": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Satin_bedding.jpg"
+    },
+    "l2-13": {
+      "by": "Kaushik Gopal",
+      "lic": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Herringbone.jpg"
+    },
+    "l2-23": {
+      "by": "camelhug.com",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Camel_shedding_hair.jpg"
+    },
+    "l2-24": {
+      "by": "camelhug.com",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Camel_shedding_hair_(cropped).jpg"
+    },
+    "l2-28": {
+      "by": "Paul Esson",
+      "lic": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Australian_Cashmere_Goats.jpg"
+    },
+    "l2-32": {
+      "by": "Luca Galuzzi (Lucag)",
+      "lic": "CC BY-SA 2.5",
+      "page": "https://commons.wikimedia.org/wiki/File:Vicu%C3%B1a_Vigogne_Lago_Chungar%C3%A0_4570m_Chile_Luca_Galuzzi_2006.jpg"
+    },
+    "l2-34": {
+      "by": "Richard Mortel",
+      "lic": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Al-Qaysariyya_Market,_1822_and_after,_al-Hofuf_(2).jpg"
+    },
+    "l2-39": {
+      "by": "The Metropolitan Museum of Art",
+      "lic": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tinsel_and_metal_thread_MET_DP16829.jpg"
+    },
+    "l3-5": {
+      "by": "Ashley Columbus",
+      "lic": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Majlis_in_Sadu_style.jpg"
+    },
+    "l3-8": {
+      "by": "Danny-w",
+      "lic": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Bedouin_woman_weaving.jpg"
+    },
+    "l3-12": {
+      "by": "Sailesh Patnaik",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Madder_as_a_natural_dye.jpg"
+    },
+    "l3-14": {
+      "by": "Markmcnbowe97",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Indigo_dyed_fabric_is_raised_from_the_dye_vat.jpg"
+    },
+    "l3-19": {
+      "by": "Richard Mortel",
+      "lic": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Rijal_Almaa_village_2021.jpg"
+    },
+    "l3-27": {
+      "by": "Theinfo",
+      "lic": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Loomi_at_market_in_Bahrain.JPG"
+    },
+    "l3-30": {
+      "by": "Simon A. Eugster",
+      "lic": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Curcuma_longa_roots.jpg"
+    },
+    "l3-34": {
+      "by": "Prathyush Thomas",
+      "lic": "GFDL 1.2",
+      "page": "https://commons.wikimedia.org/wiki/File:Half_Peeled_Pomegranate_BNC.jpg"
+    },
+    "l3-40": {
+      "by": "GeorgeOnline",
+      "lic": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Jacquard_loom,_6_of_6.jpg"
+    },
+    "l3-43": {
+      "by": "Clem Rutter, Rochester, Kent",
+      "lic": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:QSMM_Hattersley_Loom_Dobby_Head_2676.JPG"
+    },
+    "l3-49": {
+      "by": "Journyes",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Master_artist_carves_a_woodblock_for_textile_printing.jpg"
+    },
+    "l3-51": {
+      "by": "Di7ane",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%B3%D8%AF%D9%88.jpg"
+    },
+    "l3-52": {
+      "by": "Di7ane",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%B3%D8%AF%D9%88_3.jpg"
+    },
+    "l3-53": {
+      "by": "Di7ane",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%B3%D8%AF%D9%88_4.jpg"
+    },
+    "l4-2": {
+      "by": "Radosław Botev",
+      "lic": "CC BY 3.0 pl",
+      "page": "https://commons.wikimedia.org/wiki/File:At-Turaif_District_in_ad-Dir%27iyah_(12).jpg"
+    },
+    "l4-4": {
+      "by": "Baptiste Marcel",
+      "lic": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Masmak_castle.jpg"
+    },
+    "l4-8": {
+      "by": "xiquinhosilva",
+      "lic": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Old_Jeddah_-_55362437075.jpg"
+    },
+    "l4-12": {
+      "by": "Saudi Press Agency (SPA)",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Rawasheen_of_the_Culture_Square_in_Historic_Jeddah_(2025).jpg"
+    },
+    "l4-14": {
+      "by": "Saudi Press Agency (SPA)",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Rawasheen_of_the_Culture_Square_in_Historic_Jeddah_(2025)_-3.jpg"
+    },
+    "l4-18": {
+      "by": "SharonaGott",
+      "lic": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Button_hole_stitch.jpg"
+    },
+    "l4-21": {
+      "by": "Kathryn Sargent / RISD Museum photographer",
+      "lic": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:2012-13_in-progress_jacket_and_vest_showing_the_tailoring_process,_by_Kathryn_Sargent_of_Savile_Row.jpg"
+    },
+    "l4-25": {
+      "by": "Bruno Girin",
+      "lic": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:The_door_to_Masmak_Fortress.jpg"
+    },
+    "l4-30": {
+      "by": "Oalessa",
+      "lic": "GFDL",
+      "page": "https://commons.wikimedia.org/wiki/File:Shaqraa_Alsubaii_House_for_Haritage.jpg"
+    },
+    "l4-35": {
+      "by": "Pteropus conspicillatus",
+      "lic": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Al_Ula_old_town,_Saudi_Arabia_2011.jpg"
+    },
+    "l5-1": {
+      "by": "Rod Waddington",
+      "lic": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Amber_and_Silver,_Yemen_(12285897684).jpg"
+    },
+    "l5-8": {
+      "by": "Daderot",
+      "lic": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Necklace,_Yemen,_obtained_in_Israel,_1800s_to_early_1900s_AD,_silver_-_Fowler_Museum_-_University_of_California,_Los_Angeles_-_DSC02466.jpg"
+    },
+    "l5-10": {
+      "by": "The Israel Museum, photo by Pierre-Alain Ferrazzini",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Necklace_(Pierre-Alain_Ferrazzini)_for_The_Israel_Museum.jpg"
+    },
+    "l5-11": {
+      "by": "Reda Kerbush",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Jewelry,_Bait_al_Zubair_Museum,_Oman.jpg"
+    },
+    "l5-16": {
+      "by": "Enby",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Charmeuse.jpg"
+    },
+    "l5-24": {
+      "by": "P. Hughes",
+      "lic": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Da_Lat_-_Cocooning_frame.jpg"
+    },
+    "l5-26": {
+      "by": "Kinitrupti",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Traditional_Thai_silk_making.jpg"
+    },
+    "l6-0": {
+      "by": "Bernard Gagnon",
+      "lic": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Jambiya.jpg"
+    },
+    "l6-7": {
+      "by": "Irshadpp",
+      "lic": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Najran_Fort,_Saudi_Arabia.jpg"
+    },
+    "l6-12": {
+      "by": "Hafizmuar (English Wikipedia)",
+      "lic": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Agarwood_top_grade.jpg"
+    },
+    "l6-17": {
+      "by": "وكالة الأنباء السعودية",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%D8%AD%D8%B5%D8%A7%D8%AF_%D8%A7%D9%84%D9%88%D8%B1%D8%AF_%D8%A7%D9%84%D8%B7%D8%A7%D8%A6%D9%81%D9%8A_%D9%81%D9%8A_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9_%D8%B3%D9%86%D8%A9_2026%D9%85.jpg"
+    },
+    "l6-20": {
+      "by": "George Frederick Kunz",
+      "lic": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Arab_pearl_divers_in_the_Persian_Gulf.jpg"
+    },
+    "l6-27": {
+      "by": "Didier Descouens",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Pinctada_margaritifera_MHNT.CON.2002.893.jpg"
+    },
+    "l6-31": {
+      "by": "Osama Shukir Muhammed Amin",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Incense_burner,_from_Yemen,_5th-4th_century_BCE._An_ancient_South_Arabian_inscription_about_the_names_of_incense._British_Museum.jpg"
+    },
+    "l6-40": {
+      "by": "Peter Presslein",
+      "lic": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Olibanum_resin.jpg"
+    },
+    "l6-47": {
+      "by": "RAJIVVASUDEV",
+      "lic": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:A_coarse_spandex_yarn.jpg"
+    }
+  }
+}

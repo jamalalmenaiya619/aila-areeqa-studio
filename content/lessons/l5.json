@@ -1,0 +1,690 @@
+{
+  "id": "l5",
+  "num": 5,
+  "date": "2026-10-29",
+  "day": "Thu, Oct 29",
+  "ready": true,
+  "title": "Women's dress and silver",
+  "pair": "Regional dress and jewelry, turned masculine · Silk types and momme",
+  "slides": [
+    {
+      "type": "cover",
+      "part": "warm",
+      "img": "l5-10",
+      "coverCaption": "Silver and gilt filigree necklace from Sana'a, Yemen, late 1800s. The Israel Museum.",
+      "kicker": "Lesson 5 · about 1 hour",
+      "title": "Women's dress and silver",
+      "text": "Saudi women's dress and jewelry are the richest part of the heritage, and the hardest to bring into a quiet brand. Today you learn what they meant, then practice the key skill of A'ila Areeqa: turning a feminine detail into a masculine one, without losing where it came from."
+    },
+    {
+      "type": "quiz",
+      "part": "warm",
+      "warm": true,
+      "review": 4,
+      "q": "What were the small triangle openings in Najdi walls for?",
+      "options": [
+        "Decoration only",
+        "Air, light and a view out, and also defense",
+        "Draining rain",
+        "Holding lamps"
+      ],
+      "answer": 1,
+      "why": "Air, light and a view out, and defense. A useful hole that became a pattern.",
+      "whys": [
+        "They look decorative, but each one had a job.",
+        null,
+        "Rain is rare in Najd, and these sit high on the wall.",
+        "They're openings, not shelves."
+      ],
+      "hint": {
+        "svg": "facade",
+        "cap": "Small openings, high on a thick wall, in a hot desert."
+      }
+    },
+    {
+      "type": "quiz",
+      "part": "warm",
+      "warm": true,
+      "review": 4,
+      "q": "Best lining for a jacket worn in Gulf heat?",
+      "options": [
+        "Polyester",
+        "Cupro (Bemberg)",
+        "Acetate",
+        "Rubber"
+      ],
+      "answer": 1,
+      "why": "Cupro breathes best. Half-line it, and keep the sleeves lined.",
+      "whys": [
+        "Polyester breathes poorly: the cheap-suit lining.",
+        null,
+        "Acetate is light but weak.",
+        "Rubber doesn't breathe at all."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "warm",
+      "warm": true,
+      "review": 4,
+      "q": "In the pinch test, a loose third layer floating inside the jacket front means…",
+      "options": [
+        "Fused (glued)",
+        "Canvas",
+        "No lining",
+        "Polyester lining"
+      ],
+      "answer": 1,
+      "why": "Canvas. It's sewn, not glued, so it floats as its own layer.",
+      "whys": [
+        "Fused is the opposite: glued flat, no loose layer.",
+        null,
+        "The pinch test checks the front's inside, not the lining.",
+        "The pinch test isn't about lining fabric."
+      ],
+      "hint": {
+        "svg": "layFull",
+        "cap": "Outside, a layer, lining. Which layer floats?"
+      }
+    },
+    {
+      "type": "story",
+      "part": "story",
+      "svg": "najdiDress",
+      "caption": "Drawing of a Najdi overdress: wide T-shape, very wide sleeves, embroidered neck.",
+      "title": "Najd: the mesh-strainer dress",
+      "arabic": "منيخل",
+      "text": [
+        "Najdi women's dress was loose and long, to the ankle or floor, with embroidery. Early colors were muted grey and navy. Brighter colors came later. Many women cut and sewed their own clothes.",
+        "For special occasions they wore the thawb najdi: a huge T-shaped overdress of sheer tulle with very wide sleeves, embroidered at the neck front and back.",
+        "Locally it is called munaykhal, \"mesh strainer\", because the cloth is full of tiny holes."
+      ],
+      "note": "No free-to-use photo of a Saudi women's traditional dress exists online that we can show here. The drawing is based on the Zay Initiative's museum notes. Search \"thawb najdi Zay Initiative\" to see real ones.",
+      "src": [
+        [
+          "Arab News: the revival of Najdi fashion",
+          "https://www.arabnews.com/node/2381461/amp"
+        ],
+        [
+          "Zay Initiative: Najdi overdress (thawb najdi)",
+          "https://thezay.org/product/zi1990-50071-ksaembroidered-overgarment-with-zari-saudi-arabia"
+        ],
+        [
+          "Saudipedia: Women's garments in the First Saudi State",
+          "https://saudipedia.com/en/article/3839/history/the-first-saudi-state/womens-garments-in-the-first-saudi-state"
+        ]
+      ]
+    },
+    {
+      "type": "layers",
+      "part": "story",
+      "title": "Three regions, three looks",
+      "intro": "There was never one Saudi women's wardrobe. Climate, trade and materials made each region different.",
+      "layers": [
+        [
+          "Najd (center)",
+          "Loose and long. Sheer overdresses over a base dress. Started with muted grey and navy.",
+          "Center"
+        ],
+        [
+          "Hijaz (west)",
+          "Shaped by trade and pilgrimage. Ceremonial dress is white with gold zari thread.",
+          "West"
+        ],
+        [
+          "Asir and Jazan (south)",
+          "Many-colored robes with geometric patterns and flower headpieces. Asiri women wore straw hats to work in the sun.",
+          "South"
+        ]
+      ],
+      "note": "Notice the pattern: the south is bright, the center is muted, the west is white and gold. For a quiet brand, Najd's muted palette is the closest fit.",
+      "src": [
+        [
+          "Arab News: the revival of Najdi fashion",
+          "https://www.arabnews.com/node/2381461/amp"
+        ],
+        [
+          "Google Doodle: Saudi National Day 2017",
+          "https://doodles.google/doodle/saudi-arabia-national-day-2017/"
+        ],
+        [
+          "Arab News: Reviving traditional gowns",
+          "https://www.arabnews.com/node/216382"
+        ]
+      ]
+    },
+    {
+      "type": "story",
+      "part": "story",
+      "img": "l5-1",
+      "caption": "Amber and silver, Yemen. Southern Arabian jewelry shared this style.",
+      "title": "Silver was a woman's bank",
+      "text": [
+        "Part of a bride's dowry bought her jewelry. It belonged to her alone. In hard times she could sell it. It was her safety net.",
+        "Southern pieces were mostly big silver with few stones, decorated with fine silver wire. They used amber, fire agate, blood coral and old glass beads. Ra'af means deep red coral beads.",
+        "In Najran: kharous (earrings), harouz (necklaces), halqah (head piece), lazem and shamiliyyat (wide bracelets), marda' (rings). Some bracelets weighed about 200 grams."
+      ],
+      "src": [
+        [
+          "Riyadh Daily: Najran women's jewelry",
+          "https://alriyadhdaily.com/article/762e67d9dd6b43e1b57ececa0241e89e"
+        ],
+        [
+          "UNESCO: Bedouin jewellery",
+          "https://en.unesco.org/silkroad/content/traditional-bedouin-crafts-jewellery"
+        ],
+        [
+          "AramcoWorld 1979: Bedouin jewelry",
+          "https://archive.aramcoworld.com/issue/197902/the.beauty.of.bedouin.jewelry.htm"
+        ]
+      ]
+    },
+    {
+      "type": "story",
+      "part": "story",
+      "img": "l5-11",
+      "caption": "An Omani hirz necklace: a hollow pendant that held Qur'an verses or herbs.",
+      "title": "Heard, but not seen",
+      "text": [
+        "Some necklace cases held verses of the Qur'an. Turquoise was worn against the evil eye.",
+        "Tiny bells hung from many pieces. As a woman walked, the bells told people she was near, so men looked away. She was heard, but not seen.",
+        "Bedouin silver also used carnelian, turquoise, bells and coins. In Saudi Arabia, silversmiths worked in Riyadh's Batha souq and in Taif."
+      ],
+      "note": "The bell is a sound that says \"I'm here\" without being seen. That's a perfect quiet-luxury idea.",
+      "src": [
+        [
+          "AramcoWorld 1979: Bedouin jewelry",
+          "https://archive.aramcoworld.com/issue/197902/the.beauty.of.bedouin.jewelry.htm"
+        ],
+        [
+          "Riyadh Daily: Najran women's jewelry",
+          "https://alriyadhdaily.com/article/762e67d9dd6b43e1b57ececa0241e89e"
+        ],
+        [
+          "Saudipedia: Jewelry crafting",
+          "https://saudipedia.com/en/jewelry-crafting-in-saudi-arabia"
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "part": "see",
+      "title": "Two necklaces, two ideas",
+      "left": {
+        "img": "l5-8",
+        "label": "Coins and chains",
+        "caption": "Silver necklace from Yemen, 1800s to early 1900s. Fowler Museum, Los Angeles."
+      },
+      "right": {
+        "img": "l5-10",
+        "label": "Filigree",
+        "caption": "Silver-gilt filigree from Sana'a, late 1800s."
+      },
+      "takeaway": "Left: weight and sound, from many dangling pieces. Right: fine wire worked into lace. For a men's piece, keep one idea only: either one small dangling bead, or a little filigree texture on a button. Never both.",
+      "src": [
+        [
+          "AramcoWorld 2012: Yemeni silver",
+          "https://archive.aramcoworld.com/issue/201201/silver.the.enduring.craft.of.yemeni.silver.htm"
+        ]
+      ]
+    },
+    {
+      "type": "story",
+      "part": "see",
+      "img": "l5-24",
+      "caption": "Silkworms spinning cocoons on a frame, Da Lat, Vietnam.",
+      "title": "Where silk comes from",
+      "text": [
+        "Silk is spun by silkworms. Each worm wraps itself in one long thread to make a cocoon.",
+        "Cocoons are boiled to loosen the thread, then it is unwound. That's why silk is so smooth: it's one long filament, not short fibers twisted together.",
+        "Silk breathes and feels cool, but it's delicate and shows water and sweat marks easily."
+      ]
+    },
+    {
+      "type": "compare",
+      "part": "see",
+      "title": "From cocoon to cloth",
+      "left": {
+        "img": "l5-26",
+        "label": "Boiling cocoons",
+        "caption": "Traditional Thai silk making: cocoons in hot water."
+      },
+      "right": {
+        "img": "l5-16",
+        "label": "Charmeuse",
+        "caption": "Silk charmeuse: shiny face, dull back."
+      },
+      "takeaway": "Charmeuse is woven in a satin weave, which is why it shines. You met satin in Lesson 2: long floating threads, smooth and shiny, but it shows every mark.",
+      "src": [
+        [
+          "Minerva: silk types compared",
+          "https://minervapatterns.com/blog/silk-types-compared-charmeuse-habotai-dupioni-and-crepe"
+        ]
+      ]
+    },
+    {
+      "type": "ladder",
+      "part": "see",
+      "title": "Silk weight: momme",
+      "intro": "Silk is weighed in momme. Higher number = heavier, thicker cloth. One momme is about 4.3 grams per square meter.",
+      "rows": [
+        [
+          "Charmeuse (heavy)",
+          30,
+          "up to 30 momme"
+        ],
+        [
+          "Silk twill",
+          19,
+          "16–19 momme"
+        ],
+        [
+          "Crepe de chine",
+          16,
+          "12–16 momme",
+          true
+        ],
+        [
+          "Habotai",
+          12,
+          "8–16 momme",
+          true
+        ],
+        [
+          "Georgette",
+          8,
+          "5–10 momme"
+        ]
+      ],
+      "note": "One silk maker says light, open, matte silks of about 7–14 momme let heat out best, and shiny silks show sweat. That's one company's advice, not lab data, so test before you buy.",
+      "src": [
+        [
+          "Silk World: silk weights",
+          "https://www.silkworld.com.au/blogs/curated-edits/silk-weights-and-measures"
+        ],
+        [
+          "Mulberry Park Silks: what is momme",
+          "https://mulberryparksilks.com/blogs/mulberry/what-is-momme-in-silk-fabric"
+        ],
+        [
+          "Anuprerna: is silk good for hot weather",
+          "https://anuprerna.com/blogs/is-silk-good-for-hot-weather-a-summer-fabric-analysis/163120936"
+        ]
+      ]
+    },
+    {
+      "type": "layers",
+      "part": "see",
+      "title": "Which silk for the Gulf?",
+      "intro": "Same fiber, different weaves. Each feels different in the heat.",
+      "layers": [
+        [
+          "Habotai",
+          "Plain weave, soft sheen, light. Clings little. Good in heat.",
+          "Good"
+        ],
+        [
+          "Crepe de chine",
+          "Twisted yarn, matte, pebbly. Matte may hide sweat better.",
+          "Good"
+        ],
+        [
+          "Georgette",
+          "Sheer and crinkly. Good for loose layers, like the Najdi overdress.",
+          "Layers"
+        ],
+        [
+          "Charmeuse",
+          "Glossy face, dull back. Clings and shows sweat.",
+          "Evening"
+        ],
+        [
+          "Silk twill",
+          "Fine diagonal lines. Medium.",
+          "Medium"
+        ]
+      ],
+      "note": "Rule for A'ila Areeqa: for hot-weather abayas and linings, choose light, matte, plain or crepe silks under about 16 momme. Keep glossy charmeuse for evening pieces or small accents.",
+      "src": [
+        [
+          "Minerva: silk types compared",
+          "https://minervapatterns.com/blog/silk-types-compared-charmeuse-habotai-dupioni-and-crepe"
+        ],
+        [
+          "Anuprerna: is silk good for hot weather",
+          "https://anuprerna.com/blogs/is-silk-good-for-hot-weather-a-summer-fabric-analysis/163120936"
+        ]
+      ]
+    },
+    {
+      "type": "design",
+      "part": "design",
+      "svg": "silentBell",
+      "title": "Move 13: The silent bell",
+      "text": "A woman's bell said \"I'm here\" without being seen. Turn it into a men's detail that says the same thing, quietly.",
+      "how": [
+        "One small closed silver bead on a drawstring end or a zip pull.",
+        "No clapper inside, so it's silent. Only the wearer knows what it was.",
+        "Inside a cuff: one stitch in deep coral red, a nod to ra'af beads."
+      ]
+    },
+    {
+      "type": "design",
+      "part": "design",
+      "svg": "sheerLayer",
+      "title": "Move 14: The munaykhal layer",
+      "text": "The Najdi overdress was a sheer \"mesh strainer\" layer over a solid dress. Keep the layering idea, change the shape.",
+      "how": [
+        "Men: a dark open-weave summer overshirt over a white thobe or tee.",
+        "Sharper shoulders, straight cut, no embroidery.",
+        "Women: georgette in Najd's muted grey or navy, long and wide-sleeved."
+      ]
+    },
+    {
+      "type": "design",
+      "part": "design",
+      "svg": "najdiDress",
+      "title": "Move 15: The muted palette",
+      "text": "Najdi women started with grey and navy before brighter colors arrived. That's already a quiet-luxury palette.",
+      "how": [
+        "Base colors: Najdi grey, navy, sand.",
+        "One accent only: coral red (ra'af) or zari gold, used small.",
+        "Use it for both men and women, so the brand looks like one family."
+      ]
+    },
+    {
+      "type": "task",
+      "part": "do",
+      "title": "Feminine to masculine",
+      "minutes": 5,
+      "text": "Pick one women's piece from this lesson and turn it into a men's detail.",
+      "checklist": [
+        "Name the women's piece (dress, bell, necklace or bracelet)",
+        "Say what you keep: the idea, the material or the shape",
+        "Say what you drop, and where your men's detail goes on the garment"
+      ],
+      "notePrompt": "I picked the ___. I keep ___. I drop ___. It goes on the ___.",
+      "refs": [
+        {
+          "img": "l5-11",
+          "cap": "Hirz necklace: a case that held verses."
+        },
+        {
+          "img": "l5-8",
+          "cap": "Yemeni silver with dangling pieces."
+        },
+        {
+          "svg": "najdiDress",
+          "cap": "Najdi overdress (drawing)."
+        },
+        {
+          "svg": "silentBell",
+          "cap": "Move 13: the silent bell."
+        }
+      ],
+      "context": [
+        "Najran jewelry includes kharous (earrings), harouz (necklaces), halqah (head piece), lazem and shamiliyyat (wide bracelets) and marda' (rings).",
+        "Southern jewelry was mostly big silver with few stones, decorated with silver wire and plates. It used fire agate, amber, blood coral (ra'af = deep red coral beads) and old glass beads. Bedouin silver also used carnelian, turquoise, bells and coins.",
+        "Jewelry was bought with part of the bride price and was the woman's own property and safety net, sold in hard times. Some necklace cases held Qur'an verses; turquoise was worn against the evil eye.",
+        "Tiny bells let people know a woman was near, so men looked away: 'heard but not seen'.",
+        "Move 13 idea: for men, one small closed silver bead or a bell with no clapper (silent) on a drawstring end or zip pull, or one coral-red stitch inside a cuff.",
+        "Najdi women's dress: loose shapes, ankle or floor length, with embroidery. Early colors were muted grey and navy; brighter colors came later. Many women sewed and cut their own clothes.",
+        "The Najdi overdress (thawb najdi) is a huge T-shape of sheer tulle with very wide sleeves and big underarm panels, embroidered at the neck front and back. Locally called munaykhal, 'mesh strainer', because the cloth is full of holes. Worn for special occasions.",
+        "Hijaz ceremonial dress is white with gold zari thread; Asir and Jazan dress is many-colored with geometric patterns and floral headpieces.",
+        "Move 14 idea (feminine to masculine): keep the idea of a sheer open layer over a solid one; for men, a dark open-weave summer overshirt over a white thobe or tee, sharper shoulders, no embroidery."
+      ]
+    },
+    {
+      "type": "task",
+      "part": "do",
+      "title": "Silk shopping list",
+      "minutes": 3,
+      "text": "You're ordering silk for a summer abaya lining and an evening scarf.",
+      "checklist": [
+        "Choose a silk type and momme for the lining",
+        "Choose one for the evening scarf",
+        "Say why each one fits"
+      ],
+      "notePrompt": "Lining: ___ at ___ momme because... Scarf: ___ because...",
+      "refs": [
+        {
+          "img": "l5-16",
+          "cap": "Charmeuse: shiny face, dull back."
+        }
+      ],
+      "context": [
+        "Momme is silk's weight: higher number = heavier cloth. One momme is about 4.3 grams per square meter, so 16 momme is about 69 grams per square meter.",
+        "Habotai: plain, soft sheen, 8–16 momme, low cling, good in heat. Crepe de chine: twisted yarn, matte, pebbly, 12–16 momme. Georgette: sheer, crinkly, 5–10 momme. Charmeuse: glossy face, dull back, 12–30 momme, clings and shows sweat.",
+        "One silk maker says shiny silks show sweat and heavy dense weaves trap heat; open plain weaves of about 7–14 momme let heat out best. This is one company's advice, not lab data.",
+        "Rule for A'ila Areeqa: for hot-weather abayas and linings, light matte plain or crepe silks under about 16 momme; keep glossy charmeuse for evening or small accents."
+      ]
+    },
+    {
+      "type": "task",
+      "part": "do",
+      "title": "Your palette card",
+      "minutes": 2,
+      "text": "Write the A'ila Areeqa palette in words, using Move 15.",
+      "checklist": [
+        "Pick two base colors",
+        "Pick one accent",
+        "Say what each one comes from in Saudi heritage"
+      ],
+      "notePrompt": "Base: ___ and ___. Accent: ___. They come from...",
+      "refs": [
+        {
+          "svg": "najdiDress",
+          "cap": "Najd: muted base, gold at the neck."
+        },
+        {
+          "img": "l5-1",
+          "cap": "Amber and silver."
+        }
+      ],
+      "context": [
+        "Najdi women's dress: loose shapes, ankle or floor length, with embroidery. Early colors were muted grey and navy; brighter colors came later. Many women sewed and cut their own clothes.",
+        "The Najdi overdress (thawb najdi) is a huge T-shape of sheer tulle with very wide sleeves and big underarm panels, embroidered at the neck front and back. Locally called munaykhal, 'mesh strainer', because the cloth is full of holes. Worn for special occasions.",
+        "Hijaz ceremonial dress is white with gold zari thread; Asir and Jazan dress is many-colored with geometric patterns and floral headpieces.",
+        "Move 14 idea (feminine to masculine): keep the idea of a sheer open layer over a solid one; for men, a dark open-weave summer overshirt over a white thobe or tee, sharper shoulders, no embroidery.",
+        "Ra'af means deep red coral beads used in southern jewelry; zari is gold-plated silver thread."
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "Why did a bride's silver matter so much?",
+      "options": [
+        "It was only for show",
+        "It was her own property and safety net",
+        "It belonged to her father",
+        "It was rented for the wedding"
+      ],
+      "answer": 1,
+      "why": "It belonged to her alone, and she could sell it in hard times.",
+      "whys": [
+        "It was beautiful, but its real job was security.",
+        null,
+        "It was bought with part of the dowry, and it was hers.",
+        "It was hers to keep."
+      ],
+      "src": [
+        [
+          "AramcoWorld 1979: Bedouin jewelry",
+          "https://archive.aramcoworld.com/issue/197902/the.beauty.of.bedouin.jewelry.htm"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "What did the tiny bells on jewelry do?",
+      "options": [
+        "Scared away animals",
+        "Let people know a woman was near, so men looked away",
+        "Called children home",
+        "Kept time for dancing"
+      ],
+      "answer": 1,
+      "why": "\"Heard, but not seen.\" The sound gave her privacy.",
+      "whys": [
+        "Nice idea, but the sources tie the bells to people, not animals.",
+        null,
+        "That was not their stated purpose.",
+        "The bells were worn every day, not just for dances."
+      ],
+      "hint": {
+        "svg": "silentBell",
+        "cap": "A sound that says \"I'm here\"."
+      },
+      "src": [
+        [
+          "AramcoWorld 1979: Bedouin jewelry",
+          "https://archive.aramcoworld.com/issue/197902/the.beauty.of.bedouin.jewelry.htm"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "Why was the Najdi overdress called munaykhal, \"mesh strainer\"?",
+      "options": [
+        "It was used in the kitchen",
+        "Its sheer cloth is full of tiny holes",
+        "It was made of metal",
+        "It was worn by cooks"
+      ],
+      "answer": 1,
+      "why": "The sheer tulle is full of tiny holes, like a strainer.",
+      "whys": [
+        "It's a dress, not a kitchen tool. The name describes the cloth.",
+        null,
+        "It's sheer tulle, not metal.",
+        "It was a special-occasion dress for women."
+      ],
+      "hint": {
+        "svg": "sheerLayer",
+        "cap": "Look closely at the outer layer."
+      },
+      "src": [
+        [
+          "Zay Initiative: Najdi overdress (thawb najdi)",
+          "https://thezay.org/product/zi1990-50071-ksaembroidered-overgarment-with-zari-saudi-arabia"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "What does a higher momme number tell you about silk?",
+      "options": [
+        "It's shinier",
+        "It's heavier and thicker",
+        "It's older",
+        "It's cheaper"
+      ],
+      "answer": 1,
+      "why": "Momme is weight. Higher = heavier, thicker cloth.",
+      "whys": [
+        "Shine comes from the weave, like satin, not the momme.",
+        null,
+        "Momme has nothing to do with age.",
+        "Heavier silk usually costs more, not less."
+      ],
+      "src": [
+        [
+          "Mulberry Park Silks: what is momme",
+          "https://mulberryparksilks.com/blogs/mulberry/what-is-momme-in-silk-fabric"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "Best silk for a summer abaya lining?",
+      "options": [
+        "Heavy glossy charmeuse",
+        "Light matte habotai or crepe de chine",
+        "Polyester satin",
+        "Thick silk twill"
+      ],
+      "answer": 1,
+      "why": "Light, matte, plain or crepe silk under about 16 momme.",
+      "whys": [
+        "Charmeuse clings and shows sweat. Keep it for evening.",
+        null,
+        "That's not silk, and polyester traps heat.",
+        "Twill is heavier and medium in heat."
+      ],
+      "src": [
+        [
+          "Minerva: silk types compared",
+          "https://minervapatterns.com/blog/silk-types-compared-charmeuse-habotai-dupioni-and-crepe"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "part": "quiz",
+      "q": "Turning a woman's bell into a men's detail, what do you keep?",
+      "options": [
+        "The loud sound",
+        "The idea: a small silver piece that marks presence quietly",
+        "The exact necklace shape",
+        "Lots of bells"
+      ],
+      "answer": 1,
+      "why": "Keep the idea and the material. Drop the sound and the size.",
+      "whys": [
+        "The point of Move 13 is a silent bell.",
+        null,
+        "Copying the necklace shape keeps it feminine.",
+        "One small piece, not many."
+      ]
+    },
+    {
+      "type": "score",
+      "part": "quiz"
+    },
+    {
+      "type": "remember",
+      "part": "quiz",
+      "title": "Three things to keep",
+      "items": [
+        [
+          "Silver was a woman's bank; bells meant \"heard, not seen\".",
+          "Move 13: one silent silver bead, one coral-red stitch."
+        ],
+        [
+          "Munaykhal = a sheer \"mesh strainer\" layer over a solid one.",
+          "Move 14: open-weave overshirt for men. Najd's grey and navy for both."
+        ],
+        [
+          "Momme = silk weight. Light, matte silk for heat.",
+          "Habotai or crepe under about 16 momme. Charmeuse for evening only."
+        ]
+      ]
+    },
+    {
+      "type": "video",
+      "part": "quiz",
+      "title": "Watch tonight or tomorrow",
+      "items": [
+        [
+          "Yemen's Unknown Treasure: Traditional Silver Jewelry of Bedouin & Tribal Women",
+          "https://www.youtube.com/watch?v=CMx8k6_Cyik",
+          "The southern silver style Najran pieces share."
+        ],
+        [
+          "It's Silk, Not Polyester! Crepe, chiffon, satin and taffeta",
+          "https://www.youtube.com/watch?v=KTxQ0Fw6cZc",
+          "Pairs with the silk slides."
+        ],
+        [
+          "Why Are These Traditional Saudi Arabian Dresses So Huge?",
+          "https://www.youtube.com/watch?v=Iykmei0TEsg",
+          "About very wide traditional robes."
+        ]
+      ]
+    }
+  ]
+}
