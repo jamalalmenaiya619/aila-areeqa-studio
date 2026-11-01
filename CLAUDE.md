@@ -4,6 +4,7 @@ Read this before every task in this repository. If a request conflicts with this
 
 ## Who this is for
 Jamal Almenaiya, founder of A'ila Areeqa: quiet luxury rooted in Saudi heritage, tagline "Cultured Confidence · A Family of Heritage". He is not a developer and not word-savvy.
+- Keep every reply to Jamal short: 8 lines at most, plain words, and only one thing for him to do at a time.
 - Explain what you did in plain, simple words. Short sentences. No jargon without a one-line meaning.
 - Spell out every abbreviation the first time on each page and in each reply (for example "tech pack (technical package)", "SS (spring/summer)").
 - Be honest. If something is broken, risky or a bad idea, say it first. Don't praise; report.
@@ -20,6 +21,8 @@ Jamal Almenaiya, founder of A'ila Areeqa: quiet luxury rooted in Saudi heritage,
 4. **Never invent content.** Facts need a source. Judgment is labeled "Speculation" or "inference". Photos keep their credit line (by, license, source link).
 5. **Jamal's data is private.** Every page needs a login. Row Level Security is on for every table. Secret keys (Anthropic, Supabase service key, R2) live only in server functions and environment variables, never in browser code or the repository.
 6. **One look.** Use only the design tokens in `src/styles/tokens.css`. No one-off colors, fonts or shadows. A new section must reuse existing components first.
+
+7. **Al-Qatt exception.** The Al-Qatt drawing in Lesson 3 keeps its real red, yellow and blue, because those colors are what the lesson teaches (Jamal approved, 2026-11-01). Every other drawing and all interface colors use the tokens.
 
 ## Brand look (design tokens)
 - Colors: brown, beige, maroon accent, black, green; earth tones only. No neon, no gradients, no glossy effects.
