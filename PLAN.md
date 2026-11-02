@@ -38,7 +38,7 @@ One private website for running A'ila Areeqa as a brand and as a business: what 
 3. **Web address.** [Default: the free Cloudflare address first; later something like studio.ailaareeqa.com.]
 4. **Tech pack format** (Phase 4). Do the designers already use a template? [Ask Jamal before Phase 4.]
 5. **Marketing data** (Phase 5). Which numbers come in, from Shopify and Instagram, and how? [Ask before Phase 5.]
-6. **Answer checking (coaching) cost.** A website can't use the Claude plan, so checks need a pay-per-use Anthropic key (estimated 2–3 US cents a check). [Decided 2026-11-02: off for now. The button stays and says checking is off; answers still save. To turn it on: add `ANTHROPIC_API_KEY` as a secret in Cloudflare with a monthly spend limit, then redeploy.]
+6. **Answer checking (coaching) cost.** A website can't use the Claude plan, so checks need a pay-per-use Anthropic key (estimated 2–3 US cents a check). [Decided 2026-11-02: on, with a pay-per-use key and a monthly spend limit set in the Anthropic Console. The key is the `ANTHROPIC_API_KEY` secret in Cloudflare.]
 
 ## 5. The tabs
 
