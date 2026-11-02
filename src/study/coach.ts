@@ -1,7 +1,7 @@
 // Asks the server to check a task answer. The server builds the teacher prompt from the lesson files,
 // so the browser only sends which task and the answer text.
 export const COACH_ERR: Record<string, string> = {
-  missing_key: "Answer checking isn't set up yet. The Anthropic key still needs to be added to the site settings.",
+  missing_key: "Answer checking is off for now. Your answer is saved, and you can paste it into the Claude app for feedback.",
   rate_limited: "That's 30 checks in the last hour, the limit. Wait a little, then press Enter again.",
   not_logged_in: "Your login has ended. Reload the page and log in again.",
   bad_request: "Couldn't check this answer. Reload the page and try again.",
